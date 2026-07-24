@@ -25,7 +25,7 @@ from bunyang import enrich_complexes  # noqa: E402  (2단계: 분양정보 보�
 from naver import enrich_naver        # noqa: E402  (3단계: 네이버 매물 딥링크)
 
 # ---- 설정 -----------------------------------------------------------------
-TARGET_MONTHS = ["2026-08", "2026-09", "2026-10", "2026-11", "2026-12"]
+TARGET_MONTHS = ["2026-08", "2026-09", "2026-10", "2026-11", "2026-12", "2027-01"]
 # '분양'만 보고 싶으면 ("분양",), 임대까지 포함하려면 ("분양", "임대")
 INCLUDE_TYPES = ("분양", "임대")
 OUT_PATH = Path(__file__).parent / "docs" / "data.json"
