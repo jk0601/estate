@@ -49,6 +49,8 @@
   }
   .chip.on{background:var(--chip-on); color:#fff; border-color:var(--chip-on)}
   .chip.sido{font-size:14px; font-weight:700; padding:8px 18px}
+  .mrange label{display:flex; align-items:center; gap:6px; font-size:13px; color:var(--sub); flex-wrap:wrap}
+  .mrange select{font-size:13.5px; padding:7px 10px}
   select{
     font-size:13px; padding:6px 10px; border-radius:999px; border:1px solid var(--line);
     background:var(--chip); color:var(--ink);
@@ -95,7 +97,11 @@
 <div class="toolbar">
   <div class="row"><input type="search" id="q" placeholder="단지명·지역 검색" /></div>
   <div class="row" id="sidos"></div>
-  <div class="row" id="months"></div>
+  <div class="row mrange">
+    <label>입주 기간
+      <select id="mStart"></select> ~ <select id="mEnd"></select>
+    </label>
+  </div>
   <div class="row" id="gus"></div>
   <div class="row" id="budgets"></div>
   <div class="row">
@@ -121,7 +127,7 @@
 <footer id="foot"></footer>
 
 <script>
-const state = { all: [], sido: "서울", type: "all", month: "all", gu: "all", budget: "all", q: "", sort: "move_in" };
+const state = { all: [], sido: "서울", type: "all", monthStart: "", monthEnd: "", gu: "all", budget: "all", q: "", sort: "move_in" };
 
 // 만원 -> "12.3억" (분양가 표시용)
 function eok(man){
@@ -146,8 +152,7 @@ function chip(label, val, group){
   c.addEventListener("click", ()=>{
     document.querySelectorAll(`.chip[data-group="${group}"]`).forEach(x=>x.classList.remove("on"));
     c.classList.add("on");
-    if(group==="month") state.month=val;
-    else if(group==="gu") state.gu=val;
+    if(group==="gu") state.gu=val;
     else if(group==="budget") state.budget=val;
     render();
   });
@@ -159,7 +164,8 @@ function fmtMonth(m){ return m.replace("-", ". ") + "월"; } // 2026-08 -> 2026.
 function passes(x){
   if(x.region!==state.sido) return false;                     // 시도(서울/경기) 토글
   if(state.type!=="all" && x.supply_type!==state.type) return false;
-  if(state.month!=="all" && x.move_in!==state.month) return false;
+  if(state.monthStart && x.move_in < state.monthStart) return false;   // 입주 기간(시작~끝)
+  if(state.monthEnd   && x.move_in > state.monthEnd)   return false;
   if(state.gu!=="all" && x.gu!==state.gu) return false;
   if(state.budget!=="all"){
     const b = BUDGETS.find(z=>z.key===state.budget);
@@ -265,10 +271,27 @@ async function boot(){
       swrap.appendChild(c);
     });
 
-    // 월 칩
-    const mwrap=document.getElementById("months");
-    mwrap.appendChild(chip("전체 월","all","month"));
-    (data.months||[]).forEach(m=> mwrap.appendChild(chip(fmtMonth(m), m, "month")));
+    // 입주 기간: 시작/끝 월 드롭다운
+    const months = data.months || [];
+    const mStart=document.getElementById("mStart"), mEnd=document.getElementById("mEnd");
+    months.forEach(m=>{
+      const o1=el("option"); o1.value=m; o1.textContent=fmtMonth(m); mStart.appendChild(o1);
+      const o2=el("option"); o2.value=m; o2.textContent=fmtMonth(m); mEnd.appendChild(o2);
+    });
+    state.monthStart = months[0] || "";
+    state.monthEnd   = months[months.length-1] || "";
+    mStart.value = state.monthStart;
+    mEnd.value   = state.monthEnd;
+    mStart.addEventListener("change", ()=>{
+      state.monthStart = mStart.value;
+      if(state.monthEnd < state.monthStart){ state.monthEnd = state.monthStart; mEnd.value = state.monthEnd; }
+      render();
+    });
+    mEnd.addEventListener("change", ()=>{
+      state.monthEnd = mEnd.value;
+      if(state.monthStart > state.monthEnd){ state.monthStart = state.monthEnd; mStart.value = state.monthStart; }
+      render();
+    });
 
     // 구/시 칩 (선택 시도 기준)
     buildGus();
