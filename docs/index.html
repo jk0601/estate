@@ -109,6 +109,8 @@
       <option value="move_in">입주 빠른순</option>
       <option value="price_asc">분양가 낮은순</option>
       <option value="price_desc">분양가 높은순</option>
+      <option value="jeonse_asc">전세 낮은순</option>
+      <option value="ratio_desc">전세가율 높은순</option>
       <option value="households">세대 많은순</option>
       <option value="gu">지역순</option>
     </select>
@@ -178,11 +180,15 @@ function render(){
   let rows = state.all.filter(passes);
   const s = state.sort;
   const pmin = x => (x.bunyang_price_min==null ? Infinity : x.bunyang_price_min);
+  const jlow = x => (x.jeonse_low==null ? Infinity : x.jeonse_low);        // 값 없으면 뒤로
+  const jrat = x => (x.jeonse_ratio==null ? -1 : x.jeonse_ratio);          // 값 없으면 뒤로
   rows.sort((a,b)=>{
     if(s==="households") return b.households-a.households;
     if(s==="gu") return a.gu.localeCompare(b.gu,"ko") || a.move_in.localeCompare(b.move_in);
     if(s==="price_asc")  return pmin(a)-pmin(b);
     if(s==="price_desc") return (pmin(b)===Infinity?-1:pmin(b)) - (pmin(a)===Infinity?-1:pmin(a));
+    if(s==="jeonse_asc") return jlow(a)-jlow(b);
+    if(s==="ratio_desc") return jrat(b)-jrat(a);
     return a.move_in.localeCompare(b.move_in) || b.households-a.households; // move_in
   });
 
