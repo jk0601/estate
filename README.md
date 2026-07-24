@@ -52,11 +52,15 @@ python -m http.server -d docs 8000
 
 ```
 estate/
-├─ collect.py          # 오케스트레이터: 수집 → docs/data.json
+├─ collect.py          # 오케스트레이터: 1→2→3단계 수집 → docs/data.json
 ├─ src/
-│  └─ cheongyak.py     # 청약홈 입주예정정보 스크래퍼(검증 완료)
+│  ├─ cheongyak.py     # 1단계: 청약홈 입주예정정보 스크래퍼
+│  ├─ bunyang.py       # 2단계: 청약홈 분양정보 API(분양가)
+│  └─ naver.py         # 3단계: 네이버 단지번호 딥링크 + 전세가율
+├─ data/
+│  └─ jeonse.csv       # 가족이 적는 전세 호가(전세가율 계산용)
 ├─ docs/               # GitHub Pages 루트
-│  ├─ index.html       # 모바일 반응형 열람 화면(구/월/분양·임대 필터)
+│  ├─ index.html       # 모바일 반응형(구/월/예산 필터, 분양가·전세가율, 매물 딥링크)
 │  └─ data.json        # 생성물(커밋 대상)
 ├─ requirements.txt
 └─ README.md
@@ -72,7 +76,9 @@ estate/
 | `move_in` | 입주예정월 (YYYY-MM) |
 | `households` | 입주예정 세대수 |
 | `supply_type` | 분양 / 임대 |
-| `naver_url` | 네이버 부동산 검색 링크(현재 매물) |
+| `naver_complex_no` | 네이버 단지번호(해결 시) |
+| `naver_url` | 네이버 단지 매물 딥링크(없으면 검색 링크) |
+| `jeonse_low`/`jeonse_high`/`jeonse_ratio` | 전세 호가·전세가율 — `data/jeonse.csv` 입력 시 |
 | `bunyang_price_min` / `_max` | 평형별 분양최고금액의 최저~최고(만원) — 청약홈 API |
 | `price_by_type` | 주택형별 `[{type, area, price(만원), households}]` |
 | `pblanc` | 공고정보 `{pblanc_no, supply_addr, builder, notice_date, homepage}` |
@@ -98,9 +104,23 @@ estate/
 - [x] **1단계** 서울 입주예정 단지 자동 수집 + 모바일 열람 페이지
 - [x] **2단계** 청약홈 분양정보 API로 **평형별 분양가** 매칭 (10/13 분양단지, 금액 필터·정렬)
       → `getAPTLttotPblancDetail`(공고) + `getAPTLttotPblancMdl`(주택형별 분양가), 입주월로 오매칭 방지
-- [ ] **3단계** 각 단지 **현재 전세/매매 호가** 수집(네이버 부동산, 저빈도)
-      → 분양가 대비 전세가율·급전세 낙폭 자동 계산
-- [ ] **4단계** 금액 필터·시세 추이 차트
+- [x] **3단계** 네이버 **단지번호 딥링크**(단지별 전세·매물 바로가기) + **전세가율**
+      → ⚠️ 네이버 매물 API는 인증·강한 rate-limit로 자동 스크래핑 불가·약관 위반.
+        대신 딥링크로 실시간 호가를 한 번에 열람하고, `data/jeonse.csv`에 관찰 전세가를
+        적으면 분양가 대비 전세가율을 자동 계산.
+- [ ] **4단계(후보)** 실거래가 API 연동(입주 후 전월세 실거래), 시세 추이 차트
+
+## 전세 시트 사용법 (전세가율 보기)
+
+입주장 전세 호가는 공식 API가 없어(신축 미입주라 실거래도 없음) 자동 수집이 어렵습니다.
+그래서 가족이 **각 단지 카드의 "전세·매물 보기"를 눌러 본 최저 전세 호가**를
+`data/jeonse.csv`에 적으면, 분양가 대비 **전세가율**이 카드에 자동 표시됩니다.
+
+```csv
+name,jeonse_low_manwon,jeonse_high_manwon,note,updated
+반포 래미안 트리니원,180000,210000,입주장 급전세,2026-07-24
+```
+(금액은 만원 단위: 180000 = 18억) 저장 후 `python collect.py` 다시 실행 → push.
 
 ## 주의
 

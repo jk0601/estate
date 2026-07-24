@@ -25,6 +25,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 from cheongyak import collect_seoul  # noqa: E402
 from bunyang import enrich_complexes  # noqa: E402  (2단계: 분양정보 보강)
+from naver import enrich_naver        # noqa: E402  (3단계: 네이버 딥링크 + 전세가율)
 
 # ---- 설정 -----------------------------------------------------------------
 TARGET_MONTHS = ["2026-08", "2026-09", "2026-10", "2026-11", "2026-12"]
@@ -62,6 +63,12 @@ def main() -> int:
         rows = enrich_complexes(rows)
     except Exception as e:  # noqa: BLE001  파이프라인은 절대 깨지지 않게
         print(f"  [분양정보] 보강 생략: {e}")
+
+    # 3단계: 네이버 단지번호 딥링크 + (전세 시트 있으면) 전세가율
+    try:
+        rows = enrich_naver(rows)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [네이버] 보강 생략: {e}")
 
     payload = {
         "generated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),

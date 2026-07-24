@@ -69,6 +69,11 @@
   .price{font-size:15px; margin:2px 0 10px}
   .price .k{color:var(--sub); font-size:12px; margin-right:5px}
   .price b{color:var(--brand); font-weight:800; letter-spacing:-.01em}
+  .jeonse{font-size:14px; margin:-4px 0 10px}
+  .jeonse .k{color:var(--sub); font-size:12px; margin-right:5px}
+  .jeonse b{font-weight:700}
+  .ratio{font-size:11px; font-weight:700; color:var(--sale); background:var(--sale-bg);
+    padding:2px 7px; border-radius:999px; margin-left:6px}
   .facts{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; margin-bottom:12px}
   .facts b{font-weight:700}
   .facts .k{color:var(--sub); font-weight:400; margin-right:4px}
@@ -204,6 +209,17 @@ function render(){
       card.appendChild(p);
     }
 
+    // 전세가 / 전세가율 (data/jeonse.csv 입력 시)
+    if(x.jeonse_low!=null){
+      const j=el("div","jeonse");
+      const jr = x.jeonse_high && x.jeonse_high!==x.jeonse_low
+        ? `${eok(x.jeonse_low)} ~ ${eok(x.jeonse_high)}` : eok(x.jeonse_low);
+      let html=`<span class="k">전세</span> <b>${jr}</b>`;
+      if(x.jeonse_ratio!=null) html+=` <span class="ratio">전세가율 ${x.jeonse_ratio}%</span>`;
+      j.innerHTML=html;
+      card.appendChild(j);
+    }
+
     const facts=el("div","facts");
     const f1=el("span"); f1.innerHTML=`<span class="k">입주</span><b>${fmtMonth(x.move_in)}</b>`;
     const f2=el("span"); f2.innerHTML=`<span class="k">세대</span><b>${x.households.toLocaleString()}</b>`;
@@ -211,7 +227,7 @@ function render(){
     facts.append(f1,f2,f3);
     card.appendChild(facts);
 
-    const a=el("a","naver","네이버 부동산에서 현재 매물 보기 →");
+    const a=el("a","naver", (x.naver_complex_no ? "이 단지 전세·매물 보기 →" : "네이버에서 검색 →"));
     a.href=x.naver_url; a.target="_blank"; a.rel="noopener";
     card.appendChild(a);
 
