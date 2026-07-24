@@ -66,6 +66,9 @@
   .badge.sale{background:var(--sale-bg); color:var(--sale)}
   .badge.rent{background:var(--rent-bg); color:var(--rent)}
   .addr{font-size:12.5px; color:var(--sub); margin:5px 0 10px; word-break:keep-all}
+  .price{font-size:15px; margin:2px 0 10px}
+  .price .k{color:var(--sub); font-size:12px; margin-right:5px}
+  .price b{color:var(--brand); font-weight:800; letter-spacing:-.01em}
   .facts{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; margin-bottom:12px}
   .facts b{font-weight:700}
   .facts .k{color:var(--sub); font-weight:400; margin-right:4px}
@@ -75,6 +78,9 @@
     padding:9px 12px; border-radius:10px; width:100%; justify-content:center;
   }
   .naver:active{opacity:.85}
+  .notice{display:block; text-align:center; text-decoration:none; margin-top:7px;
+    font-size:12.5px; color:var(--sub); border:1px solid var(--line); border-radius:9px; padding:7px}
+  .notice:active{opacity:.7}
   .empty{text-align:center; color:var(--sub); padding:50px 0; font-size:14px}
   footer{max-width:760px; margin:0 auto; padding:0 16px 40px; color:var(--sub); font-size:11.5px}
 </style>
@@ -89,12 +95,15 @@
   <div class="row"><input type="search" id="q" placeholder="단지명·지역 검색" /></div>
   <div class="row" id="months"></div>
   <div class="row" id="gus"></div>
+  <div class="row" id="budgets"></div>
   <div class="row">
     <span class="chip type on" data-type="all">전체</span>
     <span class="chip type" data-type="분양">분양</span>
     <span class="chip type" data-type="임대">임대</span>
     <select id="sort">
       <option value="move_in">입주 빠른순</option>
+      <option value="price_asc">분양가 낮은순</option>
+      <option value="price_desc">분양가 높은순</option>
       <option value="households">세대 많은순</option>
       <option value="gu">지역순</option>
     </select>
@@ -110,17 +119,34 @@
 <footer id="foot"></footer>
 
 <script>
-const state = { all: [], type: "all", month: "all", gu: "all", q: "", sort: "move_in" };
+const state = { all: [], type: "all", month: "all", gu: "all", budget: "all", q: "", sort: "move_in" };
+
+// 만원 -> "12.3억" (분양가 표시용)
+function eok(man){
+  if(man==null) return null;
+  const v = man/10000;
+  return (v>=100 ? Math.round(v) : v.toFixed(1)) + "억";
+}
+// 예산 필터 구간(만원). 분양 최저가(bunyang_price_min) 기준.
+const BUDGETS = [
+  {key:"all",   label:"전체 금액", max:Infinity},
+  {key:"b6",    label:"6억↓",  max:60000},
+  {key:"b9",    label:"9억↓",  max:90000},
+  {key:"b15",   label:"15억↓", max:150000},
+  {key:"b15up", label:"15억↑", min:150000, max:Infinity},
+];
 
 function el(tag, cls, txt){ const e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
 
 function chip(label, val, group){
   const c = el("span","chip",label); c.dataset.val=val; c.dataset.group=group;
-  if((group==="month"&&val==="all") || (group==="gu"&&val==="all")) c.classList.add("on");
+  if(val==="all") c.classList.add("on");
   c.addEventListener("click", ()=>{
     document.querySelectorAll(`.chip[data-group="${group}"]`).forEach(x=>x.classList.remove("on"));
     c.classList.add("on");
-    if(group==="month") state.month=val; else state.gu=val;
+    if(group==="month") state.month=val;
+    else if(group==="gu") state.gu=val;
+    else if(group==="budget") state.budget=val;
     render();
   });
   return c;
@@ -132,6 +158,13 @@ function passes(x){
   if(state.type!=="all" && x.supply_type!==state.type) return false;
   if(state.month!=="all" && x.move_in!==state.month) return false;
   if(state.gu!=="all" && x.gu!==state.gu) return false;
+  if(state.budget!=="all"){
+    const b = BUDGETS.find(z=>z.key===state.budget);
+    const p = x.bunyang_price_min;
+    if(p==null) return false;                       // 분양가 없는 건 예산필터 시 제외
+    if(b.min!=null && p < b.min) return false;
+    if(p > b.max) return false;
+  }
   if(state.q){ const s=(x.name+" "+x.address+" "+x.gu).toLowerCase(); if(!s.includes(state.q.toLowerCase())) return false; }
   return true;
 }
@@ -139,9 +172,12 @@ function passes(x){
 function render(){
   let rows = state.all.filter(passes);
   const s = state.sort;
+  const pmin = x => (x.bunyang_price_min==null ? Infinity : x.bunyang_price_min);
   rows.sort((a,b)=>{
     if(s==="households") return b.households-a.households;
     if(s==="gu") return a.gu.localeCompare(b.gu,"ko") || a.move_in.localeCompare(b.move_in);
+    if(s==="price_asc")  return pmin(a)-pmin(b);
+    if(s==="price_desc") return (pmin(b)===Infinity?-1:pmin(b)) - (pmin(a)===Infinity?-1:pmin(a));
     return a.move_in.localeCompare(b.move_in) || b.households-a.households; // move_in
   });
 
@@ -159,6 +195,15 @@ function render(){
 
     card.appendChild(el("div","addr", x.address));
 
+    // 분양가 라인 (있을 때만)
+    const lo=x.bunyang_price_min, hi=x.bunyang_price_max;
+    if(lo!=null){
+      const p=el("div","price");
+      const range = (hi && hi!==lo) ? `${eok(lo)} ~ ${eok(hi)}` : eok(lo);
+      p.innerHTML = `<span class="k">분양가</span> <b>${range}</b>`;
+      card.appendChild(p);
+    }
+
     const facts=el("div","facts");
     const f1=el("span"); f1.innerHTML=`<span class="k">입주</span><b>${fmtMonth(x.move_in)}</b>`;
     const f2=el("span"); f2.innerHTML=`<span class="k">세대</span><b>${x.households.toLocaleString()}</b>`;
@@ -169,6 +214,13 @@ function render(){
     const a=el("a","naver","네이버 부동산에서 현재 매물 보기 →");
     a.href=x.naver_url; a.target="_blank"; a.rel="noopener";
     card.appendChild(a);
+
+    // 청약홈 공고 홈페이지 (있을 때만)
+    if(x.pblanc && x.pblanc.homepage){
+      const g=el("a","notice","분양 공고 홈페이지");
+      g.href=x.pblanc.homepage; g.target="_blank"; g.rel="noopener";
+      card.appendChild(g);
+    }
 
     grid.appendChild(card);
   }
@@ -196,6 +248,10 @@ async function boot(){
     const gwrap=document.getElementById("gus");
     gwrap.appendChild(chip("전체 지역","all","gu"));
     gus.forEach(g=> gwrap.appendChild(chip(g,g,"gu")));
+
+    // 예산(분양가) 칩
+    const bwrap=document.getElementById("budgets");
+    BUDGETS.forEach(b=> bwrap.appendChild(chip(b.label, b.key, "budget")));
 
     render();
   }catch(e){

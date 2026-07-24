@@ -73,7 +73,9 @@ estate/
 | `households` | 입주예정 세대수 |
 | `supply_type` | 분양 / 임대 |
 | `naver_url` | 네이버 부동산 검색 링크(현재 매물) |
-| `bunyang_price` | 분양가 — *2단계에서 채움* |
+| `bunyang_price_min` / `_max` | 평형별 분양최고금액의 최저~최고(만원) — 청약홈 API |
+| `price_by_type` | 주택형별 `[{type, area, price(만원), households}]` |
+| `pblanc` | 공고정보 `{pblanc_no, supply_addr, builder, notice_date, homepage}` |
 | `jeonse_low` / `listings_count` | 현재 최저 전세·매물 수 — *3단계에서 채움* |
 
 ---
@@ -94,8 +96,8 @@ estate/
 ## 로드맵
 
 - [x] **1단계** 서울 입주예정 단지 자동 수집 + 모바일 열람 페이지
-- [~] **2단계** 청약홈 분양정보 API 보강 (코드 완료, 키 활성화 대기 중)
-      → 평형별 분양가는 주택형별 CSV(15101047) 병행 검토 필요
+- [x] **2단계** 청약홈 분양정보 API로 **평형별 분양가** 매칭 (10/13 분양단지, 금액 필터·정렬)
+      → `getAPTLttotPblancDetail`(공고) + `getAPTLttotPblancMdl`(주택형별 분양가), 입주월로 오매칭 방지
 - [ ] **3단계** 각 단지 **현재 전세/매매 호가** 수집(네이버 부동산, 저빈도)
       → 분양가 대비 전세가율·급전세 낙폭 자동 계산
 - [ ] **4단계** 금액 필터·시세 추이 차트
