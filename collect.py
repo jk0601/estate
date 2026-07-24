@@ -24,6 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 from cheongyak import collect_seoul  # noqa: E402
+from bunyang import enrich_complexes  # noqa: E402  (2단계: 분양정보 보강)
 
 # ---- 설정 -----------------------------------------------------------------
 TARGET_MONTHS = ["2026-08", "2026-09", "2026-10", "2026-11", "2026-12"]
@@ -55,6 +56,12 @@ def main() -> int:
     print(f"[수집 시작] 서울 입주예정 {TARGET_MONTHS[0]} ~ {TARGET_MONTHS[-1]}")
     rows = collect_seoul(TARGET_MONTHS, include_types=INCLUDE_TYPES)
     rows = enrich(rows)
+
+    # 2단계: 분양 단지 분양정보/분양가 보강 (키 없거나 미활성화면 자동 skip)
+    try:
+        rows = enrich_complexes(rows)
+    except Exception as e:  # noqa: BLE001  파이프라인은 절대 깨지지 않게
+        print(f"  [분양정보] 보강 생략: {e}")
 
     payload = {
         "generated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
