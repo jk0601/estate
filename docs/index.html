@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>서울 입주예정 단지 · 2026 하반기</title>
+<title>수도권 입주예정 단지 (서울·경기)</title>
 <style>
   :root{
     --bg:#f5f6f8; --card:#fff; --ink:#1a1d21; --sub:#6b7280; --line:#e5e7eb;
@@ -48,6 +48,7 @@
     background:var(--chip); color:var(--ink); cursor:pointer; user-select:none; white-space:nowrap;
   }
   .chip.on{background:var(--chip-on); color:#fff; border-color:var(--chip-on)}
+  .chip.sido{font-size:14px; font-weight:700; padding:8px 18px}
   select{
     font-size:13px; padding:6px 10px; border-radius:999px; border:1px solid var(--line);
     background:var(--chip); color:var(--ink);
@@ -87,12 +88,13 @@
 </head>
 <body>
 <header>
-  <h1>서울 입주예정 단지 · 2026 하반기</h1>
+  <h1>수도권 입주예정 단지 · 서울·경기</h1>
   <div class="meta" id="meta">불러오는 중…</div>
 </header>
 
 <div class="toolbar">
   <div class="row"><input type="search" id="q" placeholder="단지명·지역 검색" /></div>
+  <div class="row" id="sidos"></div>
   <div class="row" id="months"></div>
   <div class="row" id="gus"></div>
   <div class="row" id="budgets"></div>
@@ -119,7 +121,7 @@
 <footer id="foot"></footer>
 
 <script>
-const state = { all: [], type: "all", month: "all", gu: "all", budget: "all", q: "", sort: "move_in" };
+const state = { all: [], sido: "서울", type: "all", month: "all", gu: "all", budget: "all", q: "", sort: "move_in" };
 
 // 만원 -> "12.3억" (분양가 표시용)
 function eok(man){
@@ -155,6 +157,7 @@ function chip(label, val, group){
 function fmtMonth(m){ return m.replace("-", ". ") + "월"; } // 2026-08 -> 2026. 08월
 
 function passes(x){
+  if(x.region!==state.sido) return false;                     // 시도(서울/경기) 토글
   if(state.type!=="all" && x.supply_type!==state.type) return false;
   if(state.month!=="all" && x.move_in!==state.month) return false;
   if(state.gu!=="all" && x.gu!==state.gu) return false;
@@ -235,20 +238,40 @@ async function boot(){
     document.getElementById("meta").textContent =
       `${data.source} · 총 ${data.count}개 · 갱신 ${data.generated_at}`;
     document.getElementById("foot").innerHTML =
-      "감시 목록: 서울 하반기 입주예정 단지 + 분양가(청약홈). 각 카드의 '매물 보기'로 " +
+      "감시 목록: 수도권(서울·경기) 입주예정 단지 + 분양가(청약홈). 각 카드의 '매물 보기'로 " +
       "그 단지의 현재 전세·매매 호가를 네이버에서 확인하세요.<br>" +
       "출처: 청약홈(한국부동산원) 입주예정·분양정보. 참고용이며 계약 전 현장·공고를 반드시 확인하세요.";
+
+    // 선택된 시도의 구/시 칩을 다시 구성
+    function buildGus(){
+      const gwrap=document.getElementById("gus"); gwrap.innerHTML="";
+      const gus=[...new Set(state.all.filter(x=>x.region===state.sido)
+        .map(x=>x.gu).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ko"));
+      gwrap.appendChild(chip("전체 지역","all","gu"));
+      gus.forEach(g=> gwrap.appendChild(chip(g,g,"gu")));
+    }
+
+    // 시도(서울/경기) 토글
+    const sidos = data.sido || [...new Set(state.all.map(x=>x.region))];
+    if(!sidos.includes(state.sido)) state.sido = sidos[0];
+    const swrap=document.getElementById("sidos");
+    sidos.forEach(sd=>{
+      const c=el("span","chip sido"+(sd===state.sido?" on":""), sd);
+      c.addEventListener("click", ()=>{
+        document.querySelectorAll("#sidos .chip").forEach(x=>x.classList.remove("on"));
+        c.classList.add("on");
+        state.sido=sd; state.gu="all"; buildGus(); render();
+      });
+      swrap.appendChild(c);
+    });
 
     // 월 칩
     const mwrap=document.getElementById("months");
     mwrap.appendChild(chip("전체 월","all","month"));
     (data.months||[]).forEach(m=> mwrap.appendChild(chip(fmtMonth(m), m, "month")));
 
-    // 구 칩
-    const gus=[...new Set(state.all.map(x=>x.gu).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ko"));
-    const gwrap=document.getElementById("gus");
-    gwrap.appendChild(chip("전체 지역","all","gu"));
-    gus.forEach(g=> gwrap.appendChild(chip(g,g,"gu")));
+    // 구/시 칩 (선택 시도 기준)
+    buildGus();
 
     // 예산(분양가) 칩
     const bwrap=document.getElementById("budgets");

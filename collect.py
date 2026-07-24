@@ -20,12 +20,28 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
-from cheongyak import collect_seoul  # noqa: E402
-from bunyang import enrich_complexes  # noqa: E402  (2단계: 분양정보 보강)
-from naver import enrich_naver        # noqa: E402  (3단계: 네이버 매물 딥링크)
+from cheongyak import collect_regions  # noqa: E402
+from bunyang import enrich_complexes    # noqa: E402  (2단계: 분양정보 보강)
+from naver import enrich_naver          # noqa: E402  (3단계: 네이버 매물 딥링크)
+
+
+def month_range(start: str, end: str) -> list[str]:
+    """'YYYY-MM' 시작~끝(포함) 월 목록 생성."""
+    y, m = map(int, start.split("-"))
+    ey, em = map(int, end.split("-"))
+    out = []
+    while (y, m) <= (ey, em):
+        out.append(f"{y:04d}-{m:02d}")
+        m += 1
+        if m > 12:
+            y, m = y + 1, 1
+    return out
+
 
 # ---- 설정 -----------------------------------------------------------------
-TARGET_MONTHS = ["2026-08", "2026-09", "2026-10", "2026-11", "2026-12", "2027-01"]
+START_MONTH, END_MONTH = "2026-08", "2027-12"   # 앞으로 약 18개월
+TARGET_MONTHS = month_range(START_MONTH, END_MONTH)
+TARGET_SIDO = ("서울", "경기")                    # 수도권
 # '분양'만 보고 싶으면 ("분양",), 임대까지 포함하려면 ("분양", "임대")
 INCLUDE_TYPES = ("분양", "임대")
 OUT_PATH = Path(__file__).parent / "docs" / "data.json"
@@ -41,8 +57,9 @@ def enrich(rows: list[dict]) -> list[dict]:
 
 
 def main() -> int:
-    print(f"[수집 시작] 서울 입주예정 {TARGET_MONTHS[0]} ~ {TARGET_MONTHS[-1]}")
-    rows = collect_seoul(TARGET_MONTHS, include_types=INCLUDE_TYPES)
+    sido_label = "·".join(TARGET_SIDO)
+    print(f"[수집 시작] {sido_label} 입주예정 {TARGET_MONTHS[0]} ~ {TARGET_MONTHS[-1]}")
+    rows = collect_regions(TARGET_MONTHS, sidos=TARGET_SIDO, include_types=INCLUDE_TYPES)
     rows = enrich(rows)
 
     # 2단계: 분양 단지 분양정보/분양가 보강 (키 없거나 미활성화면 자동 skip)
@@ -60,7 +77,7 @@ def main() -> int:
     payload = {
         "generated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         "source": "청약홈(한국부동산원) 입주(예정)정보",
-        "region": "서울특별시",
+        "sido": list(TARGET_SIDO),
         "months": TARGET_MONTHS,
         "count": len(rows),
         "complexes": rows,

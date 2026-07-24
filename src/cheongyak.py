@@ -27,15 +27,25 @@ LIST_URL = f"{BASE}/ai/aia/selectAPTMvnPrearngeInfoList.do"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
 _GU_RE = re.compile(r"([가-힣]+구)\b")
+_SIGUN_RE = re.compile(r"([가-힣]+(?:시|군))\b")   # 경기 등: 시/군 단위
 _DONG_RE = re.compile(r"([가-힣]+(?:동|가|리))\b")
+
+
+def _district(region: str, address: str) -> str:
+    """행정구역 이름: 서울은 자치구(강남구), 그 외(경기 등)는 시/군(화성시·가평군)."""
+    if region.startswith("서울"):
+        m = _GU_RE.search(address)
+    else:
+        m = _SIGUN_RE.search(address) or _GU_RE.search(address)
+    return m.group(1) if m else ""
 
 
 @dataclass
 class Complex:
-    region: str          # 지역 (예: 서울)
+    region: str          # 시도 (서울 / 경기 등)
     supply_type: str     # 분양 / 임대
     address: str         # 전체 주소
-    gu: str              # 자치구 (주소에서 추출)
+    gu: str              # 자치구(서울) 또는 시(경기)
     dong: str            # 법정동 (주소에서 추출)
     name: str            # 주택명(단지명)
     move_in: str         # 입주예정월 (YYYY-MM)
@@ -67,14 +77,13 @@ def _parse_page(html: str) -> list[Complex]:
         # 데이터 없음 안내행 등 방어
         if not region or not re.match(r"\d{4}-\d{2}", move_in):
             continue
-        gu_m = _GU_RE.search(address)
         dong_m = _DONG_RE.search(address)
         rows.append(
             Complex(
                 region=region,
                 supply_type=supply_type,
                 address=address,
-                gu=gu_m.group(1) if gu_m else "",
+                gu=_district(region, address),
                 dong=dong_m.group(1) if dong_m else "",
                 name=name,
                 move_in=move_in,
@@ -125,14 +134,16 @@ def fetch_all(
     return out
 
 
-def collect_seoul(
+def collect_regions(
     months: list[str],
+    sidos: tuple[str, ...] = ("서울",),
     include_types: tuple[str, ...] = ("분양",),
     **kwargs,
 ) -> list[dict]:
-    """서울 + 지정한 입주예정월(YYYY-MM 리스트)에 해당하는 단지만 반환.
+    """지정한 시도(서울/경기 등) + 입주예정월(YYYY-MM 리스트) 단지만 반환.
 
-    include_types: 기본은 '분양'만. 임대까지 보려면 ('분양','임대') 전달.
+    sidos: 시도명 접두어 매칭(예: ('서울','경기')).
+    include_types: 기본 '분양'만, 임대까지 보려면 ('분양','임대').
     """
     stop_after = max(months) if months else None
     allrows = fetch_all(stop_after=stop_after, **kwargs)
@@ -140,17 +151,22 @@ def collect_seoul(
     result = [
         asdict(c)
         for c in allrows
-        if c.region.startswith("서울")
+        if any(c.region.startswith(s) for s in sidos)
         and c.move_in in wanted
         and (not include_types or c.supply_type in include_types)
     ]
-    result.sort(key=lambda x: (x["move_in"], x["gu"], x["name"]))
+    result.sort(key=lambda x: (x["move_in"], x["region"], x["gu"], x["name"]))
     return result
+
+
+# 하위호환 별칭
+def collect_seoul(months, include_types=("분양",), **kwargs):
+    return collect_regions(months, sidos=("서울",), include_types=include_types, **kwargs)
 
 
 if __name__ == "__main__":
     ms = ["2026-08", "2026-09", "2026-10", "2026-11", "2026-12"]
-    data = collect_seoul(ms, include_types=("분양", "임대"))
-    print(f"\n서울 입주예정({ms[0]}~{ms[-1]}): {len(data)}개 단지")
+    data = collect_regions(ms, sidos=("서울", "경기"), include_types=("분양", "임대"))
+    print(f"\n입주예정({ms[0]}~{ms[-1]}): {len(data)}개 단지")
     for d in data:
-        print(f"  {d['move_in']}  {d['gu']:6} {d['name']}  ({d['households']}세대)")
+        print(f"  {d['move_in']}  {d['region']:3} {d['gu']:7} {d['name']}  ({d['households']}세대)")

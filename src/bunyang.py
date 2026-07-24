@@ -101,8 +101,8 @@ def _overlap(a: str, b: str) -> int:
 
 
 def find_pblanc(name: str, gu: str, move_in_ym: str, key: str,
-                session: requests.Session) -> dict | None:
-    """주택명(고유명)+입주월로 서울 APT 분양공고 1건을 찾는다.
+                session: requests.Session, area: str = "서울") -> dict | None:
+    """주택명(고유명)+입주월로 해당 시도 APT 분양공고 1건을 찾는다.
 
     오매칭 방지: 브랜드·자치구명을 뺀 '고유명'이 실제로 겹칠 때만 채택하고,
     입주월(MVN_PREARNGE_YM)이 일치하는 후보를 우선한다. 확신이 없으면 None.
@@ -111,7 +111,7 @@ def find_pblanc(name: str, gu: str, move_in_ym: str, key: str,
     for tok in _tokens(name):
         try:
             d = _get(session, OP_APT, key, page=1, perPage=20,
-                     **{"cond[SUBSCRPT_AREA_CODE_NM::EQ]": "서울",
+                     **{"cond[SUBSCRPT_AREA_CODE_NM::EQ]": area,
                         "cond[HOUSE_NM::LIKE]": tok})
         except requests.HTTPError:
             raise
@@ -173,7 +173,8 @@ def enrich_complexes(rows: list[dict], key: str | None = None,
             continue
         move_in_ym = r["move_in"].replace("-", "")
         try:
-            pb = find_pblanc(r["name"], r.get("gu", ""), move_in_ym, key, session)
+            pb = find_pblanc(r["name"], r.get("gu", ""), move_in_ym, key, session,
+                             area=r.get("region", "서울"))
         except requests.HTTPError as e:
             log(f"  [분양정보] API 오류({e.response.status_code}) — 중단(키 확인 필요)")
             break
