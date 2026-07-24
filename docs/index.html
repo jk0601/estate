@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>서울 입주예정 단지 · 2026 하반기</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --card:#fff; --ink:#1a1d21; --sub:#6b7280; --line:#e5e7eb;
+    --brand:#1f6feb; --brand-ink:#fff; --chip:#eef1f5; --chip-on:#1f6feb;
+    --sale:#0a7f4f; --rent:#8a5a00; --sale-bg:#e7f6ee; --rent-bg:#fbf1dd;
+    --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0e1116; --card:#171b22; --ink:#e6e8eb; --sub:#9aa4b2; --line:#262c36;
+      --brand:#4d8bff; --chip:#20262f; --chip-on:#4d8bff;
+      --sale:#4ade80; --rent:#e0b25a; --sale-bg:#12251b; --rent-bg:#2a2110;
+      --shadow:0 1px 3px rgba(0,0,0,.4);
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",
+      "Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.45;
+    -webkit-text-size-adjust:100%;
+  }
+  header{
+    padding:16px 16px 10px; max-width:760px; margin:0 auto;
+  }
+  h1{font-size:19px; margin:0 0 3px; letter-spacing:-.02em}
+  .meta{font-size:12.5px; color:var(--sub)}
+  .toolbar{
+    position:sticky; top:0; z-index:5; background:var(--bg);
+    padding:8px 16px 10px; max-width:760px; margin:0 auto;
+    border-bottom:1px solid var(--line);
+  }
+  .row{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:7px}
+  .row:last-child{margin-bottom:0}
+  input[type=search]{
+    width:100%; padding:10px 12px; font-size:15px; border:1px solid var(--line);
+    border-radius:10px; background:var(--card); color:var(--ink);
+  }
+  .chip{
+    font-size:13px; padding:6px 11px; border-radius:999px; border:1px solid var(--line);
+    background:var(--chip); color:var(--ink); cursor:pointer; user-select:none; white-space:nowrap;
+  }
+  .chip.on{background:var(--chip-on); color:#fff; border-color:var(--chip-on)}
+  select{
+    font-size:13px; padding:6px 10px; border-radius:999px; border:1px solid var(--line);
+    background:var(--chip); color:var(--ink);
+  }
+  main{max-width:760px; margin:0 auto; padding:12px 16px 40px}
+  .count{font-size:13px; color:var(--sub); margin:2px 2px 10px}
+  .grid{display:grid; grid-template-columns:1fr; gap:10px}
+  @media (min-width:620px){ .grid{grid-template-columns:1fr 1fr} }
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:13px 14px; box-shadow:var(--shadow);
+  }
+  .card-top{display:flex; justify-content:space-between; align-items:flex-start; gap:8px}
+  .name{font-size:16px; font-weight:700; letter-spacing:-.01em; margin:0}
+  .badge{font-size:11px; font-weight:700; padding:2px 8px; border-radius:999px; white-space:nowrap}
+  .badge.sale{background:var(--sale-bg); color:var(--sale)}
+  .badge.rent{background:var(--rent-bg); color:var(--rent)}
+  .addr{font-size:12.5px; color:var(--sub); margin:5px 0 10px; word-break:keep-all}
+  .facts{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; margin-bottom:12px}
+  .facts b{font-weight:700}
+  .facts .k{color:var(--sub); font-weight:400; margin-right:4px}
+  .naver{
+    display:inline-flex; align-items:center; gap:6px; text-decoration:none;
+    background:#03c75a; color:#fff; font-size:13.5px; font-weight:700;
+    padding:9px 12px; border-radius:10px; width:100%; justify-content:center;
+  }
+  .naver:active{opacity:.85}
+  .empty{text-align:center; color:var(--sub); padding:50px 0; font-size:14px}
+  footer{max-width:760px; margin:0 auto; padding:0 16px 40px; color:var(--sub); font-size:11.5px}
+</style>
+</head>
+<body>
+<header>
+  <h1>서울 입주예정 단지 · 2026 하반기</h1>
+  <div class="meta" id="meta">불러오는 중…</div>
+</header>
+
+<div class="toolbar">
+  <div class="row"><input type="search" id="q" placeholder="단지명·지역 검색" /></div>
+  <div class="row" id="months"></div>
+  <div class="row" id="gus"></div>
+  <div class="row">
+    <span class="chip type on" data-type="all">전체</span>
+    <span class="chip type" data-type="분양">분양</span>
+    <span class="chip type" data-type="임대">임대</span>
+    <select id="sort">
+      <option value="move_in">입주 빠른순</option>
+      <option value="households">세대 많은순</option>
+      <option value="gu">지역순</option>
+    </select>
+  </div>
+</div>
+
+<main>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>조건에 맞는 단지가 없습니다.</div>
+</main>
+
+<footer id="foot"></footer>
+
+<script>
+const state = { all: [], type: "all", month: "all", gu: "all", q: "", sort: "move_in" };
+
+function el(tag, cls, txt){ const e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
+
+function chip(label, val, group){
+  const c = el("span","chip",label); c.dataset.val=val; c.dataset.group=group;
+  if((group==="month"&&val==="all") || (group==="gu"&&val==="all")) c.classList.add("on");
+  c.addEventListener("click", ()=>{
+    document.querySelectorAll(`.chip[data-group="${group}"]`).forEach(x=>x.classList.remove("on"));
+    c.classList.add("on");
+    if(group==="month") state.month=val; else state.gu=val;
+    render();
+  });
+  return c;
+}
+
+function fmtMonth(m){ return m.replace("-", ". ") + "월"; } // 2026-08 -> 2026. 08월
+
+function passes(x){
+  if(state.type!=="all" && x.supply_type!==state.type) return false;
+  if(state.month!=="all" && x.move_in!==state.month) return false;
+  if(state.gu!=="all" && x.gu!==state.gu) return false;
+  if(state.q){ const s=(x.name+" "+x.address+" "+x.gu).toLowerCase(); if(!s.includes(state.q.toLowerCase())) return false; }
+  return true;
+}
+
+function render(){
+  let rows = state.all.filter(passes);
+  const s = state.sort;
+  rows.sort((a,b)=>{
+    if(s==="households") return b.households-a.households;
+    if(s==="gu") return a.gu.localeCompare(b.gu,"ko") || a.move_in.localeCompare(b.move_in);
+    return a.move_in.localeCompare(b.move_in) || b.households-a.households; // move_in
+  });
+
+  const grid=document.getElementById("grid"); grid.innerHTML="";
+  document.getElementById("empty").hidden = rows.length>0;
+  document.getElementById("count").textContent = `${rows.length}개 단지`;
+
+  for(const x of rows){
+    const card=el("div","card");
+    const top=el("div","card-top");
+    top.appendChild(el("p","name",x.name));
+    const isSale = x.supply_type==="분양";
+    top.appendChild(el("span","badge "+(isSale?"sale":"rent"), x.supply_type));
+    card.appendChild(top);
+
+    card.appendChild(el("div","addr", x.address));
+
+    const facts=el("div","facts");
+    const f1=el("span"); f1.innerHTML=`<span class="k">입주</span><b>${fmtMonth(x.move_in)}</b>`;
+    const f2=el("span"); f2.innerHTML=`<span class="k">세대</span><b>${x.households.toLocaleString()}</b>`;
+    const f3=el("span"); f3.innerHTML=`<span class="k">지역</span><b>${x.gu}</b>`;
+    facts.append(f1,f2,f3);
+    card.appendChild(facts);
+
+    const a=el("a","naver","네이버 부동산에서 현재 매물 보기 →");
+    a.href=x.naver_url; a.target="_blank"; a.rel="noopener";
+    card.appendChild(a);
+
+    grid.appendChild(card);
+  }
+}
+
+async function boot(){
+  try{
+    const res = await fetch("./data.json?_="+Date.now());
+    const data = await res.json();
+    state.all = data.complexes || [];
+
+    document.getElementById("meta").textContent =
+      `${data.source} · 총 ${data.count}개 · 갱신 ${data.generated_at}`;
+    document.getElementById("foot").innerHTML =
+      "출처: 청약홈(한국부동산원) 입주예정정보. 매물·시세는 네이버 부동산 링크에서 확인하세요.<br>" +
+      "이 페이지는 참고용이며 실제 계약 전 반드시 현장·공고를 확인하세요.";
+
+    // 월 칩
+    const mwrap=document.getElementById("months");
+    mwrap.appendChild(chip("전체 월","all","month"));
+    (data.months||[]).forEach(m=> mwrap.appendChild(chip(fmtMonth(m), m, "month")));
+
+    // 구 칩
+    const gus=[...new Set(state.all.map(x=>x.gu).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ko"));
+    const gwrap=document.getElementById("gus");
+    gwrap.appendChild(chip("전체 지역","all","gu"));
+    gus.forEach(g=> gwrap.appendChild(chip(g,g,"gu")));
+
+    render();
+  }catch(e){
+    document.getElementById("meta").textContent="데이터를 불러오지 못했습니다: "+e;
+  }
+}
+
+document.querySelectorAll(".chip.type").forEach(c=>{
+  c.addEventListener("click", ()=>{
+    document.querySelectorAll(".chip.type").forEach(x=>x.classList.remove("on"));
+    c.classList.add("on"); state.type=c.dataset.type; render();
+  });
+});
+document.getElementById("q").addEventListener("input", e=>{ state.q=e.target.value; render(); });
+document.getElementById("sort").addEventListener("change", e=>{ state.sort=e.target.value; render(); });
+
+boot();
+</script>
+</body>
+</html>
