@@ -69,11 +69,6 @@
   .price{font-size:15px; margin:2px 0 10px}
   .price .k{color:var(--sub); font-size:12px; margin-right:5px}
   .price b{color:var(--brand); font-weight:800; letter-spacing:-.01em}
-  .jeonse{font-size:14px; margin:-4px 0 10px}
-  .jeonse .k{color:var(--sub); font-size:12px; margin-right:5px}
-  .jeonse b{font-weight:700}
-  .ratio{font-size:11px; font-weight:700; color:var(--sale); background:var(--sale-bg);
-    padding:2px 7px; border-radius:999px; margin-left:6px}
   .facts{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; margin-bottom:12px}
   .facts b{font-weight:700}
   .facts .k{color:var(--sub); font-weight:400; margin-right:4px}
@@ -86,15 +81,6 @@
   .notice{display:block; text-align:center; text-decoration:none; margin-top:7px;
     font-size:12.5px; color:var(--sub); border:1px solid var(--line); border-radius:9px; padding:7px}
   .notice:active{opacity:.7}
-  .jinput{display:flex; align-items:center; gap:8px; margin-top:9px;
-    padding-top:9px; border-top:1px dashed var(--line)}
-  .jinput span{font-size:12px; color:var(--sub); white-space:nowrap}
-  .jinput input{flex:1; min-width:0; font-size:14px; padding:8px 10px;
-    border:1px solid var(--line); border-radius:9px; background:var(--bg); color:var(--ink)}
-  .share{display:flex; gap:8px; margin:0 auto 24px; max-width:760px; padding:0 16px}
-  .share button{flex:1; font-size:12.5px; padding:9px; border-radius:9px;
-    border:1px solid var(--line); background:var(--card); color:var(--ink)}
-  .share button:active{opacity:.7}
   .empty{text-align:center; color:var(--sub); padding:50px 0; font-size:14px}
   footer{max-width:760px; margin:0 auto; padding:0 16px 40px; color:var(--sub); font-size:11.5px}
 </style>
@@ -118,8 +104,6 @@
       <option value="move_in">입주 빠른순</option>
       <option value="price_asc">분양가 낮은순</option>
       <option value="price_desc">분양가 높은순</option>
-      <option value="jeonse_asc">전세 낮은순</option>
-      <option value="ratio_desc">전세가율 높은순</option>
       <option value="households">세대 많은순</option>
       <option value="gu">지역순</option>
     </select>
@@ -132,10 +116,6 @@
   <div class="empty" id="empty" hidden>조건에 맞는 단지가 없습니다.</div>
 </main>
 
-<div class="share">
-  <button id="jexport">전세가 내보내기(공유)</button>
-  <button id="jimport">전세가 가져오기</button>
-</div>
 <footer id="foot"></footer>
 
 <script>
@@ -155,21 +135,6 @@ const BUDGETS = [
   {key:"b15",   label:"15억↓", max:150000},
   {key:"b15up", label:"15억↑", min:150000, max:Infinity},
 ];
-
-// 전세가는 자동수집 불가 → 카드에서 직접 입력한 값을 브라우저(localStorage)에 저장.
-const JKEY = "estate_jeonse_v1";
-let jstore = {};
-try { jstore = JSON.parse(localStorage.getItem(JKEY) || "{}"); } catch(e) { jstore = {}; }
-function saveJeonse(){ try { localStorage.setItem(JKEY, JSON.stringify(jstore)); } catch(e){} }
-// 입력값(우선) 또는 data.json의 값
-function effLow(x){
-  const v = jstore[x.name] && jstore[x.name].low;
-  return (v!=null && v!=="") ? Number(v) : (x.jeonse_low!=null ? x.jeonse_low : null);
-}
-function effRatio(x){
-  const lo = effLow(x), base = x.bunyang_price_min;
-  return (lo!=null && base) ? Math.round(lo/base*100) : null;
-}
 
 function el(tag, cls, txt){ const e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
 
@@ -208,15 +173,11 @@ function render(){
   let rows = state.all.filter(passes);
   const s = state.sort;
   const pmin = x => (x.bunyang_price_min==null ? Infinity : x.bunyang_price_min);
-  const jlow = x => { const v=effLow(x);   return v==null ? Infinity : v; };  // 값 없으면 뒤로
-  const jrat = x => { const v=effRatio(x); return v==null ? -1 : v; };        // 값 없으면 뒤로
   rows.sort((a,b)=>{
     if(s==="households") return b.households-a.households;
     if(s==="gu") return a.gu.localeCompare(b.gu,"ko") || a.move_in.localeCompare(b.move_in);
     if(s==="price_asc")  return pmin(a)-pmin(b);
     if(s==="price_desc") return (pmin(b)===Infinity?-1:pmin(b)) - (pmin(a)===Infinity?-1:pmin(a));
-    if(s==="jeonse_asc") return jlow(a)-jlow(b);
-    if(s==="ratio_desc") return jrat(b)-jrat(a);
     return a.move_in.localeCompare(b.move_in) || b.households-a.households; // move_in
   });
 
@@ -243,16 +204,6 @@ function render(){
       card.appendChild(p);
     }
 
-    // 전세가 / 전세가율 (카드에서 직접 입력한 값 기준)
-    const elow=effLow(x), erat=effRatio(x);
-    if(elow!=null){
-      const j=el("div","jeonse");
-      let html=`<span class="k">전세</span> <b>${eok(elow)}</b>`;
-      if(erat!=null) html+=` <span class="ratio">전세가율 ${erat}%</span>`;
-      j.innerHTML=html;
-      card.appendChild(j);
-    }
-
     const facts=el("div","facts");
     const f1=el("span"); f1.innerHTML=`<span class="k">입주</span><b>${fmtMonth(x.move_in)}</b>`;
     const f2=el("span"); f2.innerHTML=`<span class="k">세대</span><b>${x.households.toLocaleString()}</b>`;
@@ -271,23 +222,6 @@ function render(){
       card.appendChild(g);
     }
 
-    // 전세가 직접 입력 (브라우저 저장) → 전세가율 자동
-    const jin=el("label","jinput");
-    jin.appendChild(el("span",null,"전세 최저가 입력"));
-    const inp=el("input"); inp.type="number"; inp.inputMode="numeric";
-    inp.placeholder="만원 (예: 55000 = 5.5억)";
-    const cur = jstore[x.name] && jstore[x.name].low;
-    if(cur!=null && cur!=="") inp.value=cur;
-    const commit=()=>{
-      const v=inp.value.trim();
-      if(v==="") delete jstore[x.name]; else jstore[x.name]={low:Number(v)};
-      saveJeonse(); render();
-    };
-    inp.addEventListener("change", commit);
-    inp.addEventListener("keydown", e=>{ if(e.key==="Enter") inp.blur(); });
-    jin.appendChild(inp);
-    card.appendChild(jin);
-
     grid.appendChild(card);
   }
 }
@@ -301,9 +235,8 @@ async function boot(){
     document.getElementById("meta").textContent =
       `${data.source} · 총 ${data.count}개 · 갱신 ${data.generated_at}`;
     document.getElementById("foot").innerHTML =
-      "사용법: 카드의 '전세·매물 보기'로 현재 전세 호가를 확인해 '전세 최저가 입력'에 적으면 " +
-      "전세가율이 자동 계산되고, '전세가율 높은순/전세 낮은순'으로 정렬됩니다. " +
-      "입력값은 이 브라우저에 저장되며, 다른 가족과는 '내보내기/가져오기'로 공유하세요.<br>" +
+      "감시 목록: 서울 하반기 입주예정 단지 + 분양가(청약홈). 각 카드의 '매물 보기'로 " +
+      "그 단지의 현재 전세·매매 호가를 네이버에서 확인하세요.<br>" +
       "출처: 청약홈(한국부동산원) 입주예정·분양정보. 참고용이며 계약 전 현장·공고를 반드시 확인하세요.";
 
     // 월 칩
@@ -335,20 +268,6 @@ document.querySelectorAll(".chip.type").forEach(c=>{
 });
 document.getElementById("q").addEventListener("input", e=>{ state.q=e.target.value; render(); });
 document.getElementById("sort").addEventListener("change", e=>{ state.sort=e.target.value; render(); });
-
-// 전세가 공유(기기 간): 내보내기=클립보드 복사, 가져오기=붙여넣기 병합
-document.getElementById("jexport").addEventListener("click", async ()=>{
-  const txt=JSON.stringify(jstore);
-  if(Object.keys(jstore).length===0){ alert("입력된 전세가가 없습니다."); return; }
-  try{ await navigator.clipboard.writeText(txt); alert("전세가 데이터를 복사했습니다.\n가족에게 전달 후 '가져오기'로 붙여넣게 하세요."); }
-  catch(e){ prompt("아래 내용을 복사해 전달하세요:", txt); }
-});
-document.getElementById("jimport").addEventListener("click", ()=>{
-  const txt=prompt("전달받은 전세가 데이터를 붙여넣으세요:");
-  if(!txt) return;
-  try{ Object.assign(jstore, JSON.parse(txt)); saveJeonse(); render(); alert("가져왔습니다."); }
-  catch(e){ alert("형식이 올바르지 않습니다."); }
-});
 
 boot();
 </script>

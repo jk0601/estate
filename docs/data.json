@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24 12:02",
+  "generated_at": "2026-07-24 15:18",
   "source": "청약홈(한국부동산원) 입주(예정)정보",
   "region": "서울특별시",
   "months": [
@@ -21,11 +21,9 @@
       "move_in": "2026-08",
       "households": 577,
       "id": 1,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EA%B3%A110-2BL%28%EA%B3%B5%EA%B3%B5%EC%9E%84%EB%8C%80%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EA%B3%A110-2BL%28%EA%B3%B5%EA%B3%B5%EC%9E%84%EB%8C%80%29"
     },
     {
       "region": "서울",
@@ -37,11 +35,9 @@
       "move_in": "2026-08",
       "households": 201,
       "id": 2,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EA%B3%A1%EA%B3%B5%EA%B3%B5R%20%26%20D%EC%84%BC%ED%84%B0%EB%8F%84%EC%A0%84%EC%88%99",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EA%B3%A1%EA%B3%B5%EA%B3%B5R%20%26%20D%EC%84%BC%ED%84%B0%EB%8F%84%EC%A0%84%EC%88%99"
     },
     {
       "region": "서울",
@@ -53,11 +49,9 @@
       "move_in": "2026-08",
       "households": 174,
       "id": 3,
-      "naver_url": "https://m.land.naver.com/search/result/%EA%B4%91%EC%A7%84%EA%B5%AC%EA%B5%AC%EC%9D%98%EB%8F%99587-6%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EA%B4%91%EC%A7%84%EA%B5%AC%EA%B5%AC%EC%9D%98%EB%8F%99587-6%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -69,10 +63,7 @@
       "move_in": "2026-08",
       "households": 295,
       "id": 4,
-      "naver_url": "https://m.land.naver.com/complex/info/187379",
       "bunyang_price": 44600,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2024000107",
         "house_nm": "개봉 루브루",
@@ -109,7 +100,8 @@
       ],
       "bunyang_price_min": 44600,
       "bunyang_price_max": 54000,
-      "naver_complex_no": "187379"
+      "naver_complex_no": "187379",
+      "naver_url": "https://m.land.naver.com/complex/info/187379"
     },
     {
       "region": "서울",
@@ -121,10 +113,7 @@
       "move_in": "2026-08",
       "households": 124,
       "id": 5,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EC%9E%91%20%EB%B3%B4%EB%9D%BC%EB%A7%A4%EC%97%AD%20%ED%94%84%EB%A6%AC%EC%84%BC%ED%8A%B8",
       "bunyang_price": 67400,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2024000245",
         "house_nm": "동작 보라매역 프리센트",
@@ -161,7 +150,8 @@
       ],
       "bunyang_price_min": 67400,
       "bunyang_price_max": 68900,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EC%9E%91%20%EB%B3%B4%EB%9D%BC%EB%A7%A4%EC%97%AD%20%ED%94%84%EB%A6%AC%EC%84%BC%ED%8A%B8"
     },
     {
       "region": "서울",
@@ -173,11 +163,9 @@
       "move_in": "2026-08",
       "households": 162,
       "id": 6,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EC%9E%91%EA%B5%AC%EC%82%AC%EB%8B%B9%EB%8F%991008-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EC%9E%91%EA%B5%AC%EC%82%AC%EB%8B%B9%EB%8F%991008-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -189,10 +177,7 @@
       "move_in": "2026-08",
       "households": 2091,
       "id": 7,
-      "naver_url": "https://m.land.naver.com/complex/info/189717",
       "bunyang_price": 200600,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2025000527",
         "house_nm": "반포 래미안 트리니원",
@@ -247,7 +232,8 @@
       ],
       "bunyang_price_min": 200600,
       "bunyang_price_max": 274900,
-      "naver_complex_no": "189717"
+      "naver_complex_no": "189717",
+      "naver_url": "https://m.land.naver.com/complex/info/189717"
     },
     {
       "region": "서울",
@@ -259,11 +245,9 @@
       "move_in": "2026-09",
       "households": 589,
       "id": 8,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%8F%85%EC%82%B0%EB%8F%99292-6%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%8F%85%EC%82%B0%EB%8F%99292-6%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -275,11 +259,9 @@
       "move_in": "2026-09",
       "households": 99,
       "id": 9,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EC%8A%A4%EC%95%A4%EB%94%94%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EC%8A%A4%EC%95%A4%EB%94%94%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -291,10 +273,7 @@
       "move_in": "2026-09",
       "households": 3064,
       "id": 10,
-      "naver_url": "https://m.land.naver.com/complex/info/186598",
       "bunyang_price": 165680,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2024000412",
         "house_nm": "디에이치 방배",
@@ -367,7 +346,8 @@
       ],
       "bunyang_price_min": 165680,
       "bunyang_price_max": 276250,
-      "naver_complex_no": "186598"
+      "naver_complex_no": "186598",
+      "naver_url": "https://m.land.naver.com/complex/info/186598"
     },
     {
       "region": "서울",
@@ -379,11 +359,9 @@
       "move_in": "2026-09",
       "households": 76,
       "id": 11,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EC%84%9C%EC%B4%88%EB%8F%991673-3%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EC%84%9C%EC%B4%88%EB%8F%991673-3%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -395,11 +373,9 @@
       "move_in": "2026-09",
       "households": 266,
       "id": 12,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%8F%99%EA%B5%AC%ED%99%8D%EC%9D%B5%EB%8F%99150%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%8F%99%EA%B5%AC%ED%99%8D%EC%9D%B5%EB%8F%99150%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -411,10 +387,7 @@
       "move_in": "2026-09",
       "households": 199,
       "id": 13,
-      "naver_url": "https://m.land.naver.com/complex/info/167917",
       "bunyang_price": 99400,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2023000457",
         "house_nm": "보문 센트럴 아이파크",
@@ -439,7 +412,8 @@
       ],
       "bunyang_price_min": 99400,
       "bunyang_price_max": 111500,
-      "naver_complex_no": "167917"
+      "naver_complex_no": "167917",
+      "naver_url": "https://m.land.naver.com/complex/info/167917"
     },
     {
       "region": "서울",
@@ -451,10 +425,7 @@
       "move_in": "2026-10",
       "households": 308,
       "id": 14,
-      "naver_url": "https://m.land.naver.com/complex/info/192157",
       "bunyang_price": 129990,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2024000371",
         "house_nm": "래미안 레벤투스",
@@ -509,7 +480,8 @@
       ],
       "bunyang_price_min": 129990,
       "bunyang_price_max": 227680,
-      "naver_complex_no": "192157"
+      "naver_complex_no": "192157",
+      "naver_url": "https://m.land.naver.com/complex/info/192157"
     },
     {
       "region": "서울",
@@ -521,11 +493,9 @@
       "move_in": "2026-10",
       "households": 426,
       "id": 15,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EB%93%9C%EA%B0%80%20%EC%88%98%EC%9C%A0%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EB%93%9C%EA%B0%80%20%EC%88%98%EC%9C%A0%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -537,10 +507,7 @@
       "move_in": "2026-10",
       "households": 543,
       "id": 16,
-      "naver_url": "https://m.land.naver.com/complex/info/178097",
       "bunyang_price": 112400,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2024000688",
         "house_nm": "힐스테이트 등촌역",
@@ -583,7 +550,8 @@
       ],
       "bunyang_price_min": 112400,
       "bunyang_price_max": 145400,
-      "naver_complex_no": "178097"
+      "naver_complex_no": "178097",
+      "naver_url": "https://m.land.naver.com/complex/info/178097"
     },
     {
       "region": "서울",
@@ -595,11 +563,9 @@
       "move_in": "2026-10",
       "households": 46,
       "id": 17,
-      "naver_url": "https://m.land.naver.com/search/result/%ED%95%9C%EB%88%84%EB%A6%AC%EC%A3%BC%EC%B0%A8%EC%9E%A5%28%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%ED%95%9C%EB%88%84%EB%A6%AC%EC%A3%BC%EC%B0%A8%EC%9E%A5%28%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -611,11 +577,9 @@
       "move_in": "2026-10",
       "households": 299,
       "id": 18,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%ED%8F%AC%EA%B5%AC%EC%97%BC%EB%A6%AC%EB%8F%99172-10%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%ED%8F%AC%EA%B5%AC%EC%97%BC%EB%A6%AC%EB%8F%99172-10%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -627,11 +591,9 @@
       "move_in": "2026-10",
       "households": 242,
       "id": 19,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%B6%81%EA%B5%AC%EC%84%9D%EA%B4%80%EB%8F%99173-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%B6%81%EA%B5%AC%EC%84%9D%EA%B4%80%EB%8F%99173-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -643,11 +605,9 @@
       "move_in": "2026-10",
       "households": 415,
       "id": 20,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EB%93%9C%EA%B0%80%20%EB%AF%B8%EC%95%84%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EB%93%9C%EA%B0%80%20%EB%AF%B8%EC%95%84%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -659,10 +619,7 @@
       "move_in": "2026-10",
       "households": 2451,
       "id": 21,
-      "naver_url": "https://m.land.naver.com/complex/info/186117",
       "bunyang_price": 95270,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2025000177",
         "house_nm": "힐스테이트 메디알레",
@@ -729,7 +686,8 @@
       ],
       "bunyang_price_min": 95270,
       "bunyang_price_max": 137820,
-      "naver_complex_no": "186117"
+      "naver_complex_no": "186117",
+      "naver_url": "https://m.land.naver.com/complex/info/186117"
     },
     {
       "region": "서울",
@@ -741,11 +699,9 @@
       "move_in": "2026-10",
       "households": 927,
       "id": 22,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%9E%91%EA%B5%AC%EB%AC%B5%EB%8F%99165%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%9E%91%EA%B5%AC%EB%AC%B5%EB%8F%99165%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -757,11 +713,9 @@
       "move_in": "2026-10",
       "households": 724,
       "id": 23,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%9E%91%EA%B5%AC%EB%AC%B5%EB%8F%998%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%9E%91%EA%B5%AC%EB%AC%B5%EB%8F%998%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -773,11 +727,9 @@
       "move_in": "2026-10",
       "households": 299,
       "id": 24,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%9E%91%EA%B5%AC%EC%83%81%EB%B4%89%EB%8F%99116-49%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%9E%91%EA%B5%AC%EC%83%81%EB%B4%89%EB%8F%99116-49%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -789,10 +741,7 @@
       "move_in": "2026-11",
       "households": 215,
       "id": 25,
-      "naver_url": "https://m.land.naver.com/complex/info/171298",
       "bunyang_price": 127202,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2024000226",
         "house_nm": "강변역 센트럴 아이파크",
@@ -829,7 +778,8 @@
       ],
       "bunyang_price_min": 127202,
       "bunyang_price_max": 196230,
-      "naver_complex_no": "171298"
+      "naver_complex_no": "171298",
+      "naver_url": "https://m.land.naver.com/complex/info/171298"
     },
     {
       "region": "서울",
@@ -841,11 +791,9 @@
       "move_in": "2026-11",
       "households": 608,
       "id": 26,
-      "naver_url": "https://m.land.naver.com/search/result/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%20%EB%8F%99%EC%9E%91%20%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B3%90",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%20%EB%8F%99%EC%9E%91%20%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B3%90"
     },
     {
       "region": "서울",
@@ -857,10 +805,7 @@
       "move_in": "2026-11",
       "households": 123,
       "id": 27,
-      "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD%20%EC%84%BC%ED%8A%B8%EB%9F%B4%20%EC%95%84%EB%A5%B4%EB%96%BC%20%ED%95%B4%EB%AA%A8%EB%A1%9C",
       "bunyang_price": 62260,
-      "jeonse_low": null,
-      "listings_count": null,
       "pblanc": {
         "pblanc_no": "2025000388",
         "house_nm": "홍대입구역 센트럴 아르떼 해모로",
@@ -909,7 +854,8 @@
       ],
       "bunyang_price_min": 62260,
       "bunyang_price_max": 99670,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD%20%EC%84%BC%ED%8A%B8%EB%9F%B4%20%EC%95%84%EB%A5%B4%EB%96%BC%20%ED%95%B4%EB%AA%A8%EB%A1%9C"
     },
     {
       "region": "서울",
@@ -921,11 +867,9 @@
       "move_in": "2026-11",
       "households": 192,
       "id": 28,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EC%96%91%EC%9E%AC%EB%8F%99%EC%82%B017-7%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EC%96%91%EC%9E%AC%EB%8F%99%EC%82%B017-7%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -937,11 +881,9 @@
       "move_in": "2026-12",
       "households": 157,
       "id": 29,
-      "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%84%9C%EA%B5%AC%EA%B3%B5%ED%95%AD%EB%8F%9950-5%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%84%9C%EA%B5%AC%EA%B3%B5%ED%95%AD%EB%8F%9950-5%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -953,11 +895,9 @@
       "move_in": "2026-12",
       "households": 302,
       "id": 30,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EB%8D%94%ED%94%84%EB%A0%88%EC%8A%A4%ED%8B%B0%EC%A7%80",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EB%8D%94%ED%94%84%EB%A0%88%EC%8A%A4%ED%8B%B0%EC%A7%80"
     },
     {
       "region": "서울",
@@ -969,11 +909,9 @@
       "move_in": "2026-12",
       "households": 180,
       "id": 31,
-      "naver_url": "https://m.land.naver.com/search/result/%EA%B8%88%EC%B2%9C%EA%B5%AC%EC%8B%9C%ED%9D%A5%EB%8F%99103-3%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EA%B8%88%EC%B2%9C%EA%B5%AC%EC%8B%9C%ED%9D%A5%EB%8F%99103-3%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -985,11 +923,9 @@
       "move_in": "2026-12",
       "households": 288,
       "id": 32,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%EC%B0%BD%EC%B2%9C%EB%8F%99502-11%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%EC%B0%BD%EC%B2%9C%EB%8F%99502-11%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "서울",
@@ -1001,11 +937,9 @@
       "move_in": "2026-12",
       "households": 1670,
       "id": 33,
-      "naver_url": "https://m.land.naver.com/complex/info/174098",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": "174098"
+      "naver_complex_no": "174098",
+      "naver_url": "https://m.land.naver.com/complex/info/174098"
     },
     {
       "region": "서울",
@@ -1017,11 +951,9 @@
       "move_in": "2026-12",
       "households": 484,
       "id": 34,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%86%A1%ED%8C%8C%EA%B5%AC%EC%9E%A5%EC%A7%80%EB%8F%99842-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29",
       "bunyang_price": null,
-      "jeonse_low": null,
-      "listings_count": null,
-      "naver_complex_no": null
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%86%A1%ED%8C%8C%EA%B5%AC%EC%9E%A5%EC%A7%80%EB%8F%99842-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
     }
   ]
 }

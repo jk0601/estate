@@ -8,24 +8,21 @@
 
 동작:
   1) 청약홈 '입주예정정보'에서 서울 + 지정 기간(기본 2026-08~12) 단지 수집
-  2) 각 단지에 네이버 부동산 모바일 검색 링크 부착(휴대폰에서 바로 현재 매물 확인용)
-  3) docs/data.json 으로 저장  ->  docs/index.html 이 읽어 화면에 뿌림
-
-분양가/입주전세가 자동 매칭(2·3단계)은 이후 확장 지점(TODO)으로 비워둠.
+  2) 청약홈 분양정보 API로 분양 단지의 평형별 분양가 보강
+  3) 각 단지에 네이버 단지번호 딥링크 부착 -> docs/data.json 저장
 """
 
 from __future__ import annotations
 
 import json
 import sys
-import urllib.parse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 from cheongyak import collect_seoul  # noqa: E402
 from bunyang import enrich_complexes  # noqa: E402  (2단계: 분양정보 보강)
-from naver import enrich_naver        # noqa: E402  (3단계: 네이버 딥링크 + 전세가율)
+from naver import enrich_naver        # noqa: E402  (3단계: 네이버 매물 딥링크)
 
 # ---- 설정 -----------------------------------------------------------------
 TARGET_MONTHS = ["2026-08", "2026-09", "2026-10", "2026-11", "2026-12"]
@@ -36,20 +33,10 @@ KST = timezone(timedelta(hours=9))
 # ---------------------------------------------------------------------------
 
 
-def naver_search_url(name: str) -> str:
-    """네이버 부동산 모바일 검색 링크(단지명으로 현재 매물 조회)."""
-    return "https://m.land.naver.com/search/result/" + urllib.parse.quote(name)
-
-
 def enrich(rows: list[dict]) -> list[dict]:
     for i, r in enumerate(rows):
         r["id"] = i + 1
-        r["naver_url"] = naver_search_url(r["name"])
-        # 2단계에서 청약홈 분양정보 API로 채울 자리
-        r["bunyang_price"] = None      # 평형별 분양가(만원)
-        # 3단계에서 네이버 매물 스크래핑으로 채울 자리
-        r["jeonse_low"] = None         # 현재 최저 전세 호가(만원)
-        r["listings_count"] = None     # 현재 매물 수
+        r["bunyang_price"] = None      # 2단계(분양정보 API)에서 채움
     return rows
 
 
@@ -64,7 +51,7 @@ def main() -> int:
     except Exception as e:  # noqa: BLE001  파이프라인은 절대 깨지지 않게
         print(f"  [분양정보] 보강 생략: {e}")
 
-    # 3단계: 네이버 단지번호 딥링크 + (전세 시트 있으면) 전세가율
+    # 3단계: 네이버 단지번호 딥링크(단지별 매물 바로가기)
     try:
         rows = enrich_naver(rows)
     except Exception as e:  # noqa: BLE001
