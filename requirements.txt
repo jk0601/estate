@@ -1,2 +1,3 @@
 requests>=2.31
 beautifulsoup4>=4.12
+playwright>=1.40     # 전세 동향 추적기(watch/scrape.py)용. 설치 후: python -m playwright install chromium

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>전세 동향 · 힐스테이트 메디알레</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --card:#fff; --ink:#1a1d21; --sub:#6b7280; --line:#e5e7eb;
+    --brand:#1f6feb; --up:#d92d20; --down:#0a7f4f; --new:#8a5a00;
+    --up-bg:#fdeceb; --down-bg:#e7f6ee; --new-bg:#fbf1dd; --shadow:0 1px 3px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){:root{
+    --bg:#0e1116; --card:#171b22; --ink:#e6e8eb; --sub:#9aa4b2; --line:#262c36;
+    --brand:#4d8bff; --up:#ff6a5e; --down:#4ade80; --new:#e0b25a;
+    --up-bg:#2a1512; --down-bg:#12251b; --new-bg:#2a2110; --shadow:0 1px 3px rgba(0,0,0,.4);}}
+  *{box-sizing:border-box} html,body{margin:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.45; -webkit-text-size-adjust:100%}
+  .wrap{max-width:900px; margin:0 auto; padding:16px}
+  h1{font-size:19px; margin:0 0 3px; letter-spacing:-.02em}
+  .meta{font-size:12.5px; color:var(--sub); margin-bottom:14px}
+  .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:16px}
+  .stat{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px; box-shadow:var(--shadow)}
+  .stat .l{font-size:11.5px; color:var(--sub)} .stat .v{font-size:20px; font-weight:800; letter-spacing:-.02em}
+  .stat .d{font-size:11.5px; font-weight:700; margin-top:2px}
+  .up{color:var(--up)} .down{color:var(--down)} .newc{color:var(--new)}
+  section{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:14px; box-shadow:var(--shadow)}
+  h2{font-size:14px; margin:0 0 10px}
+  .ctrl{display:flex; gap:8px; align-items:center; margin-bottom:10px; font-size:12.5px; color:var(--sub); flex-wrap:wrap}
+  .ctrl select{font-size:12.5px; padding:5px 8px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--ink)}
+  .tbl-scroll{overflow-x:auto}
+  table{border-collapse:collapse; width:100%; font-size:12.5px; min-width:560px}
+  th,td{padding:8px 6px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap}
+  th{color:var(--sub); font-weight:600; font-size:11.5px; position:sticky; top:0; background:var(--card)}
+  td.price{font-weight:800; font-size:13.5px}
+  .badge{font-size:10.5px; font-weight:700; padding:1px 6px; border-radius:999px}
+  .b-new{background:var(--new-bg); color:var(--new)} .b-up{background:var(--up-bg); color:var(--up)}
+  .b-down{background:var(--down-bg); color:var(--down)}
+  .gone td{color:var(--sub); text-decoration:line-through}
+  .empty{color:var(--sub); font-size:13px; padding:8px 0}
+  svg{width:100%; height:auto; display:block}
+  .legend{display:flex; gap:14px; font-size:11.5px; color:var(--sub); margin-top:6px}
+  .dot{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:4px; vertical-align:middle}
+  footer{color:var(--sub); font-size:11px; margin-top:8px}
+  a.home{color:var(--brand); font-size:12.5px; text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>힐스테이트 메디알레 · 34평 이하 전세 동향</h1>
+  <div class="meta" id="meta">불러오는 중…</div>
+
+  <div class="cards" id="cards"></div>
+
+  <section>
+    <h2>전세가 추이 <span style="font-weight:400;color:var(--sub);font-size:12px">(고유 호실 기준)</span></h2>
+    <div id="chart"></div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--brand)"></span>최저가</span>
+      <span><span class="dot" style="background:var(--sub)"></span>평균</span>
+    </div>
+  </section>
+
+  <section>
+    <div class="ctrl">
+      <label>보기
+        <select id="mode">
+          <option value="unit">고유 호실(동·층·평·방향)</option>
+          <option value="all">전체 매물(중개사별)</option>
+        </select>
+      </label>
+      <span id="tcount"></span>
+    </div>
+    <div class="tbl-scroll"><table id="tbl"></table></div>
+  </section>
+
+  <section id="goneSec" hidden>
+    <h2>어제 있다가 오늘 사라진 호실 <span id="goneCnt" style="color:var(--down)"></span></h2>
+    <div class="tbl-scroll"><table id="goneTbl"></table></div>
+    <div class="empty">※ 사라짐 = 계약됐거나 매물이 내려간 것일 수 있습니다.</div>
+  </section>
+
+  <footer>
+    출처: 네이버 부동산(개인 참고용, 저빈도 수집). 표시가는 호가이며 실제 계약가와 다를 수 있습니다.
+    실제 계약 전 현장·중개사 확인 필수. · <a class="home" href="./index.html">← 입주예정 단지 목록</a>
+  </footer>
+</div>
+
+<script>
+const won = m => m==null ? "-" : (m>=10000 ? (m%10000? (Math.floor(m/10000)+"억"+(m%10000).toLocaleString()) : Math.floor(m/10000)+"억") : m.toLocaleString()+"만");
+const unitKey = x => `${x.dong}|${x.floor}|${x.pyeong}|${x.direction}`;
+
+// 날짜별 listings -> 고유 호실맵(최저가 기준)
+function unitsOf(listings){
+  const m = new Map();
+  for(const x of listings){
+    const k = unitKey(x);
+    const cur = m.get(k);
+    if(!cur || (x.price||9e9) < (cur.price||9e9))
+      m.set(k, {...x, agents: (cur?cur.agents:0)+1});
+    else cur.agents++;
+  }
+  return m;
+}
+
+let DATA, DATES, TODAY, PREV;
+
+function render(){
+  const mode = document.getElementById("mode").value;
+  const todayListings = DATA.history[TODAY].listings;
+  const prevListings = PREV ? DATA.history[PREV].listings : [];
+  const uToday = unitsOf(todayListings), uPrev = unitsOf(prevListings);
+
+  const tbl = document.getElementById("tbl");
+  let rows, header;
+  if(mode==="unit"){
+    header = `<tr><th>평</th><th>전세가</th><th>변동</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>특징</th></tr>`;
+    rows = [...uToday.values()].sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(u=>{
+      const p = uPrev.get(unitKey(u));
+      let badge="";
+      if(!p) badge = `<span class="badge b-new">신규</span>`;
+      else if(u.price>p.price) badge = `<span class="badge b-up">▲${won(u.price-p.price)}</span>`;
+      else if(u.price<p.price) badge = `<span class="badge b-down">▼${won(p.price-u.price)}</span>`;
+      return `<tr><td>${u.pyeong}평</td><td class="price">${won(u.price)}</td><td>${badge}</td>
+        <td>${u.dong||"-"}</td><td>${u.floor||"-"}</td><td>${u.direction||"-"}</td>
+        <td>${u.agents}곳</td><td>${(u.feature||"").slice(0,22)}</td></tr>`;
+    }).join("");
+    document.getElementById("tcount").textContent = `고유 호실 ${uToday.size}개`;
+  } else {
+    header = `<tr><th>평</th><th>전세가</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>확인일</th></tr>`;
+    rows = todayListings.slice().sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(x=>
+      `<tr><td>${x.pyeong}평</td><td class="price">${won(x.price)}</td><td>${x.dong||"-"}</td>
+       <td>${x.floor||"-"}</td><td>${x.direction||"-"}</td><td>${(x.realtor||"").slice(0,12)}</td>
+       <td>${x.confirm||"-"}</td></tr>`).join("");
+    document.getElementById("tcount").textContent = `전체 매물 ${todayListings.length}건`;
+  }
+  tbl.innerHTML = header + rows;
+
+  // 사라진 호실
+  const goneSec=document.getElementById("goneSec");
+  if(PREV){
+    const gone=[...uPrev.values()].filter(u=>!uToday.has(unitKey(u))).sort((a,b)=>(a.price||9e9)-(b.price||9e9));
+    if(gone.length){
+      goneSec.hidden=false;
+      document.getElementById("goneCnt").textContent = `${gone.length}건`;
+      document.getElementById("goneTbl").innerHTML =
+        `<tr><th>평</th><th>전세가</th><th>동</th><th>층</th><th>방향</th></tr>` +
+        gone.map(u=>`<tr class="gone"><td>${u.pyeong}평</td><td>${won(u.price)}</td><td>${u.dong||"-"}</td><td>${u.floor||"-"}</td><td>${u.direction||"-"}</td></tr>`).join("");
+    } else goneSec.hidden=true;
+  }
+}
+
+function statCards(){
+  const s = k => { const u=[...unitsOf(DATA.history[k].listings).values()].map(x=>x.price).filter(Boolean);
+    return {count:unitsOf(DATA.history[k].listings).size, min:u.length?Math.min(...u):null, avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null}; };
+  const t=s(TODAY), p=PREV?s(PREV):null;
+  const delta=(now,was)=> (was==null||now==null)?"" :
+    now===was ? `<span class="d">어제와 동일</span>` :
+    now<was ? `<span class="d down">▼ ${won(was-now)} ↓</span>` : `<span class="d up">▲ ${won(now-was)} ↑</span>`;
+  document.getElementById("cards").innerHTML = `
+    <div class="stat"><div class="l">최저 전세가</div><div class="v">${won(t.min)}</div>${p?delta(t.min,p.min):""}</div>
+    <div class="stat"><div class="l">평균(고유호실)</div><div class="v">${won(t.avg)}</div>${p?delta(t.avg,p.avg):""}</div>
+    <div class="stat"><div class="l">고유 호실 수</div><div class="v">${t.count}</div>${p?`<span class="d ${t.count<p.count?'down':t.count>p.count?'up':''}">${p.count}→${t.count}</span>`:""}</div>`;
+}
+
+function chart(){
+  const W=860, H=200, padL=54, padR=14, padT=14, padB=26;
+  const series = DATES.map(dt=>{
+    const u=[...unitsOf(DATA.history[dt].listings).values()].map(x=>x.price).filter(Boolean);
+    return {dt, min:u.length?Math.min(...u):null, avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null};
+  });
+  const vals = series.flatMap(s=>[s.min,s.avg]).filter(v=>v!=null);
+  if(!vals.length){ document.getElementById("chart").innerHTML="<div class='empty'>데이터 없음</div>"; return; }
+  let lo=Math.min(...vals), hi=Math.max(...vals); if(lo===hi){lo-=1000;hi+=1000;}
+  const pad=(hi-lo)*0.15; lo-=pad; hi+=pad;
+  const n=series.length;
+  const X=i=> n===1 ? (padL+(W-padL-padR)/2) : padL + i*(W-padL-padR)/(n-1);
+  const Y=v=> padT + (1-(v-lo)/(hi-lo))*(H-padT-padB);
+  const line=(key,color)=>{
+    const pts=series.map((s,i)=> s[key]==null?null:`${X(i)},${Y(s[key])}`).filter(Boolean);
+    const path=pts.map((p,i)=>(i?"L":"M")+p).join(" ");
+    const dots=series.map((s,i)=> s[key]==null?"":`<circle cx="${X(i)}" cy="${Y(s[key])}" r="3.2" fill="${color}"/>`).join("");
+    return `<path d="${path}" fill="none" stroke="${color}" stroke-width="2"/>${dots}`;
+  };
+  // y 눈금 3개
+  const ticks=[lo+(hi-lo)*0.1, (lo+hi)/2, hi-(hi-lo)*0.1].map(v=>
+    `<line x1="${padL}" y1="${Y(v)}" x2="${W-padR}" y2="${Y(v)}" stroke="var(--line)" stroke-width="1"/>
+     <text x="${padL-6}" y="${Y(v)+3}" text-anchor="end" font-size="10" fill="var(--sub)">${won(Math.round(v))}</text>`).join("");
+  const xlab=series.map((s,i)=>`<text x="${X(i)}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="var(--sub)">${s.dt.slice(5)}</text>`).join("");
+  document.getElementById("chart").innerHTML =
+    `<svg viewBox="0 0 ${W} ${H}" role="img">${ticks}${xlab}${line("avg","var(--sub)")}${line("min","var(--brand)")}</svg>`;
+}
+
+async function boot(){
+  try{
+    const r = await fetch("./watch_data.json?_="+Date.now());
+    DATA = await r.json();
+    DATES = Object.keys(DATA.history).sort();
+    TODAY = DATES[DATES.length-1]; PREV = DATES.length>1 ? DATES[DATES.length-2] : null;
+    document.getElementById("meta").textContent =
+      `${DATA.filter} · ${DATES.length}일 수집 · 최신 ${DATA.updated}` + (PREV?` (어제=${PREV} 대비)`:" · 첫 수집");
+    statCards(); chart(); render();
+    document.getElementById("mode").addEventListener("change", render);
+  }catch(e){ document.getElementById("meta").textContent="데이터를 불러오지 못했습니다: "+e; }
+}
+boot();
+</script>
+</body>
+</html>
