@@ -132,12 +132,17 @@ function render(){
   const prevListings = PREV ? L(PREV) : [];
   const uToday = unitsOf(todayListings), uPrev = unitsOf(prevListings);
 
+  // 매매는 프리미엄 낮은순, 전세는 가격 낮은순 (값 없으면 뒤로)
+  const sortKey = curTrade==="매매"
+    ? (x => { const P=premOf(x); return P==null ? 9e15 : P; })
+    : (x => x.price==null ? 9e15 : x.price);
+
   const tbl = document.getElementById("tbl");
   let rows, header;
   if(mode==="unit"){
     const prem = curTrade==="매매";
     header = `<tr><th>평</th><th>${priceLabel()}</th>${prem?"<th>프리미엄</th>":""}<th>변동</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>특징</th></tr>`;
-    rows = [...uToday.values()].sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(u=>{
+    rows = [...uToday.values()].sort((a,b)=>sortKey(a)-sortKey(b)).map(u=>{
       const p = uPrev.get(unitKey(u));
       let badge="";
       if(!p) badge = `<span class="badge b-new">신규</span>`;
@@ -155,7 +160,7 @@ function render(){
     document.getElementById("tcount").textContent = `고유 호실 ${uToday.size}개` + (prem?" · 프리미엄=매매가−분양가":"");
   } else {
     header = `<tr><th>평</th><th>${priceLabel()}</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>확인일</th></tr>`;
-    rows = todayListings.slice().sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(x=>
+    rows = todayListings.slice().sort((a,b)=>sortKey(a)-sortKey(b)).map(x=>
       `<tr><td>${x.pyeong}평</td><td class="price">${won(x.price)}</td><td>${x.dong||"-"}</td>
        <td>${x.floor||"-"}</td><td>${x.direction||"-"}</td><td>${(x.realtor||"").slice(0,12)}</td>
        <td>${x.confirm||"-"}</td></tr>`).join("");
