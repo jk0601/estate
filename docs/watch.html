@@ -129,7 +129,8 @@ function unitsOf(listings){
 }
 
 let DATA, DATES, TODAY, PREV, curTrade="전세", curComplex=null;
-const HIST = () => DATA.complexes[curComplex].history;
+const CX = () => DATA.complexes.find(c => c.complex_no===curComplex);
+const HIST = () => CX().history;
 const L = dt => (HIST()[dt].listings || []).filter(x => (x.trade||"전세")===curTrade);
 const priceLabel = () => curTrade==="매매" ? "매매가" : "전세가";
 const hasBunyang = () => (HIST()[TODAY].listings || []).some(x => x.bunyang);
@@ -267,7 +268,7 @@ function renderCharts(){
 }
 
 function setComplex(){
-  const c = DATA.complexes[curComplex];
+  const c = CX();
   DATES = Object.keys(c.history).sort();
   TODAY = DATES[DATES.length-1]; PREV = DATES.length>1 ? DATES[DATES.length-2] : null;
   document.getElementById("h1name").textContent = c.name;
@@ -279,11 +280,11 @@ async function boot(){
   try{
     const r = await fetch("./watch_data.json?_="+Date.now());
     DATA = await r.json();
-    const list = Object.values(DATA.complexes);
+    const list = DATA.complexes;   // 배열(순서 보존)
     curComplex = list[0].complex_no;
 
     const cxSel = document.getElementById("cx");
-    list.forEach(c=>{ const o=el("option"); o.value=c.complex_no; o.textContent=c.name; cxSel.appendChild(o); });
+    list.forEach(c=>{ const o=document.createElement("option"); o.value=c.complex_no; o.textContent=c.name; cxSel.appendChild(o); });
     cxSel.value = curComplex;
     cxSel.addEventListener("change", ()=>{ curComplex=cxSel.value; setComplex(); });
 

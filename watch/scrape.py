@@ -185,34 +185,44 @@ def collect_one(complex_no: str, name: str, today: str) -> dict:
     return {"listings": listings, "stats": js}
 
 
-def load_data() -> dict:
-    """기존 watch_data.json 로드 + 구(단일단지) 구조 자동 마이그레이션."""
-    data = {"filter": f"{int(MAX_PYEONG)}평 이하 (매매·전세)", "complexes": {}}
-    if OUT.exists():
-        old = json.loads(OUT.read_text(encoding="utf-8"))
-        if "complexes" in old:
-            data = old
-        elif "history" in old:   # 구 단일단지 포맷 -> 이전
-            no = old.get("complex_no")
-            data["complexes"] = {no: {"name": old.get("complex"),
-                                      "complex_no": no, "history": old["history"]}}
-    data.setdefault("complexes", {})
-    return data
+def load_complexes_map() -> dict:
+    """기존 watch_data.json에서 단지별 history를 dict{no: entry}로 로드(+구포맷 마이그레이션).
+
+    참고: JSON 저장은 배열(complexes: [...])로 하되, JS가 숫자형 키를 오름차순 재정렬하는
+    문제를 피한다. 로드 시엔 dict로 다루고, 저장 시 COMPLEXES 순서 배열로 쓴다.
+    """
+    m = {}
+    if not OUT.exists():
+        return m
+    old = json.loads(OUT.read_text(encoding="utf-8"))
+    cx = old.get("complexes")
+    if isinstance(cx, list):
+        for e in cx:
+            m[e.get("complex_no")] = e
+    elif isinstance(cx, dict):
+        m = dict(cx)
+    elif "history" in old:   # 아주 옛 단일단지 포맷
+        no = old.get("complex_no")
+        m[no] = {"name": old.get("complex"), "complex_no": no, "history": old["history"]}
+    return m
 
 
 def main() -> int:
     print(f"[수집] {int(MAX_PYEONG)}평 이하 (매매·전세) · 단지 {len(COMPLEXES)}곳 …")
     today = datetime.now(KST).strftime("%Y-%m-%d")
-    data = load_data()
-    data["filter"] = f"{int(MAX_PYEONG)}평 이하 (매매·전세)"
-    data["updated"] = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
+    existing = load_complexes_map()
 
+    complexes = []   # 배열: COMPLEXES 순서 유지 (화면 드롭다운/기본선택 순서)
     for cx in COMPLEXES:
         no, name = cx["no"], cx["name"]
-        snap = collect_one(no, name, today)
-        entry = data["complexes"].setdefault(no, {"name": name, "complex_no": no, "history": {}})
+        entry = existing.get(no, {"name": name, "complex_no": no, "history": {}})
         entry["name"] = name
-        entry.setdefault("history", {})[today] = snap
+        entry.setdefault("history", {})[today] = collect_one(no, name, today)
+        complexes.append(entry)
+
+    data = {"filter": f"{int(MAX_PYEONG)}평 이하 (매매·전세)",
+            "updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
+            "complexes": complexes}
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
