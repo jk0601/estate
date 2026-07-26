@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-힐스테이트 메디알레(186117) '34평 이하 전세' 매물 일별 동향 수집기.
+힐스테이트 메디알레(186117) '34평 이하 매매·전세' 매물 일별 동향 수집기.
 
 방식: Playwright로 네이버 부동산(new.land) 단지 페이지를 실제 브라우저로 열어
       SPA가 쓰는 인증 토큰을 확보한 뒤, '페이지 내부 fetch'로 전 페이지를 수집.
@@ -27,7 +27,8 @@ from playwright.sync_api import sync_playwright
 COMPLEX_NO = "186117"
 COMPLEX_NAME = "힐스테이트 메디알레"
 MAX_PYEONG = 34.9          # 34평 이하
-TRADE = "B1"               # B1=전세
+TRADES = "A1:B1"           # A1=매매, B1=전세 (둘 다 수집)
+WANT_TRADE = {"매매", "전세"}
 OUT = Path(__file__).resolve().parent.parent / "docs" / "watch_data.json"
 KST = timezone(timedelta(hours=9))
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -62,44 +63,55 @@ def fetch_articles() -> list[dict]:
                              viewport={"width": 1280, "height": 900})
         page = ctx.new_page()
         page.on("request", on_request)
-        page.goto(f"https://new.land.naver.com/complexes/{COMPLEX_NO}?tradeType={TRADE}",
+        page.goto(f"https://new.land.naver.com/complexes/{COMPLEX_NO}?tradeType=A1",
                   wait_until="networkidle", timeout=45000)
         page.wait_for_timeout(2500)
-        base = re.sub(r"[?&]page=\d+", "", first.get("url", ""))
         token = auth.get("t", "")
-        if not base or not token:
+        if not first.get("url") or not token:
             br.close()
             raise RuntimeError("네이버 토큰/URL 확보 실패 (구조 변경 또는 차단 가능)")
-        result = page.evaluate(
-            """async ({base, token}) => {
-                const out=[];
-                for(let pg=1; pg<=10; pg++){
-                    const sep = base.includes('?') ? '&' : '?';
-                    const r = await fetch(base+sep+'page='+pg, {headers:{authorization:token}});
-                    if(!r.ok){ out.push({__err:r.status}); break; }
-                    const d = await r.json();
-                    out.push(d);
-                    if(!d.isMoreData) break;
-                }
-                return out;
-            }""", {"base": base, "token": token})
-        br.close()
+        # SPA가 쓰던 realEstateType 유지. tradeType은 A1(매매)/B1(전세) 각각 요청.
+        # sameAddressGroup=true: 같은 호실을 여러 중개사가 올린 중복을 묶음(앱과 동일)
+        m = re.search(r"realEstateType=([^&]*)", first["url"])
+        ret = m.group(1) if m else "APT%3AABYG%3AJGC%3APRE"
 
-    arts = []
-    for d in result:
-        if d.get("__err"):
-            raise RuntimeError(f"매물 조회 실패 HTTP {d['__err']}")
-        arts += (d.get("articleList") or [])
+        def build(tt):
+            return (f"https://new.land.naver.com/api/articles/complex/{COMPLEX_NO}"
+                    f"?realEstateType={ret}&tradeType={tt}&order=prc"
+                    f"&complexNo={COMPLEX_NO}&sameAddressGroup=true")
+
+        arts = []
+        for tt in ("A1", "B1"):   # 매매, 전세
+            res = page.evaluate(
+                """async ({base, token}) => {
+                    const out=[];
+                    for(let pg=1; pg<=40; pg++){
+                        const r = await fetch(base+'&page='+pg, {headers:{authorization:token}});
+                        if(!r.ok){ out.push({__err:r.status}); break; }
+                        const d = await r.json();
+                        out.push(d);
+                        if(!d.isMoreData) break;
+                    }
+                    return out;
+                }""", {"base": build(tt), "token": token})
+            for d in res:
+                if d.get("__err"):
+                    br.close()
+                    raise RuntimeError(f"매물 조회 실패 HTTP {d['__err']} (tradeType={tt})")
+                arts += (d.get("articleList") or [])
+        br.close()
     return arts
 
 
 def to_listing(a: dict) -> dict | None:
     a1 = a.get("area1")
     pyeong = round(a1 / 3.3058, 1) if a1 else None
-    if a.get("tradeTypeName") != "전세" or pyeong is None or pyeong > MAX_PYEONG:
+    trade = a.get("tradeTypeName")
+    if trade not in WANT_TRADE or pyeong is None or pyeong > MAX_PYEONG:
         return None
     price = parse_price(a.get("dealOrWarrantPrc"))
     return {
+        "trade": trade,                       # 매매 / 전세
         "articleNo": a.get("articleNo"),
         "dong": a.get("buildingName"),
         "pyeong": pyeong,
@@ -127,26 +139,30 @@ def stats(listings: list[dict]) -> dict:
 
 
 def main() -> int:
-    print(f"[수집] {COMPLEX_NAME} {MAX_PYEONG}평 이하 전세 …")
+    print(f"[수집] {COMPLEX_NAME} {int(MAX_PYEONG)}평 이하 (매매·전세) …")
     arts = fetch_articles()
     listings = [x for x in (to_listing(a) for a in arts) if x]
-    listings.sort(key=lambda x: (x["price"] or 9_9999_9999, x["dong"] or ""))
+    listings.sort(key=lambda x: (x["trade"], x["price"] or 9_9999_9999, x["dong"] or ""))
     today = datetime.now(KST).strftime("%Y-%m-%d")
 
     data = {"complex": COMPLEX_NAME, "complex_no": COMPLEX_NO,
-            "filter": f"{int(MAX_PYEONG)}평 이하 전세", "history": {}}
+            "filter": f"{int(MAX_PYEONG)}평 이하 (매매·전세)", "history": {}}
     if OUT.exists():
         data = json.loads(OUT.read_text(encoding="utf-8"))
         data.setdefault("history", {})
+    data["filter"] = f"{int(MAX_PYEONG)}평 이하 (매매·전세)"
 
     data["updated"] = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
-    data["history"][today] = {"listings": listings, "stats": stats(listings)}
+    # 하위호환: stats는 전세 기준으로 저장(화면은 매매/전세 각자 재계산)
+    jeonse = [x for x in listings if x["trade"] == "전세"]
+    data["history"][today] = {"listings": listings, "stats": stats(jeonse)}
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    s = data["history"][today]["stats"]
-    lo = f"{s['min']//10000}억{s['min']%10000 or ''}" if s["min"] else "-"
-    print(f"[완료] {today}: {s['count']}건, 최저 {lo}  →  {OUT}")
+    n_sale = sum(1 for x in listings if x["trade"] == "매매")
+    js = stats(jeonse)
+    lo = f"{js['min']//10000}억{js['min']%10000 or ''}" if js["min"] else "-"
+    print(f"[완료] {today}: 전세 {len(jeonse)} (최저 {lo}) / 매매 {n_sale}  →  {OUT}")
     return 0
 
 

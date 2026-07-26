@@ -19,7 +19,11 @@
     background:var(--bg); color:var(--ink); line-height:1.45; -webkit-text-size-adjust:100%}
   .wrap{max-width:900px; margin:0 auto; padding:16px}
   h1{font-size:19px; margin:0 0 3px; letter-spacing:-.02em}
-  .meta{font-size:12.5px; color:var(--sub); margin-bottom:14px}
+  .meta{font-size:12.5px; color:var(--sub); margin-bottom:10px}
+  .trade{display:flex; gap:8px; margin:0 0 14px}
+  .trade .tt{font-size:14px; font-weight:700; padding:8px 24px; border-radius:999px;
+    border:1px solid var(--line); background:var(--card); color:var(--ink); cursor:pointer}
+  .trade .tt.on{background:var(--brand); color:#fff; border-color:var(--brand)}
   .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:16px}
   .stat{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px; box-shadow:var(--shadow)}
   .stat .l{font-size:11.5px; color:var(--sub)} .stat .v{font-size:20px; font-weight:800; letter-spacing:-.02em}
@@ -48,8 +52,13 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>힐스테이트 메디알레 · 34평 이하 전세 동향</h1>
+  <h1>힐스테이트 메디알레 · 34평 이하 매매·전세 동향</h1>
   <div class="meta" id="meta">불러오는 중…</div>
+
+  <div class="trade" id="trade">
+    <button class="tt on" data-t="전세">전세</button>
+    <button class="tt" data-t="매매">매매</button>
+  </div>
 
   <div class="cards" id="cards"></div>
 
@@ -104,18 +113,27 @@ function unitsOf(listings){
   return m;
 }
 
-let DATA, DATES, TODAY, PREV;
+let DATA, DATES, TODAY, PREV, curTrade="전세";
+const L = dt => (DATA.history[dt].listings || []).filter(x => (x.trade||"전세")===curTrade);
+const priceLabel = () => curTrade==="매매" ? "매매가" : "전세가";
+function redraw(){ statCards(); chart(); render(); }
+function setMeta(){
+  const n = L(TODAY).length;
+  document.getElementById("meta").textContent =
+    `${DATA.filter} · ${curTrade} ${n}건 · ${DATES.length}일 수집 · 최신 ${DATA.updated}`
+    + (PREV ? ` (어제=${PREV} 대비)` : " · 첫 수집");
+}
 
 function render(){
   const mode = document.getElementById("mode").value;
-  const todayListings = DATA.history[TODAY].listings;
-  const prevListings = PREV ? DATA.history[PREV].listings : [];
+  const todayListings = L(TODAY);
+  const prevListings = PREV ? L(PREV) : [];
   const uToday = unitsOf(todayListings), uPrev = unitsOf(prevListings);
 
   const tbl = document.getElementById("tbl");
   let rows, header;
   if(mode==="unit"){
-    header = `<tr><th>평</th><th>전세가</th><th>변동</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>특징</th></tr>`;
+    header = `<tr><th>평</th><th>${priceLabel()}</th><th>변동</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>특징</th></tr>`;
     rows = [...uToday.values()].sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(u=>{
       const p = uPrev.get(unitKey(u));
       let badge="";
@@ -128,7 +146,7 @@ function render(){
     }).join("");
     document.getElementById("tcount").textContent = `고유 호실 ${uToday.size}개`;
   } else {
-    header = `<tr><th>평</th><th>전세가</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>확인일</th></tr>`;
+    header = `<tr><th>평</th><th>${priceLabel()}</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>확인일</th></tr>`;
     rows = todayListings.slice().sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(x=>
       `<tr><td>${x.pyeong}평</td><td class="price">${won(x.price)}</td><td>${x.dong||"-"}</td>
        <td>${x.floor||"-"}</td><td>${x.direction||"-"}</td><td>${(x.realtor||"").slice(0,12)}</td>
@@ -145,21 +163,21 @@ function render(){
       goneSec.hidden=false;
       document.getElementById("goneCnt").textContent = `${gone.length}건`;
       document.getElementById("goneTbl").innerHTML =
-        `<tr><th>평</th><th>전세가</th><th>동</th><th>층</th><th>방향</th></tr>` +
+        `<tr><th>평</th><th>${priceLabel()}</th><th>동</th><th>층</th><th>방향</th></tr>` +
         gone.map(u=>`<tr class="gone"><td>${u.pyeong}평</td><td>${won(u.price)}</td><td>${u.dong||"-"}</td><td>${u.floor||"-"}</td><td>${u.direction||"-"}</td></tr>`).join("");
     } else goneSec.hidden=true;
   }
 }
 
 function statCards(){
-  const s = k => { const u=[...unitsOf(DATA.history[k].listings).values()].map(x=>x.price).filter(Boolean);
-    return {count:unitsOf(DATA.history[k].listings).size, min:u.length?Math.min(...u):null, avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null}; };
+  const s = k => { const um=unitsOf(L(k)); const u=[...um.values()].map(x=>x.price).filter(Boolean);
+    return {count:um.size, min:u.length?Math.min(...u):null, avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null}; };
   const t=s(TODAY), p=PREV?s(PREV):null;
   const delta=(now,was)=> (was==null||now==null)?"" :
     now===was ? `<span class="d">어제와 동일</span>` :
     now<was ? `<span class="d down">▼ ${won(was-now)} ↓</span>` : `<span class="d up">▲ ${won(now-was)} ↑</span>`;
   document.getElementById("cards").innerHTML = `
-    <div class="stat"><div class="l">최저 전세가</div><div class="v">${won(t.min)}</div>${p?delta(t.min,p.min):""}</div>
+    <div class="stat"><div class="l">최저 ${priceLabel()}</div><div class="v">${won(t.min)}</div>${p?delta(t.min,p.min):""}</div>
     <div class="stat"><div class="l">평균(고유호실)</div><div class="v">${won(t.avg)}</div>${p?delta(t.avg,p.avg):""}</div>
     <div class="stat"><div class="l">고유 호실 수</div><div class="v">${t.count}</div>${p?`<span class="d ${t.count<p.count?'down':t.count>p.count?'up':''}">${p.count}→${t.count}</span>`:""}</div>`;
 }
@@ -167,7 +185,7 @@ function statCards(){
 function chart(){
   const W=860, H=200, padL=54, padR=14, padT=14, padB=26;
   const series = DATES.map(dt=>{
-    const u=[...unitsOf(DATA.history[dt].listings).values()].map(x=>x.price).filter(Boolean);
+    const u=[...unitsOf(L(dt)).values()].map(x=>x.price).filter(Boolean);
     return {dt, min:u.length?Math.min(...u):null, avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null};
   });
   const vals = series.flatMap(s=>[s.min,s.avg]).filter(v=>v!=null);
@@ -198,10 +216,13 @@ async function boot(){
     DATA = await r.json();
     DATES = Object.keys(DATA.history).sort();
     TODAY = DATES[DATES.length-1]; PREV = DATES.length>1 ? DATES[DATES.length-2] : null;
-    document.getElementById("meta").textContent =
-      `${DATA.filter} · ${DATES.length}일 수집 · 최신 ${DATA.updated}` + (PREV?` (어제=${PREV} 대비)`:" · 첫 수집");
-    statCards(); chart(); render();
+    setMeta();
+    redraw();
     document.getElementById("mode").addEventListener("change", render);
+    document.querySelectorAll("#trade .tt").forEach(b=> b.addEventListener("click", ()=>{
+      document.querySelectorAll("#trade .tt").forEach(x=>x.classList.remove("on"));
+      b.classList.add("on"); curTrade=b.dataset.t; setMeta(); redraw();
+    }));
   }catch(e){ document.getElementById("meta").textContent="데이터를 불러오지 못했습니다: "+e; }
 }
 boot();
