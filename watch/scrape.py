@@ -128,6 +128,34 @@ def to_listing(a: dict) -> dict | None:
     }
 
 
+def load_bunyang_types() -> list[tuple[float, int]]:
+    """메인 프로젝트 docs/data.json에서 이 단지의 평형별 분양가[(공급면적, 분양가만원)]."""
+    p = OUT.parent / "data.json"
+    if not p.exists():
+        return []
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    for c in d.get("complexes", []):
+        if str(c.get("naver_complex_no")) == COMPLEX_NO:
+            out = []
+            for t in c.get("price_by_type") or []:
+                try:
+                    out.append((float(t["area"]), int(t["price"])))
+                except (TypeError, ValueError, KeyError):
+                    pass
+            return out
+    return []
+
+
+def nearest_bunyang(area_supply, types) -> int | None:
+    """공급면적이 가장 가까운 주택형의 분양가(만원)."""
+    if not area_supply or not types:
+        return None
+    return min(types, key=lambda t: abs(t[0] - area_supply))[1]
+
+
 def stats(listings: list[dict]) -> dict:
     prices = [x["price"] for x in listings if x["price"]]
     return {
@@ -142,6 +170,16 @@ def main() -> int:
     print(f"[수집] {COMPLEX_NAME} {int(MAX_PYEONG)}평 이하 (매매·전세) …")
     arts = fetch_articles()
     listings = [x for x in (to_listing(a) for a in arts) if x]
+
+    # 평형별 분양가 붙이기 (분양권 프리미엄 계산용)
+    btypes = load_bunyang_types()
+    for x in listings:
+        x["bunyang"] = nearest_bunyang(x.get("area_supply"), btypes)
+    if btypes:
+        print(f"  분양가 {len(btypes)}개 평형 매칭 (프리미엄 계산 가능)")
+    else:
+        print("  [주의] 분양가 데이터 없음 - 먼저 python collect.py 실행 권장")
+
     listings.sort(key=lambda x: (x["trade"], x["price"] or 9_9999_9999, x["dong"] or ""))
     today = datetime.now(KST).strftime("%Y-%m-%d")
 

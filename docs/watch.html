@@ -98,6 +98,8 @@
 
 <script>
 const won = m => m==null ? "-" : (m>=10000 ? (m%10000? (Math.floor(m/10000)+"억"+(m%10000).toLocaleString()) : Math.floor(m/10000)+"억") : m.toLocaleString()+"만");
+const wonS = m => m==null ? "-" : (m>0 ? "+"+won(m) : m<0 ? "−"+won(-m) : "0");   // 부호붙은 프리미엄
+const premOf = u => (u.price!=null && u.bunyang) ? u.price - u.bunyang : null;
 const unitKey = x => `${x.dong}|${x.floor}|${x.pyeong}|${x.direction}`;
 
 // 날짜별 listings -> 고유 호실맵(최저가 기준)
@@ -133,18 +135,24 @@ function render(){
   const tbl = document.getElementById("tbl");
   let rows, header;
   if(mode==="unit"){
-    header = `<tr><th>평</th><th>${priceLabel()}</th><th>변동</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>특징</th></tr>`;
+    const prem = curTrade==="매매";
+    header = `<tr><th>평</th><th>${priceLabel()}</th>${prem?"<th>프리미엄</th>":""}<th>변동</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>특징</th></tr>`;
     rows = [...uToday.values()].sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(u=>{
       const p = uPrev.get(unitKey(u));
       let badge="";
       if(!p) badge = `<span class="badge b-new">신규</span>`;
       else if(u.price>p.price) badge = `<span class="badge b-up">▲${won(u.price-p.price)}</span>`;
       else if(u.price<p.price) badge = `<span class="badge b-down">▼${won(p.price-u.price)}</span>`;
-      return `<tr><td>${u.pyeong}평</td><td class="price">${won(u.price)}</td><td>${badge}</td>
+      let premCell="";
+      if(prem){
+        const P = premOf(u);
+        premCell = `<td>${P==null ? "-" : (P<0 ? `<span class="badge b-down">마피 ${won(-P)}</span>` : `<span class="newc">+${won(P)}</span>`)}</td>`;
+      }
+      return `<tr><td>${u.pyeong}평</td><td class="price">${won(u.price)}</td>${premCell}<td>${badge}</td>
         <td>${u.dong||"-"}</td><td>${u.floor||"-"}</td><td>${u.direction||"-"}</td>
         <td>${u.agents}곳</td><td>${(u.feature||"").slice(0,22)}</td></tr>`;
     }).join("");
-    document.getElementById("tcount").textContent = `고유 호실 ${uToday.size}개`;
+    document.getElementById("tcount").textContent = `고유 호실 ${uToday.size}개` + (prem?" · 프리미엄=매매가−분양가":"");
   } else {
     header = `<tr><th>평</th><th>${priceLabel()}</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>확인일</th></tr>`;
     rows = todayListings.slice().sort((a,b)=>(a.price||9e9)-(b.price||9e9)).map(x=>
@@ -170,15 +178,23 @@ function render(){
 }
 
 function statCards(){
-  const s = k => { const um=unitsOf(L(k)); const u=[...um.values()].map(x=>x.price).filter(Boolean);
-    return {count:um.size, min:u.length?Math.min(...u):null, avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null}; };
+  const s = k => { const um=unitsOf(L(k)); const arr=[...um.values()];
+    const u=arr.map(x=>x.price).filter(Boolean);
+    const pr=arr.map(premOf).filter(v=>v!=null);
+    return {count:um.size, min:u.length?Math.min(...u):null,
+      avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null,
+      minPrem:pr.length?Math.min(...pr):null,
+      avgPrem:pr.length?Math.round(pr.reduce((a,b)=>a+b)/pr.length):null}; };
   const t=s(TODAY), p=PREV?s(PREV):null;
-  const delta=(now,was)=> (was==null||now==null)?"" :
+  const delta=(now,was,fmt=won)=> (was==null||now==null)?"" :
     now===was ? `<span class="d">어제와 동일</span>` :
-    now<was ? `<span class="d down">▼ ${won(was-now)} ↓</span>` : `<span class="d up">▲ ${won(now-was)} ↑</span>`;
+    now<was ? `<span class="d down">▼ ${fmt(was-now)} ↓</span>` : `<span class="d up">▲ ${fmt(now-was)} ↑</span>`;
+  const mid = curTrade==="매매"
+    ? `<div class="stat"><div class="l">최소 프리미엄</div><div class="v">${wonS(t.minPrem)}</div>${p?delta(t.minPrem,p.minPrem):""}</div>`
+    : `<div class="stat"><div class="l">평균(고유호실)</div><div class="v">${won(t.avg)}</div>${p?delta(t.avg,p.avg):""}</div>`;
   document.getElementById("cards").innerHTML = `
     <div class="stat"><div class="l">최저 ${priceLabel()}</div><div class="v">${won(t.min)}</div>${p?delta(t.min,p.min):""}</div>
-    <div class="stat"><div class="l">평균(고유호실)</div><div class="v">${won(t.avg)}</div>${p?delta(t.avg,p.avg):""}</div>
+    ${mid}
     <div class="stat"><div class="l">고유 호실 수</div><div class="v">${t.count}</div>${p?`<span class="d ${t.count<p.count?'down':t.count>p.count?'up':''}">${p.count}→${t.count}</span>`:""}</div>`;
 }
 
