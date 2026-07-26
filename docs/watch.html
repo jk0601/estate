@@ -63,11 +63,20 @@
   <div class="cards" id="cards"></div>
 
   <section>
-    <h2>전세가 추이 <span style="font-weight:400;color:var(--sub);font-size:12px">(고유 호실 기준)</span></h2>
+    <h2 id="chartTitle">추이 <span style="font-weight:400;color:var(--sub);font-size:12px">(고유 호실 기준)</span></h2>
     <div id="chart"></div>
     <div class="legend">
       <span><span class="dot" style="background:var(--brand)"></span>최저가</span>
       <span><span class="dot" style="background:var(--sub)"></span>평균</span>
+    </div>
+  </section>
+
+  <section id="premSec" hidden>
+    <h2>프리미엄 추이 <span style="font-weight:400;color:var(--sub);font-size:12px">(매매가 − 분양가)</span></h2>
+    <div id="chartPrem"></div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--brand)"></span>최소 프리미엄</span>
+      <span><span class="dot" style="background:var(--sub)"></span>평균 프리미엄</span>
     </div>
   </section>
 
@@ -118,7 +127,7 @@ function unitsOf(listings){
 let DATA, DATES, TODAY, PREV, curTrade="전세";
 const L = dt => (DATA.history[dt].listings || []).filter(x => (x.trade||"전세")===curTrade);
 const priceLabel = () => curTrade==="매매" ? "매매가" : "전세가";
-function redraw(){ statCards(); chart(); render(); }
+function redraw(){ statCards(); renderCharts(); render(); }
 function setMeta(){
   const n = L(TODAY).length;
   document.getElementById("meta").textContent =
@@ -203,14 +212,23 @@ function statCards(){
     <div class="stat"><div class="l">고유 호실 수</div><div class="v">${t.count}</div>${p?`<span class="d ${t.count<p.count?'down':t.count>p.count?'up':''}">${p.count}→${t.count}</span>`:""}</div>`;
 }
 
-function chart(){
-  const W=860, H=200, padL=54, padR=14, padT=14, padB=26;
-  const series = DATES.map(dt=>{
-    const u=[...unitsOf(L(dt)).values()].map(x=>x.price).filter(Boolean);
-    return {dt, min:u.length?Math.min(...u):null, avg:u.length?Math.round(u.reduce((a,b)=>a+b)/u.length):null};
+// 날짜별 지표(최저/평균 가격 + 최소/평균 프리미엄) 계산
+function buildSeries(){
+  return DATES.map(dt=>{
+    const u=[...unitsOf(L(dt)).values()];
+    const pv=u.map(x=>x.price).filter(Boolean);
+    const pr=u.map(premOf).filter(v=>v!=null);
+    const mean=a=>a.length?Math.round(a.reduce((x,y)=>x+y)/a.length):null;
+    return {dt, min:pv.length?Math.min(...pv):null, avg:mean(pv),
+            minPrem:pr.length?Math.min(...pr):null, avgPrem:mean(pr)};
   });
-  const vals = series.flatMap(s=>[s.min,s.avg]).filter(v=>v!=null);
-  if(!vals.length){ document.getElementById("chart").innerHTML="<div class='empty'>데이터 없음</div>"; return; }
+}
+
+// 범용 라인차트: keys=[{k,color}], fmt=y축 라벨 포맷터
+function drawLineChart(elId, series, keys, fmt=won){
+  const W=860, H=200, padL=58, padR=14, padT=14, padB=26;
+  const vals = series.flatMap(s=>keys.map(kk=>s[kk.k])).filter(v=>v!=null);
+  if(!vals.length){ document.getElementById(elId).innerHTML="<div class='empty'>데이터 없음</div>"; return; }
   let lo=Math.min(...vals), hi=Math.max(...vals); if(lo===hi){lo-=1000;hi+=1000;}
   const pad=(hi-lo)*0.15; lo-=pad; hi+=pad;
   const n=series.length;
@@ -222,13 +240,23 @@ function chart(){
     const dots=series.map((s,i)=> s[key]==null?"":`<circle cx="${X(i)}" cy="${Y(s[key])}" r="3.2" fill="${color}"/>`).join("");
     return `<path d="${path}" fill="none" stroke="${color}" stroke-width="2"/>${dots}`;
   };
-  // y 눈금 3개
   const ticks=[lo+(hi-lo)*0.1, (lo+hi)/2, hi-(hi-lo)*0.1].map(v=>
     `<line x1="${padL}" y1="${Y(v)}" x2="${W-padR}" y2="${Y(v)}" stroke="var(--line)" stroke-width="1"/>
-     <text x="${padL-6}" y="${Y(v)+3}" text-anchor="end" font-size="10" fill="var(--sub)">${won(Math.round(v))}</text>`).join("");
+     <text x="${padL-6}" y="${Y(v)+3}" text-anchor="end" font-size="10" fill="var(--sub)">${fmt(Math.round(v))}</text>`).join("");
   const xlab=series.map((s,i)=>`<text x="${X(i)}" y="${H-8}" text-anchor="middle" font-size="9.5" fill="var(--sub)">${s.dt.slice(5)}</text>`).join("");
-  document.getElementById("chart").innerHTML =
-    `<svg viewBox="0 0 ${W} ${H}" role="img">${ticks}${xlab}${line("avg","var(--sub)")}${line("min","var(--brand)")}</svg>`;
+  const lines=keys.map(kk=>line(kk.k, kk.color)).join("");
+  document.getElementById(elId).innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img">${ticks}${xlab}${lines}</svg>`;
+}
+
+function renderCharts(){
+  const series=buildSeries();
+  document.getElementById("chartTitle").firstChild.textContent = priceLabel()+" 추이 ";
+  drawLineChart("chart", series, [{k:"avg",color:"var(--sub)"},{k:"min",color:"var(--brand)"}]);
+  const premSec=document.getElementById("premSec");
+  if(curTrade==="매매"){
+    premSec.hidden=false;
+    drawLineChart("chartPrem", series, [{k:"avgPrem",color:"var(--sub)"},{k:"minPrem",color:"var(--brand)"}], wonS);
+  } else premSec.hidden=true;
 }
 
 async function boot(){
