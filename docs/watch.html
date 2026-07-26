@@ -20,6 +20,9 @@
   .wrap{max-width:900px; margin:0 auto; padding:16px}
   h1{font-size:19px; margin:0 0 3px; letter-spacing:-.02em}
   .meta{font-size:12.5px; color:var(--sub); margin-bottom:10px}
+  .cxsel{margin:6px 0 10px}
+  .cxsel select{font-size:15px; font-weight:700; padding:9px 12px; border-radius:10px;
+    border:1px solid var(--line); background:var(--card); color:var(--ink); max-width:100%}
   .trade{display:flex; gap:8px; margin:0 0 14px}
   .trade .tt{font-size:14px; font-weight:700; padding:8px 24px; border-radius:999px;
     border:1px solid var(--line); background:var(--card); color:var(--ink); cursor:pointer}
@@ -52,7 +55,8 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>힐스테이트 메디알레 · 34평 이하 매매·전세 동향</h1>
+  <h1><span id="h1name">단지</span> · 34평 이하 매매·전세 동향</h1>
+  <div class="cxsel"><select id="cx"></select></div>
   <div class="meta" id="meta">불러오는 중…</div>
 
   <div class="trade" id="trade">
@@ -124,9 +128,12 @@ function unitsOf(listings){
   return m;
 }
 
-let DATA, DATES, TODAY, PREV, curTrade="전세";
-const L = dt => (DATA.history[dt].listings || []).filter(x => (x.trade||"전세")===curTrade);
+let DATA, DATES, TODAY, PREV, curTrade="전세", curComplex=null;
+const HIST = () => DATA.complexes[curComplex].history;
+const L = dt => (HIST()[dt].listings || []).filter(x => (x.trade||"전세")===curTrade);
 const priceLabel = () => curTrade==="매매" ? "매매가" : "전세가";
+const hasBunyang = () => (HIST()[TODAY].listings || []).some(x => x.bunyang);
+const showPrem = () => curTrade==="매매" && hasBunyang();
 function redraw(){ statCards(); renderCharts(); render(); }
 function setMeta(){
   const n = L(TODAY).length;
@@ -141,15 +148,15 @@ function render(){
   const prevListings = PREV ? L(PREV) : [];
   const uToday = unitsOf(todayListings), uPrev = unitsOf(prevListings);
 
-  // 매매는 프리미엄 낮은순, 전세는 가격 낮은순 (값 없으면 뒤로)
-  const sortKey = curTrade==="매매"
+  // 매매(분양가 있을 때)는 프리미엄 낮은순, 그 외 가격 낮은순 (값 없으면 뒤로)
+  const sortKey = showPrem()
     ? (x => { const P=premOf(x); return P==null ? 9e15 : P; })
     : (x => x.price==null ? 9e15 : x.price);
 
   const tbl = document.getElementById("tbl");
   let rows, header;
   if(mode==="unit"){
-    const prem = curTrade==="매매";
+    const prem = showPrem();
     header = `<tr><th>평</th><th>${priceLabel()}</th>${prem?"<th>프리미엄</th>":""}<th>변동</th><th>동</th><th>층</th><th>방향</th><th>중개사</th><th>특징</th></tr>`;
     rows = [...uToday.values()].sort((a,b)=>sortKey(a)-sortKey(b)).map(u=>{
       const p = uPrev.get(unitKey(u));
@@ -203,7 +210,7 @@ function statCards(){
   const delta=(now,was,fmt=won)=> (was==null||now==null)?"" :
     now===was ? `<span class="d">어제와 동일</span>` :
     now<was ? `<span class="d down">▼ ${fmt(was-now)} ↓</span>` : `<span class="d up">▲ ${fmt(now-was)} ↑</span>`;
-  const mid = curTrade==="매매"
+  const mid = showPrem()
     ? `<div class="stat"><div class="l">최소 프리미엄</div><div class="v">${wonS(t.minPrem)}</div>${p?delta(t.minPrem,p.minPrem):""}</div>`
     : `<div class="stat"><div class="l">평균(고유호실)</div><div class="v">${won(t.avg)}</div>${p?delta(t.avg,p.avg):""}</div>`;
   document.getElementById("cards").innerHTML = `
@@ -253,25 +260,40 @@ function renderCharts(){
   document.getElementById("chartTitle").firstChild.textContent = priceLabel()+" 추이 ";
   drawLineChart("chart", series, [{k:"avg",color:"var(--sub)"},{k:"min",color:"var(--brand)"}]);
   const premSec=document.getElementById("premSec");
-  if(curTrade==="매매"){
+  if(showPrem()){
     premSec.hidden=false;
     drawLineChart("chartPrem", series, [{k:"avgPrem",color:"var(--sub)"},{k:"minPrem",color:"var(--brand)"}], wonS);
   } else premSec.hidden=true;
+}
+
+function setComplex(){
+  const c = DATA.complexes[curComplex];
+  DATES = Object.keys(c.history).sort();
+  TODAY = DATES[DATES.length-1]; PREV = DATES.length>1 ? DATES[DATES.length-2] : null;
+  document.getElementById("h1name").textContent = c.name;
+  document.title = c.name + " 동향";
+  setMeta(); redraw();
 }
 
 async function boot(){
   try{
     const r = await fetch("./watch_data.json?_="+Date.now());
     DATA = await r.json();
-    DATES = Object.keys(DATA.history).sort();
-    TODAY = DATES[DATES.length-1]; PREV = DATES.length>1 ? DATES[DATES.length-2] : null;
-    setMeta();
-    redraw();
+    const list = Object.values(DATA.complexes);
+    curComplex = list[0].complex_no;
+
+    const cxSel = document.getElementById("cx");
+    list.forEach(c=>{ const o=el("option"); o.value=c.complex_no; o.textContent=c.name; cxSel.appendChild(o); });
+    cxSel.value = curComplex;
+    cxSel.addEventListener("change", ()=>{ curComplex=cxSel.value; setComplex(); });
+
     document.getElementById("mode").addEventListener("change", render);
     document.querySelectorAll("#trade .tt").forEach(b=> b.addEventListener("click", ()=>{
       document.querySelectorAll("#trade .tt").forEach(x=>x.classList.remove("on"));
       b.classList.add("on"); curTrade=b.dataset.t; setMeta(); redraw();
     }));
+
+    setComplex();
   }catch(e){ document.getElementById("meta").textContent="데이터를 불러오지 못했습니다: "+e; }
 }
 boot();

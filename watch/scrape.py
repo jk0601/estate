@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-힐스테이트 메디알레(186117) '34평 이하 매매·전세' 매물 일별 동향 수집기.
+관심 단지들의 '34평 이하 매매·전세' 매물 일별 동향 수집기 (COMPLEXES 목록).
 
 방식: Playwright로 네이버 부동산(new.land) 단지 페이지를 실제 브라우저로 열어
       SPA가 쓰는 인증 토큰을 확보한 뒤, '페이지 내부 fetch'로 전 페이지를 수집.
@@ -24,10 +24,12 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 # ---- 설정 ----
-COMPLEX_NO = "186117"
-COMPLEX_NAME = "힐스테이트 메디알레"
+# 추적할 단지들. 단지번호는 m.land.naver.com 에서 단지 검색 시 주소의 숫자.
+COMPLEXES = [
+    {"no": "186117", "name": "힐스테이트 메디알레"},
+    {"no": "119275", "name": "녹번역 e편한세상 캐슬"},
+]
 MAX_PYEONG = 34.9          # 34평 이하
-TRADES = "A1:B1"           # A1=매매, B1=전세 (둘 다 수집)
 WANT_TRADE = {"매매", "전세"}
 OUT = Path(__file__).resolve().parent.parent / "docs" / "watch_data.json"
 KST = timezone(timedelta(hours=9))
@@ -47,7 +49,7 @@ def parse_price(txt: str | None) -> int | None:
            (int(m.group(2).replace(",", "")) if m.group(2) else 0)
 
 
-def fetch_articles() -> list[dict]:
+def fetch_articles(complex_no: str) -> list[dict]:
     auth, first = {}, {}
 
     def on_request(req):
@@ -63,7 +65,7 @@ def fetch_articles() -> list[dict]:
                              viewport={"width": 1280, "height": 900})
         page = ctx.new_page()
         page.on("request", on_request)
-        page.goto(f"https://new.land.naver.com/complexes/{COMPLEX_NO}?tradeType=A1",
+        page.goto(f"https://new.land.naver.com/complexes/{complex_no}?tradeType=A1",
                   wait_until="networkidle", timeout=45000)
         page.wait_for_timeout(2500)
         token = auth.get("t", "")
@@ -76,9 +78,9 @@ def fetch_articles() -> list[dict]:
         ret = m.group(1) if m else "APT%3AABYG%3AJGC%3APRE"
 
         def build(tt):
-            return (f"https://new.land.naver.com/api/articles/complex/{COMPLEX_NO}"
+            return (f"https://new.land.naver.com/api/articles/complex/{complex_no}"
                     f"?realEstateType={ret}&tradeType={tt}&order=prc"
-                    f"&complexNo={COMPLEX_NO}&sameAddressGroup=true")
+                    f"&complexNo={complex_no}&sameAddressGroup=true")
 
         arts = []
         for tt in ("A1", "B1"):   # 매매, 전세
@@ -128,7 +130,7 @@ def to_listing(a: dict) -> dict | None:
     }
 
 
-def load_bunyang_types() -> list[tuple[float, int]]:
+def load_bunyang_types(complex_no: str) -> list[tuple[float, int]]:
     """메인 프로젝트 docs/data.json에서 이 단지의 평형별 분양가[(공급면적, 분양가만원)]."""
     p = OUT.parent / "data.json"
     if not p.exists():
@@ -138,7 +140,7 @@ def load_bunyang_types() -> list[tuple[float, int]]:
     except Exception:
         return []
     for c in d.get("complexes", []):
-        if str(c.get("naver_complex_no")) == COMPLEX_NO:
+        if str(c.get("naver_complex_no")) == complex_no:
             out = []
             for t in c.get("price_by_type") or []:
                 try:
@@ -166,41 +168,55 @@ def stats(listings: list[dict]) -> dict:
     }
 
 
-def main() -> int:
-    print(f"[수집] {COMPLEX_NAME} {int(MAX_PYEONG)}평 이하 (매매·전세) …")
-    arts = fetch_articles()
+def collect_one(complex_no: str, name: str, today: str) -> dict:
+    """단지 1곳 수집 -> 오늘치 스냅샷 dict."""
+    arts = fetch_articles(complex_no)
     listings = [x for x in (to_listing(a) for a in arts) if x]
-
-    # 평형별 분양가 붙이기 (분양권 프리미엄 계산용)
-    btypes = load_bunyang_types()
+    btypes = load_bunyang_types(complex_no)
     for x in listings:
         x["bunyang"] = nearest_bunyang(x.get("area_supply"), btypes)
-    if btypes:
-        print(f"  분양가 {len(btypes)}개 평형 매칭 (프리미엄 계산 가능)")
-    else:
-        print("  [주의] 분양가 데이터 없음 - 먼저 python collect.py 실행 권장")
-
     listings.sort(key=lambda x: (x["trade"], x["price"] or 9_9999_9999, x["dong"] or ""))
-    today = datetime.now(KST).strftime("%Y-%m-%d")
-
-    data = {"complex": COMPLEX_NAME, "complex_no": COMPLEX_NO,
-            "filter": f"{int(MAX_PYEONG)}평 이하 (매매·전세)", "history": {}}
-    if OUT.exists():
-        data = json.loads(OUT.read_text(encoding="utf-8"))
-        data.setdefault("history", {})
-    data["filter"] = f"{int(MAX_PYEONG)}평 이하 (매매·전세)"
-
-    data["updated"] = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
-    # 하위호환: stats는 전세 기준으로 저장(화면은 매매/전세 각자 재계산)
     jeonse = [x for x in listings if x["trade"] == "전세"]
-    data["history"][today] = {"listings": listings, "stats": stats(jeonse)}
-
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     n_sale = sum(1 for x in listings if x["trade"] == "매매")
     js = stats(jeonse)
     lo = f"{js['min']//10000}억{js['min']%10000 or ''}" if js["min"] else "-"
-    print(f"[완료] {today}: 전세 {len(jeonse)} (최저 {lo}) / 매매 {n_sale}  →  {OUT}")
+    prem = " · 분양가매칭O" if btypes else ""
+    print(f"  [{name}] 전세 {len(jeonse)} (최저 {lo}) / 매매 {n_sale}{prem}")
+    return {"listings": listings, "stats": js}
+
+
+def load_data() -> dict:
+    """기존 watch_data.json 로드 + 구(단일단지) 구조 자동 마이그레이션."""
+    data = {"filter": f"{int(MAX_PYEONG)}평 이하 (매매·전세)", "complexes": {}}
+    if OUT.exists():
+        old = json.loads(OUT.read_text(encoding="utf-8"))
+        if "complexes" in old:
+            data = old
+        elif "history" in old:   # 구 단일단지 포맷 -> 이전
+            no = old.get("complex_no")
+            data["complexes"] = {no: {"name": old.get("complex"),
+                                      "complex_no": no, "history": old["history"]}}
+    data.setdefault("complexes", {})
+    return data
+
+
+def main() -> int:
+    print(f"[수집] {int(MAX_PYEONG)}평 이하 (매매·전세) · 단지 {len(COMPLEXES)}곳 …")
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    data = load_data()
+    data["filter"] = f"{int(MAX_PYEONG)}평 이하 (매매·전세)"
+    data["updated"] = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
+
+    for cx in COMPLEXES:
+        no, name = cx["no"], cx["name"]
+        snap = collect_one(no, name, today)
+        entry = data["complexes"].setdefault(no, {"name": name, "complex_no": no, "history": {}})
+        entry["name"] = name
+        entry.setdefault("history", {})[today] = snap
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[완료] {today} → {OUT}")
     return 0
 
 
