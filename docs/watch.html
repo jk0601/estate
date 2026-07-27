@@ -18,6 +18,11 @@
   body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Segoe UI",Roboto,sans-serif;
     background:var(--bg); color:var(--ink); line-height:1.45; -webkit-text-size-adjust:100%}
   .wrap{max-width:900px; margin:0 auto; padding:16px}
+  .nav{display:flex; gap:6px; margin-bottom:10px; flex-wrap:wrap}
+  .nav a{font-size:12.5px; text-decoration:none; color:var(--sub);
+    border:1px solid var(--line); background:var(--card);
+    padding:5px 10px; border-radius:999px}
+  .nav a.here{background:var(--brand); color:#fff; border-color:var(--brand); font-weight:700}
   h1{font-size:19px; margin:0 0 3px; letter-spacing:-.02em}
   .meta{font-size:12.5px; color:var(--sub); margin-bottom:10px}
   .cxsel{margin:6px 0 10px}
@@ -55,6 +60,11 @@
 </head>
 <body>
 <div class="wrap">
+  <div class="nav">
+    <a href="./index.html">입주예정 목록</a>
+    <a href="./watch.html" class="here">동향 추적기</a>
+    <a href="./radar.html">8억 레이더</a>
+  </div>
   <h1><span id="h1name">단지</span> · 34평 이하 매매·전세 동향</h1>
   <div class="cxsel"><select id="cx"></select></div>
   <div class="meta" id="meta">불러오는 중…</div>

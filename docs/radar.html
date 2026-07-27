@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>8억 레이더 · 서울 10년 내외 아파트</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --card:#fff; --ink:#1a1d21; --sub:#6b7280; --line:#e5e7eb;
+    --brand:#1f6feb; --chip:#eef1f5; --chip-on:#1f6feb;
+    --hot:#c2410c; --hot-bg:#fdece3; --new:#0a7f4f; --new-bg:#e7f6ee;
+    --warn:#8a5a00; --warn-bg:#fbf1dd;
+    --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0e1116; --card:#171b22; --ink:#e6e8eb; --sub:#9aa4b2; --line:#262c36;
+      --brand:#4d8bff; --chip:#20262f; --chip-on:#4d8bff;
+      --hot:#fb923c; --hot-bg:#2e1a0f; --new:#4ade80; --new-bg:#12251b;
+      --warn:#e0b25a; --warn-bg:#2a2110;
+      --shadow:0 1px 3px rgba(0,0,0,.4);
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",
+      "Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.45;
+    -webkit-text-size-adjust:100%;
+  }
+  header{padding:14px 16px 8px; max-width:820px; margin:0 auto}
+  .nav{display:flex; gap:6px; margin-bottom:10px; flex-wrap:wrap}
+  .nav a{font-size:12.5px; text-decoration:none; color:var(--sub);
+    border:1px solid var(--line); background:var(--card);
+    padding:5px 10px; border-radius:999px}
+  .nav a.here{background:var(--chip-on); color:#fff; border-color:var(--chip-on); font-weight:700}
+  h1{font-size:19px; margin:0 0 3px; letter-spacing:-.02em}
+  .meta{font-size:12.5px; color:var(--sub)}
+  .about{margin-top:10px; padding:11px 13px; font-size:12.5px; line-height:1.55;
+    color:var(--sub); background:var(--card); border:1px solid var(--line);
+    border-left:3px solid var(--brand); border-radius:10px}
+  .about b{color:var(--ink)}
+  .alert{margin-top:8px; padding:10px 12px; font-size:12.5px; line-height:1.5;
+    background:var(--warn-bg); color:var(--warn); border-radius:10px}
+  .alert b{color:var(--warn)}
+  .alert code{font-size:11.5px}
+  .toolbar{position:sticky; top:0; z-index:5; background:var(--bg);
+    padding:8px 16px 10px; max-width:820px; margin:0 auto; border-bottom:1px solid var(--line)}
+  .row{display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-bottom:7px}
+  .row:last-child{margin-bottom:0}
+  .row .lbl{font-size:12px; color:var(--sub); margin-right:2px}
+  .tabs{display:flex; gap:6px; margin-bottom:9px}
+  .tab{flex:1; text-align:center; font-size:13.5px; font-weight:700; padding:9px 6px;
+    border-radius:10px; border:1px solid var(--line); background:var(--chip);
+    color:var(--ink); cursor:pointer; user-select:none}
+  .tab.on{background:var(--chip-on); color:#fff; border-color:var(--chip-on)}
+  .tab small{display:block; font-weight:400; font-size:11px; opacity:.8}
+  .chip{font-size:12.5px; padding:5px 10px; border-radius:999px; border:1px solid var(--line);
+    background:var(--chip); color:var(--ink); cursor:pointer; user-select:none; white-space:nowrap}
+  .chip.on{background:var(--chip-on); color:#fff; border-color:var(--chip-on)}
+  select{font-size:12.5px; padding:5px 9px; border-radius:999px; border:1px solid var(--line);
+    background:var(--chip); color:var(--ink)}
+  input[type=search]{width:100%; padding:9px 12px; font-size:14.5px; border:1px solid var(--line);
+    border-radius:10px; background:var(--card); color:var(--ink)}
+  main{max-width:820px; margin:0 auto; padding:12px 16px 40px}
+  .count{font-size:13px; color:var(--sub); margin:2px 2px 10px}
+  .grid{display:grid; grid-template-columns:1fr; gap:10px}
+  @media (min-width:660px){ .grid{grid-template-columns:1fr 1fr} }
+  .card{background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:13px 14px; box-shadow:var(--shadow)}
+  .card.new{border-color:var(--new)}
+  .ctop{display:flex; justify-content:space-between; align-items:flex-start; gap:8px}
+  .name{font-size:15.5px; font-weight:700; letter-spacing:-.01em; margin:0}
+  .badges{display:flex; gap:4px; flex-wrap:wrap; justify-content:flex-end}
+  .badge{font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:999px; white-space:nowrap}
+  .b-new{background:var(--new-bg); color:var(--new)}
+  .b-hot{background:var(--hot-bg); color:var(--hot)}
+  .b-dim{background:var(--chip); color:var(--sub)}
+  .addr{font-size:12px; color:var(--sub); margin:5px 0 9px; word-break:keep-all}
+  .big{font-size:14.5px; margin:2px 0 9px}
+  .big .k{color:var(--sub); font-size:11.5px; margin-right:5px}
+  .big b{color:var(--brand); font-weight:800; font-size:19px; letter-spacing:-.02em}
+  .big .sub{color:var(--sub); font-size:12px; margin-left:6px}
+  .facts{display:flex; gap:12px; flex-wrap:wrap; font-size:12.5px; margin-bottom:10px}
+  .facts .k{color:var(--sub); margin-right:3px}
+  .facts b{font-weight:700}
+  .deals{font-size:12px; color:var(--sub); border-top:1px dashed var(--line);
+    padding-top:7px; margin-bottom:10px}
+  .deals div{display:flex; justify-content:space-between; gap:8px; padding:1px 0}
+  .note{font-size:11.5px; color:var(--hot); background:var(--hot-bg);
+    padding:6px 8px; border-radius:8px; margin-bottom:9px; word-break:keep-all}
+  .btns{display:flex; gap:6px; flex-wrap:wrap}
+  .btns a{flex:1; min-width:110px; text-align:center; text-decoration:none;
+    font-size:12.5px; font-weight:700; padding:9px 8px; border-radius:10px}
+  .a-naver{background:#03c75a; color:#fff}
+  .a-line{border:1px solid var(--line); color:var(--ink)}
+  .a-line:active,.a-naver:active{opacity:.8}
+  .empty{text-align:center; color:var(--sub); padding:46px 0; font-size:14px}
+  footer{max-width:820px; margin:0 auto; padding:0 16px 40px; color:var(--sub); font-size:11.5px}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a href="./index.html">입주예정 목록</a>
+    <a href="./watch.html">동향 추적기</a>
+    <a href="./radar.html" class="here">8억 레이더</a>
+  </div>
+  <h1>8억 레이더 · 서울 10년 내외 아파트</h1>
+  <div class="meta" id="meta">불러오는 중…</div>
+  <div class="about">
+    <b>이 화면이 답하는 질문:</b> "서울에서 <b>8억대</b>로 살 수 있는 <b>10년 내외</b> 아파트가
+    아직 있나?" — 세 갈래로 봅니다.
+    <b>실거래</b>(국토부 체결가 = 실제로 그 값에 팔린 곳),
+    <b>경매</b>(대법원 법원경매정보 · 최저매각가),
+    <b>공매</b>(온비드 캠코 압류재산).
+    경매·공매는 <b>어제 없던 물건에 '신규' 배지</b>가 붙습니다.
+  </div>
+  <div class="alert" id="alert" hidden></div>
+</header>
+
+<div class="toolbar">
+  <div class="tabs" id="tabs"></div>
+  <div class="row"><input type="search" id="q" placeholder="단지명·동·주소 검색" /></div>
+  <div class="row">
+    <span class="lbl">예산</span>
+    <select id="pmin"></select><span class="lbl">~</span><select id="pmax"></select>
+    <span class="lbl" style="margin-left:6px">전용</span>
+    <select id="amin">
+      <option value="0">전체</option>
+      <option value="40">40㎡↑</option>
+      <option value="50">50㎡↑</option>
+      <option value="59">59㎡↑(24평)</option>
+      <option value="70">70㎡↑</option>
+      <option value="84">84㎡↑(34평)</option>
+    </select>
+  </div>
+  <div class="row">
+    <span class="lbl">지역</span>
+    <select id="gu"></select>
+    <span class="lbl" style="margin-left:6px">정렬</span>
+    <select id="sort"></select>
+  </div>
+</div>
+
+<main>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden></div>
+</main>
+
+<footer id="foot"></footer>
+
+<script>
+const state = {
+  data:null, tab:"deals", gu:"all", q:"",
+  pmin:0, pmax:Infinity, amin:0, sort:"",
+};
+
+const TABS = [
+  {key:"deals",    label:"실거래",  sub:"체결가"},
+  {key:"auctions", label:"경매",    sub:"법원"},
+  {key:"onbid",    label:"공매",    sub:"온비드"},
+];
+
+const SORTS = {
+  deals: [["price","싼 순(8억대 최저)"], ["recent","최근 거래순"],
+          ["build","신축순"], ["count","거래 많은순"], ["gu","지역순"]],
+  auctions: [["price","최저매각가 낮은순"], ["date","매각기일 임박순"],
+             ["new","신규 먼저"], ["fail","유찰 많은순"], ["discount","감정가 대비 할인순"]],
+  onbid: [["price","최저입찰가 낮은순"], ["date","마감 임박순"], ["new","신규 먼저"]],
+};
+
+// 만원 -> "8.4억"
+function eok(man){
+  if(man==null) return "-";
+  const v = man/10000;
+  return (v>=100 ? v.toFixed(0) : v.toFixed(2).replace(/0$/,"").replace(/\.$/,"")) + "억";
+}
+function el(t,c,x){ const e=document.createElement(t); if(c)e.className=c; if(x!=null)e.textContent=x; return e; }
+function esc(s){ return (s==null?"":String(s)).replace(/[&<>"]/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m])); }
+// 오늘(한국 기준) 날짜 문자열. 브라우저 시간대와 무관하게 KST 달력으로 계산한다.
+function todayKST(){
+  return new Date(Date.now() + 9*3600000).toISOString().slice(0,10);
+}
+function dday(ymd){
+  if(!ymd) return null;
+  const a = Date.parse(ymd+"T00:00:00Z"), b = Date.parse(todayKST()+"T00:00:00Z");
+  if(isNaN(a) || isNaN(b)) return null;
+  return Math.round((a-b)/86400000);
+}
+// 84.146 -> "84.1㎡ (25.4평)"
+function areaText(m2){
+  if(m2==null) return "-";
+  return `${m2.toFixed(1)}㎡ (${(m2/3.3058).toFixed(1)}평)`;
+}
+function naverSearch(q){ return "https://m.land.naver.com/search/result/"+encodeURIComponent(q); }
+function mapSearch(q){ return "https://map.naver.com/p/search/"+encodeURIComponent(q); }
+
+// ---- 탭별 공통 어댑터: 필터/정렬이 세 탭에서 같은 코드로 돌게 --------------
+function rowsOf(tab){
+  const d = state.data || {};
+  if(tab==="deals")    return (d.deals||{}).complexes || [];
+  if(tab==="auctions") return (d.auctions||{}).items || [];
+  return (d.onbid||{}).items || [];
+}
+function priceOf(tab, x){
+  if(tab==="deals") return x.hit_min;
+  return x.min_bid;
+}
+function areaOf(tab, x){
+  if(tab==="deals") return x.area_max;    // 단지의 최대 전용(가장 큰 평형)
+  return x.area;
+}
+function guOf(tab, x){
+  if(tab!=="onbid") return x.gu || "";
+  return x.gu || "";
+}
+function textOf(tab, x){
+  if(tab==="deals") return [x.name, x.gu, x.dong].join(" ");
+  if(tab==="auctions") return [x.complex, x.address, x.gu, x.dong, x.case_no].join(" ");
+  return [x.name, x.address, x.gu].join(" ");
+}
+
+function passes(x){
+  const t = state.tab;
+  const p = priceOf(t,x);
+  if(p==null){ if(state.pmin>0 || state.pmax<Infinity) return false; }
+  else { if(p < state.pmin || p > state.pmax) return false; }
+  if(state.amin){ const a = areaOf(t,x); if(a==null || a < state.amin) return false; }
+  if(state.gu!=="all" && guOf(t,x)!==state.gu) return false;
+  if(state.q && !textOf(t,x).toLowerCase().includes(state.q.toLowerCase())) return false;
+  return true;
+}
+
+function sortRows(rows){
+  const t = state.tab, s = state.sort;
+  const num = v => (v==null ? Infinity : v);
+  rows.sort((a,b)=>{
+    if(t==="deals"){
+      if(s==="recent") return (b.hit_last||"").localeCompare(a.hit_last||"");
+      if(s==="build")  return b.build_year-a.build_year;
+      if(s==="count")  return b.deal_count-a.deal_count;
+      if(s==="gu")     return (a.gu||"").localeCompare(b.gu||"","ko") || num(a.hit_min)-num(b.hit_min);
+      return num(a.hit_min)-num(b.hit_min);
+    }
+    if(t==="auctions"){
+      if(s==="date")     return (a.sale_date||"9").localeCompare(b.sale_date||"9");
+      if(s==="new")      return (b.is_new?1:0)-(a.is_new?1:0) || num(a.min_bid)-num(b.min_bid);
+      if(s==="fail")     return b.fail_count-a.fail_count;
+      if(s==="discount") return (a.rate==null?101:a.rate)-(b.rate==null?101:b.rate);
+      return num(a.min_bid)-num(b.min_bid);
+    }
+    if(s==="date") return (a.bid_to||"9").localeCompare(b.bid_to||"9");
+    if(s==="new")  return (b.is_new?1:0)-(a.is_new?1:0) || num(a.min_bid)-num(b.min_bid);
+    return num(a.min_bid)-num(b.min_bid);
+  });
+  return rows;
+}
+
+// ---- 카드 --------------------------------------------------------------
+function cardDeals(x){
+  const c = el("div","card");
+  const top = el("div","ctop");
+  top.appendChild(el("p","name", x.name));
+  const bg = el("div","badges");
+  bg.appendChild(el("span","badge b-dim", x.build_year+"년"));
+  if(x.hit_count>=3) bg.appendChild(el("span","badge b-hot","거래 활발"));
+  top.appendChild(bg);
+  c.appendChild(top);
+  c.appendChild(el("div","addr", `${x.gu} ${x.dong}`));
+
+  const big = el("div","big");
+  big.innerHTML = `<span class="k">예산 안 최저 체결</span> <b>${eok(x.hit_min)}</b>` +
+    `<span class="sub">단지 전체 ${eok(x.price_min)}~${eok(x.price_max)}</span>`;
+  c.appendChild(big);
+
+  const f = el("div","facts");
+  f.innerHTML =
+    `<span><span class="k">전용</span><b>${x.area_min??"-"}~${areaText(x.area_max)}</b></span>` +
+    `<span><span class="k">거래</span><b>${x.deal_count}건</b> (예산내 ${x.hit_count})</span>` +
+    `<span><span class="k">최근</span><b>${x.last_date||"-"}</b></span>`;
+  c.appendChild(f);
+
+  const dl = el("div","deals");
+  dl.innerHTML = x.deals.slice(0,4).map(d =>
+    `<div><span>${d.date} · ${d.area!=null?d.area.toFixed(1):"-"}㎡ · ${d.floor??"-"}층</span><b>${eok(d.amount)}</b></div>`
+  ).join("");
+  c.appendChild(dl);
+
+  const b = el("div","btns");
+  b.innerHTML =
+    `<a class="a-naver" href="${x.naver_url}" target="_blank" rel="noopener">현재 호가 보기 →</a>` +
+    `<a class="a-line" href="${mapSearch(x.gu+" "+x.dong+" "+x.name)}" target="_blank" rel="noopener">지도</a>`;
+  c.appendChild(b);
+  return c;
+}
+
+function cardAuction(x){
+  const c = el("div","card"+(x.is_new?" new":""));
+  const top = el("div","ctop");
+  top.appendChild(el("p","name", x.complex || `${x.dong} ${x.usage}`));
+  const bg = el("div","badges");
+  if(x.is_new) bg.appendChild(el("span","badge b-new","신규"));
+  const dd = dday(x.sale_date);
+  if(dd!=null && dd>=0 && dd<=14) bg.appendChild(el("span","badge b-hot", "D-"+dd));
+  if(x.fail_count>0) bg.appendChild(el("span","badge b-dim", "유찰 "+x.fail_count+"회"));
+  top.appendChild(bg);
+  c.appendChild(top);
+  c.appendChild(el("div","addr", x.address));
+
+  const big = el("div","big");
+  const rate = x.rate!=null ? `<span class="sub">감정가 ${eok(x.appraisal)}의 ${x.rate}%</span>` : "";
+  big.innerHTML = `<span class="k">최저매각가</span> <b>${eok(x.min_bid)}</b>${rate}`;
+  c.appendChild(big);
+
+  const f = el("div","facts");
+  f.innerHTML =
+    `<span><span class="k">전용</span><b>${areaText(x.area)}</b></span>` +
+    `<span><span class="k">매각기일</span><b>${x.sale_date||"-"}</b></span>` +
+    `<span><span class="k">사건</span><b>${esc(x.case_no)}</b></span>` +
+    `<span><span class="k">법원</span><b>${esc(x.court)} ${esc(x.dept)}</b></span>`;
+  c.appendChild(f);
+
+  if(x.note) c.appendChild(el("div","note", "⚠ "+x.note));
+
+  const b = el("div","btns");
+  const q = (x.complex ? x.gu+" "+x.complex : x.address);
+  b.innerHTML =
+    `<a class="a-line" href="https://www.courtauction.go.kr/pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ159M00.xml" target="_blank" rel="noopener">법원 사건검색</a>` +
+    `<a class="a-naver" href="${naverSearch(q)}" target="_blank" rel="noopener">단지 시세</a>` +
+    `<a class="a-line" href="${mapSearch(x.address)}" target="_blank" rel="noopener">지도</a>`;
+  c.appendChild(b);
+  return c;
+}
+
+function cardOnbid(x){
+  const c = el("div","card"+(x.is_new?" new":""));
+  const top = el("div","ctop");
+  top.appendChild(el("p","name", x.name));
+  const bg = el("div","badges");
+  if(x.is_new) bg.appendChild(el("span","badge b-new","신규"));
+  const dd = dday(x.bid_to);
+  if(dd!=null && dd>=0 && dd<=7) bg.appendChild(el("span","badge b-hot","마감 D-"+dd));
+  if(x.fail_count>0) bg.appendChild(el("span","badge b-dim","유찰 "+x.fail_count+"회"));
+  top.appendChild(bg);
+  c.appendChild(top);
+  c.appendChild(el("div","addr", x.address));
+
+  const big = el("div","big");
+  const ap = x.appraisal ? `<span class="sub">감정가 ${eok(x.appraisal)}</span>` : "";
+  big.innerHTML = `<span class="k">최저입찰가</span> <b>${eok(x.min_bid)}</b>${ap}`;
+  c.appendChild(big);
+
+  const f = el("div","facts");
+  f.innerHTML =
+    `<span><span class="k">건물</span><b>${areaText(x.area)}</b></span>` +
+    `<span><span class="k">입찰</span><b>${x.bid_from||"-"} ~ ${x.bid_to||"-"}</b></span>` +
+    `<span><span class="k">상태</span><b>${esc(x.status)}</b></span>` +
+    `<span><span class="k">재산</span><b>${esc(x.prpt_type)}</b></span>` +
+    `<span><span class="k">용도</span><b>${esc(x.usage)}</b></span>`;
+  c.appendChild(f);
+
+  if(x.note) c.appendChild(el("div","note", "⚠ "+x.note));
+
+  const b = el("div","btns");
+  b.innerHTML =
+    `<a class="a-line" href="https://www.onbid.co.kr/" target="_blank" rel="noopener">온비드 열기</a>` +
+    `<a class="a-naver" href="${naverSearch(x.name)}" target="_blank" rel="noopener">단지 시세</a>` +
+    `<a class="a-line" href="${mapSearch(x.name || x.address)}" target="_blank" rel="noopener">지도</a>`;
+  c.appendChild(b);
+  return c;
+}
+
+// ---- 렌더 ---------------------------------------------------------------
+function buildGus(){
+  const sel = document.getElementById("gu"); sel.innerHTML = "";
+  const rows = rowsOf(state.tab);
+  const counts = {};
+  rows.forEach(x=>{ const g = guOf(state.tab,x); if(g) counts[g] = (counts[g]||0)+1; });
+  const all = el("option", null, `전체 지역 (${rows.length})`); all.value = "all";
+  sel.appendChild(all);
+  Object.keys(counts).sort((a,b)=>a.localeCompare(b,"ko")).forEach(g=>{
+    const o = el("option", null, `${g} (${counts[g]})`); o.value = g; sel.appendChild(o);
+  });
+  if(!(state.gu in counts)) state.gu = "all";
+  sel.value = state.gu;
+}
+
+function buildSort(){
+  const sel = document.getElementById("sort"); sel.innerHTML = "";
+  SORTS[state.tab].forEach(([v,l])=>{
+    const o = el("option", null, l); o.value = v; sel.appendChild(o);
+  });
+  state.sort = SORTS[state.tab][0][0];
+  sel.value = state.sort;
+}
+
+function sectionOf(tab){
+  const d = state.data || {};
+  return d[tab] || {};
+}
+
+function render(){
+  const rows = sortRows(rowsOf(state.tab).filter(passes));
+  const grid = document.getElementById("grid"); grid.innerHTML = "";
+  const sec = sectionOf(state.tab);
+
+  const emptyEl = document.getElementById("empty");
+  emptyEl.hidden = rows.length>0;
+  emptyEl.textContent = sec.available===false
+    ? "아직 이 항목의 데이터가 없습니다. (위 안내 참고)"
+    : "조건에 맞는 물건이 없습니다. 예산·전용면적을 넓혀 보세요.";
+
+  const total = rowsOf(state.tab).length;
+  const nNew = rowsOf(state.tab).filter(x=>x.is_new).length;
+  document.getElementById("count").textContent =
+    `${rows.length}건 표시 / 전체 ${total}건` + (nNew ? ` · 오늘 신규 ${nNew}건` : "")
+    + (sec.stale ? ` · ⚠ ${sec.stale_from} 자료(이번 수집 실패)` : "");
+
+  const make = state.tab==="deals" ? cardDeals : (state.tab==="auctions" ? cardAuction : cardOnbid);
+  rows.forEach(x=> grid.appendChild(make(x)));
+}
+
+function buildTabs(){
+  const wrap = document.getElementById("tabs"); wrap.innerHTML = "";
+  TABS.forEach(t=>{
+    const n = rowsOf(t.key).length;
+    const c = el("div","tab"+(state.tab===t.key?" on":""));
+    c.appendChild(el("span",null,`${t.label} ${n}`));
+    c.appendChild(el("small",null,t.sub));
+    c.addEventListener("click", ()=>{
+      state.tab = t.key; state.gu = "all";
+      buildTabs(); buildSort(); buildGus(); render();
+    });
+    wrap.appendChild(c);
+  });
+}
+
+function buildBudget(cfg){
+  const pmin = document.getElementById("pmin"), pmax = document.getElementById("pmax");
+  const steps = [];
+  for(let v=0; v<=200000; v+=5000) steps.push(v);          // 0 ~ 20억, 0.5억 단위
+  steps.forEach(v=>{
+    const a = el("option", null, v===0 ? "제한 없음" : eok(v)); a.value = v; pmin.appendChild(a);
+    const b = el("option", null, eok(v)); b.value = v; pmax.appendChild(b);
+  });
+  const bmax = el("option", null, "제한 없음"); bmax.value = "";  pmax.appendChild(bmax);
+  pmin.value = String(cfg.price_min ?? 75000);
+  pmax.value = String(cfg.price_max ?? 90000);
+  state.pmin = Number(pmin.value);
+  state.pmax = Number(pmax.value);
+  pmin.addEventListener("change", ()=>{ state.pmin = Number(pmin.value); render(); });
+  pmax.addEventListener("change", ()=>{ state.pmax = pmax.value==="" ? Infinity : Number(pmax.value); render(); });
+}
+
+async function boot(){
+  try{
+    const res = await fetch("./radar_data.json?_="+Date.now());
+    state.data = await res.json();
+  }catch(e){
+    document.getElementById("meta").textContent = "데이터를 불러오지 못했습니다: "+e;
+    return;
+  }
+  const d = state.data, cfg = d.config || {};
+  document.getElementById("meta").textContent =
+    `갱신 ${d.generated_at} · 준공 ${cfg.build_year_min}~${cfg.build_year_max}년 · ` +
+    `기본 예산 ${eok(cfg.price_min)}~${eok(cfg.price_max)} · 실거래 최근 ${cfg.scan_months}개월`;
+
+  const notes = [];
+  ["deals","auctions","onbid"].forEach(k=>{
+    const s = d[k] || {};
+    if(s.available===false && s.note){
+      const nm = {deals:"실거래", auctions:"경매", onbid:"공매"}[k];
+      notes.push(`<b>${nm}</b> — ${esc(s.note)}`);
+    }
+  });
+  if(notes.length){
+    const a = document.getElementById("alert");
+    a.hidden = false;
+    a.innerHTML = notes.join("<br>") +
+      "<br>→ data.go.kr 에서 해당 API '활용신청'(즉시 승인) 후 <code>python radar.py</code> 를 다시 실행하세요.";
+  }
+
+  document.getElementById("foot").innerHTML =
+    "출처: 국토교통부 아파트 매매 실거래가(공식 API) · 대법원 법원경매정보 · 온비드(한국자산관리공사).<br>" +
+    "실거래는 <b>이미 체결된 값</b>, 경매·공매는 <b>최저입찰가</b>입니다. 현재 호가는 각 카드의 링크로 확인하세요.<br>" +
+    "경매·공매는 권리분석·명도·체납관리비 등 별도 위험이 있습니다. " +
+    "입찰 전 반드시 등기부·매각물건명세서·현황조사서를 직접 확인하세요.";
+
+  // 첫 화면은 물건이 있는 탭으로
+  const first = TABS.find(t=> rowsOf(t.key).length>0);
+  if(first) state.tab = first.key;
+
+  buildBudget(cfg);
+  buildTabs(); buildSort(); buildGus(); render();
+
+  document.getElementById("q").addEventListener("input", e=>{ state.q=e.target.value; render(); });
+  document.getElementById("gu").addEventListener("change", e=>{ state.gu=e.target.value; render(); });
+  document.getElementById("amin").addEventListener("change", e=>{ state.amin=Number(e.target.value); render(); });
+  document.getElementById("sort").addEventListener("change", e=>{ state.sort=e.target.value; render(); });
+}
+
+boot();
+</script>
+</body>
+</html>

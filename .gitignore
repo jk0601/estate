@@ -14,6 +14,9 @@ scratch/
 secret_key.txt
 .env
 
+# 8억 레이더: 네이버 단지번호 캐시(재생성 가능)
+cache/
+
 # OS
 .DS_Store
 Thumbs.db
