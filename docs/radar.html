@@ -191,9 +191,16 @@ function dday(ymd){
   return Math.round((a-b)/86400000);
 }
 // 84.146 -> "84.1㎡ (25.4평)"
+function pyeong(m2){ return (m2/3.3058).toFixed(1); }
 function areaText(m2){
   if(m2==null) return "-";
-  return `${m2.toFixed(1)}㎡ (${(m2/3.3058).toFixed(1)}평)`;
+  return `${m2.toFixed(1)}㎡ (${pyeong(m2)}평)`;
+}
+// 단지의 평형 범위: "48.4~79.5㎡ (14.6~24.0평)"
+function areaRange(lo, hi){
+  if(lo==null || hi==null) return areaText(lo ?? hi);
+  if(Math.abs(hi-lo) < 0.05) return areaText(lo);
+  return `${lo.toFixed(1)}~${hi.toFixed(1)}㎡ (${pyeong(lo)}~${pyeong(hi)}평)`;
 }
 function naverSearch(q){ return "https://m.land.naver.com/search/result/"+encodeURIComponent(q); }
 function mapSearch(q){ return "https://map.naver.com/p/search/"+encodeURIComponent(q); }
@@ -278,7 +285,7 @@ function cardDeals(x){
 
   const f = el("div","facts");
   f.innerHTML =
-    `<span><span class="k">전용</span><b>${x.area_min??"-"}~${areaText(x.area_max)}</b></span>` +
+    `<span><span class="k">전용</span><b>${areaRange(x.area_min, x.area_max)}</b></span>` +
     `<span><span class="k">거래</span><b>${x.deal_count}건</b> (예산내 ${x.hit_count})</span>` +
     `<span><span class="k">최근</span><b>${x.last_date||"-"}</b></span>`;
   c.appendChild(f);

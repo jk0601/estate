@@ -35,9 +35,13 @@ SEOUL_LAWD = {
     "11740": "강동구",
 }
 
+# 같은 데이터에 '기본'과 '상세' 두 서비스가 따로 있고, 활용신청도 따로다.
+# 어느 쪽을 신청했든 동작하도록 순서대로 시도하고, 성공한 주소를 이후 재사용한다.
+#   기본: 15126469  RTMSDataSvcAptTrade      (필요한 필드 전부 있음 — 이걸 우선)
+#   상세: 15126468  RTMSDataSvcAptTradeDev   (등기일자 등 추가 필드)
 ENDPOINTS = (
-    "http://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev",
-    "http://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade",
+    "https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade",
+    "https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev",
 )
 
 # 응답 태그명이 신/구 버전에서 다르다 → 둘 다 받는다.
@@ -81,7 +85,9 @@ def fetch_month(lawd_cd: str, ym: str, key: str, session: requests.Session,
                 endpoint: str | None = None) -> tuple[list[dict], str]:
     """자치구 1곳 × 1개월치 체결 건. 반환: (거래목록, 성공한 endpoint)"""
     last_err: Exception | None = None
-    for ep in ([endpoint] if endpoint else ENDPOINTS):
+    tried = [endpoint] if endpoint else list(ENDPOINTS)
+    denied = 0
+    for ep in tried:
         url = (f"{ep}?serviceKey={key}&LAWD_CD={lawd_cd}&DEAL_YMD={ym}"
                f"&numOfRows=1000&pageNo=1")
         try:
@@ -89,10 +95,12 @@ def fetch_month(lawd_cd: str, ym: str, key: str, session: requests.Session,
         except requests.RequestException as e:
             last_err = e
             continue
+        # 403 = 키는 유효하나 '그 서비스'에 활용신청이 안 된 상태.
+        # 기본/상세 중 신청한 쪽이 있을 수 있으니 다음 주소를 마저 시도한다.
         if r.status_code == 403:
-            raise NotSubscribed(
-                "실거래가 API 403 — data.go.kr 에서 '국토교통부_아파트 매매 실거래가 자료'"
-                " 활용신청이 필요합니다.")
+            denied += 1
+            last_err = RuntimeError("HTTP 403")
+            continue
         if r.status_code != 200:
             last_err = RuntimeError(f"HTTP {r.status_code}")
             continue
@@ -133,6 +141,10 @@ def fetch_month(lawd_cd: str, ym: str, key: str, session: requests.Session,
                 "jibun": _pick(it, "jibun") or "",
             })
         return out, ep
+    if denied == len(tried):
+        raise NotSubscribed(
+            "실거래가 API 403 — data.go.kr 에서 '국토교통부_아파트 매매 실거래가 자료'"
+            "(15126469) 활용신청이 필요합니다. 신청 후 반영까지 시간이 걸릴 수 있습니다.")
     raise RuntimeError(f"실거래가 조회 실패: {last_err}")
 
 

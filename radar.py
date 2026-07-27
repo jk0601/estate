@@ -66,15 +66,16 @@ def load_prev() -> dict:
 
 
 def carry_first_seen(items: list[dict], prev_items: list[dict], today: str) -> list[dict]:
-    """이전 실행에 없던 물건에 '신규' 표시를 달기 위한 최초 관측일.
+    """직전 실행에 없던 물건에 '신규' 표시.
 
-    첫 실행(비교 대상 없음)에는 전부 '신규'로 보이면 의미가 없으므로 표시하지 않는다.
+    '오늘 처음 본 날짜'가 아니라 **직전 결과에 그 id가 있었는지**로 판정한다.
+    그래야 같은 날 두 번 돌려도 전부 신규로 뒤집히지 않는다.
+    비교 대상이 아예 없는 첫 실행에서는 아무것도 신규로 표시하지 않는다.
     """
-    first_run = not prev_items
     seen = {x.get("id"): x.get("first_seen") for x in prev_items if x.get("id")}
     for x in items:
         x["first_seen"] = seen.get(x["id"]) or today
-        x["is_new"] = (not first_run) and x["first_seen"] == today
+        x["is_new"] = bool(seen) and x["id"] not in seen
     return items
 
 

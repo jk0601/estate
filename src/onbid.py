@@ -135,6 +135,7 @@ def normalize(it: dict) -> dict:
         "cltr_mng_no": it.get("cltrMngNo"),
         "name": it.get("onbidCltrNm") or "",
         "usage": usage,
+        "usage_scls": it.get("cltrUsgSclsCtgrNm") or "",
         "address": addr,
         "gu": it.get("lctnSggnm") or "",
         "dong": it.get("lctnEmdNm") or "",
@@ -155,7 +156,9 @@ def normalize(it: dict) -> dict:
 
 
 def _is_apt(row: dict) -> bool:
-    return "아파트" in (row["usage"] + " " + row["name"])
+    """용도 '소분류'로만 판정. 물건명에 '아파트'가 들어간 근린생활시설(아파트 단지 내
+    상가 등)이 섞여 들어오는 걸 막는다."""
+    return row["usage_scls"] == "아파트"
 
 
 def collect(key: str, log=print) -> list[dict]:
