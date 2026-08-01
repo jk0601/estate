@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31 09:55",
+ "generated_at": "2026-08-01 14:51",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -12,7 +12,6 @@
   "available": true,
   "note": "",
   "months": [
-   "202508",
    "202509",
    "202510",
    "202511",
@@ -23,9 +22,10 @@
    "202604",
    "202605",
    "202606",
-   "202607"
+   "202607",
+   "202608"
   ],
-  "scanned_deals": 72508,
+  "scanned_deals": 68385,
   "complexes": [
    {
     "gu": "강동구",
@@ -200,40 +200,6 @@
    {
     "gu": "광진구",
     "dong": "구의동",
-    "name": "주성힐스톤",
-    "build_year": 2014,
-    "jibun": "664",
-    "deals": [
-     {
-      "date": "2025-11-30",
-      "amount": 75000,
-      "area": 61.12,
-      "floor": 1
-     },
-     {
-      "date": "2025-08-21",
-      "amount": 65000,
-      "area": 63.82,
-      "floor": 2
-     }
-    ],
-    "deal_count": 2,
-    "hit_count": 1,
-    "price_min": 65000,
-    "price_med": 70000,
-    "price_max": 75000,
-    "last_date": "2025-11-30",
-    "last_price": 75000,
-    "area_min": 61.1,
-    "area_max": 63.8,
-    "hit_min": 75000,
-    "hit_last": "2025-11-30",
-    "naver_complex_no": "109061",
-    "naver_url": "https://m.land.naver.com/complex/info/109061"
-   },
-   {
-    "gu": "광진구",
-    "dong": "구의동",
     "name": "스타파크아파트",
     "build_year": 2018,
     "jibun": "80-37",
@@ -279,6 +245,34 @@
    },
    {
     "gu": "광진구",
+    "dong": "구의동",
+    "name": "주성힐스톤",
+    "build_year": 2014,
+    "jibun": "664",
+    "deals": [
+     {
+      "date": "2025-11-30",
+      "amount": 75000,
+      "area": 61.12,
+      "floor": 1
+     }
+    ],
+    "deal_count": 1,
+    "hit_count": 1,
+    "price_min": 75000,
+    "price_med": 75000,
+    "price_max": 75000,
+    "last_date": "2025-11-30",
+    "last_price": 75000,
+    "area_min": 61.1,
+    "area_max": 61.1,
+    "hit_min": 75000,
+    "hit_last": "2025-11-30",
+    "naver_complex_no": "109061",
+    "naver_url": "https://m.land.naver.com/complex/info/109061"
+   },
+   {
+    "gu": "광진구",
     "dong": "화양동",
     "name": "위너스힐(111-89)",
     "build_year": 2021,
@@ -316,6 +310,142 @@
     "hit_last": "2026-06-04",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%ED%99%94%EC%96%91%EB%8F%99%20%EC%9C%84%EB%84%88%EC%8A%A4%ED%9E%90%28111-89%29"
+   },
+   {
+    "gu": "구로구",
+    "dong": "항동",
+    "name": "우남퍼스트빌더센트럴",
+    "build_year": 2020,
+    "jibun": "244",
+    "deals": [
+     {
+      "date": "2026-07-08",
+      "amount": 84000,
+      "area": 84.9149,
+      "floor": 16
+     },
+     {
+      "date": "2026-07-04",
+      "amount": 82500,
+      "area": 84.9149,
+      "floor": 15
+     },
+     {
+      "date": "2026-07-03",
+      "amount": 76000,
+      "area": 79.9913,
+      "floor": 18
+     },
+     {
+      "date": "2026-06-26",
+      "amount": 74000,
+      "area": 79.9913,
+      "floor": 12
+     },
+     {
+      "date": "2026-06-26",
+      "amount": 78500,
+      "area": 84.9149,
+      "floor": 16
+     },
+     {
+      "date": "2026-06-19",
+      "amount": 74000,
+      "area": 79.9913,
+      "floor": 11
+     },
+     {
+      "date": "2026-06-17",
+      "amount": 72000,
+      "area": 79.9913,
+      "floor": 5
+     },
+     {
+      "date": "2026-06-14",
+      "amount": 72750,
+      "area": 79.9913,
+      "floor": 12
+     },
+     {
+      "date": "2026-05-21",
+      "amount": 73000,
+      "area": 79.9913,
+      "floor": 17
+     },
+     {
+      "date": "2026-05-21",
+      "amount": 74500,
+      "area": 84.9149,
+      "floor": 5
+     },
+     {
+      "date": "2026-05-16",
+      "amount": 79700,
+      "area": 84.9149,
+      "floor": 19
+     },
+     {
+      "date": "2026-04-29",
+      "amount": 75350,
+      "area": 84.9149,
+      "floor": 4
+     },
+     {
+      "date": "2026-04-17",
+      "amount": 69500,
+      "area": 79.9913,
+      "floor": 8
+     },
+     {
+      "date": "2026-03-09",
+      "amount": 76500,
+      "area": 84.9149,
+      "floor": 6
+     },
+     {
+      "date": "2026-02-12",
+      "amount": 75000,
+      "area": 84.9817,
+      "floor": 7
+     },
+     {
+      "date": "2026-01-15",
+      "amount": 77500,
+      "area": 84.9149,
+      "floor": 6
+     },
+     {
+      "date": "2025-12-22",
+      "amount": 75900,
+      "area": 84.9149,
+      "floor": 12
+     },
+     {
+      "date": "2025-12-18",
+      "amount": 73000,
+      "area": 84.9149,
+      "floor": 7
+     },
+     {
+      "date": "2025-09-28",
+      "amount": 74900,
+      "area": 84.9149,
+      "floor": 8
+     }
+    ],
+    "deal_count": 19,
+    "hit_count": 10,
+    "price_min": 69500,
+    "price_med": 75000,
+    "price_max": 84000,
+    "last_date": "2026-07-08",
+    "last_price": 84000,
+    "area_min": 80.0,
+    "area_max": 85.0,
+    "hit_min": 75000,
+    "hit_last": "2026-07-08",
+    "naver_complex_no": "120035",
+    "naver_url": "https://m.land.naver.com/complex/info/120035"
    },
    {
     "gu": "구로구",
@@ -563,30 +693,12 @@
       "amount": 78000,
       "area": 71.49,
       "floor": 2
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 88000,
-      "area": 84.83,
-      "floor": 21
-     },
-     {
-      "date": "2025-08-19",
-      "amount": 86500,
-      "area": 84.83,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-18",
-      "amount": 78000,
-      "area": 59.9,
-      "floor": 21
      }
     ],
-    "deal_count": 43,
-    "hit_count": 26,
+    "deal_count": 40,
+    "hit_count": 23,
     "price_min": 75000,
-    "price_med": 89500,
+    "price_med": 89750,
     "price_max": 110000,
     "last_date": "2026-07-14",
     "last_price": 99000,
@@ -604,6 +716,12 @@
     "build_year": 2019,
     "jibun": "242",
     "deals": [
+     {
+      "date": "2026-07-28",
+      "amount": 81000,
+      "area": 84.87,
+      "floor": 7
+     },
      {
       "date": "2026-07-07",
       "amount": 66000,
@@ -801,163 +919,21 @@
       "amount": 67500,
       "area": 59.86,
       "floor": 4
-     },
-     {
-      "date": "2025-08-06",
-      "amount": 68000,
-      "area": 59.86,
-      "floor": 12
      }
     ],
     "deal_count": 34,
-    "hit_count": 9,
+    "hit_count": 10,
     "price_min": 64500,
-    "price_med": 68125,
+    "price_med": 68425,
     "price_max": 86000,
-    "last_date": "2026-07-07",
-    "last_price": 66000,
+    "last_date": "2026-07-28",
+    "last_price": 81000,
     "area_min": 59.9,
     "area_max": 84.9,
     "hit_min": 75000,
-    "hit_last": "2026-07-03",
+    "hit_last": "2026-07-28",
     "naver_complex_no": "122446",
     "naver_url": "https://m.land.naver.com/complex/info/122446"
-   },
-   {
-    "gu": "구로구",
-    "dong": "항동",
-    "name": "우남퍼스트빌더센트럴",
-    "build_year": 2020,
-    "jibun": "244",
-    "deals": [
-     {
-      "date": "2026-07-08",
-      "amount": 84000,
-      "area": 84.9149,
-      "floor": 16
-     },
-     {
-      "date": "2026-07-04",
-      "amount": 82500,
-      "area": 84.9149,
-      "floor": 15
-     },
-     {
-      "date": "2026-07-03",
-      "amount": 76000,
-      "area": 79.9913,
-      "floor": 18
-     },
-     {
-      "date": "2026-06-26",
-      "amount": 74000,
-      "area": 79.9913,
-      "floor": 12
-     },
-     {
-      "date": "2026-06-26",
-      "amount": 78500,
-      "area": 84.9149,
-      "floor": 16
-     },
-     {
-      "date": "2026-06-19",
-      "amount": 74000,
-      "area": 79.9913,
-      "floor": 11
-     },
-     {
-      "date": "2026-06-17",
-      "amount": 72000,
-      "area": 79.9913,
-      "floor": 5
-     },
-     {
-      "date": "2026-06-14",
-      "amount": 72750,
-      "area": 79.9913,
-      "floor": 12
-     },
-     {
-      "date": "2026-05-21",
-      "amount": 73000,
-      "area": 79.9913,
-      "floor": 17
-     },
-     {
-      "date": "2026-05-21",
-      "amount": 74500,
-      "area": 84.9149,
-      "floor": 5
-     },
-     {
-      "date": "2026-05-16",
-      "amount": 79700,
-      "area": 84.9149,
-      "floor": 19
-     },
-     {
-      "date": "2026-04-29",
-      "amount": 75350,
-      "area": 84.9149,
-      "floor": 4
-     },
-     {
-      "date": "2026-04-17",
-      "amount": 69500,
-      "area": 79.9913,
-      "floor": 8
-     },
-     {
-      "date": "2026-03-09",
-      "amount": 76500,
-      "area": 84.9149,
-      "floor": 6
-     },
-     {
-      "date": "2026-02-12",
-      "amount": 75000,
-      "area": 84.9817,
-      "floor": 7
-     },
-     {
-      "date": "2026-01-15",
-      "amount": 77500,
-      "area": 84.9149,
-      "floor": 6
-     },
-     {
-      "date": "2025-12-22",
-      "amount": 75900,
-      "area": 84.9149,
-      "floor": 12
-     },
-     {
-      "date": "2025-12-18",
-      "amount": 73000,
-      "area": 84.9149,
-      "floor": 7
-     },
-     {
-      "date": "2025-09-28",
-      "amount": 74900,
-      "area": 84.9149,
-      "floor": 8
-     }
-    ],
-    "deal_count": 19,
-    "hit_count": 10,
-    "price_min": 69500,
-    "price_med": 75000,
-    "price_max": 84000,
-    "last_date": "2026-07-08",
-    "last_price": 84000,
-    "area_min": 80.0,
-    "area_max": 85.0,
-    "hit_min": 75000,
-    "hit_last": "2026-07-08",
-    "naver_complex_no": "120035",
-    "naver_url": "https://m.land.naver.com/complex/info/120035"
    },
    {
     "gu": "구로구",
@@ -1359,24 +1335,12 @@
       "amount": 81500,
       "area": 59.6222,
       "floor": 31
-     },
-     {
-      "date": "2025-08-04",
-      "amount": 77000,
-      "area": 59.8245,
-      "floor": 36
-     },
-     {
-      "date": "2025-08-03",
-      "amount": 79900,
-      "area": 59.6222,
-      "floor": 29
      }
     ],
-    "deal_count": 40,
-    "hit_count": 33,
+    "deal_count": 38,
+    "hit_count": 31,
     "price_min": 70000,
-    "price_med": 79950,
+    "price_med": 80500,
     "price_max": 99700,
     "last_date": "2026-07-18",
     "last_price": 85000,
@@ -2021,23 +1985,11 @@
       "amount": 68000,
       "area": 52.7678,
       "floor": 11
-     },
-     {
-      "date": "2025-08-14",
-      "amount": 68000,
-      "area": 52.7678,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-06",
-      "amount": 64700,
-      "area": 52.7678,
-      "floor": 2
      }
     ],
-    "deal_count": 13,
+    "deal_count": 11,
     "hit_count": 2,
-    "price_min": 64700,
+    "price_min": 68000,
     "price_med": 73000,
     "price_max": 78000,
     "last_date": "2026-05-29",
@@ -2727,30 +2679,12 @@
       "amount": 128000,
       "area": 129.368,
       "floor": 7
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 100000,
-      "area": 84.966,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 97100,
-      "area": 84.984,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-10",
-      "amount": 104300,
-      "area": 84.984,
-      "floor": 11
      }
     ],
-    "deal_count": 52,
+    "deal_count": 49,
     "hit_count": 2,
     "price_min": 75000,
-    "price_med": 110000,
+    "price_med": 112000,
     "price_max": 140000,
     "last_date": "2026-07-04",
     "last_price": 115000,
@@ -2760,52 +2694,6 @@
     "hit_last": "2026-05-13",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%9B%94%EB%8F%99%20%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
-   },
-   {
-    "gu": "영등포구",
-    "dong": "문래동3가",
-    "name": "예지팰리스77차",
-    "build_year": 2015,
-    "jibun": "99",
-    "deals": [
-     {
-      "date": "2026-01-24",
-      "amount": 75000,
-      "area": 77.76,
-      "floor": 5
-     },
-     {
-      "date": "2026-01-15",
-      "amount": 66000,
-      "area": 62.65,
-      "floor": 7
-     },
-     {
-      "date": "2025-10-02",
-      "amount": 64500,
-      "area": 77.76,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-29",
-      "amount": 78000,
-      "area": 73.61,
-      "floor": 11
-     }
-    ],
-    "deal_count": 4,
-    "hit_count": 2,
-    "price_min": 64500,
-    "price_med": 70500,
-    "price_max": 78000,
-    "last_date": "2026-01-24",
-    "last_price": 75000,
-    "area_min": 62.6,
-    "area_max": 77.8,
-    "hit_min": 75000,
-    "hit_last": "2026-01-24",
-    "naver_complex_no": "113607",
-    "naver_url": "https://m.land.naver.com/complex/info/113607"
    },
    {
     "gu": "영등포구",
@@ -2924,6 +2812,46 @@
     "hit_last": "2025-10-14",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%ED%8F%89%EB%8F%991%EA%B0%80%20%EC%98%81%EB%93%B1%ED%8F%AC%EC%A4%91%ED%9D%A5%EC%97%90%EC%8A%A4%ED%81%B4%EB%9E%98%EC%8A%A4"
+   },
+   {
+    "gu": "영등포구",
+    "dong": "문래동3가",
+    "name": "예지팰리스77차",
+    "build_year": 2015,
+    "jibun": "99",
+    "deals": [
+     {
+      "date": "2026-01-24",
+      "amount": 75000,
+      "area": 77.76,
+      "floor": 5
+     },
+     {
+      "date": "2026-01-15",
+      "amount": 66000,
+      "area": 62.65,
+      "floor": 7
+     },
+     {
+      "date": "2025-10-02",
+      "amount": 64500,
+      "area": 77.76,
+      "floor": 3
+     }
+    ],
+    "deal_count": 3,
+    "hit_count": 1,
+    "price_min": 64500,
+    "price_med": 66000,
+    "price_max": 75000,
+    "last_date": "2026-01-24",
+    "last_price": 75000,
+    "area_min": 62.6,
+    "area_max": 77.8,
+    "hit_min": 75000,
+    "hit_last": "2026-01-24",
+    "naver_complex_no": "113607",
+    "naver_url": "https://m.land.naver.com/complex/info/113607"
    },
    {
     "gu": "영등포구",
@@ -3127,24 +3055,12 @@
       "amount": 75300,
       "area": 59.94,
       "floor": 9
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 74500,
-      "area": 59.94,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-02",
-      "amount": 79000,
-      "area": 71.99,
-      "floor": 9
      }
     ],
-    "deal_count": 26,
-    "hit_count": 21,
+    "deal_count": 24,
+    "hit_count": 20,
     "price_min": 69000,
-    "price_med": 79750,
+    "price_med": 80500,
     "price_max": 94000,
     "last_date": "2026-07-27",
     "last_price": 89500,
@@ -3771,36 +3687,12 @@
       "amount": 122500,
       "area": 84.87,
       "floor": 12
-     },
-     {
-      "date": "2025-08-29",
-      "amount": 127000,
-      "area": 84.87,
-      "floor": 29
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 122000,
-      "area": 84.956,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 124000,
-      "area": 84.956,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-22",
-      "amount": 124500,
-      "area": 84.956,
-      "floor": 22
      }
     ],
-    "deal_count": 88,
+    "deal_count": 84,
     "hit_count": 1,
     "price_min": 75000,
-    "price_med": 128000,
+    "price_med": 128750,
     "price_max": 178700,
     "last_date": "2026-07-24",
     "last_price": 153500,
@@ -3818,6 +3710,12 @@
     "build_year": 2014,
     "jibun": "816",
     "deals": [
+     {
+      "date": "2026-07-22",
+      "amount": 88500,
+      "area": 84.91,
+      "floor": 21
+     },
      {
       "date": "2026-06-24",
       "amount": 78000,
@@ -3991,85 +3889,21 @@
       "amount": 75900,
       "area": 84.65,
       "floor": 11
-     },
-     {
-      "date": "2025-08-25",
-      "amount": 74000,
-      "area": 84.94,
-      "floor": 12
-     },
-     {
-      "date": "2025-08-18",
-      "amount": 69000,
-      "area": 84.94,
-      "floor": 4
      }
     ],
-    "deal_count": 31,
-    "hit_count": 24,
+    "deal_count": 30,
+    "hit_count": 25,
     "price_min": 50000,
     "price_med": 77000,
-    "price_max": 81700,
-    "last_date": "2026-06-24",
-    "last_price": 78000,
+    "price_max": 88500,
+    "last_date": "2026-07-22",
+    "last_price": 88500,
     "area_min": 60.0,
     "area_max": 84.9,
     "hit_min": 75000,
-    "hit_last": "2026-06-24",
+    "hit_last": "2026-07-22",
     "naver_complex_no": "108142",
     "naver_url": "https://m.land.naver.com/complex/info/108142"
-   },
-   {
-    "gu": "광진구",
-    "dong": "구의동",
-    "name": "한영해시안아파트",
-    "build_year": 2020,
-    "jibun": "71-6",
-    "deals": [
-     {
-      "date": "2026-04-29",
-      "amount": 78950,
-      "area": 59.97,
-      "floor": 3
-     },
-     {
-      "date": "2026-03-23",
-      "amount": 81500,
-      "area": 59.97,
-      "floor": 10
-     },
-     {
-      "date": "2025-12-04",
-      "amount": 78500,
-      "area": 59.97,
-      "floor": 7
-     },
-     {
-      "date": "2025-09-29",
-      "amount": 78000,
-      "area": 59.93,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 75500,
-      "area": 59.97,
-      "floor": 8
-     }
-    ],
-    "deal_count": 5,
-    "hit_count": 5,
-    "price_min": 75500,
-    "price_med": 78500,
-    "price_max": 81500,
-    "last_date": "2026-04-29",
-    "last_price": 78950,
-    "area_min": 59.9,
-    "area_max": 60.0,
-    "hit_min": 75500,
-    "hit_last": "2026-04-29",
-    "naver_complex_no": "149122",
-    "naver_url": "https://m.land.naver.com/complex/info/149122"
    },
    {
     "gu": "구로구",
@@ -4791,16 +4625,10 @@
       "amount": 83000,
       "area": 84.9871,
       "floor": 12
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 83500,
-      "area": 84.9871,
-      "floor": 19
      }
     ],
-    "deal_count": 28,
-    "hit_count": 19,
+    "deal_count": 27,
+    "hit_count": 18,
     "price_min": 72000,
     "price_med": 84000,
     "price_max": 104000,
@@ -4963,30 +4791,12 @@
       "amount": 96700,
       "area": 109.06,
       "floor": 9
-     },
-     {
-      "date": "2025-08-24",
-      "amount": 84500,
-      "area": 84.56,
-      "floor": 19
-     },
-     {
-      "date": "2025-08-24",
-      "amount": 74000,
-      "area": 59.63,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-13",
-      "amount": 71000,
-      "area": 59.63,
-      "floor": 11
      }
     ],
-    "deal_count": 27,
-    "hit_count": 15,
+    "deal_count": 24,
+    "hit_count": 14,
     "price_min": 56500,
-    "price_med": 83500,
+    "price_med": 84250,
     "price_max": 97000,
     "last_date": "2026-07-04",
     "last_price": 94500,
@@ -4998,11 +4808,245 @@
     "naver_url": "https://m.land.naver.com/complex/info/109073"
    },
    {
+    "gu": "마포구",
+    "dong": "망원동",
+    "name": "마포월드컵제이스카이",
+    "build_year": 2021,
+    "jibun": "523",
+    "deals": [
+     {
+      "date": "2026-06-23",
+      "amount": 89000,
+      "area": 59.97,
+      "floor": 7
+     },
+     {
+      "date": "2026-06-04",
+      "amount": 76700,
+      "area": 49.61,
+      "floor": 4
+     },
+     {
+      "date": "2026-05-13",
+      "amount": 78000,
+      "area": 49.61,
+      "floor": 3
+     },
+     {
+      "date": "2026-05-08",
+      "amount": 81000,
+      "area": 59.95,
+      "floor": 3
+     },
+     {
+      "date": "2026-04-30",
+      "amount": 73500,
+      "area": 49.61,
+      "floor": 3
+     },
+     {
+      "date": "2026-03-31",
+      "amount": 80000,
+      "area": 59.95,
+      "floor": 12
+     },
+     {
+      "date": "2026-03-06",
+      "amount": 78000,
+      "area": 49.61,
+      "floor": 13
+     },
+     {
+      "date": "2026-02-14",
+      "amount": 77000,
+      "area": 49.61,
+      "floor": 5
+     },
+     {
+      "date": "2026-02-04",
+      "amount": 77000,
+      "area": 49.61,
+      "floor": 14
+     }
+    ],
+    "deal_count": 9,
+    "hit_count": 8,
+    "price_min": 73500,
+    "price_med": 78000,
+    "price_max": 89000,
+    "last_date": "2026-06-23",
+    "last_price": 89000,
+    "area_min": 49.6,
+    "area_max": 60.0,
+    "hit_min": 76700,
+    "hit_last": "2026-06-23",
+    "naver_complex_no": "132834",
+    "naver_url": "https://m.land.naver.com/complex/info/132834"
+   },
+   {
+    "gu": "서대문구",
+    "dong": "홍은동",
+    "name": "북한산두산위브2차",
+    "build_year": 2021,
+    "jibun": "468",
+    "deals": [
+     {
+      "date": "2026-06-23",
+      "amount": 86000,
+      "area": 59.7501,
+      "floor": 10
+     },
+     {
+      "date": "2026-06-18",
+      "amount": 85000,
+      "area": 59.7501,
+      "floor": 6
+     },
+     {
+      "date": "2026-05-22",
+      "amount": 80500,
+      "area": 59.7501,
+      "floor": 9
+     },
+     {
+      "date": "2026-05-09",
+      "amount": 85000,
+      "area": 59.7501,
+      "floor": 10
+     },
+     {
+      "date": "2026-04-25",
+      "amount": 83500,
+      "area": 59.7501,
+      "floor": 13
+     },
+     {
+      "date": "2026-04-22",
+      "amount": 82500,
+      "area": 59.7501,
+      "floor": 14
+     },
+     {
+      "date": "2026-03-28",
+      "amount": 80000,
+      "area": 59.7501,
+      "floor": 14
+     },
+     {
+      "date": "2026-02-27",
+      "amount": 80000,
+      "area": 59.7501,
+      "floor": 5
+     },
+     {
+      "date": "2026-02-21",
+      "amount": 80000,
+      "area": 59.7501,
+      "floor": 6
+     },
+     {
+      "date": "2026-02-14",
+      "amount": 79000,
+      "area": 59.7501,
+      "floor": 8
+     },
+     {
+      "date": "2026-02-09",
+      "amount": 78000,
+      "area": 59.7501,
+      "floor": 10
+     },
+     {
+      "date": "2026-02-09",
+      "amount": 78400,
+      "area": 59.7501,
+      "floor": 5
+     },
+     {
+      "date": "2026-02-04",
+      "amount": 77500,
+      "area": 59.7501,
+      "floor": 5
+     },
+     {
+      "date": "2026-01-22",
+      "amount": 77000,
+      "area": 59.7501,
+      "floor": 9
+     },
+     {
+      "date": "2025-12-20",
+      "amount": 76700,
+      "area": 59.7501,
+      "floor": 9
+     },
+     {
+      "date": "2025-09-17",
+      "amount": 72500,
+      "area": 56.9161,
+      "floor": 3
+     },
+     {
+      "date": "2025-09-15",
+      "amount": 73000,
+      "area": 59.7501,
+      "floor": 9
+     },
+     {
+      "date": "2025-09-03",
+      "amount": 74000,
+      "area": 59.7501,
+      "floor": 11
+     }
+    ],
+    "deal_count": 18,
+    "hit_count": 15,
+    "price_min": 72500,
+    "price_med": 79500,
+    "price_max": 86000,
+    "last_date": "2026-06-23",
+    "last_price": 86000,
+    "area_min": 56.9,
+    "area_max": 59.8,
+    "hit_min": 76700,
+    "hit_last": "2026-06-23",
+    "naver_complex_no": "127108",
+    "naver_url": "https://m.land.naver.com/complex/info/127108"
+   },
+   {
+    "gu": "강남구",
+    "dong": "대치동",
+    "name": "현대썬앤빌테헤란",
+    "build_year": 2016,
+    "jibun": "894",
+    "deals": [
+     {
+      "date": "2026-06-11",
+      "amount": 77000,
+      "area": 49.24,
+      "floor": 7
+     }
+    ],
+    "deal_count": 1,
+    "hit_count": 1,
+    "price_min": 77000,
+    "price_med": 77000,
+    "price_max": 77000,
+    "last_date": "2026-06-11",
+    "last_price": 77000,
+    "area_min": 49.2,
+    "area_max": 49.2,
+    "hit_min": 77000,
+    "hit_last": "2026-06-11",
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8C%80%EC%B9%98%EB%8F%99%20%ED%98%84%EB%8C%80%EC%8D%AC%EC%95%A4%EB%B9%8C%ED%85%8C%ED%97%A4%EB%9E%80"
+   },
+   {
     "gu": "강동구",
     "dong": "강일동",
     "name": "강동리버스트4단지",
     "build_year": 2020,
-    "jibun": "114",
+    "jibun": "742",
     "deals": [
      {
       "date": "2026-07-16",
@@ -5213,309 +5257,21 @@
       "amount": 84000,
       "area": 59.99,
       "floor": 2
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 76800,
-      "area": 49.82,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 78500,
-      "area": 49.82,
-      "floor": 20
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 77500,
-      "area": 49.82,
-      "floor": 18
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 76700,
-      "area": 49.82,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 92300,
-      "area": 59.99,
-      "floor": 16
      }
     ],
-    "deal_count": 40,
-    "hit_count": 21,
+    "deal_count": 35,
+    "hit_count": 17,
     "price_min": 61000,
-    "price_med": 88850,
+    "price_med": 90000,
     "price_max": 120000,
     "last_date": "2026-07-16",
     "last_price": 120000,
     "area_min": 49.8,
     "area_max": 60.0,
-    "hit_min": 76700,
+    "hit_min": 77000,
     "hit_last": "2026-02-20",
     "naver_complex_no": "127671",
     "naver_url": "https://m.land.naver.com/complex/info/127671"
-   },
-   {
-    "gu": "마포구",
-    "dong": "망원동",
-    "name": "마포월드컵제이스카이",
-    "build_year": 2021,
-    "jibun": "523",
-    "deals": [
-     {
-      "date": "2026-06-23",
-      "amount": 89000,
-      "area": 59.97,
-      "floor": 7
-     },
-     {
-      "date": "2026-06-04",
-      "amount": 76700,
-      "area": 49.61,
-      "floor": 4
-     },
-     {
-      "date": "2026-05-13",
-      "amount": 78000,
-      "area": 49.61,
-      "floor": 3
-     },
-     {
-      "date": "2026-05-08",
-      "amount": 81000,
-      "area": 59.95,
-      "floor": 3
-     },
-     {
-      "date": "2026-04-30",
-      "amount": 73500,
-      "area": 49.61,
-      "floor": 3
-     },
-     {
-      "date": "2026-03-31",
-      "amount": 80000,
-      "area": 59.95,
-      "floor": 12
-     },
-     {
-      "date": "2026-03-06",
-      "amount": 78000,
-      "area": 49.61,
-      "floor": 13
-     },
-     {
-      "date": "2026-02-14",
-      "amount": 77000,
-      "area": 49.61,
-      "floor": 5
-     },
-     {
-      "date": "2026-02-04",
-      "amount": 77000,
-      "area": 49.61,
-      "floor": 14
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 87300,
-      "area": 59.97,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-25",
-      "amount": 72800,
-      "area": 49.61,
-      "floor": 7
-     }
-    ],
-    "deal_count": 11,
-    "hit_count": 9,
-    "price_min": 72800,
-    "price_med": 78000,
-    "price_max": 89000,
-    "last_date": "2026-06-23",
-    "last_price": 89000,
-    "area_min": 49.6,
-    "area_max": 60.0,
-    "hit_min": 76700,
-    "hit_last": "2026-06-23",
-    "naver_complex_no": "132834",
-    "naver_url": "https://m.land.naver.com/complex/info/132834"
-   },
-   {
-    "gu": "서대문구",
-    "dong": "홍은동",
-    "name": "북한산두산위브2차",
-    "build_year": 2021,
-    "jibun": "468",
-    "deals": [
-     {
-      "date": "2026-06-23",
-      "amount": 86000,
-      "area": 59.7501,
-      "floor": 10
-     },
-     {
-      "date": "2026-06-18",
-      "amount": 85000,
-      "area": 59.7501,
-      "floor": 6
-     },
-     {
-      "date": "2026-05-22",
-      "amount": 80500,
-      "area": 59.7501,
-      "floor": 9
-     },
-     {
-      "date": "2026-05-09",
-      "amount": 85000,
-      "area": 59.7501,
-      "floor": 10
-     },
-     {
-      "date": "2026-04-25",
-      "amount": 83500,
-      "area": 59.7501,
-      "floor": 13
-     },
-     {
-      "date": "2026-04-22",
-      "amount": 82500,
-      "area": 59.7501,
-      "floor": 14
-     },
-     {
-      "date": "2026-03-28",
-      "amount": 80000,
-      "area": 59.7501,
-      "floor": 14
-     },
-     {
-      "date": "2026-02-27",
-      "amount": 80000,
-      "area": 59.7501,
-      "floor": 5
-     },
-     {
-      "date": "2026-02-21",
-      "amount": 80000,
-      "area": 59.7501,
-      "floor": 6
-     },
-     {
-      "date": "2026-02-14",
-      "amount": 79000,
-      "area": 59.7501,
-      "floor": 8
-     },
-     {
-      "date": "2026-02-09",
-      "amount": 78000,
-      "area": 59.7501,
-      "floor": 10
-     },
-     {
-      "date": "2026-02-09",
-      "amount": 78400,
-      "area": 59.7501,
-      "floor": 5
-     },
-     {
-      "date": "2026-02-04",
-      "amount": 77500,
-      "area": 59.7501,
-      "floor": 5
-     },
-     {
-      "date": "2026-01-22",
-      "amount": 77000,
-      "area": 59.7501,
-      "floor": 9
-     },
-     {
-      "date": "2025-12-20",
-      "amount": 76700,
-      "area": 59.7501,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-17",
-      "amount": 72500,
-      "area": 56.9161,
-      "floor": 3
-     },
-     {
-      "date": "2025-09-15",
-      "amount": 73000,
-      "area": 59.7501,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-03",
-      "amount": 74000,
-      "area": 59.7501,
-      "floor": 11
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 73000,
-      "area": 59.7501,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-08",
-      "amount": 73500,
-      "area": 59.7501,
-      "floor": 14
-     }
-    ],
-    "deal_count": 20,
-    "hit_count": 15,
-    "price_min": 72500,
-    "price_med": 78700,
-    "price_max": 86000,
-    "last_date": "2026-06-23",
-    "last_price": 86000,
-    "area_min": 56.9,
-    "area_max": 59.8,
-    "hit_min": 76700,
-    "hit_last": "2026-06-23",
-    "naver_complex_no": "127108",
-    "naver_url": "https://m.land.naver.com/complex/info/127108"
-   },
-   {
-    "gu": "강남구",
-    "dong": "대치동",
-    "name": "현대썬앤빌테헤란",
-    "build_year": 2016,
-    "jibun": "894",
-    "deals": [
-     {
-      "date": "2026-06-11",
-      "amount": 77000,
-      "area": 49.24,
-      "floor": 7
-     }
-    ],
-    "deal_count": 1,
-    "hit_count": 1,
-    "price_min": 77000,
-    "price_med": 77000,
-    "price_max": 77000,
-    "last_date": "2026-06-11",
-    "last_price": 77000,
-    "area_min": 49.2,
-    "area_max": 49.2,
-    "hit_min": 77000,
-    "hit_last": "2026-06-11",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8C%80%EC%B9%98%EB%8F%99%20%ED%98%84%EB%8C%80%EC%8D%AC%EC%95%A4%EB%B9%8C%ED%85%8C%ED%97%A4%EB%9E%80"
    },
    {
     "gu": "구로구",
@@ -5661,21 +5417,9 @@
       "amount": 71000,
       "area": 84.6614,
       "floor": 13
-     },
-     {
-      "date": "2025-08-29",
-      "amount": 70800,
-      "area": 84.6614,
-      "floor": 12
-     },
-     {
-      "date": "2025-08-12",
-      "amount": 68000,
-      "area": 84.6614,
-      "floor": 2
      }
     ],
-    "deal_count": 25,
+    "deal_count": 23,
     "hit_count": 2,
     "price_min": 66900,
     "price_med": 70000,
@@ -5696,6 +5440,12 @@
     "build_year": 2014,
     "jibun": "1026",
     "deals": [
+     {
+      "date": "2026-07-30",
+      "amount": 115500,
+      "area": 115.801,
+      "floor": 24
+     },
      {
       "date": "2026-07-19",
       "amount": 92000,
@@ -5767,12 +5517,6 @@
       "amount": 97500,
       "area": 84.697,
       "floor": 8
-     },
-     {
-      "date": "2026-05-21",
-      "amount": 98000,
-      "area": 84.697,
-      "floor": 7
      },
      {
       "date": "2026-05-16",
@@ -6193,63 +5937,15 @@
       "amount": 130000,
       "area": 150.72,
       "floor": 6
-     },
-     {
-      "date": "2025-08-25",
-      "amount": 94500,
-      "area": 84.697,
-      "floor": 18
-     },
-     {
-      "date": "2025-08-24",
-      "amount": 79500,
-      "area": 59.817,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-21",
-      "amount": 72000,
-      "area": 84.677,
-      "floor": 20
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 77500,
-      "area": 59.973,
-      "floor": 6
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 89000,
-      "area": 84.677,
-      "floor": 11
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 94500,
-      "area": 84.786,
-      "floor": 19
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 74000,
-      "area": 59.87,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-04",
-      "amount": 78700,
-      "area": 59.817,
-      "floor": 15
      }
     ],
-    "deal_count": 91,
-    "hit_count": 33,
+    "deal_count": 83,
+    "hit_count": 29,
     "price_min": 70000,
-    "price_med": 93500,
+    "price_med": 94000,
     "price_max": 140000,
-    "last_date": "2026-07-19",
-    "last_price": 92000,
+    "last_date": "2026-07-30",
+    "last_price": 115500,
     "area_min": 59.8,
     "area_max": 150.7,
     "hit_min": 77000,
@@ -6371,18 +6067,12 @@
       "amount": 77000,
       "area": 84.98,
       "floor": 17
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 51000,
-      "area": 59.84,
-      "floor": 8
      }
     ],
-    "deal_count": 19,
+    "deal_count": 18,
     "hit_count": 3,
     "price_min": 47000,
-    "price_med": 52600,
+    "price_med": 52800,
     "price_max": 82800,
     "last_date": "2026-07-18",
     "last_price": 82800,
@@ -6446,6 +6136,12 @@
     "build_year": 2021,
     "jibun": "769",
     "deals": [
+     {
+      "date": "2026-07-18",
+      "amount": 158000,
+      "area": 84.98,
+      "floor": 16
+     },
      {
       "date": "2026-07-15",
       "amount": 161000,
@@ -7183,99 +6879,15 @@
       "amount": 146000,
       "area": 99.76,
       "floor": 2
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 135700,
-      "area": 84.97,
-      "floor": 8
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 129000,
-      "area": 84.92,
-      "floor": 2
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 112500,
-      "area": 59.96,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-28",
-      "amount": 136000,
-      "area": 84.94,
-      "floor": 19
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 96100,
-      "area": 84.98,
-      "floor": 14
-     },
-     {
-      "date": "2025-08-25",
-      "amount": 96000,
-      "area": 59.96,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 101500,
-      "area": 59.94,
-      "floor": 6
-     },
-     {
-      "date": "2025-08-21",
-      "amount": 114500,
-      "area": 59.96,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 127000,
-      "area": 84.94,
-      "floor": 11
-     },
-     {
-      "date": "2025-08-13",
-      "amount": 104000,
-      "area": 59.94,
-      "floor": 8
-     },
-     {
-      "date": "2025-08-13",
-      "amount": 133000,
-      "area": 84.98,
-      "floor": 8
-     },
-     {
-      "date": "2025-08-12",
-      "amount": 108000,
-      "area": 59.96,
-      "floor": 5
-     },
-     {
-      "date": "2025-08-12",
-      "amount": 123000,
-      "area": 84.94,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 136000,
-      "area": 84.97,
-      "floor": 10
      }
     ],
-    "deal_count": 137,
+    "deal_count": 124,
     "hit_count": 1,
     "price_min": 77000,
     "price_med": 128000,
     "price_max": 163000,
-    "last_date": "2026-07-15",
-    "last_price": 161000,
+    "last_date": "2026-07-18",
+    "last_price": 158000,
     "area_min": 44.9,
     "area_max": 99.8,
     "hit_min": 77000,
@@ -7649,30 +7261,12 @@
       "amount": 87000,
       "area": 84.98,
       "floor": 4
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 79000,
-      "area": 59.98,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 80500,
-      "area": 59.99,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-02",
-      "amount": 86800,
-      "area": 84.98,
-      "floor": 7
      }
     ],
-    "deal_count": 30,
-    "hit_count": 13,
+    "deal_count": 27,
+    "hit_count": 10,
     "price_min": 78000,
-    "price_med": 91250,
+    "price_med": 92000,
     "price_max": 109500,
     "last_date": "2026-07-09",
     "last_price": 104600,
@@ -7770,6 +7364,52 @@
     "hit_last": "2026-06-02",
     "naver_complex_no": "105521",
     "naver_url": "https://m.land.naver.com/complex/info/105521"
+   },
+   {
+    "gu": "광진구",
+    "dong": "구의동",
+    "name": "한영해시안아파트",
+    "build_year": 2020,
+    "jibun": "71-6",
+    "deals": [
+     {
+      "date": "2026-04-29",
+      "amount": 78950,
+      "area": 59.97,
+      "floor": 3
+     },
+     {
+      "date": "2026-03-23",
+      "amount": 81500,
+      "area": 59.97,
+      "floor": 10
+     },
+     {
+      "date": "2025-12-04",
+      "amount": 78500,
+      "area": 59.97,
+      "floor": 7
+     },
+     {
+      "date": "2025-09-29",
+      "amount": 78000,
+      "area": 59.93,
+      "floor": 9
+     }
+    ],
+    "deal_count": 4,
+    "hit_count": 4,
+    "price_min": 78000,
+    "price_med": 78725,
+    "price_max": 81500,
+    "last_date": "2026-04-29",
+    "last_price": 78950,
+    "area_min": 59.9,
+    "area_max": 60.0,
+    "hit_min": 78000,
+    "hit_last": "2026-04-29",
+    "naver_complex_no": "149122",
+    "naver_url": "https://m.land.naver.com/complex/info/149122"
    },
    {
     "gu": "노원구",
@@ -8035,60 +7675,12 @@
       "amount": 81000,
       "area": 59.996,
       "floor": 3
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 104500,
-      "area": 84.999,
-      "floor": 8
-     },
-     {
-      "date": "2025-08-24",
-      "amount": 80500,
-      "area": 59.996,
-      "floor": 11
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 79500,
-      "area": 59.996,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-22",
-      "amount": 105000,
-      "area": 84.999,
-      "floor": 2
-     },
-     {
-      "date": "2025-08-18",
-      "amount": 83000,
-      "area": 59.996,
-      "floor": 6
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 83000,
-      "area": 59.996,
-      "floor": 5
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 83500,
-      "area": 59.996,
-      "floor": 8
-     },
-     {
-      "date": "2025-08-07",
-      "amount": 79500,
-      "area": 59.996,
-      "floor": 5
      }
     ],
-    "deal_count": 51,
-    "hit_count": 24,
+    "deal_count": 43,
+    "hit_count": 18,
     "price_min": 71000,
-    "price_med": 90000,
+    "price_med": 90600,
     "price_max": 110000,
     "last_date": "2026-07-10",
     "last_price": 90000,
@@ -8715,30 +8307,12 @@
       "amount": 116500,
       "area": 84.97,
       "floor": 16
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 114200,
-      "area": 84.97,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 92700,
-      "area": 59.88,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 101500,
-      "area": 59.88,
-      "floor": 15
      }
     ],
-    "deal_count": 99,
+    "deal_count": 96,
     "hit_count": 7,
     "price_min": 73500,
-    "price_med": 115000,
+    "price_med": 115650,
     "price_max": 140000,
     "last_date": "2026-07-25",
     "last_price": 140000,
@@ -9227,36 +8801,12 @@
       "amount": 81500,
       "area": 59.905,
       "floor": 6
-     },
-     {
-      "date": "2025-08-22",
-      "amount": 94000,
-      "area": 84.669,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-20",
-      "amount": 84500,
-      "area": 59.789,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-11",
-      "amount": 80000,
-      "area": 59.905,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 85000,
-      "area": 59.789,
-      "floor": 8
      }
     ],
-    "deal_count": 61,
-    "hit_count": 24,
+    "deal_count": 57,
+    "hit_count": 21,
     "price_min": 68000,
-    "price_med": 90500,
+    "price_med": 90800,
     "price_max": 109000,
     "last_date": "2026-07-16",
     "last_price": 84000,
@@ -9573,15 +9123,9 @@
       "amount": 113700,
       "area": 84.97,
       "floor": 3
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 97000,
-      "area": 59.68,
-      "floor": 7
      }
     ],
-    "deal_count": 51,
+    "deal_count": 50,
     "hit_count": 1,
     "price_min": 70010,
     "price_med": 120000,
@@ -9987,84 +9531,12 @@
       "amount": 112000,
       "area": 84.9014,
       "floor": 8
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 112700,
-      "area": 84.9014,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 86700,
-      "area": 59.9866,
-      "floor": 11
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 114000,
-      "area": 84.9728,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 114000,
-      "area": 84.9014,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-11",
-      "amount": 118500,
-      "area": 84.9728,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 111000,
-      "area": 84.9014,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-07",
-      "amount": 90000,
-      "area": 59.9866,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-07",
-      "amount": 115000,
-      "area": 84.9014,
-      "floor": 24
-     },
-     {
-      "date": "2025-08-04",
-      "amount": 115000,
-      "area": 84.9014,
-      "floor": 20
-     },
-     {
-      "date": "2025-08-04",
-      "amount": 119000,
-      "area": 84.9728,
-      "floor": 14
-     },
-     {
-      "date": "2025-08-02",
-      "amount": 91000,
-      "area": 59.9866,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-02",
-      "amount": 90000,
-      "area": 59.9866,
-      "floor": 4
      }
     ],
-    "deal_count": 65,
-    "hit_count": 7,
+    "deal_count": 53,
+    "hit_count": 4,
     "price_min": 70000,
-    "price_med": 111000,
+    "price_med": 109500,
     "price_max": 137500,
     "last_date": "2026-07-12",
     "last_price": 119000,
@@ -10105,15 +9577,9 @@
       "amount": 58000,
       "area": 68.39,
       "floor": 11
-     },
-     {
-      "date": "2025-08-02",
-      "amount": 59800,
-      "area": 55.08,
-      "floor": 10
      }
     ],
-    "deal_count": 5,
+    "deal_count": 4,
     "hit_count": 1,
     "price_min": 58000,
     "price_med": 62000,
@@ -10659,18 +10125,12 @@
       "amount": 81500,
       "area": 59.36,
       "floor": 6
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 90000,
-      "area": 84.67,
-      "floor": 4
      }
     ],
-    "deal_count": 78,
-    "hit_count": 36,
+    "deal_count": 77,
+    "hit_count": 35,
     "price_min": 72000,
-    "price_med": 91250,
+    "price_med": 91500,
     "price_max": 125000,
     "last_date": "2026-07-11",
     "last_price": 98000,
@@ -10708,376 +10168,6 @@
     "hit_last": "2025-11-25",
     "naver_complex_no": "116237",
     "naver_url": "https://m.land.naver.com/complex/info/116237"
-   },
-   {
-    "gu": "은평구",
-    "dong": "응암동",
-    "name": "백련산해모로",
-    "build_year": 2020,
-    "jibun": "768",
-    "deals": [
-     {
-      "date": "2026-07-13",
-      "amount": 110500,
-      "area": 84.99,
-      "floor": 14
-     },
-     {
-      "date": "2026-07-02",
-      "amount": 114000,
-      "area": 84.91,
-      "floor": 11
-     },
-     {
-      "date": "2026-07-01",
-      "amount": 99000,
-      "area": 59.97,
-      "floor": 8
-     },
-     {
-      "date": "2026-06-27",
-      "amount": 103000,
-      "area": 84.91,
-      "floor": 2
-     },
-     {
-      "date": "2026-06-19",
-      "amount": 90000,
-      "area": 59.93,
-      "floor": 9
-     },
-     {
-      "date": "2026-06-10",
-      "amount": 112500,
-      "area": 84.91,
-      "floor": 7
-     },
-     {
-      "date": "2026-05-01",
-      "amount": 89800,
-      "area": 59.97,
-      "floor": 7
-     },
-     {
-      "date": "2026-04-22",
-      "amount": 101000,
-      "area": 84.99,
-      "floor": 2
-     },
-     {
-      "date": "2026-04-20",
-      "amount": 107000,
-      "area": 84.99,
-      "floor": 17
-     },
-     {
-      "date": "2026-03-24",
-      "amount": 86000,
-      "area": 59.93,
-      "floor": 5
-     },
-     {
-      "date": "2026-03-18",
-      "amount": 106000,
-      "area": 84.91,
-      "floor": 17
-     },
-     {
-      "date": "2026-03-16",
-      "amount": 105000,
-      "area": 84.99,
-      "floor": 12
-     },
-     {
-      "date": "2026-03-06",
-      "amount": 85000,
-      "area": 59.93,
-      "floor": 6
-     },
-     {
-      "date": "2026-03-06",
-      "amount": 96500,
-      "area": 74.91,
-      "floor": 5
-     },
-     {
-      "date": "2026-02-12",
-      "amount": 88000,
-      "area": 59.93,
-      "floor": 16
-     },
-     {
-      "date": "2026-02-07",
-      "amount": 97000,
-      "area": 74.94,
-      "floor": 12
-     },
-     {
-      "date": "2026-02-06",
-      "amount": 82000,
-      "area": 59.97,
-      "floor": 3
-     },
-     {
-      "date": "2026-01-31",
-      "amount": 82000,
-      "area": 59.97,
-      "floor": 2
-     },
-     {
-      "date": "2026-01-30",
-      "amount": 104500,
-      "area": 84.91,
-      "floor": 6
-     },
-     {
-      "date": "2026-01-29",
-      "amount": 87500,
-      "area": 59.93,
-      "floor": 17
-     },
-     {
-      "date": "2026-01-24",
-      "amount": 83000,
-      "area": 59.97,
-      "floor": 4
-     },
-     {
-      "date": "2026-01-23",
-      "amount": 80800,
-      "area": 59.93,
-      "floor": 2
-     },
-     {
-      "date": "2026-01-18",
-      "amount": 86000,
-      "area": 59.93,
-      "floor": 11
-     },
-     {
-      "date": "2026-01-16",
-      "amount": 102000,
-      "area": 84.91,
-      "floor": 15
-     },
-     {
-      "date": "2026-01-15",
-      "amount": 104000,
-      "area": 84.99,
-      "floor": 19
-     },
-     {
-      "date": "2026-01-10",
-      "amount": 85000,
-      "area": 59.93,
-      "floor": 6
-     },
-     {
-      "date": "2026-01-08",
-      "amount": 103300,
-      "area": 84.91,
-      "floor": 8
-     },
-     {
-      "date": "2026-01-07",
-      "amount": 95500,
-      "area": 74.94,
-      "floor": 22
-     },
-     {
-      "date": "2026-01-06",
-      "amount": 74900,
-      "area": 50.74,
-      "floor": 9
-     },
-     {
-      "date": "2026-01-05",
-      "amount": 84000,
-      "area": 59.93,
-      "floor": 5
-     },
-     {
-      "date": "2025-12-29",
-      "amount": 84000,
-      "area": 59.92,
-      "floor": 3
-     },
-     {
-      "date": "2025-12-15",
-      "amount": 73000,
-      "area": 50.74,
-      "floor": 9
-     },
-     {
-      "date": "2025-12-03",
-      "amount": 98000,
-      "area": 84.99,
-      "floor": 12
-     },
-     {
-      "date": "2025-12-02",
-      "amount": 90000,
-      "area": 74.91,
-      "floor": 1
-     },
-     {
-      "date": "2025-11-29",
-      "amount": 84800,
-      "area": 59.92,
-      "floor": 13
-     },
-     {
-      "date": "2025-11-28",
-      "amount": 99000,
-      "area": 84.91,
-      "floor": 6
-     },
-     {
-      "date": "2025-11-24",
-      "amount": 98000,
-      "area": 84.91,
-      "floor": 7
-     },
-     {
-      "date": "2025-11-20",
-      "amount": 100000,
-      "area": 84.99,
-      "floor": 14
-     },
-     {
-      "date": "2025-11-19",
-      "amount": 84000,
-      "area": 59.93,
-      "floor": 6
-     },
-     {
-      "date": "2025-11-12",
-      "amount": 91000,
-      "area": 74.94,
-      "floor": 7
-     },
-     {
-      "date": "2025-10-19",
-      "amount": 99000,
-      "area": 84.91,
-      "floor": 12
-     },
-     {
-      "date": "2025-10-18",
-      "amount": 84300,
-      "area": 59.92,
-      "floor": 5
-     },
-     {
-      "date": "2025-10-18",
-      "amount": 84000,
-      "area": 59.97,
-      "floor": 8
-     },
-     {
-      "date": "2025-10-18",
-      "amount": 80500,
-      "area": 59.93,
-      "floor": 3
-     },
-     {
-      "date": "2025-10-16",
-      "amount": 96000,
-      "area": 84.91,
-      "floor": 15
-     },
-     {
-      "date": "2025-10-15",
-      "amount": 99000,
-      "area": 84.99,
-      "floor": 18
-     },
-     {
-      "date": "2025-10-14",
-      "amount": 100000,
-      "area": 84.91,
-      "floor": 11
-     },
-     {
-      "date": "2025-10-14",
-      "amount": 61500,
-      "area": 43.13,
-      "floor": 11
-     },
-     {
-      "date": "2025-10-04",
-      "amount": 80500,
-      "area": 59.92,
-      "floor": 2
-     },
-     {
-      "date": "2025-09-27",
-      "amount": 73500,
-      "area": 50.74,
-      "floor": 8
-     },
-     {
-      "date": "2025-09-26",
-      "amount": 90500,
-      "area": 74.91,
-      "floor": 5
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 100000,
-      "area": 84.91,
-      "floor": 8
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 79000,
-      "area": 59.93,
-      "floor": 3
-     },
-     {
-      "date": "2025-09-14",
-      "amount": 83500,
-      "area": 59.97,
-      "floor": 13
-     },
-     {
-      "date": "2025-09-06",
-      "amount": 72500,
-      "area": 50.74,
-      "floor": 5
-     },
-     {
-      "date": "2025-08-31",
-      "amount": 86000,
-      "area": 59.93,
-      "floor": 17
-     },
-     {
-      "date": "2025-08-26",
-      "amount": 84500,
-      "area": 59.93,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-20",
-      "amount": 98000,
-      "area": 84.91,
-      "floor": 13
-     }
-    ],
-    "deal_count": 58,
-    "hit_count": 25,
-    "price_min": 61500,
-    "price_med": 90000,
-    "price_max": 114000,
-    "last_date": "2026-07-13",
-    "last_price": 110500,
-    "area_min": 43.1,
-    "area_max": 85.0,
-    "hit_min": 79000,
-    "hit_last": "2026-06-19",
-    "naver_complex_no": "119053",
-    "naver_url": "https://m.land.naver.com/complex/info/119053"
    },
    {
     "gu": "은평구",
@@ -11631,18 +10721,12 @@
       "amount": 120200,
       "area": 84.97,
       "floor": 13
-     },
-     {
-      "date": "2025-08-07",
-      "amount": 117000,
-      "area": 84.87,
-      "floor": 7
      }
     ],
-    "deal_count": 92,
+    "deal_count": 91,
     "hit_count": 5,
     "price_min": 79000,
-    "price_med": 115750,
+    "price_med": 115500,
     "price_max": 142500,
     "last_date": "2026-07-25",
     "last_price": 138800,
@@ -11654,104 +10738,368 @@
     "naver_url": "https://m.land.naver.com/complex/info/118025"
    },
    {
-    "gu": "강서구",
-    "dong": "방화동",
-    "name": "신마곡벽산블루밍",
+    "gu": "은평구",
+    "dong": "응암동",
+    "name": "백련산해모로",
     "build_year": 2020,
-    "jibun": "904",
+    "jibun": "768",
     "deals": [
      {
-      "date": "2026-07-06",
-      "amount": 90000,
-      "area": 59.7592,
-      "floor": 12
+      "date": "2026-07-27",
+      "amount": 95000,
+      "area": 50.74,
+      "floor": 7
      },
      {
-      "date": "2026-06-01",
-      "amount": 98000,
-      "area": 72.8607,
+      "date": "2026-07-20",
+      "amount": 115700,
+      "area": 84.91,
       "floor": 9
      },
      {
-      "date": "2026-02-21",
-      "amount": 92000,
-      "area": 84.9184,
+      "date": "2026-07-13",
+      "amount": 110500,
+      "area": 84.99,
+      "floor": 14
+     },
+     {
+      "date": "2026-07-02",
+      "amount": 114000,
+      "area": 84.91,
+      "floor": 11
+     },
+     {
+      "date": "2026-07-01",
+      "amount": 99000,
+      "area": 59.97,
+      "floor": 8
+     },
+     {
+      "date": "2026-06-27",
+      "amount": 103000,
+      "area": 84.91,
       "floor": 2
      },
      {
-      "date": "2026-02-14",
-      "amount": 98000,
-      "area": 84.9184,
-      "floor": 11
+      "date": "2026-06-19",
+      "amount": 90000,
+      "area": 59.93,
+      "floor": 9
      },
      {
-      "date": "2026-02-04",
-      "amount": 61000,
-      "area": 49.7391,
-      "floor": 13
+      "date": "2026-06-10",
+      "amount": 112500,
+      "area": 84.91,
+      "floor": 7
      },
      {
-      "date": "2026-01-13",
-      "amount": 82750,
-      "area": 59.9313,
-      "floor": 14
+      "date": "2026-05-01",
+      "amount": 89800,
+      "area": 59.97,
+      "floor": 7
      },
      {
-      "date": "2025-12-13",
-      "amount": 97000,
-      "area": 84.9184,
-      "floor": 3
+      "date": "2026-04-22",
+      "amount": 101000,
+      "area": 84.99,
+      "floor": 2
      },
      {
-      "date": "2025-12-11",
-      "amount": 67000,
-      "area": 49.775,
-      "floor": 10
+      "date": "2026-04-20",
+      "amount": 107000,
+      "area": 84.99,
+      "floor": 17
      },
      {
-      "date": "2025-10-19",
-      "amount": 65900,
-      "area": 49.6062,
-      "floor": 14
+      "date": "2026-03-24",
+      "amount": 86000,
+      "area": 59.93,
+      "floor": 5
      },
      {
-      "date": "2025-10-18",
-      "amount": 65500,
-      "area": 49.775,
-      "floor": 11
+      "date": "2026-03-18",
+      "amount": 106000,
+      "area": 84.91,
+      "floor": 17
      },
      {
-      "date": "2025-09-22",
-      "amount": 84000,
-      "area": 59.7592,
-      "floor": 6
-     },
-     {
-      "date": "2025-09-18",
-      "amount": 65000,
-      "area": 49.775,
+      "date": "2026-03-16",
+      "amount": 105000,
+      "area": 84.99,
       "floor": 12
      },
      {
-      "date": "2025-08-27",
-      "amount": 79200,
-      "area": 59.9205,
+      "date": "2026-03-06",
+      "amount": 85000,
+      "area": 59.93,
+      "floor": 6
+     },
+     {
+      "date": "2026-03-06",
+      "amount": 96500,
+      "area": 74.91,
+      "floor": 5
+     },
+     {
+      "date": "2026-02-12",
+      "amount": 88000,
+      "area": 59.93,
+      "floor": 16
+     },
+     {
+      "date": "2026-02-07",
+      "amount": 97000,
+      "area": 74.94,
+      "floor": 12
+     },
+     {
+      "date": "2026-02-06",
+      "amount": 82000,
+      "area": 59.97,
+      "floor": 3
+     },
+     {
+      "date": "2026-01-31",
+      "amount": 82000,
+      "area": 59.97,
+      "floor": 2
+     },
+     {
+      "date": "2026-01-30",
+      "amount": 104500,
+      "area": 84.91,
+      "floor": 6
+     },
+     {
+      "date": "2026-01-29",
+      "amount": 87500,
+      "area": 59.93,
+      "floor": 17
+     },
+     {
+      "date": "2026-01-24",
+      "amount": 83000,
+      "area": 59.97,
+      "floor": 4
+     },
+     {
+      "date": "2026-01-23",
+      "amount": 80800,
+      "area": 59.93,
+      "floor": 2
+     },
+     {
+      "date": "2026-01-18",
+      "amount": 86000,
+      "area": 59.93,
+      "floor": 11
+     },
+     {
+      "date": "2026-01-16",
+      "amount": 102000,
+      "area": 84.91,
+      "floor": 15
+     },
+     {
+      "date": "2026-01-15",
+      "amount": 104000,
+      "area": 84.99,
+      "floor": 19
+     },
+     {
+      "date": "2026-01-10",
+      "amount": 85000,
+      "area": 59.93,
+      "floor": 6
+     },
+     {
+      "date": "2026-01-08",
+      "amount": 103300,
+      "area": 84.91,
+      "floor": 8
+     },
+     {
+      "date": "2026-01-07",
+      "amount": 95500,
+      "area": 74.94,
+      "floor": 22
+     },
+     {
+      "date": "2026-01-06",
+      "amount": 74900,
+      "area": 50.74,
+      "floor": 9
+     },
+     {
+      "date": "2026-01-05",
+      "amount": 84000,
+      "area": 59.93,
+      "floor": 5
+     },
+     {
+      "date": "2025-12-29",
+      "amount": 84000,
+      "area": 59.92,
+      "floor": 3
+     },
+     {
+      "date": "2025-12-15",
+      "amount": 73000,
+      "area": 50.74,
+      "floor": 9
+     },
+     {
+      "date": "2025-12-03",
+      "amount": 98000,
+      "area": 84.99,
+      "floor": 12
+     },
+     {
+      "date": "2025-12-02",
+      "amount": 90000,
+      "area": 74.91,
+      "floor": 1
+     },
+     {
+      "date": "2025-11-29",
+      "amount": 84800,
+      "area": 59.92,
+      "floor": 13
+     },
+     {
+      "date": "2025-11-28",
+      "amount": 99000,
+      "area": 84.91,
+      "floor": 6
+     },
+     {
+      "date": "2025-11-24",
+      "amount": 98000,
+      "area": 84.91,
+      "floor": 7
+     },
+     {
+      "date": "2025-11-20",
+      "amount": 100000,
+      "area": 84.99,
       "floor": 14
+     },
+     {
+      "date": "2025-11-19",
+      "amount": 84000,
+      "area": 59.93,
+      "floor": 6
+     },
+     {
+      "date": "2025-11-12",
+      "amount": 91000,
+      "area": 74.94,
+      "floor": 7
+     },
+     {
+      "date": "2025-10-19",
+      "amount": 99000,
+      "area": 84.91,
+      "floor": 12
+     },
+     {
+      "date": "2025-10-18",
+      "amount": 84300,
+      "area": 59.92,
+      "floor": 5
+     },
+     {
+      "date": "2025-10-18",
+      "amount": 84000,
+      "area": 59.97,
+      "floor": 8
+     },
+     {
+      "date": "2025-10-18",
+      "amount": 80500,
+      "area": 59.93,
+      "floor": 3
+     },
+     {
+      "date": "2025-10-16",
+      "amount": 96000,
+      "area": 84.91,
+      "floor": 15
+     },
+     {
+      "date": "2025-10-15",
+      "amount": 99000,
+      "area": 84.99,
+      "floor": 18
+     },
+     {
+      "date": "2025-10-14",
+      "amount": 100000,
+      "area": 84.91,
+      "floor": 11
+     },
+     {
+      "date": "2025-10-14",
+      "amount": 61500,
+      "area": 43.13,
+      "floor": 11
+     },
+     {
+      "date": "2025-10-04",
+      "amount": 80500,
+      "area": 59.92,
+      "floor": 2
+     },
+     {
+      "date": "2025-09-27",
+      "amount": 73500,
+      "area": 50.74,
+      "floor": 8
+     },
+     {
+      "date": "2025-09-26",
+      "amount": 90500,
+      "area": 74.91,
+      "floor": 5
+     },
+     {
+      "date": "2025-09-20",
+      "amount": 100000,
+      "area": 84.91,
+      "floor": 8
+     },
+     {
+      "date": "2025-09-20",
+      "amount": 79000,
+      "area": 59.93,
+      "floor": 3
+     },
+     {
+      "date": "2025-09-14",
+      "amount": 83500,
+      "area": 59.97,
+      "floor": 13
+     },
+     {
+      "date": "2025-09-06",
+      "amount": 72500,
+      "area": 50.74,
+      "floor": 5
      }
     ],
-    "deal_count": 13,
-    "hit_count": 4,
-    "price_min": 61000,
-    "price_med": 82750,
-    "price_max": 98000,
-    "last_date": "2026-07-06",
-    "last_price": 90000,
-    "area_min": 49.6,
-    "area_max": 84.9,
-    "hit_min": 79200,
-    "hit_last": "2026-07-06",
-    "naver_complex_no": "124391",
-    "naver_url": "https://m.land.naver.com/complex/info/124391"
+    "deal_count": 57,
+    "hit_count": 23,
+    "price_min": 61500,
+    "price_med": 90500,
+    "price_max": 115700,
+    "last_date": "2026-07-27",
+    "last_price": 95000,
+    "area_min": 43.1,
+    "area_max": 85.0,
+    "hit_min": 79000,
+    "hit_last": "2026-06-19",
+    "naver_complex_no": "119053",
+    "naver_url": "https://m.land.naver.com/complex/info/119053"
    },
    {
     "gu": "강서구",
@@ -11810,7 +11158,7 @@
     "dong": "강일동",
     "name": "강동리버스트8단지",
     "build_year": 2021,
-    "jibun": "66",
+    "jibun": "746",
     "deals": [
      {
       "date": "2026-06-08",
@@ -12021,15 +11369,9 @@
       "amount": 96500,
       "area": 59.97,
       "floor": 10
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 93000,
-      "area": 59.97,
-      "floor": 15
      }
     ],
-    "deal_count": 36,
+    "deal_count": 35,
     "hit_count": 7,
     "price_min": 61700,
     "price_med": 95500,
@@ -12305,36 +11647,12 @@
       "amount": 103000,
       "area": 106.8765,
       "floor": 6
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 80000,
-      "area": 76.9519,
-      "floor": 12
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 105000,
-      "area": 106.8765,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-06",
-      "amount": 86000,
-      "area": 84.8784,
-      "floor": 12
-     },
-     {
-      "date": "2025-08-03",
-      "amount": 86000,
-      "area": 84.8784,
-      "floor": 14
      }
     ],
-    "deal_count": 39,
-    "hit_count": 33,
+    "deal_count": 35,
+    "hit_count": 30,
     "price_min": 80000,
-    "price_med": 83500,
+    "price_med": 83000,
     "price_max": 130000,
     "last_date": "2026-07-03",
     "last_price": 95000,
@@ -12531,31 +11849,13 @@
       "amount": 123000,
       "area": 84.956,
       "floor": 12
-     },
-     {
-      "date": "2025-08-28",
-      "amount": 115000,
-      "area": 84.956,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-13",
-      "amount": 153000,
-      "area": 114.62,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 97000,
-      "area": 59.899,
-      "floor": 4
      }
     ],
-    "deal_count": 33,
+    "deal_count": 30,
     "hit_count": 2,
     "price_min": 80000,
-    "price_med": 119500,
-    "price_max": 153000,
+    "price_med": 119750,
+    "price_max": 143000,
     "last_date": "2026-05-15",
     "last_price": 138700,
     "area_min": 59.9,
@@ -12733,42 +12033,12 @@
       "amount": 104000,
       "area": 84.94,
       "floor": 12
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 82900,
-      "area": 59.5,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-26",
-      "amount": 87800,
-      "area": 59.84,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-04",
-      "amount": 103500,
-      "area": 84.88,
-      "floor": 19
-     },
-     {
-      "date": "2025-08-02",
-      "amount": 87600,
-      "area": 59.5,
-      "floor": 8
-     },
-     {
-      "date": "2025-08-01",
-      "amount": 74000,
-      "area": 84.88,
-      "floor": 4
      }
     ],
-    "deal_count": 32,
-    "hit_count": 8,
-    "price_min": 74000,
-    "price_med": 105000,
+    "deal_count": 27,
+    "hit_count": 5,
+    "price_min": 80000,
+    "price_med": 107000,
     "price_max": 138500,
     "last_date": "2026-07-23",
     "last_price": 108000,
@@ -13047,24 +12317,12 @@
       "amount": 101000,
       "area": 59.88,
       "floor": 6
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 115000,
-      "area": 84.98,
-      "floor": 17
-     },
-     {
-      "date": "2025-08-10",
-      "amount": 113200,
-      "area": 84.98,
-      "floor": 16
      }
     ],
-    "deal_count": 37,
+    "deal_count": 35,
     "hit_count": 7,
     "price_min": 70000,
-    "price_med": 113000,
+    "price_med": 108500,
     "price_max": 132000,
     "last_date": "2026-06-13",
     "last_price": 115700,
@@ -13369,18 +12627,12 @@
       "amount": 83000,
       "area": 59.98,
       "floor": 11
-     },
-     {
-      "date": "2025-08-04",
-      "amount": 83700,
-      "area": 59.98,
-      "floor": 10
      }
     ],
-    "deal_count": 49,
-    "hit_count": 18,
+    "deal_count": 48,
+    "hit_count": 17,
     "price_min": 80500,
-    "price_med": 95000,
+    "price_med": 95500,
     "price_max": 110000,
     "last_date": "2026-07-20",
     "last_price": 110000,
@@ -13619,18 +12871,12 @@
       "amount": 90000,
       "area": 84.98,
       "floor": 9
-     },
-     {
-      "date": "2025-08-20",
-      "amount": 93500,
-      "area": 84.99,
-      "floor": 17
      }
     ],
-    "deal_count": 38,
+    "deal_count": 37,
     "hit_count": 14,
     "price_min": 81000,
-    "price_med": 95600,
+    "price_med": 95700,
     "price_max": 119000,
     "last_date": "2026-05-27",
     "last_price": 118500,
@@ -13640,46 +12886,6 @@
     "hit_last": "2026-02-09",
     "naver_complex_no": "107439",
     "naver_url": "https://m.land.naver.com/complex/info/107439"
-   },
-   {
-    "gu": "광진구",
-    "dong": "자양동",
-    "name": "한영해시안",
-    "build_year": 2015,
-    "jibun": "858",
-    "deals": [
-     {
-      "date": "2026-07-01",
-      "amount": 71000,
-      "area": 41.57,
-      "floor": 5
-     },
-     {
-      "date": "2026-05-07",
-      "amount": 81000,
-      "area": 65.34,
-      "floor": 2
-     },
-     {
-      "date": "2025-08-21",
-      "amount": 57500,
-      "area": 42.77,
-      "floor": 3
-     }
-    ],
-    "deal_count": 3,
-    "hit_count": 1,
-    "price_min": 57500,
-    "price_med": 71000,
-    "price_max": 81000,
-    "last_date": "2026-07-01",
-    "last_price": 71000,
-    "area_min": 41.6,
-    "area_max": 65.3,
-    "hit_min": 81000,
-    "hit_last": "2026-05-07",
-    "naver_complex_no": "109896",
-    "naver_url": "https://m.land.naver.com/complex/info/109896"
    },
    {
     "gu": "광진구",
@@ -13740,12 +12946,52 @@
     "naver_url": "https://m.land.naver.com/complex/info/134803"
    },
    {
+    "gu": "광진구",
+    "dong": "자양동",
+    "name": "한영해시안",
+    "build_year": 2015,
+    "jibun": "858",
+    "deals": [
+     {
+      "date": "2026-07-01",
+      "amount": 71000,
+      "area": 41.57,
+      "floor": 5
+     },
+     {
+      "date": "2026-05-07",
+      "amount": 81000,
+      "area": 65.34,
+      "floor": 2
+     }
+    ],
+    "deal_count": 2,
+    "hit_count": 1,
+    "price_min": 71000,
+    "price_med": 76000,
+    "price_max": 81000,
+    "last_date": "2026-07-01",
+    "last_price": 71000,
+    "area_min": 41.6,
+    "area_max": 65.3,
+    "hit_min": 81000,
+    "hit_last": "2026-05-07",
+    "naver_complex_no": "109896",
+    "naver_url": "https://m.land.naver.com/complex/info/109896"
+   },
+   {
     "gu": "노원구",
     "dong": "월계동",
     "name": "월계센트럴아이파크",
     "build_year": 2020,
     "jibun": "951",
     "deals": [
+     {
+      "date": "2026-07-16",
+      "amount": 115000,
+      "area": 84.99,
+      "floor": 4
+     },
      {
       "date": "2026-07-04",
       "amount": 124000,
@@ -14105,27 +13351,15 @@
       "amount": 104700,
       "area": 84.99,
       "floor": 10
-     },
-     {
-      "date": "2025-08-31",
-      "amount": 90000,
-      "area": 59.99,
-      "floor": 22
-     },
-     {
-      "date": "2025-08-19",
-      "amount": 90000,
-      "area": 59.99,
-      "floor": 19
      }
     ],
-    "deal_count": 62,
-    "hit_count": 7,
+    "deal_count": 61,
+    "hit_count": 5,
     "price_min": 61000,
     "price_med": 105000,
     "price_max": 125000,
-    "last_date": "2026-07-04",
-    "last_price": 124000,
+    "last_date": "2026-07-16",
+    "last_price": 115000,
     "area_min": 60.0,
     "area_max": 85.0,
     "hit_min": 81000,
@@ -14385,21 +13619,9 @@
       "amount": 109500,
       "area": 59.39,
       "floor": 2
-     },
-     {
-      "date": "2025-08-20",
-      "amount": 129800,
-      "area": 84.31,
-      "floor": 20
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 127000,
-      "area": 84.62,
-      "floor": 18
      }
     ],
-    "deal_count": 43,
+    "deal_count": 41,
     "hit_count": 2,
     "price_min": 81000,
     "price_med": 135000,
@@ -14857,18 +14079,12 @@
       "amount": 72500,
       "area": 59.98,
       "floor": 11
-     },
-     {
-      "date": "2025-08-21",
-      "amount": 70000,
-      "area": 59.98,
-      "floor": 16
      }
     ],
-    "deal_count": 14,
+    "deal_count": 13,
     "hit_count": 2,
     "price_min": 58000,
-    "price_med": 72750,
+    "price_med": 73000,
     "price_max": 85000,
     "last_date": "2026-07-15",
     "last_price": 85000,
@@ -14914,236 +14130,206 @@
     "naver_url": "https://m.land.naver.com/complex/info/128330"
    },
    {
-    "gu": "용산구",
-    "dong": "한남동",
-    "name": "한남아이파크애비뉴",
-    "build_year": 2017,
-    "jibun": "828",
+    "gu": "성북구",
+    "dong": "길음동",
+    "name": "롯데캐슬골든힐스",
+    "build_year": 2019,
+    "jibun": "1287-1",
     "deals": [
      {
-      "date": "2026-07-04",
-      "amount": 88000,
-      "area": 48.4109,
-      "floor": 9
+      "date": "2026-06-24",
+      "amount": 101500,
+      "area": 59.9284,
+      "floor": 2
      },
      {
-      "date": "2026-06-12",
-      "amount": 86500,
-      "area": 49.6243,
-      "floor": 4
-     },
-     {
-      "date": "2026-05-28",
-      "amount": 195000,
-      "area": 93.1642,
+      "date": "2026-06-23",
+      "amount": 105000,
+      "area": 59.9284,
       "floor": 18
      },
      {
+      "date": "2026-06-13",
+      "amount": 117500,
+      "area": 84.93,
+      "floor": 17
+     },
+     {
+      "date": "2026-06-02",
+      "amount": 104000,
+      "area": 59.9284,
+      "floor": 10
+     },
+     {
+      "date": "2026-06-02",
+      "amount": 105000,
+      "area": 73.9713,
+      "floor": 5
+     },
+     {
+      "date": "2026-05-14",
+      "amount": 103000,
+      "area": 59.9284,
+      "floor": 8
+     },
+     {
       "date": "2026-05-09",
-      "amount": 90000,
-      "area": 49.6971,
-      "floor": 3
+      "amount": 118000,
+      "area": 84.932,
+      "floor": 7
      },
      {
       "date": "2026-05-08",
-      "amount": 85900,
-      "area": 46.2439,
-      "floor": 3
-     },
-     {
-      "date": "2026-05-02",
-      "amount": 90000,
-      "area": 49.5507,
-      "floor": 9
-     },
-     {
-      "date": "2026-04-30",
-      "amount": 95000,
-      "area": 49.5507,
+      "amount": 114500,
+      "area": 84.932,
       "floor": 17
      },
      {
-      "date": "2026-04-28",
-      "amount": 105000,
-      "area": 48.7897,
-      "floor": 7
-     },
-     {
-      "date": "2026-04-22",
-      "amount": 93000,
-      "area": 46.2439,
-      "floor": 9
-     },
-     {
-      "date": "2026-04-20",
-      "amount": 99400,
-      "area": 49.6971,
-      "floor": 8
-     },
-     {
-      "date": "2026-04-18",
-      "amount": 103000,
-      "area": 49.087,
-      "floor": 17
-     },
-     {
-      "date": "2026-04-04",
-      "amount": 91500,
-      "area": 49.6971,
-      "floor": 9
-     },
-     {
-      "date": "2026-03-11",
-      "amount": 95000,
-      "area": 45.717,
-      "floor": 13
-     },
-     {
-      "date": "2026-03-07",
-      "amount": 108000,
-      "area": 49.6971,
-      "floor": 16
-     },
-     {
-      "date": "2026-02-20",
-      "amount": 105000,
-      "area": 49.6971,
-      "floor": 14
-     },
-     {
-      "date": "2026-02-19",
-      "amount": 96000,
-      "area": 49.6971,
-      "floor": 6
-     },
-     {
-      "date": "2026-01-24",
-      "amount": 104000,
-      "area": 49.6971,
-      "floor": 16
-     },
-     {
-      "date": "2026-01-20",
-      "amount": 90000,
-      "area": 46.2439,
-      "floor": 4
-     },
-     {
-      "date": "2026-01-14",
-      "amount": 95000,
-      "area": 45.717,
-      "floor": 4
-     },
-     {
-      "date": "2026-01-10",
-      "amount": 91000,
-      "area": 47.8105,
-      "floor": 9
-     },
-     {
-      "date": "2025-12-26",
-      "amount": 66500,
-      "area": 47.8105,
+      "date": "2026-04-07",
+      "amount": 110000,
+      "area": 84.932,
       "floor": 11
+     },
+     {
+      "date": "2026-01-31",
+      "amount": 110000,
+      "area": 84.93,
+      "floor": 21
+     },
+     {
+      "date": "2025-12-27",
+      "amount": 103000,
+      "area": 84.932,
+      "floor": 9
      },
      {
       "date": "2025-12-13",
-      "amount": 86000,
-      "area": 48.4109,
+      "amount": 87800,
+      "area": 59.9284,
+      "floor": 4
+     },
+     {
+      "date": "2025-12-12",
+      "amount": 98000,
+      "area": 84.932,
+      "floor": 12
+     },
+     {
+      "date": "2025-12-11",
+      "amount": 99500,
+      "area": 84.932,
+      "floor": 16
+     },
+     {
+      "date": "2025-12-06",
+      "amount": 90000,
+      "area": 59.9284,
+      "floor": 11
+     },
+     {
+      "date": "2025-12-03",
+      "amount": 100000,
+      "area": 84.93,
+      "floor": 19
+     },
+     {
+      "date": "2025-11-08",
+      "amount": 99000,
+      "area": 84.932,
       "floor": 15
      },
      {
-      "date": "2025-11-22",
-      "amount": 97000,
-      "area": 49.087,
-      "floor": 10
-     },
-     {
-      "date": "2025-11-22",
-      "amount": 93000,
-      "area": 46.2439,
-      "floor": 7
-     },
-     {
-      "date": "2025-11-19",
-      "amount": 94000,
-      "area": 49.6971,
-      "floor": 6
-     },
-     {
-      "date": "2025-10-30",
-      "amount": 98000,
-      "area": 49.087,
-      "floor": 16
-     },
-     {
-      "date": "2025-10-29",
+      "date": "2025-10-18",
       "amount": 99000,
-      "area": 46.2439,
+      "area": 84.932,
+      "floor": 11
+     },
+     {
+      "date": "2025-10-15",
+      "amount": 99500,
+      "area": 84.932,
       "floor": 16
      },
      {
-      "date": "2025-10-25",
-      "amount": 98000,
-      "area": 49.6971,
-      "floor": 10
+      "date": "2025-10-15",
+      "amount": 97000,
+      "area": 84.932,
+      "floor": 5
      },
      {
-      "date": "2025-10-20",
-      "amount": 101000,
-      "area": 49.9061,
+      "date": "2025-10-11",
+      "amount": 89900,
+      "area": 73.9713,
       "floor": 14
      },
      {
-      "date": "2025-10-17",
-      "amount": 103000,
-      "area": 48.7897,
-      "floor": 17
+      "date": "2025-10-11",
+      "amount": 95300,
+      "area": 84.932,
+      "floor": 3
      },
      {
-      "date": "2025-10-16",
-      "amount": 100000,
-      "area": 48.7897,
-      "floor": 12
-     },
-     {
-      "date": "2025-10-14",
-      "amount": 93000,
-      "area": 49.087,
-      "floor": 8
+      "date": "2025-10-02",
+      "amount": 97000,
+      "area": 84.932,
+      "floor": 21
      },
      {
       "date": "2025-09-27",
-      "amount": 100500,
-      "area": 49.6971,
-      "floor": 15
+      "amount": 82000,
+      "area": 59.9723,
+      "floor": 2
      },
      {
-      "date": "2025-08-29",
-      "amount": 97000,
-      "area": 49.6971,
+      "date": "2025-09-25",
+      "amount": 95000,
+      "area": 84.932,
+      "floor": 6
+     },
+     {
+      "date": "2025-09-20",
+      "amount": 97500,
+      "area": 84.932,
+      "floor": 8
+     },
+     {
+      "date": "2025-09-20",
+      "amount": 85000,
+      "area": 59.9284,
       "floor": 12
      },
      {
-      "date": "2025-08-15",
-      "amount": 81500,
-      "area": 48.4109,
-      "floor": 11
+      "date": "2025-09-20",
+      "amount": 96000,
+      "area": 84.93,
+      "floor": 7
+     },
+     {
+      "date": "2025-09-13",
+      "amount": 96000,
+      "area": 84.93,
+      "floor": 8
+     },
+     {
+      "date": "2025-09-06",
+      "amount": 84500,
+      "area": 59.9284,
+      "floor": 9
      }
     ],
-    "deal_count": 35,
-    "hit_count": 8,
-    "price_min": 66500,
-    "price_med": 95000,
-    "price_max": 195000,
-    "last_date": "2026-07-04",
-    "last_price": 88000,
-    "area_min": 45.7,
-    "area_max": 93.2,
-    "hit_min": 81500,
-    "hit_last": "2026-07-04",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%95%9C%EB%82%A8%EB%8F%99%20%ED%95%9C%EB%82%A8%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC%EC%95%A0%EB%B9%84%EB%89%B4"
+    "deal_count": 30,
+    "hit_count": 6,
+    "price_min": 82000,
+    "price_med": 99000,
+    "price_max": 118000,
+    "last_date": "2026-06-24",
+    "last_price": 101500,
+    "area_min": 59.9,
+    "area_max": 84.9,
+    "hit_min": 82000,
+    "hit_last": "2025-12-13",
+    "naver_complex_no": "112474",
+    "naver_url": "https://m.land.naver.com/complex/info/112474"
    },
    {
     "gu": "성북구",
@@ -15613,48 +14799,12 @@
       "amount": 103800,
       "area": 59.81,
       "floor": 8
-     },
-     {
-      "date": "2025-08-31",
-      "amount": 104000,
-      "area": 59.19,
-      "floor": 16
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 118500,
-      "area": 84.99,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-18",
-      "amount": 109000,
-      "area": 72.97,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-18",
-      "amount": 82300,
-      "area": 45.81,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-14",
-      "amount": 118000,
-      "area": 84.99,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 82700,
-      "area": 45.81,
-      "floor": 4
      }
     ],
-    "deal_count": 83,
-    "hit_count": 14,
+    "deal_count": 77,
+    "hit_count": 12,
     "price_min": 82000,
-    "price_med": 117000,
+    "price_med": 118000,
     "price_max": 144800,
     "last_date": "2026-07-13",
     "last_price": 135000,
@@ -15664,208 +14814,6 @@
     "hit_last": "2025-10-16",
     "naver_complex_no": "109051",
     "naver_url": "https://m.land.naver.com/complex/info/109051"
-   },
-   {
-    "gu": "성북구",
-    "dong": "길음동",
-    "name": "롯데캐슬골든힐스",
-    "build_year": 2019,
-    "jibun": "1287-1",
-    "deals": [
-     {
-      "date": "2026-06-24",
-      "amount": 101500,
-      "area": 59.9284,
-      "floor": 2
-     },
-     {
-      "date": "2026-06-23",
-      "amount": 105000,
-      "area": 59.9284,
-      "floor": 18
-     },
-     {
-      "date": "2026-06-13",
-      "amount": 117500,
-      "area": 84.93,
-      "floor": 17
-     },
-     {
-      "date": "2026-06-02",
-      "amount": 104000,
-      "area": 59.9284,
-      "floor": 10
-     },
-     {
-      "date": "2026-06-02",
-      "amount": 105000,
-      "area": 73.9713,
-      "floor": 5
-     },
-     {
-      "date": "2026-05-14",
-      "amount": 103000,
-      "area": 59.9284,
-      "floor": 8
-     },
-     {
-      "date": "2026-05-09",
-      "amount": 118000,
-      "area": 84.932,
-      "floor": 7
-     },
-     {
-      "date": "2026-05-08",
-      "amount": 114500,
-      "area": 84.932,
-      "floor": 17
-     },
-     {
-      "date": "2026-04-07",
-      "amount": 110000,
-      "area": 84.932,
-      "floor": 11
-     },
-     {
-      "date": "2026-01-31",
-      "amount": 110000,
-      "area": 84.93,
-      "floor": 21
-     },
-     {
-      "date": "2025-12-27",
-      "amount": 103000,
-      "area": 84.932,
-      "floor": 9
-     },
-     {
-      "date": "2025-12-13",
-      "amount": 87800,
-      "area": 59.9284,
-      "floor": 4
-     },
-     {
-      "date": "2025-12-12",
-      "amount": 98000,
-      "area": 84.932,
-      "floor": 12
-     },
-     {
-      "date": "2025-12-11",
-      "amount": 99500,
-      "area": 84.932,
-      "floor": 16
-     },
-     {
-      "date": "2025-12-06",
-      "amount": 90000,
-      "area": 59.9284,
-      "floor": 11
-     },
-     {
-      "date": "2025-12-03",
-      "amount": 100000,
-      "area": 84.93,
-      "floor": 19
-     },
-     {
-      "date": "2025-11-08",
-      "amount": 99000,
-      "area": 84.932,
-      "floor": 15
-     },
-     {
-      "date": "2025-10-18",
-      "amount": 99000,
-      "area": 84.932,
-      "floor": 11
-     },
-     {
-      "date": "2025-10-15",
-      "amount": 99500,
-      "area": 84.932,
-      "floor": 16
-     },
-     {
-      "date": "2025-10-15",
-      "amount": 97000,
-      "area": 84.932,
-      "floor": 5
-     },
-     {
-      "date": "2025-10-11",
-      "amount": 89900,
-      "area": 73.9713,
-      "floor": 14
-     },
-     {
-      "date": "2025-10-11",
-      "amount": 95300,
-      "area": 84.932,
-      "floor": 3
-     },
-     {
-      "date": "2025-10-02",
-      "amount": 97000,
-      "area": 84.932,
-      "floor": 21
-     },
-     {
-      "date": "2025-09-27",
-      "amount": 82000,
-      "area": 59.9723,
-      "floor": 2
-     },
-     {
-      "date": "2025-09-25",
-      "amount": 95000,
-      "area": 84.932,
-      "floor": 6
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 97500,
-      "area": 84.932,
-      "floor": 8
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 85000,
-      "area": 59.9284,
-      "floor": 12
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 96000,
-      "area": 84.93,
-      "floor": 7
-     },
-     {
-      "date": "2025-09-13",
-      "amount": 96000,
-      "area": 84.93,
-      "floor": 8
-     },
-     {
-      "date": "2025-09-06",
-      "amount": 84500,
-      "area": 59.9284,
-      "floor": 9
-     }
-    ],
-    "deal_count": 30,
-    "hit_count": 6,
-    "price_min": 82000,
-    "price_med": 99000,
-    "price_max": 118000,
-    "last_date": "2026-06-24",
-    "last_price": 101500,
-    "area_min": 59.9,
-    "area_max": 84.9,
-    "hit_min": 82000,
-    "hit_last": "2025-12-13",
-    "naver_complex_no": "112474",
-    "naver_url": "https://m.land.naver.com/complex/info/112474"
    },
    {
     "gu": "양천구",
@@ -15896,480 +14844,98 @@
     "naver_url": "https://m.land.naver.com/complex/info/113150"
    },
    {
-    "gu": "은평구",
-    "dong": "녹번동",
-    "name": "힐스테이트녹번",
-    "build_year": 2019,
-    "jibun": "282",
+    "gu": "강서구",
+    "dong": "방화동",
+    "name": "신마곡벽산블루밍",
+    "build_year": 2020,
+    "jibun": "904",
     "deals": [
      {
-      "date": "2026-07-17",
-      "amount": 123500,
-      "area": 59.938,
-      "floor": 6
-     },
-     {
-      "date": "2026-07-04",
-      "amount": 130000,
-      "area": 59.938,
+      "date": "2026-07-06",
+      "amount": 90000,
+      "area": 59.7592,
       "floor": 12
      },
      {
-      "date": "2026-07-01",
-      "amount": 153000,
-      "area": 84.898,
-      "floor": 19
-     },
-     {
-      "date": "2026-07-01",
-      "amount": 70000,
-      "area": 59.938,
-      "floor": 11
-     },
-     {
-      "date": "2026-06-20",
-      "amount": 127000,
-      "area": 59.938,
-      "floor": 2
-     },
-     {
-      "date": "2026-05-23",
-      "amount": 130000,
-      "area": 84.898,
-      "floor": 2
-     },
-     {
-      "date": "2026-05-08",
-      "amount": 124500,
-      "area": 59.938,
-      "floor": 14
-     },
-     {
-      "date": "2026-05-07",
-      "amount": 125000,
-      "area": 59.9,
-      "floor": 8
-     },
-     {
-      "date": "2026-05-03",
-      "amount": 124000,
-      "area": 59.9,
-      "floor": 12
-     },
-     {
-      "date": "2026-04-27",
-      "amount": 121500,
-      "area": 59.938,
-      "floor": 12
-     },
-     {
-      "date": "2026-04-24",
-      "amount": 135000,
-      "area": 84.9,
-      "floor": 14
-     },
-     {
-      "date": "2026-04-16",
-      "amount": 130000,
-      "area": 84.9,
-      "floor": 7
-     },
-     {
-      "date": "2026-04-04",
-      "amount": 124000,
-      "area": 59.938,
-      "floor": 6
-     },
-     {
-      "date": "2026-04-01",
-      "amount": 125000,
-      "area": 59.938,
-      "floor": 18
-     },
-     {
-      "date": "2026-03-28",
-      "amount": 125000,
-      "area": 59.938,
-      "floor": 7
-     },
-     {
-      "date": "2026-03-27",
-      "amount": 127000,
-      "area": 59.938,
-      "floor": 11
-     },
-     {
-      "date": "2026-03-21",
-      "amount": 122000,
-      "area": 59.938,
-      "floor": 7
-     },
-     {
-      "date": "2026-03-21",
-      "amount": 116000,
-      "area": 59.938,
-      "floor": 3
-     },
-     {
-      "date": "2026-03-20",
-      "amount": 107000,
-      "area": 59.938,
+      "date": "2026-06-01",
+      "amount": 98000,
+      "area": 72.8607,
       "floor": 9
-     },
-     {
-      "date": "2026-02-26",
-      "amount": 127000,
-      "area": 59.938,
-      "floor": 10
      },
      {
       "date": "2026-02-21",
-      "amount": 124000,
-      "area": 59.938,
-      "floor": 10
+      "amount": 92000,
+      "area": 84.9184,
+      "floor": 2
      },
      {
-      "date": "2026-01-20",
-      "amount": 121700,
-      "area": 84.898,
-      "floor": 1
-     },
-     {
-      "date": "2026-01-17",
-      "amount": 128000,
-      "area": 84.898,
-      "floor": 17
-     },
-     {
-      "date": "2025-12-27",
-      "amount": 128000,
-      "area": 84.9,
+      "date": "2026-02-14",
+      "amount": 98000,
+      "area": 84.9184,
       "floor": 11
      },
      {
-      "date": "2025-12-21",
-      "amount": 131300,
-      "area": 84.9,
-      "floor": 18
-     },
-     {
-      "date": "2025-12-20",
-      "amount": 128000,
-      "area": 84.9,
-      "floor": 4
-     },
-     {
-      "date": "2025-12-18",
-      "amount": 130500,
-      "area": 84.9,
-      "floor": 12
-     },
-     {
-      "date": "2025-12-14",
-      "amount": 116000,
-      "area": 59.9,
-      "floor": 7
-     },
-     {
-      "date": "2025-12-10",
-      "amount": 127500,
-      "area": 84.9,
-      "floor": 5
-     },
-     {
-      "date": "2025-12-06",
-      "amount": 110000,
-      "area": 59.938,
-      "floor": 8
-     },
-     {
-      "date": "2025-12-03",
-      "amount": 117000,
-      "area": 59.938,
-      "floor": 6
-     },
-     {
-      "date": "2025-11-26",
-      "amount": 125000,
-      "area": 84.9,
-      "floor": 6
-     },
-     {
-      "date": "2025-11-19",
-      "amount": 129700,
-      "area": 84.898,
-      "floor": 12
-     },
-     {
-      "date": "2025-11-15",
-      "amount": 123500,
-      "area": 84.898,
-      "floor": 3
-     },
-     {
-      "date": "2025-11-13",
-      "amount": 123500,
-      "area": 84.9,
-      "floor": 9
-     },
-     {
-      "date": "2025-10-19",
-      "amount": 125000,
-      "area": 84.9,
-      "floor": 10
-     },
-     {
-      "date": "2025-10-15",
-      "amount": 89000,
-      "area": 49.884,
-      "floor": 2
-     },
-     {
-      "date": "2025-10-15",
-      "amount": 128000,
-      "area": 84.898,
-      "floor": 16
-     },
-     {
-      "date": "2025-10-13",
-      "amount": 125000,
-      "area": 84.9,
-      "floor": 12
-     },
-     {
-      "date": "2025-10-12",
-      "amount": 123000,
-      "area": 84.9,
-      "floor": 7
-     },
-     {
-      "date": "2025-10-11",
-      "amount": 125000,
-      "area": 84.9,
-      "floor": 17
-     },
-     {
-      "date": "2025-10-11",
-      "amount": 104000,
-      "area": 59.938,
-      "floor": 2
-     },
-     {
-      "date": "2025-10-11",
-      "amount": 127000,
-      "area": 84.9,
-      "floor": 17
-     },
-     {
-      "date": "2025-10-09",
-      "amount": 110000,
-      "area": 59.938,
-      "floor": 17
-     },
-     {
-      "date": "2025-10-03",
-      "amount": 112000,
-      "area": 59.938,
-      "floor": 8
-     },
-     {
-      "date": "2025-10-03",
-      "amount": 112700,
-      "area": 59.938,
-      "floor": 18
-     },
-     {
-      "date": "2025-10-03",
-      "amount": 111000,
-      "area": 59.9,
-      "floor": 10
-     },
-     {
-      "date": "2025-09-30",
-      "amount": 125000,
-      "area": 84.9,
-      "floor": 15
-     },
-     {
-      "date": "2025-09-30",
-      "amount": 128000,
-      "area": 84.9,
-      "floor": 7
-     },
-     {
-      "date": "2025-09-27",
-      "amount": 108300,
-      "area": 59.938,
-      "floor": 15
-     },
-     {
-      "date": "2025-09-23",
-      "amount": 105000,
-      "area": 59.938,
-      "floor": 4
-     },
-     {
-      "date": "2025-09-22",
-      "amount": 121850,
-      "area": 84.9,
-      "floor": 3
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 122500,
-      "area": 84.9,
-      "floor": 5
-     },
-     {
-      "date": "2025-09-15",
-      "amount": 124750,
-      "area": 84.898,
+      "date": "2026-02-04",
+      "amount": 61000,
+      "area": 49.7391,
       "floor": 13
      },
      {
-      "date": "2025-09-13",
-      "amount": 101500,
-      "area": 59.938,
+      "date": "2026-01-13",
+      "amount": 82750,
+      "area": 59.9313,
+      "floor": 14
+     },
+     {
+      "date": "2025-12-13",
+      "amount": 97000,
+      "area": 84.9184,
       "floor": 3
      },
      {
-      "date": "2025-09-04",
-      "amount": 111000,
-      "area": 59.938,
-      "floor": 18
-     },
-     {
-      "date": "2025-08-24",
-      "amount": 105000,
-      "area": 59.938,
-      "floor": 18
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 97800,
-      "area": 59.9,
-      "floor": 1
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 107000,
-      "area": 59.9,
+      "date": "2025-12-11",
+      "amount": 67000,
+      "area": 49.775,
       "floor": 10
      },
      {
-      "date": "2025-08-23",
-      "amount": 94500,
-      "area": 59.938,
-      "floor": 1
+      "date": "2025-10-19",
+      "amount": 65900,
+      "area": 49.6062,
+      "floor": 14
      },
      {
-      "date": "2025-08-15",
-      "amount": 104500,
-      "area": 59.938,
+      "date": "2025-10-18",
+      "amount": 65500,
+      "area": 49.775,
       "floor": 11
      },
      {
-      "date": "2025-08-04",
-      "amount": 82000,
-      "area": 49.948,
-      "floor": 1
-     }
-    ],
-    "deal_count": 62,
-    "hit_count": 2,
-    "price_min": 70000,
-    "price_med": 123750,
-    "price_max": 153000,
-    "last_date": "2026-07-17",
-    "last_price": 123500,
-    "area_min": 49.9,
-    "area_max": 84.9,
-    "hit_min": 82000,
-    "hit_last": "2025-10-15",
-    "naver_complex_no": "111964",
-    "naver_url": "https://m.land.naver.com/complex/info/111964"
-   },
-   {
-    "gu": "강서구",
-    "dong": "방화동",
-    "name": "마곡센트레빌",
-    "build_year": 2021,
-    "jibun": "906",
-    "deals": [
-     {
-      "date": "2026-06-27",
-      "amount": 115000,
-      "area": 78.5554,
-      "floor": 15
-     },
-     {
-      "date": "2026-05-15",
-      "amount": 94500,
-      "area": 59.4269,
-      "floor": 15
-     },
-     {
-      "date": "2026-03-26",
-      "amount": 86800,
-      "area": 59.607,
-      "floor": 2
-     },
-     {
-      "date": "2026-03-25",
-      "amount": 71500,
-      "area": 45.8603,
+      "date": "2025-09-22",
+      "amount": 84000,
+      "area": 59.7592,
       "floor": 6
      },
      {
-      "date": "2026-03-02",
-      "amount": 109000,
-      "area": 78.5554,
-      "floor": 8
-     },
-     {
-      "date": "2026-02-22",
-      "amount": 73000,
-      "area": 45.8603,
-      "floor": 5
-     },
-     {
-      "date": "2026-01-28",
-      "amount": 73000,
-      "area": 45.8603,
-      "floor": 10
-     },
-     {
-      "date": "2025-10-16",
-      "amount": 84000,
-      "area": 59.4269,
-      "floor": 15
-     },
-     {
-      "date": "2025-09-16",
-      "amount": 72000,
-      "area": 45.8603,
-      "floor": 4
-     },
-     {
-      "date": "2025-08-29",
-      "amount": 82500,
-      "area": 59.4269,
-      "floor": 10
+      "date": "2025-09-18",
+      "amount": 65000,
+      "area": 49.775,
+      "floor": 12
      }
     ],
-    "deal_count": 10,
+    "deal_count": 12,
     "hit_count": 3,
-    "price_min": 71500,
-    "price_med": 83250,
-    "price_max": 115000,
-    "last_date": "2026-06-27",
-    "last_price": 115000,
-    "area_min": 45.9,
-    "area_max": 78.6,
-    "hit_min": 82500,
-    "hit_last": "2026-03-26",
-    "naver_complex_no": "127604",
-    "naver_url": "https://m.land.naver.com/complex/info/127604"
+    "price_min": 61000,
+    "price_med": 83375,
+    "price_max": 98000,
+    "last_date": "2026-07-06",
+    "last_price": 90000,
+    "area_min": 49.6,
+    "area_max": 84.9,
+    "hit_min": 82750,
+    "hit_last": "2026-07-06",
+    "naver_complex_no": "124391",
+    "naver_url": "https://m.land.naver.com/complex/info/124391"
    },
    {
     "gu": "노원구",
@@ -16717,18 +15283,12 @@
       "amount": 89000,
       "area": 59.94,
       "floor": 7
-     },
-     {
-      "date": "2025-08-16",
-      "amount": 86900,
-      "area": 59.94,
-      "floor": 9
      }
     ],
-    "deal_count": 41,
-    "hit_count": 25,
+    "deal_count": 40,
+    "hit_count": 24,
     "price_min": 72000,
-    "price_med": 89000,
+    "price_med": 89250,
     "price_max": 116000,
     "last_date": "2026-07-04",
     "last_price": 87700,
@@ -16738,6 +15298,82 @@
     "hit_last": "2026-07-04",
     "naver_complex_no": "134513",
     "naver_url": "https://m.land.naver.com/complex/info/134513"
+   },
+   {
+    "gu": "강서구",
+    "dong": "방화동",
+    "name": "마곡센트레빌",
+    "build_year": 2021,
+    "jibun": "906",
+    "deals": [
+     {
+      "date": "2026-06-27",
+      "amount": 115000,
+      "area": 78.5554,
+      "floor": 15
+     },
+     {
+      "date": "2026-05-15",
+      "amount": 94500,
+      "area": 59.4269,
+      "floor": 15
+     },
+     {
+      "date": "2026-03-26",
+      "amount": 86800,
+      "area": 59.607,
+      "floor": 2
+     },
+     {
+      "date": "2026-03-25",
+      "amount": 71500,
+      "area": 45.8603,
+      "floor": 6
+     },
+     {
+      "date": "2026-03-02",
+      "amount": 109000,
+      "area": 78.5554,
+      "floor": 8
+     },
+     {
+      "date": "2026-02-22",
+      "amount": 73000,
+      "area": 45.8603,
+      "floor": 5
+     },
+     {
+      "date": "2026-01-28",
+      "amount": 73000,
+      "area": 45.8603,
+      "floor": 10
+     },
+     {
+      "date": "2025-10-16",
+      "amount": 84000,
+      "area": 59.4269,
+      "floor": 15
+     },
+     {
+      "date": "2025-09-16",
+      "amount": 72000,
+      "area": 45.8603,
+      "floor": 4
+     }
+    ],
+    "deal_count": 9,
+    "hit_count": 2,
+    "price_min": 71500,
+    "price_med": 84000,
+    "price_max": 115000,
+    "last_date": "2026-06-27",
+    "last_price": 115000,
+    "area_min": 45.9,
+    "area_max": 78.6,
+    "hit_min": 84000,
+    "hit_last": "2026-03-26",
+    "naver_complex_no": "127604",
+    "naver_url": "https://m.land.naver.com/complex/info/127604"
    },
    {
     "gu": "서대문구",
@@ -17087,24 +15723,12 @@
       "amount": 125000,
       "area": 114.9903,
       "floor": 5
-     },
-     {
-      "date": "2025-08-31",
-      "amount": 84000,
-      "area": 59.9636,
-      "floor": 14
-     },
-     {
-      "date": "2025-08-24",
-      "amount": 85000,
-      "area": 59.9636,
-      "floor": 6
      }
     ],
-    "deal_count": 16,
-    "hit_count": 5,
+    "deal_count": 14,
+    "hit_count": 3,
     "price_min": 84000,
-    "price_med": 100050,
+    "price_med": 104650,
     "price_max": 125000,
     "last_date": "2026-07-14",
     "last_price": 116000,
@@ -17293,24 +15917,12 @@
       "amount": 92000,
       "area": 59.82,
       "floor": 8
-     },
-     {
-      "date": "2025-08-22",
-      "amount": 92500,
-      "area": 59.77,
-      "floor": 16
-     },
-     {
-      "date": "2025-08-22",
-      "amount": 88000,
-      "area": 59.77,
-      "floor": 4
      }
     ],
-    "deal_count": 26,
-    "hit_count": 3,
+    "deal_count": 24,
+    "hit_count": 2,
     "price_min": 85000,
-    "price_med": 101000,
+    "price_med": 102000,
     "price_max": 133000,
     "last_date": "2026-07-29",
     "last_price": 119000,
@@ -17328,6 +15940,12 @@
     "build_year": 2019,
     "jibun": "410",
     "deals": [
+     {
+      "date": "2026-07-15",
+      "amount": 149000,
+      "area": 84.98,
+      "floor": 14
+     },
      {
       "date": "2026-06-06",
       "amount": 123000,
@@ -17657,75 +16275,15 @@
       "amount": 103000,
       "area": 84.98,
       "floor": 2
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 94000,
-      "area": 59.42,
-      "floor": 5
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 96500,
-      "area": 59.98,
-      "floor": 5
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 110000,
-      "area": 84.94,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-26",
-      "amount": 113000,
-      "area": 84.97,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-26",
-      "amount": 96000,
-      "area": 59.98,
-      "floor": 11
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 115700,
-      "area": 84.94,
-      "floor": 19
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 89000,
-      "area": 59.98,
-      "floor": 2
-     },
-     {
-      "date": "2025-08-22",
-      "amount": 104000,
-      "area": 84.98,
-      "floor": 23
-     },
-     {
-      "date": "2025-08-11",
-      "amount": 107000,
-      "area": 84.98,
-      "floor": 2
-     },
-     {
-      "date": "2025-08-11",
-      "amount": 100000,
-      "area": 84.97,
-      "floor": 5
      }
     ],
-    "deal_count": 65,
-    "hit_count": 3,
+    "deal_count": 56,
+    "hit_count": 2,
     "price_min": 85000,
-    "price_med": 110000,
-    "price_max": 144000,
-    "last_date": "2026-06-06",
-    "last_price": 123000,
+    "price_med": 113000,
+    "price_max": 149000,
+    "last_date": "2026-07-15",
+    "last_price": 149000,
     "area_min": 59.4,
     "area_max": 109.4,
     "hit_min": 85000,
@@ -18045,36 +16603,12 @@
       "amount": 74000,
       "area": 84.98,
       "floor": 7
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 105000,
-      "area": 84.97,
-      "floor": 1
-     },
-     {
-      "date": "2025-08-26",
-      "amount": 114500,
-      "area": 84.98,
-      "floor": 18
-     },
-     {
-      "date": "2025-08-20",
-      "amount": 115000,
-      "area": 84.97,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-14",
-      "amount": 104000,
-      "area": 59.68,
-      "floor": 7
      }
     ],
-    "deal_count": 55,
+    "deal_count": 51,
     "hit_count": 3,
     "price_min": 74000,
-    "price_med": 122000,
+    "price_med": 122500,
     "price_max": 148000,
     "last_date": "2026-07-20",
     "last_price": 124000,
@@ -18194,6 +16728,226 @@
     "hit_last": "2026-05-13",
     "naver_complex_no": "126242",
     "naver_url": "https://m.land.naver.com/complex/info/126242"
+   },
+   {
+    "gu": "용산구",
+    "dong": "한남동",
+    "name": "한남아이파크애비뉴",
+    "build_year": 2017,
+    "jibun": "828",
+    "deals": [
+     {
+      "date": "2026-07-04",
+      "amount": 88000,
+      "area": 48.4109,
+      "floor": 9
+     },
+     {
+      "date": "2026-06-12",
+      "amount": 86500,
+      "area": 49.6243,
+      "floor": 4
+     },
+     {
+      "date": "2026-05-28",
+      "amount": 195000,
+      "area": 93.1642,
+      "floor": 18
+     },
+     {
+      "date": "2026-05-09",
+      "amount": 90000,
+      "area": 49.6971,
+      "floor": 3
+     },
+     {
+      "date": "2026-05-08",
+      "amount": 85900,
+      "area": 46.2439,
+      "floor": 3
+     },
+     {
+      "date": "2026-05-02",
+      "amount": 90000,
+      "area": 49.5507,
+      "floor": 9
+     },
+     {
+      "date": "2026-04-30",
+      "amount": 95000,
+      "area": 49.5507,
+      "floor": 17
+     },
+     {
+      "date": "2026-04-28",
+      "amount": 105000,
+      "area": 48.7897,
+      "floor": 7
+     },
+     {
+      "date": "2026-04-22",
+      "amount": 93000,
+      "area": 46.2439,
+      "floor": 9
+     },
+     {
+      "date": "2026-04-20",
+      "amount": 99400,
+      "area": 49.6971,
+      "floor": 8
+     },
+     {
+      "date": "2026-04-18",
+      "amount": 103000,
+      "area": 49.087,
+      "floor": 17
+     },
+     {
+      "date": "2026-04-04",
+      "amount": 91500,
+      "area": 49.6971,
+      "floor": 9
+     },
+     {
+      "date": "2026-03-11",
+      "amount": 95000,
+      "area": 45.717,
+      "floor": 13
+     },
+     {
+      "date": "2026-03-07",
+      "amount": 108000,
+      "area": 49.6971,
+      "floor": 16
+     },
+     {
+      "date": "2026-02-20",
+      "amount": 105000,
+      "area": 49.6971,
+      "floor": 14
+     },
+     {
+      "date": "2026-02-19",
+      "amount": 96000,
+      "area": 49.6971,
+      "floor": 6
+     },
+     {
+      "date": "2026-01-24",
+      "amount": 104000,
+      "area": 49.6971,
+      "floor": 16
+     },
+     {
+      "date": "2026-01-20",
+      "amount": 90000,
+      "area": 46.2439,
+      "floor": 4
+     },
+     {
+      "date": "2026-01-14",
+      "amount": 95000,
+      "area": 45.717,
+      "floor": 4
+     },
+     {
+      "date": "2026-01-10",
+      "amount": 91000,
+      "area": 47.8105,
+      "floor": 9
+     },
+     {
+      "date": "2025-12-26",
+      "amount": 66500,
+      "area": 47.8105,
+      "floor": 11
+     },
+     {
+      "date": "2025-12-13",
+      "amount": 86000,
+      "area": 48.4109,
+      "floor": 15
+     },
+     {
+      "date": "2025-11-22",
+      "amount": 97000,
+      "area": 49.087,
+      "floor": 10
+     },
+     {
+      "date": "2025-11-22",
+      "amount": 93000,
+      "area": 46.2439,
+      "floor": 7
+     },
+     {
+      "date": "2025-11-19",
+      "amount": 94000,
+      "area": 49.6971,
+      "floor": 6
+     },
+     {
+      "date": "2025-10-30",
+      "amount": 98000,
+      "area": 49.087,
+      "floor": 16
+     },
+     {
+      "date": "2025-10-29",
+      "amount": 99000,
+      "area": 46.2439,
+      "floor": 16
+     },
+     {
+      "date": "2025-10-25",
+      "amount": 98000,
+      "area": 49.6971,
+      "floor": 10
+     },
+     {
+      "date": "2025-10-20",
+      "amount": 101000,
+      "area": 49.9061,
+      "floor": 14
+     },
+     {
+      "date": "2025-10-17",
+      "amount": 103000,
+      "area": 48.7897,
+      "floor": 17
+     },
+     {
+      "date": "2025-10-16",
+      "amount": 100000,
+      "area": 48.7897,
+      "floor": 12
+     },
+     {
+      "date": "2025-10-14",
+      "amount": 93000,
+      "area": 49.087,
+      "floor": 8
+     },
+     {
+      "date": "2025-09-27",
+      "amount": 100500,
+      "area": 49.6971,
+      "floor": 15
+     }
+    ],
+    "deal_count": 33,
+    "hit_count": 7,
+    "price_min": 66500,
+    "price_med": 95000,
+    "price_max": 195000,
+    "last_date": "2026-07-04",
+    "last_price": 88000,
+    "area_min": 45.7,
+    "area_max": 93.2,
+    "hit_min": 85900,
+    "hit_last": "2026-07-04",
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%9C%EB%82%A8%EB%8F%99%20%ED%95%9C%EB%82%A8%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC%EC%95%A0%EB%B9%84%EB%89%B4"
    },
    {
     "gu": "은평구",
@@ -18639,361 +17393,21 @@
       "amount": 103000,
       "area": 84.9039,
       "floor": 9
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 104000,
-      "area": 84.9039,
-      "floor": 24
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 107000,
-      "area": 84.9039,
-      "floor": 24
-     },
-     {
-      "date": "2025-08-22",
-      "amount": 64000,
-      "area": 59.8545,
-      "floor": 7
-     },
-     {
-      "date": "2025-08-12",
-      "amount": 90500,
-      "area": 59.9335,
-      "floor": 18
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 85600,
-      "area": 59.8545,
-      "floor": 2
-     },
-     {
-      "date": "2025-08-08",
-      "amount": 105000,
-      "area": 84.9039,
-      "floor": 12
-     },
-     {
-      "date": "2025-08-03",
-      "amount": 98000,
-      "area": 84.9039,
-      "floor": 3
      }
     ],
-    "deal_count": 80,
-    "hit_count": 5,
-    "price_min": 64000,
+    "deal_count": 73,
+    "hit_count": 4,
+    "price_min": 86000,
     "price_med": 103000,
     "price_max": 135500,
     "last_date": "2026-07-16",
     "last_price": 115000,
     "area_min": 59.9,
     "area_max": 101.0,
-    "hit_min": 85600,
+    "hit_min": 86000,
     "hit_last": "2025-12-05",
     "naver_complex_no": "116158",
     "naver_url": "https://m.land.naver.com/complex/info/116158"
-   },
-   {
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "name": "답십리파크자이",
-    "build_year": 2019,
-    "jibun": "1014",
-    "deals": [
-     {
-      "date": "2026-07-10",
-      "amount": 156000,
-      "area": 59.91,
-      "floor": 7
-     },
-     {
-      "date": "2026-07-04",
-      "amount": 152000,
-      "area": 59.91,
-      "floor": 10
-     },
-     {
-      "date": "2026-06-13",
-      "amount": 154500,
-      "area": 59.91,
-      "floor": 6
-     },
-     {
-      "date": "2026-05-25",
-      "amount": 138000,
-      "area": 59.91,
-      "floor": 3
-     },
-     {
-      "date": "2026-05-09",
-      "amount": 125700,
-      "area": 49.54,
-      "floor": 11
-     },
-     {
-      "date": "2026-05-09",
-      "amount": 124300,
-      "area": 49.54,
-      "floor": 9
-     },
-     {
-      "date": "2026-04-25",
-      "amount": 151000,
-      "area": 59.91,
-      "floor": 3
-     },
-     {
-      "date": "2026-04-04",
-      "amount": 148000,
-      "area": 59.91,
-      "floor": 5
-     },
-     {
-      "date": "2026-03-09",
-      "amount": 149800,
-      "area": 59.91,
-      "floor": 13
-     },
-     {
-      "date": "2026-02-11",
-      "amount": 115500,
-      "area": 49.27,
-      "floor": 10
-     },
-     {
-      "date": "2026-02-11",
-      "amount": 122000,
-      "area": 49.27,
-      "floor": 11
-     },
-     {
-      "date": "2026-01-23",
-      "amount": 146500,
-      "area": 59.91,
-      "floor": 11
-     },
-     {
-      "date": "2025-12-06",
-      "amount": 145000,
-      "area": 84.83,
-      "floor": 4
-     },
-     {
-      "date": "2025-12-01",
-      "amount": 129500,
-      "area": 59.91,
-      "floor": 12
-     },
-     {
-      "date": "2025-11-29",
-      "amount": 120000,
-      "area": 59.91,
-      "floor": 1
-     },
-     {
-      "date": "2025-11-24",
-      "amount": 144000,
-      "area": 84.83,
-      "floor": 7
-     },
-     {
-      "date": "2025-11-23",
-      "amount": 134000,
-      "area": 59.91,
-      "floor": 5
-     },
-     {
-      "date": "2025-10-15",
-      "amount": 122000,
-      "area": 84.83,
-      "floor": 1
-     },
-     {
-      "date": "2025-10-15",
-      "amount": 105800,
-      "area": 49.27,
-      "floor": 13
-     },
-     {
-      "date": "2025-10-12",
-      "amount": 130000,
-      "area": 59.91,
-      "floor": 14
-     },
-     {
-      "date": "2025-10-04",
-      "amount": 101000,
-      "area": 49.54,
-      "floor": 6
-     },
-     {
-      "date": "2025-10-02",
-      "amount": 90000,
-      "area": 49.27,
-      "floor": 1
-     },
-     {
-      "date": "2025-09-28",
-      "amount": 116500,
-      "area": 59.91,
-      "floor": 11
-     },
-     {
-      "date": "2025-09-28",
-      "amount": 120000,
-      "area": 59.91,
-      "floor": 3
-     },
-     {
-      "date": "2025-09-28",
-      "amount": 99900,
-      "area": 49.54,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-27",
-      "amount": 121700,
-      "area": 59.91,
-      "floor": 12
-     },
-     {
-      "date": "2025-09-27",
-      "amount": 118000,
-      "area": 59.91,
-      "floor": 19
-     },
-     {
-      "date": "2025-09-22",
-      "amount": 122000,
-      "area": 59.91,
-      "floor": 14
-     },
-     {
-      "date": "2025-09-22",
-      "amount": 92800,
-      "area": 49.27,
-      "floor": 3
-     },
-     {
-      "date": "2025-09-21",
-      "amount": 122000,
-      "area": 59.91,
-      "floor": 16
-     },
-     {
-      "date": "2025-09-21",
-      "amount": 119000,
-      "area": 59.85,
-      "floor": 15
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 108000,
-      "area": 59.91,
-      "floor": 1
-     },
-     {
-      "date": "2025-09-20",
-      "amount": 114000,
-      "area": 59.91,
-      "floor": 2
-     },
-     {
-      "date": "2025-09-17",
-      "amount": 131500,
-      "area": 84.83,
-      "floor": 20
-     },
-     {
-      "date": "2025-09-15",
-      "amount": 120000,
-      "area": 59.91,
-      "floor": 15
-     },
-     {
-      "date": "2025-09-14",
-      "amount": 91000,
-      "area": 49.54,
-      "floor": 2
-     },
-     {
-      "date": "2025-09-13",
-      "amount": 128000,
-      "area": 84.83,
-      "floor": 6
-     },
-     {
-      "date": "2025-09-13",
-      "amount": 124700,
-      "area": 84.83,
-      "floor": 5
-     },
-     {
-      "date": "2025-09-06",
-      "amount": 119700,
-      "area": 59.91,
-      "floor": 14
-     },
-     {
-      "date": "2025-09-02",
-      "amount": 92000,
-      "area": 49.54,
-      "floor": 4
-     },
-     {
-      "date": "2025-09-01",
-      "amount": 116000,
-      "area": 59.91,
-      "floor": 6
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 119000,
-      "area": 59.91,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 130000,
-      "area": 84.83,
-      "floor": 18
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 96000,
-      "area": 49.54,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-18",
-      "amount": 86000,
-      "area": 49.54,
-      "floor": 13
-     },
-     {
-      "date": "2025-08-10",
-      "amount": 118000,
-      "area": 59.91,
-      "floor": 14
-     }
-    ],
-    "deal_count": 46,
-    "hit_count": 2,
-    "price_min": 86000,
-    "price_med": 121850,
-    "price_max": 156000,
-    "last_date": "2026-07-10",
-    "last_price": 156000,
-    "area_min": 49.3,
-    "area_max": 84.8,
-    "hit_min": 86000,
-    "hit_last": "2025-10-02",
-    "naver_complex_no": "113059",
-    "naver_url": "https://m.land.naver.com/complex/info/113059"
    },
    {
     "gu": "금천구",
@@ -19127,24 +17541,12 @@
       "amount": 86500,
       "area": 59.98,
       "floor": 24
-     },
-     {
-      "date": "2025-08-19",
-      "amount": 107000,
-      "area": 84.97,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 107000,
-      "area": 84.95,
-      "floor": 27
      }
     ],
-    "deal_count": 23,
+    "deal_count": 21,
     "hit_count": 8,
     "price_min": 86500,
-    "price_med": 96000,
+    "price_med": 93000,
     "price_max": 120000,
     "last_date": "2026-06-27",
     "last_price": 113000,
@@ -19341,24 +17743,12 @@
       "amount": 105000,
       "area": 84.9771,
       "floor": 15
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 87000,
-      "area": 59.8074,
-      "floor": 6
-     },
-     {
-      "date": "2025-08-06",
-      "amount": 91700,
-      "area": 59.8074,
-      "floor": 14
      }
     ],
-    "deal_count": 32,
-    "hit_count": 9,
+    "deal_count": 30,
+    "hit_count": 8,
     "price_min": 86500,
-    "price_med": 104500,
+    "price_med": 105000,
     "price_max": 150000,
     "last_date": "2026-07-09",
     "last_price": 150000,
@@ -19376,6 +17766,12 @@
     "build_year": 2018,
     "jibun": "1155",
     "deals": [
+     {
+      "date": "2026-07-30",
+      "amount": 109000,
+      "area": 59.968,
+      "floor": 32
+     },
      {
       "date": "2026-07-18",
       "amount": 107000,
@@ -19897,12 +18293,6 @@
       "amount": 91000,
       "area": 59.968,
       "floor": 25
-     },
-     {
-      "date": "2025-08-01",
-      "amount": 127500,
-      "area": 84.2236,
-      "floor": 36
      }
     ],
     "deal_count": 88,
@@ -19910,8 +18300,8 @@
     "price_min": 88000,
     "price_med": 99750,
     "price_max": 135000,
-    "last_date": "2026-07-18",
-    "last_price": 107000,
+    "last_date": "2026-07-30",
+    "last_price": 109000,
     "area_min": 60.0,
     "area_max": 84.5,
     "hit_min": 88000,
@@ -20261,42 +18651,12 @@
       "amount": 147400,
       "area": 59.87,
       "floor": 22
-     },
-     {
-      "date": "2025-08-28",
-      "amount": 143000,
-      "area": 59.91,
-      "floor": 5
-     },
-     {
-      "date": "2025-08-21",
-      "amount": 145500,
-      "area": 59.91,
-      "floor": 8
-     },
-     {
-      "date": "2025-08-19",
-      "amount": 157000,
-      "area": 84.86,
-      "floor": 1
-     },
-     {
-      "date": "2025-08-14",
-      "amount": 143500,
-      "area": 59.91,
-      "floor": 5
-     },
-     {
-      "date": "2025-08-06",
-      "amount": 88000,
-      "area": 42.68,
-      "floor": 24
      }
     ],
-    "deal_count": 61,
-    "hit_count": 3,
+    "deal_count": 56,
+    "hit_count": 2,
     "price_min": 88000,
-    "price_med": 163000,
+    "price_med": 165000,
     "price_max": 205000,
     "last_date": "2026-07-10",
     "last_price": 100000,
@@ -20425,18 +18785,12 @@
       "amount": 112000,
       "area": 82.94,
       "floor": 6
-     },
-     {
-      "date": "2025-08-25",
-      "amount": 112000,
-      "area": 82.94,
-      "floor": 9
      }
     ],
-    "deal_count": 5,
+    "deal_count": 4,
     "hit_count": 1,
     "price_min": 88500,
-    "price_med": 112000,
+    "price_med": 111000,
     "price_max": 128500,
     "last_date": "2026-04-07",
     "last_price": 88500,
@@ -20446,6 +18800,502 @@
     "hit_last": "2026-04-07",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%EC%9E%90%EC%96%91%EB%8F%99%20%ED%85%8C%EB%9D%BC%ED%8C%B0%EB%A6%AC%EC%8A%A4%EA%B1%B4%EB%8C%802%EC%B0%A8"
+   },
+   {
+    "gu": "강서구",
+    "dong": "염창동",
+    "name": "강서쌍용예가",
+    "build_year": 2014,
+    "jibun": "308",
+    "deals": [
+     {
+      "date": "2026-05-09",
+      "amount": 116500,
+      "area": 84.9025,
+      "floor": 7
+     },
+     {
+      "date": "2026-02-23",
+      "amount": 102000,
+      "area": 59.9194,
+      "floor": 10
+     },
+     {
+      "date": "2025-10-29",
+      "amount": 105000,
+      "area": 84.9025,
+      "floor": 2
+     },
+     {
+      "date": "2025-10-14",
+      "amount": 88750,
+      "area": 59.9194,
+      "floor": 4
+     },
+     {
+      "date": "2025-10-05",
+      "amount": 108000,
+      "area": 84.9025,
+      "floor": 9
+     },
+     {
+      "date": "2025-09-27",
+      "amount": 102000,
+      "area": 84.9025,
+      "floor": 3
+     }
+    ],
+    "deal_count": 6,
+    "hit_count": 1,
+    "price_min": 88750,
+    "price_med": 103500,
+    "price_max": 116500,
+    "last_date": "2026-05-09",
+    "last_price": 116500,
+    "area_min": 59.9,
+    "area_max": 84.9,
+    "hit_min": 88750,
+    "hit_last": "2025-10-14",
+    "naver_complex_no": "104780",
+    "naver_url": "https://m.land.naver.com/complex/info/104780"
+   },
+   {
+    "gu": "동대문구",
+    "dong": "답십리동",
+    "name": "청계와이즈노벨리아",
+    "build_year": 2017,
+    "jibun": "1008",
+    "deals": [
+     {
+      "date": "2026-03-13",
+      "amount": 101500,
+      "area": 74.9044,
+      "floor": 9
+     },
+     {
+      "date": "2026-02-07",
+      "amount": 98000,
+      "area": 74.9044,
+      "floor": 18
+     },
+     {
+      "date": "2026-01-10",
+      "amount": 94000,
+      "area": 74.9044,
+      "floor": 8
+     },
+     {
+      "date": "2025-11-29",
+      "amount": 90500,
+      "area": 74.9044,
+      "floor": 4
+     },
+     {
+      "date": "2025-09-27",
+      "amount": 89000,
+      "area": 74.9044,
+      "floor": 14
+     }
+    ],
+    "deal_count": 5,
+    "hit_count": 1,
+    "price_min": 89000,
+    "price_med": 94000,
+    "price_max": 101500,
+    "last_date": "2026-03-13",
+    "last_price": 101500,
+    "area_min": 74.9,
+    "area_max": 74.9,
+    "hit_min": 89000,
+    "hit_last": "2025-09-27",
+    "naver_complex_no": "111632",
+    "naver_url": "https://m.land.naver.com/complex/info/111632"
+   },
+   {
+    "gu": "송파구",
+    "dong": "오금동",
+    "name": "더뷰21",
+    "build_year": 2021,
+    "jibun": "130-3",
+    "deals": [
+     {
+      "date": "2026-06-25",
+      "amount": 89000,
+      "area": 54.943,
+      "floor": 2
+     }
+    ],
+    "deal_count": 1,
+    "hit_count": 1,
+    "price_min": 89000,
+    "price_med": 89000,
+    "price_max": 89000,
+    "last_date": "2026-06-25",
+    "last_price": 89000,
+    "area_min": 54.9,
+    "area_max": 54.9,
+    "hit_min": 89000,
+    "hit_last": "2026-06-25",
+    "naver_complex_no": "141001",
+    "naver_url": "https://m.land.naver.com/complex/info/141001"
+   },
+   {
+    "gu": "은평구",
+    "dong": "녹번동",
+    "name": "힐스테이트녹번",
+    "build_year": 2019,
+    "jibun": "282",
+    "deals": [
+     {
+      "date": "2026-07-17",
+      "amount": 123500,
+      "area": 59.938,
+      "floor": 6
+     },
+     {
+      "date": "2026-07-04",
+      "amount": 130000,
+      "area": 59.938,
+      "floor": 12
+     },
+     {
+      "date": "2026-07-01",
+      "amount": 153000,
+      "area": 84.898,
+      "floor": 19
+     },
+     {
+      "date": "2026-07-01",
+      "amount": 70000,
+      "area": 59.938,
+      "floor": 11
+     },
+     {
+      "date": "2026-06-20",
+      "amount": 127000,
+      "area": 59.938,
+      "floor": 2
+     },
+     {
+      "date": "2026-05-23",
+      "amount": 130000,
+      "area": 84.898,
+      "floor": 2
+     },
+     {
+      "date": "2026-05-08",
+      "amount": 124500,
+      "area": 59.938,
+      "floor": 14
+     },
+     {
+      "date": "2026-05-07",
+      "amount": 125000,
+      "area": 59.9,
+      "floor": 8
+     },
+     {
+      "date": "2026-05-03",
+      "amount": 124000,
+      "area": 59.9,
+      "floor": 12
+     },
+     {
+      "date": "2026-04-27",
+      "amount": 121500,
+      "area": 59.938,
+      "floor": 12
+     },
+     {
+      "date": "2026-04-24",
+      "amount": 135000,
+      "area": 84.9,
+      "floor": 14
+     },
+     {
+      "date": "2026-04-16",
+      "amount": 130000,
+      "area": 84.9,
+      "floor": 7
+     },
+     {
+      "date": "2026-04-04",
+      "amount": 124000,
+      "area": 59.938,
+      "floor": 6
+     },
+     {
+      "date": "2026-04-01",
+      "amount": 125000,
+      "area": 59.938,
+      "floor": 18
+     },
+     {
+      "date": "2026-03-28",
+      "amount": 125000,
+      "area": 59.938,
+      "floor": 7
+     },
+     {
+      "date": "2026-03-27",
+      "amount": 127000,
+      "area": 59.938,
+      "floor": 11
+     },
+     {
+      "date": "2026-03-21",
+      "amount": 122000,
+      "area": 59.938,
+      "floor": 7
+     },
+     {
+      "date": "2026-03-21",
+      "amount": 116000,
+      "area": 59.938,
+      "floor": 3
+     },
+     {
+      "date": "2026-03-20",
+      "amount": 107000,
+      "area": 59.938,
+      "floor": 9
+     },
+     {
+      "date": "2026-02-26",
+      "amount": 127000,
+      "area": 59.938,
+      "floor": 10
+     },
+     {
+      "date": "2026-02-21",
+      "amount": 124000,
+      "area": 59.938,
+      "floor": 10
+     },
+     {
+      "date": "2026-01-20",
+      "amount": 121700,
+      "area": 84.898,
+      "floor": 1
+     },
+     {
+      "date": "2026-01-17",
+      "amount": 128000,
+      "area": 84.898,
+      "floor": 17
+     },
+     {
+      "date": "2025-12-27",
+      "amount": 128000,
+      "area": 84.9,
+      "floor": 11
+     },
+     {
+      "date": "2025-12-21",
+      "amount": 131300,
+      "area": 84.9,
+      "floor": 18
+     },
+     {
+      "date": "2025-12-20",
+      "amount": 128000,
+      "area": 84.9,
+      "floor": 4
+     },
+     {
+      "date": "2025-12-18",
+      "amount": 130500,
+      "area": 84.9,
+      "floor": 12
+     },
+     {
+      "date": "2025-12-14",
+      "amount": 116000,
+      "area": 59.9,
+      "floor": 7
+     },
+     {
+      "date": "2025-12-10",
+      "amount": 127500,
+      "area": 84.9,
+      "floor": 5
+     },
+     {
+      "date": "2025-12-06",
+      "amount": 110000,
+      "area": 59.938,
+      "floor": 8
+     },
+     {
+      "date": "2025-12-03",
+      "amount": 117000,
+      "area": 59.938,
+      "floor": 6
+     },
+     {
+      "date": "2025-11-26",
+      "amount": 125000,
+      "area": 84.9,
+      "floor": 6
+     },
+     {
+      "date": "2025-11-19",
+      "amount": 129700,
+      "area": 84.898,
+      "floor": 12
+     },
+     {
+      "date": "2025-11-15",
+      "amount": 123500,
+      "area": 84.898,
+      "floor": 3
+     },
+     {
+      "date": "2025-11-13",
+      "amount": 123500,
+      "area": 84.9,
+      "floor": 9
+     },
+     {
+      "date": "2025-10-19",
+      "amount": 125000,
+      "area": 84.9,
+      "floor": 10
+     },
+     {
+      "date": "2025-10-15",
+      "amount": 89000,
+      "area": 49.884,
+      "floor": 2
+     },
+     {
+      "date": "2025-10-15",
+      "amount": 128000,
+      "area": 84.898,
+      "floor": 16
+     },
+     {
+      "date": "2025-10-13",
+      "amount": 125000,
+      "area": 84.9,
+      "floor": 12
+     },
+     {
+      "date": "2025-10-12",
+      "amount": 123000,
+      "area": 84.9,
+      "floor": 7
+     },
+     {
+      "date": "2025-10-11",
+      "amount": 125000,
+      "area": 84.9,
+      "floor": 17
+     },
+     {
+      "date": "2025-10-11",
+      "amount": 104000,
+      "area": 59.938,
+      "floor": 2
+     },
+     {
+      "date": "2025-10-11",
+      "amount": 127000,
+      "area": 84.9,
+      "floor": 17
+     },
+     {
+      "date": "2025-10-09",
+      "amount": 110000,
+      "area": 59.938,
+      "floor": 17
+     },
+     {
+      "date": "2025-10-03",
+      "amount": 112000,
+      "area": 59.938,
+      "floor": 8
+     },
+     {
+      "date": "2025-10-03",
+      "amount": 112700,
+      "area": 59.938,
+      "floor": 18
+     },
+     {
+      "date": "2025-10-03",
+      "amount": 111000,
+      "area": 59.9,
+      "floor": 10
+     },
+     {
+      "date": "2025-09-30",
+      "amount": 125000,
+      "area": 84.9,
+      "floor": 15
+     },
+     {
+      "date": "2025-09-30",
+      "amount": 128000,
+      "area": 84.9,
+      "floor": 7
+     },
+     {
+      "date": "2025-09-27",
+      "amount": 108300,
+      "area": 59.938,
+      "floor": 15
+     },
+     {
+      "date": "2025-09-23",
+      "amount": 105000,
+      "area": 59.938,
+      "floor": 4
+     },
+     {
+      "date": "2025-09-22",
+      "amount": 121850,
+      "area": 84.9,
+      "floor": 3
+     },
+     {
+      "date": "2025-09-20",
+      "amount": 122500,
+      "area": 84.9,
+      "floor": 5
+     },
+     {
+      "date": "2025-09-15",
+      "amount": 124750,
+      "area": 84.898,
+      "floor": 13
+     },
+     {
+      "date": "2025-09-13",
+      "amount": 101500,
+      "area": 59.938,
+      "floor": 3
+     },
+     {
+      "date": "2025-09-04",
+      "amount": 111000,
+      "area": 59.938,
+      "floor": 18
+     }
+    ],
+    "deal_count": 56,
+    "hit_count": 1,
+    "price_min": 70000,
+    "price_med": 124250,
+    "price_max": 153000,
+    "last_date": "2026-07-17",
+    "last_price": 123500,
+    "area_min": 49.9,
+    "area_max": 84.9,
+    "hit_min": 89000,
+    "hit_last": "2025-10-15",
+    "naver_complex_no": "111964",
+    "naver_url": "https://m.land.naver.com/complex/info/111964"
    },
    {
     "gu": "은평구",
@@ -20633,331 +19483,21 @@
       "amount": 112000,
       "area": 84.99,
       "floor": 6
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 88500,
-      "area": 59.99,
-      "floor": 4
      }
     ],
-    "deal_count": 31,
-    "hit_count": 5,
-    "price_min": 88500,
+    "deal_count": 30,
+    "hit_count": 4,
+    "price_min": 89000,
     "price_med": 99000,
     "price_max": 126000,
     "last_date": "2026-07-17",
     "last_price": 120000,
     "area_min": 60.0,
     "area_max": 115.0,
-    "hit_min": 88500,
+    "hit_min": 89000,
     "hit_last": "2026-02-19",
     "naver_complex_no": "103025",
     "naver_url": "https://m.land.naver.com/complex/info/103025"
-   },
-   {
-    "gu": "강서구",
-    "dong": "염창동",
-    "name": "강서쌍용예가",
-    "build_year": 2014,
-    "jibun": "308",
-    "deals": [
-     {
-      "date": "2026-05-09",
-      "amount": 116500,
-      "area": 84.9025,
-      "floor": 7
-     },
-     {
-      "date": "2026-02-23",
-      "amount": 102000,
-      "area": 59.9194,
-      "floor": 10
-     },
-     {
-      "date": "2025-10-29",
-      "amount": 105000,
-      "area": 84.9025,
-      "floor": 2
-     },
-     {
-      "date": "2025-10-14",
-      "amount": 88750,
-      "area": 59.9194,
-      "floor": 4
-     },
-     {
-      "date": "2025-10-05",
-      "amount": 108000,
-      "area": 84.9025,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-27",
-      "amount": 102000,
-      "area": 84.9025,
-      "floor": 3
-     }
-    ],
-    "deal_count": 6,
-    "hit_count": 1,
-    "price_min": 88750,
-    "price_med": 103500,
-    "price_max": 116500,
-    "last_date": "2026-05-09",
-    "last_price": 116500,
-    "area_min": 59.9,
-    "area_max": 84.9,
-    "hit_min": 88750,
-    "hit_last": "2025-10-14",
-    "naver_complex_no": "104780",
-    "naver_url": "https://m.land.naver.com/complex/info/104780"
-   },
-   {
-    "gu": "광진구",
-    "dong": "자양동",
-    "name": "자양호반써밋",
-    "build_year": 2021,
-    "jibun": "861",
-    "deals": [
-     {
-      "date": "2026-07-02",
-      "amount": 120000,
-      "area": 40.2751,
-      "floor": 11
-     },
-     {
-      "date": "2026-06-19",
-      "amount": 125000,
-      "area": 40.2751,
-      "floor": 9
-     },
-     {
-      "date": "2026-04-06",
-      "amount": 129000,
-      "area": 40.2673,
-      "floor": 13
-     },
-     {
-      "date": "2026-04-04",
-      "amount": 112500,
-      "area": 40.2751,
-      "floor": 13
-     },
-     {
-      "date": "2026-02-26",
-      "amount": 110000,
-      "area": 40.183,
-      "floor": 5
-     },
-     {
-      "date": "2026-01-15",
-      "amount": 117000,
-      "area": 40.2673,
-      "floor": 14
-     },
-     {
-      "date": "2026-01-08",
-      "amount": 117500,
-      "area": 40.183,
-      "floor": 24
-     },
-     {
-      "date": "2025-12-29",
-      "amount": 160000,
-      "area": 59.079,
-      "floor": 12
-     },
-     {
-      "date": "2025-12-26",
-      "amount": 108000,
-      "area": 40.2751,
-      "floor": 6
-     },
-     {
-      "date": "2025-11-13",
-      "amount": 162000,
-      "area": 59.0905,
-      "floor": 11
-     },
-     {
-      "date": "2025-10-18",
-      "amount": 151000,
-      "area": 59.079,
-      "floor": 17
-     },
-     {
-      "date": "2025-10-16",
-      "amount": 70000,
-      "area": 40.2751,
-      "floor": 8
-     },
-     {
-      "date": "2025-10-02",
-      "amount": 100000,
-      "area": 40.2751,
-      "floor": 10
-     },
-     {
-      "date": "2025-10-01",
-      "amount": 100000,
-      "area": 40.2751,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-26",
-      "amount": 143000,
-      "area": 59.0905,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-25",
-      "amount": 110000,
-      "area": 40.2751,
-      "floor": 24
-     },
-     {
-      "date": "2025-09-25",
-      "amount": 185500,
-      "area": 84.0374,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-24",
-      "amount": 152000,
-      "area": 59.0905,
-      "floor": 24
-     },
-     {
-      "date": "2025-09-18",
-      "amount": 101500,
-      "area": 40.2751,
-      "floor": 23
-     },
-     {
-      "date": "2025-09-13",
-      "amount": 98000,
-      "area": 40.2751,
-      "floor": 8
-     },
-     {
-      "date": "2025-09-13",
-      "amount": 97000,
-      "area": 40.2751,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-13",
-      "amount": 98000,
-      "area": 40.2751,
-      "floor": 25
-     },
-     {
-      "date": "2025-09-11",
-      "amount": 104000,
-      "area": 40.2751,
-      "floor": 20
-     },
-     {
-      "date": "2025-08-04",
-      "amount": 89000,
-      "area": 40.2751,
-      "floor": 2
-     }
-    ],
-    "deal_count": 24,
-    "hit_count": 1,
-    "price_min": 70000,
-    "price_med": 111250,
-    "price_max": 185500,
-    "last_date": "2026-07-02",
-    "last_price": 120000,
-    "area_min": 40.2,
-    "area_max": 84.0,
-    "hit_min": 89000,
-    "hit_last": "2025-08-04",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%90%EC%96%91%EB%8F%99%20%EC%9E%90%EC%96%91%ED%98%B8%EB%B0%98%EC%8D%A8%EB%B0%8B"
-   },
-   {
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "name": "청계와이즈노벨리아",
-    "build_year": 2017,
-    "jibun": "1008",
-    "deals": [
-     {
-      "date": "2026-03-13",
-      "amount": 101500,
-      "area": 74.9044,
-      "floor": 9
-     },
-     {
-      "date": "2026-02-07",
-      "amount": 98000,
-      "area": 74.9044,
-      "floor": 18
-     },
-     {
-      "date": "2026-01-10",
-      "amount": 94000,
-      "area": 74.9044,
-      "floor": 8
-     },
-     {
-      "date": "2025-11-29",
-      "amount": 90500,
-      "area": 74.9044,
-      "floor": 4
-     },
-     {
-      "date": "2025-09-27",
-      "amount": 89000,
-      "area": 74.9044,
-      "floor": 14
-     }
-    ],
-    "deal_count": 5,
-    "hit_count": 1,
-    "price_min": 89000,
-    "price_med": 94000,
-    "price_max": 101500,
-    "last_date": "2026-03-13",
-    "last_price": 101500,
-    "area_min": 74.9,
-    "area_max": 74.9,
-    "hit_min": 89000,
-    "hit_last": "2025-09-27",
-    "naver_complex_no": "111632",
-    "naver_url": "https://m.land.naver.com/complex/info/111632"
-   },
-   {
-    "gu": "송파구",
-    "dong": "오금동",
-    "name": "더뷰21",
-    "build_year": 2021,
-    "jibun": "130-3",
-    "deals": [
-     {
-      "date": "2026-06-25",
-      "amount": 89000,
-      "area": 54.943,
-      "floor": 2
-     }
-    ],
-    "deal_count": 1,
-    "hit_count": 1,
-    "price_min": 89000,
-    "price_med": 89000,
-    "price_max": 89000,
-    "last_date": "2026-06-25",
-    "last_price": 89000,
-    "area_min": 54.9,
-    "area_max": 54.9,
-    "hit_min": 89000,
-    "hit_last": "2026-06-25",
-    "naver_complex_no": "141001",
-    "naver_url": "https://m.land.naver.com/complex/info/141001"
    },
    {
     "gu": "중랑구",
@@ -21133,30 +19673,12 @@
       "amount": 110500,
       "area": 84.916,
       "floor": 12
-     },
-     {
-      "date": "2025-08-30",
-      "amount": 108000,
-      "area": 84.834,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 108000,
-      "area": 84.834,
-      "floor": 21
-     },
-     {
-      "date": "2025-08-19",
-      "amount": 109000,
-      "area": 84.834,
-      "floor": 19
      }
     ],
-    "deal_count": 31,
+    "deal_count": 28,
     "hit_count": 3,
     "price_min": 89000,
-    "price_med": 108000,
+    "price_med": 106400,
     "price_max": 125000,
     "last_date": "2026-07-18",
     "last_price": 101000,
@@ -21471,18 +19993,12 @@
       "amount": 135000,
       "area": 59.9812,
       "floor": 10
-     },
-     {
-      "date": "2025-08-14",
-      "amount": 152000,
-      "area": 84.6352,
-      "floor": 17
      }
     ],
-    "deal_count": 16,
+    "deal_count": 15,
     "hit_count": 4,
     "price_min": 90000,
-    "price_med": 146000,
+    "price_med": 142000,
     "price_max": 175000,
     "last_date": "2026-05-04",
     "last_price": 160000,
@@ -21492,6 +20008,280 @@
     "hit_last": "2026-04-08",
     "naver_complex_no": "115965",
     "naver_url": "https://m.land.naver.com/complex/info/115965"
+   },
+   {
+    "gu": "동대문구",
+    "dong": "답십리동",
+    "name": "답십리파크자이",
+    "build_year": 2019,
+    "jibun": "1014",
+    "deals": [
+     {
+      "date": "2026-07-20",
+      "amount": 154000,
+      "area": 59.91,
+      "floor": 4
+     },
+     {
+      "date": "2026-07-10",
+      "amount": 156000,
+      "area": 59.91,
+      "floor": 7
+     },
+     {
+      "date": "2026-07-04",
+      "amount": 152000,
+      "area": 59.91,
+      "floor": 10
+     },
+     {
+      "date": "2026-06-13",
+      "amount": 154500,
+      "area": 59.91,
+      "floor": 6
+     },
+     {
+      "date": "2026-05-25",
+      "amount": 138000,
+      "area": 59.91,
+      "floor": 3
+     },
+     {
+      "date": "2026-05-09",
+      "amount": 125700,
+      "area": 49.54,
+      "floor": 11
+     },
+     {
+      "date": "2026-05-09",
+      "amount": 124300,
+      "area": 49.54,
+      "floor": 9
+     },
+     {
+      "date": "2026-04-25",
+      "amount": 151000,
+      "area": 59.91,
+      "floor": 3
+     },
+     {
+      "date": "2026-04-04",
+      "amount": 148000,
+      "area": 59.91,
+      "floor": 5
+     },
+     {
+      "date": "2026-03-09",
+      "amount": 149800,
+      "area": 59.91,
+      "floor": 13
+     },
+     {
+      "date": "2026-02-11",
+      "amount": 115500,
+      "area": 49.27,
+      "floor": 10
+     },
+     {
+      "date": "2026-02-11",
+      "amount": 122000,
+      "area": 49.27,
+      "floor": 11
+     },
+     {
+      "date": "2026-01-23",
+      "amount": 146500,
+      "area": 59.91,
+      "floor": 11
+     },
+     {
+      "date": "2025-12-06",
+      "amount": 145000,
+      "area": 84.83,
+      "floor": 4
+     },
+     {
+      "date": "2025-12-01",
+      "amount": 129500,
+      "area": 59.91,
+      "floor": 12
+     },
+     {
+      "date": "2025-11-29",
+      "amount": 120000,
+      "area": 59.91,
+      "floor": 1
+     },
+     {
+      "date": "2025-11-24",
+      "amount": 144000,
+      "area": 84.83,
+      "floor": 7
+     },
+     {
+      "date": "2025-11-23",
+      "amount": 134000,
+      "area": 59.91,
+      "floor": 5
+     },
+     {
+      "date": "2025-10-15",
+      "amount": 122000,
+      "area": 84.83,
+      "floor": 1
+     },
+     {
+      "date": "2025-10-15",
+      "amount": 105800,
+      "area": 49.27,
+      "floor": 13
+     },
+     {
+      "date": "2025-10-12",
+      "amount": 130000,
+      "area": 59.91,
+      "floor": 14
+     },
+     {
+      "date": "2025-10-04",
+      "amount": 101000,
+      "area": 49.54,
+      "floor": 6
+     },
+     {
+      "date": "2025-10-02",
+      "amount": 90000,
+      "area": 49.27,
+      "floor": 1
+     },
+     {
+      "date": "2025-09-28",
+      "amount": 116500,
+      "area": 59.91,
+      "floor": 11
+     },
+     {
+      "date": "2025-09-28",
+      "amount": 120000,
+      "area": 59.91,
+      "floor": 3
+     },
+     {
+      "date": "2025-09-28",
+      "amount": 99900,
+      "area": 49.54,
+      "floor": 9
+     },
+     {
+      "date": "2025-09-27",
+      "amount": 121700,
+      "area": 59.91,
+      "floor": 12
+     },
+     {
+      "date": "2025-09-27",
+      "amount": 118000,
+      "area": 59.91,
+      "floor": 19
+     },
+     {
+      "date": "2025-09-22",
+      "amount": 122000,
+      "area": 59.91,
+      "floor": 14
+     },
+     {
+      "date": "2025-09-22",
+      "amount": 92800,
+      "area": 49.27,
+      "floor": 3
+     },
+     {
+      "date": "2025-09-21",
+      "amount": 122000,
+      "area": 59.91,
+      "floor": 16
+     },
+     {
+      "date": "2025-09-21",
+      "amount": 119000,
+      "area": 59.85,
+      "floor": 15
+     },
+     {
+      "date": "2025-09-20",
+      "amount": 108000,
+      "area": 59.91,
+      "floor": 1
+     },
+     {
+      "date": "2025-09-20",
+      "amount": 114000,
+      "area": 59.91,
+      "floor": 2
+     },
+     {
+      "date": "2025-09-17",
+      "amount": 131500,
+      "area": 84.83,
+      "floor": 20
+     },
+     {
+      "date": "2025-09-15",
+      "amount": 120000,
+      "area": 59.91,
+      "floor": 15
+     },
+     {
+      "date": "2025-09-14",
+      "amount": 91000,
+      "area": 49.54,
+      "floor": 2
+     },
+     {
+      "date": "2025-09-13",
+      "amount": 128000,
+      "area": 84.83,
+      "floor": 6
+     },
+     {
+      "date": "2025-09-13",
+      "amount": 124700,
+      "area": 84.83,
+      "floor": 5
+     },
+     {
+      "date": "2025-09-06",
+      "amount": 119700,
+      "area": 59.91,
+      "floor": 14
+     },
+     {
+      "date": "2025-09-02",
+      "amount": 92000,
+      "area": 49.54,
+      "floor": 4
+     },
+     {
+      "date": "2025-09-01",
+      "amount": 116000,
+      "area": 59.91,
+      "floor": 6
+     }
+    ],
+    "deal_count": 42,
+    "hit_count": 1,
+    "price_min": 90000,
+    "price_med": 122000,
+    "price_max": 156000,
+    "last_date": "2026-07-20",
+    "last_price": 154000,
+    "area_min": 49.3,
+    "area_max": 84.8,
+    "hit_min": 90000,
+    "hit_last": "2025-10-02",
+    "naver_complex_no": "113059",
+    "naver_url": "https://m.land.naver.com/complex/info/113059"
    },
    {
     "gu": "서초구",
@@ -22061,72 +20851,12 @@
       "amount": 97000,
       "area": 59.99,
       "floor": 17
-     },
-     {
-      "date": "2025-08-31",
-      "amount": 114000,
-      "area": 84.98,
-      "floor": 14
-     },
-     {
-      "date": "2025-08-27",
-      "amount": 113500,
-      "area": 84.94,
-      "floor": 30
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 112000,
-      "area": 84.94,
-      "floor": 27
-     },
-     {
-      "date": "2025-08-20",
-      "amount": 106700,
-      "area": 84.94,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-18",
-      "amount": 108300,
-      "area": 84.98,
-      "floor": 3
-     },
-     {
-      "date": "2025-08-15",
-      "amount": 113000,
-      "area": 84.94,
-      "floor": 9
-     },
-     {
-      "date": "2025-08-13",
-      "amount": 97000,
-      "area": 59.99,
-      "floor": 10
-     },
-     {
-      "date": "2025-08-09",
-      "amount": 98100,
-      "area": 59.99,
-      "floor": 12
-     },
-     {
-      "date": "2025-08-03",
-      "amount": 110000,
-      "area": 84.98,
-      "floor": 14
-     },
-     {
-      "date": "2025-08-02",
-      "amount": 110000,
-      "area": 84.94,
-      "floor": 28
      }
     ],
-    "deal_count": 98,
+    "deal_count": 88,
     "hit_count": 1,
     "price_min": 90000,
-    "price_med": 115000,
+    "price_med": 118000,
     "price_max": 158000,
     "last_date": "2026-07-25",
     "last_price": 158000,
@@ -22136,208 +20866,6 @@
     "hit_last": "2026-04-28",
     "naver_complex_no": "113985",
     "naver_url": "https://m.land.naver.com/complex/info/113985"
-   },
-   {
-    "gu": "성북구",
-    "dong": "장위동",
-    "name": "꿈의숲코오롱하늘채",
-    "build_year": 2017,
-    "jibun": "319",
-    "deals": [
-     {
-      "date": "2026-06-30",
-      "amount": 137500,
-      "area": 84.87,
-      "floor": 17
-     },
-     {
-      "date": "2026-06-12",
-      "amount": 109800,
-      "area": 59.35,
-      "floor": 3
-     },
-     {
-      "date": "2026-05-27",
-      "amount": 106000,
-      "area": 59.35,
-      "floor": 2
-     },
-     {
-      "date": "2026-05-09",
-      "amount": 125000,
-      "area": 84.84,
-      "floor": 10
-     },
-     {
-      "date": "2026-04-25",
-      "amount": 108000,
-      "area": 59.92,
-      "floor": 11
-     },
-     {
-      "date": "2026-04-19",
-      "amount": 108600,
-      "area": 59.92,
-      "floor": 4
-     },
-     {
-      "date": "2026-04-16",
-      "amount": 125000,
-      "area": 84.84,
-      "floor": 21
-     },
-     {
-      "date": "2026-04-11",
-      "amount": 117000,
-      "area": 84.87,
-      "floor": 7
-     },
-     {
-      "date": "2026-03-20",
-      "amount": 120000,
-      "area": 84.87,
-      "floor": 6
-     },
-     {
-      "date": "2026-03-14",
-      "amount": 109000,
-      "area": 59.35,
-      "floor": 15
-     },
-     {
-      "date": "2026-03-09",
-      "amount": 119500,
-      "area": 84.71,
-      "floor": 15
-     },
-     {
-      "date": "2026-02-19",
-      "amount": 105000,
-      "area": 59.92,
-      "floor": 23
-     },
-     {
-      "date": "2026-01-31",
-      "amount": 122000,
-      "area": 84.71,
-      "floor": 20
-     },
-     {
-      "date": "2026-01-24",
-      "amount": 99500,
-      "area": 59.35,
-      "floor": 4
-     },
-     {
-      "date": "2026-01-16",
-      "amount": 116700,
-      "area": 84.71,
-      "floor": 24
-     },
-     {
-      "date": "2026-01-16",
-      "amount": 99700,
-      "area": 59.35,
-      "floor": 8
-     },
-     {
-      "date": "2025-11-25",
-      "amount": 96500,
-      "area": 59.35,
-      "floor": 8
-     },
-     {
-      "date": "2025-11-08",
-      "amount": 93500,
-      "area": 59.92,
-      "floor": 5
-     },
-     {
-      "date": "2025-10-19",
-      "amount": 110000,
-      "area": 84.84,
-      "floor": 15
-     },
-     {
-      "date": "2025-10-17",
-      "amount": 108500,
-      "area": 84.87,
-      "floor": 8
-     },
-     {
-      "date": "2025-10-14",
-      "amount": 96000,
-      "area": 59.5,
-      "floor": 14
-     },
-     {
-      "date": "2025-10-01",
-      "amount": 105000,
-      "area": 84.71,
-      "floor": 12
-     },
-     {
-      "date": "2025-09-29",
-      "amount": 96000,
-      "area": 59.35,
-      "floor": 19
-     },
-     {
-      "date": "2025-09-28",
-      "amount": 106500,
-      "area": 84.87,
-      "floor": 12
-     },
-     {
-      "date": "2025-09-28",
-      "amount": 95000,
-      "area": 59.35,
-      "floor": 25
-     },
-     {
-      "date": "2025-09-26",
-      "amount": 90400,
-      "area": 59.35,
-      "floor": 11
-     },
-     {
-      "date": "2025-09-15",
-      "amount": 92700,
-      "area": 59.92,
-      "floor": 9
-     },
-     {
-      "date": "2025-09-05",
-      "amount": 108500,
-      "area": 84.87,
-      "floor": 29
-     },
-     {
-      "date": "2025-08-23",
-      "amount": 90000,
-      "area": 59.92,
-      "floor": 15
-     },
-     {
-      "date": "2025-08-07",
-      "amount": 107000,
-      "area": 84.87,
-      "floor": 18
-     }
-    ],
-    "deal_count": 30,
-    "hit_count": 1,
-    "price_min": 90000,
-    "price_med": 107500,
-    "price_max": 137500,
-    "last_date": "2026-06-30",
-    "last_price": 137500,
-    "area_min": 59.4,
-    "area_max": 84.9,
-    "hit_min": 90000,
-    "hit_last": "2025-08-23",
-    "naver_complex_no": "110300",
-    "naver_url": "https://m.land.naver.com/complex/info/110300"
    },
    {
     "gu": "성북구",
@@ -22577,8 +21105,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260731",
-   "20270202"
+   "20260801",
+   "20270203"
   ],
   "items": [
    {
@@ -22723,7 +21251,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005117311",
@@ -22746,30 +21274,6 @@
     "place": "입찰법정[제101호]",
     "views": 0,
     "note": "토지 별도등기 있음\n주택도시보증공사로부터 2026.06.26.자에 '임차보증금에 대하여 우선변제권만 주장하고 대항력은 포기하며, 임대차 보증금 전액을 변제받지 못하더라도 임차권등기를 말소하는 데 동의한다'는 내용의 확약서가 제출됨",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "B0002102025013010420611",
-    "court": "서울중앙지방법원",
-    "dept": "경매1계",
-    "case_no": "2025타경104206",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 중구 인현동2가 190-1",
-    "gu": "중구",
-    "dong": "인현동2가",
-    "complex": "",
-    "usage": "연립주택,다세대,빌라",
-    "area": 448.17,
-    "appraisal": 7100,
-    "min_bid": 7100,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-08-04",
-    "place": "경매법정(제4별관211호)",
-    "views": 0,
-    "note": "대지사용권이 없으므로 건물만 매각, 최저매각가격은 건물만의 평가액임",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -22819,7 +21323,7 @@
     "views": 0,
     "note": "- 임차인 및 주택임차권 승계인 주택도시보증공사의 배당받지 못하는 잔액에 대한 임차보증금반환청구권 포기 조건 매각",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001187811",
@@ -22915,7 +21419,7 @@
     "views": 0,
     "note": "- 임차인 및 주택임차권 승계인 주택도시보증공사의 배당받지 못하는 잔액에 대한 임차보증금반환청구권 포기 조건 매각\n- 특별매각조건 매수신청보증금 최저매각가격의 20%",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001228411",
@@ -22966,6 +21470,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132025013001375411",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경13754",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 동대문구 장안동 373-3 현대썬앤빌601 10층에이1010호",
+    "gu": "동대문구",
+    "dong": "장안동",
+    "complex": "현대썬앤빌601",
+    "usage": "연립주택,다세대,빌라",
+    "area": 18.35,
+    "appraisal": 10300,
+    "min_bid": 8240,
+    "rate": 100,
+    "fail_count": 2,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001197311",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -22987,6 +21515,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
+    "is_new": false
+   },
+   {
+    "id": "B0002132025013001367311",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경13673",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 동대문구 답십리동 530-15 현대썬앤빌청계 제5층 제528호",
+    "gu": "동대문구",
+    "dong": "답십리동",
+    "complex": "현대썬앤빌청계",
+    "usage": "연립주택,다세대,빌라",
+    "area": 14.21,
+    "appraisal": 11200,
+    "min_bid": 8960,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
     "is_new": true
    },
    {
@@ -23083,7 +21635,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001391311",
@@ -23131,7 +21683,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122024013015043711",
@@ -23275,6 +21827,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
+    "is_new": false
+   },
+   {
+    "id": "B0002132026013001046211",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2026타경10462",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 동대문구 장안동 373-3 현대썬앤빌601 제12층 제에이1204호",
+    "gu": "동대문구",
+    "dong": "장안동",
+    "complex": "현대썬앤빌601",
+    "usage": "아파트",
+    "area": 18.35,
+    "appraisal": 11100,
+    "min_bid": 11100,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
     "is_new": true
    },
    {
@@ -23419,7 +21995,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000357311",
@@ -23566,6 +22142,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122025013001410311",
+    "court": "서울남부지방법원",
+    "dept": "경매8계",
+    "case_no": "2025타경14103",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 영등포구 영등포동1가 145 제9층 제912호",
+    "gu": "영등포구",
+    "dong": "영등포동1가",
+    "complex": "",
+    "usage": "아파트",
+    "area": 15.076,
+    "appraisal": 13700,
+    "min_bid": 13700,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-18",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "신청채권자는 매수인에게 배당받지 못한 잔액 상당 임대차보증금반환청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001213511",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -23587,7 +22187,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005229611",
@@ -24067,7 +22667,7 @@
     "views": 0,
     "note": "- 임차인 및 주택임차권 승계인 주택도시보증공사의 배당받지 못하는 잔액에 대한 임차보증금반환청구권 포기 조건 매각",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013000969911",
@@ -24166,6 +22766,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132025013001384411",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경13844",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 중랑구 면목동 126-1 킴스아파트 제7층 제703호",
+    "gu": "중랑구",
+    "dong": "면목동",
+    "complex": "킴스아파트",
+    "usage": "연립주택,다세대,빌라",
+    "area": 35.75,
+    "appraisal": 36100,
+    "min_bid": 23104,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002122024013014838011",
     "court": "서울남부지방법원",
     "dept": "경매13계",
@@ -24211,7 +22835,7 @@
     "views": 0,
     "note": "- 임차인 및 주택임차권 승계인 주택도시보증공사의 배당받지 못하는 잔액에 대한 임차보증금반환청구권 포기 조건 매각",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000323611",
@@ -24310,6 +22934,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122026013000331111",
+    "court": "서울남부지방법원",
+    "dept": "경매8계",
+    "case_no": "2026타경3311",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 양천구 신월동 604-4 삼구아파트 제1층 제101호",
+    "gu": "양천구",
+    "dong": "신월동",
+    "complex": "삼구아파트",
+    "usage": "아파트",
+    "area": 107.64,
+    "appraisal": 27650,
+    "min_bid": 27650,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-18",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002122025013001201611",
     "court": "서울남부지방법원",
     "dept": "경매1계",
@@ -24379,7 +23027,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001043911",
@@ -24406,6 +23054,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132025013001264011",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경12640",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 동대문구 이문동 327-7 세진빌딩 14층1401호",
+    "gu": "동대문구",
+    "dong": "이문동",
+    "complex": "세진빌딩",
+    "usage": "아파트",
+    "area": 15.79,
+    "appraisal": 30900,
+    "min_bid": 30900,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001210511",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -24427,7 +23099,7 @@
     "views": 0,
     "note": "지분매각임. 공유자 우선매수신고 제한 있음(1회에 한하여 허용)",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001388611",
@@ -24526,6 +23198,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132025013001354711",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경13547",
+    "dup_case": "2026타경10802",
+    "item_no": "1",
+    "address": "서울특별시 노원구 월계동 803-1 월계극동아파트 101동 제10층 제1003호",
+    "gu": "노원구",
+    "dong": "월계동",
+    "complex": "월계극동아파트",
+    "usage": "아파트",
+    "area": 80.28,
+    "appraisal": 52200,
+    "min_bid": 41760,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001236611",
     "court": "서울북부지방법원",
     "dept": "경매1계",
@@ -24550,6 +23246,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132026013001050711",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2026타경10507",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 중랑구 상봉동 333-1 그랑아파트 제4층 제404호",
+    "gu": "중랑구",
+    "dong": "상봉동",
+    "complex": "그랑아파트",
+    "usage": "아파트",
+    "area": 63.6,
+    "appraisal": 44186,
+    "min_bid": 44186,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "제시외 건물 포함",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001313111",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -24571,7 +23291,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001207611",
@@ -24595,7 +23315,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001337411",
@@ -24619,7 +23339,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132024013011590111",
@@ -24644,6 +23364,30 @@
     "note": "",
     "first_seen": "2026-07-27",
     "is_new": false
+   },
+   {
+    "id": "B0002132025013000604211",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경6042",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 중랑구 면목동 194-3 삼성제이드아파트 8층802호",
+    "gu": "중랑구",
+    "dong": "면목동",
+    "complex": "삼성제이드아파트",
+    "usage": "아파트",
+    "area": 59.77,
+    "appraisal": 61600,
+    "min_bid": 49280,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
    },
    {
     "id": "B0002132025013001166211",
@@ -24715,6 +23459,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
+    "is_new": false
+   },
+   {
+    "id": "B0002132026013001035011",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2026타경10350",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 도봉구 도봉동 87 삼환도봉아파트 4동 제12층 제1205호",
+    "gu": "도봉구",
+    "dong": "도봉동",
+    "complex": "삼환도봉아파트",
+    "usage": "아파트",
+    "area": 73.89,
+    "appraisal": 55500,
+    "min_bid": 55500,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
     "is_new": true
    },
    {
@@ -24835,30 +23603,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
-   },
-   {
-    "id": "B0002132025013000076111",
-    "court": "서울북부지방법원",
-    "dept": "경매1계",
-    "case_no": "2025타경761",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 동대문구 휘경동 369 휘경 제이스카이 아파트 12층1201호",
-    "gu": "동대문구",
-    "dong": "휘경동",
-    "complex": "휘경 제이스카이 아파트",
-    "usage": "아파트",
-    "area": 84.43,
-    "appraisal": 66500,
-    "min_bid": 66500,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-08-11",
-    "place": "제101호입찰법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -24907,7 +23651,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001311911",
@@ -25027,7 +23771,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001335511",
@@ -25102,6 +23846,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122026013000304611",
+    "court": "서울남부지방법원",
+    "dept": "경매8계",
+    "case_no": "2026타경3046",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강서구 화곡동 980-21 강서아이파크 제7층 제701호",
+    "gu": "강서구",
+    "dong": "화곡동",
+    "complex": "강서아이파크",
+    "usage": "아파트",
+    "area": 82.088,
+    "appraisal": 75100,
+    "min_bid": 75100,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-18",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001330811",
     "court": "서울북부지방법원",
     "dept": "경매4계",
@@ -25171,7 +23939,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001276411",
@@ -25195,7 +23963,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001301811",
@@ -25243,7 +24011,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000265111",
@@ -25267,6 +24035,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
+    "is_new": false
+   },
+   {
+    "id": "B0002132026013000007511",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2026타경75",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 노원구 상계동 626 상계주공아파트 1408동 9층901호",
+    "gu": "노원구",
+    "dong": "상계동",
+    "complex": "상계주공아파트",
+    "usage": "아파트",
+    "area": 90.94,
+    "appraisal": 85000,
+    "min_bid": 85000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
     "is_new": true
    },
    {
@@ -25315,7 +24107,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152026013000002411",
@@ -25411,7 +24203,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013000395211",
@@ -25510,6 +24302,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122026013000315511",
+    "court": "서울남부지방법원",
+    "dept": "경매8계",
+    "case_no": "2026타경3155",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강서구 등촌동 676 태진아름아파트 제101동 제2층 제206호",
+    "gu": "강서구",
+    "dong": "등촌동",
+    "complex": "태진아름아파트",
+    "usage": "아파트",
+    "area": 121.22,
+    "appraisal": 104000,
+    "min_bid": 104000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-18",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001269311",
     "court": "서울북부지방법원",
     "dept": "경매3계",
@@ -25531,7 +24347,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-07-31",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010314811",
@@ -25582,6 +24398,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122025013001405011",
+    "court": "서울남부지방법원",
+    "dept": "경매8계",
+    "case_no": "2025타경14050",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 영등포구 당산동3가 563 당산동2차어울림 제102동 제5층 제502호",
+    "gu": "영등포구",
+    "dong": "당산동3가",
+    "complex": "당산동2차어울림",
+    "usage": "아파트",
+    "area": 84.8711,
+    "appraisal": 114000,
+    "min_bid": 114000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-18",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001304711",
     "court": "서울북부지방법원",
     "dept": "경매3계",
@@ -25606,28 +24446,28 @@
     "is_new": false
    },
    {
-    "id": "B0002102025013010333111",
-    "court": "서울중앙지방법원",
+    "id": "B0002122026013000000211",
+    "court": "서울남부지방법원",
     "dept": "경매8계",
-    "case_no": "2025타경103331",
+    "case_no": "2026타경2",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 강남구 대치동 914-8 대치타워 1층101호",
-    "gu": "강남구",
-    "dong": "대치동",
-    "complex": "대치타워",
+    "address": "서울특별시 영등포구 대림동 608-1 현대3차아파트 제307동 제7층 제705호",
+    "gu": "영등포구",
+    "dong": "대림동",
+    "complex": "현대3차아파트",
     "usage": "아파트",
-    "area": 81.24,
-    "appraisal": 133000,
-    "min_bid": 133000,
+    "area": 140.54,
+    "appraisal": 125000,
+    "min_bid": 125000,
     "rate": 100,
     "fail_count": 0,
-    "sale_date": "2026-08-05",
-    "place": "제4별관제211호법정(2층)",
+    "sale_date": "2026-08-18",
+    "place": "제112호법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-07-27",
-    "is_new": false
+    "first_seen": "2026-08-01",
+    "is_new": true
    },
    {
     "id": "B0002132025013001346211",
@@ -25793,7 +24633,7 @@
     "sale_date": "2026-08-03",
     "place": "입찰법정[제101호]",
     "views": 0,
-    "note": "선행사건 2025타경52129(중복)의 현황조사서 및 감정평가서 원용",
+    "note": "선행사건 2025타경52129(중복)의 현황조사서 및 감정평가서 원용\n2026.07.31.자 파르네빌아파트 입주자 대표회의가 제출한 신고서에 따르면 2026년 6월까지 공용부분에 대한 관리비 16,992,930원(연체료 제외)이 미납된 상태로 위 금액은 매수인이 승계함",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -25843,6 +24683,30 @@
     "views": 0,
     "note": "토지 별도등기(구분지상권) 있음.",
     "first_seen": "2026-07-31",
+    "is_new": false
+   },
+   {
+    "id": "B0002132026013000003111",
+    "court": "서울북부지방법원",
+    "dept": "경매7계",
+    "case_no": "2026타경31",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 동대문구 용두동 798 청량리역한양수자인그라시엘 102동 제21층 제2102호",
+    "gu": "동대문구",
+    "dong": "용두동",
+    "complex": "청량리역한양수자인그라시엘",
+    "usage": "아파트",
+    "area": 84.97,
+    "appraisal": 176000,
+    "min_bid": 176000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-08-25",
+    "place": "법정동101호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
     "is_new": true
    },
    {
@@ -25940,6 +24804,30 @@
     "note": "-매각대상: 을구 순위번호 9번 전세권임에 주의(전세권 근저당권 실행)\n-존속기간: 2018.9.28.부터2026.10.9.까지\n-최저매각가격: 전세권 존속기간(을 고려한 전세권에 대한 평가액임",
     "first_seen": "2026-07-27",
     "is_new": false
+   },
+   {
+    "id": "B0002122026013000423311",
+    "court": "서울남부지방법원",
+    "dept": "경매8계",
+    "case_no": "2026타경4233",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 영등포구 여의도동 43-4 롯데캐슬아이비 제17층 제102-1703호",
+    "gu": "영등포구",
+    "dong": "여의도동",
+    "complex": "롯데캐슬아이비",
+    "usage": "아파트",
+    "area": 137.09,
+    "appraisal": 277000,
+    "min_bid": 277000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-18",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-01",
+    "is_new": true
    },
    {
     "id": "B0002112025013005172711",
