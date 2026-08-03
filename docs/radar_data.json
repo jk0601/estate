@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02 13:21",
+ "generated_at": "2026-08-03 09:58",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 68383,
+  "scanned_deals": 68393,
   "complexes": [
    {
     "gu": "강동구",
@@ -21105,8 +21105,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260802",
-   "20270204"
+   "20260803",
+   "20270205"
   ],
   "items": [
    {
