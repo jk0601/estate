@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05 16:45",
+ "generated_at": "2026-08-05 16:50",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25427,7 +25427,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118787",
@@ -25643,7 +25643,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6084209",
@@ -25859,7 +25859,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118666",
@@ -26147,7 +26147,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6084137",
@@ -26291,7 +26291,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118547",
@@ -26723,7 +26723,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00321-001-6024121",
@@ -26795,7 +26795,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118432",
@@ -27611,7 +27611,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01663-001-6023749",
@@ -27755,7 +27755,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-03007-006-6067801",
@@ -28043,7 +28043,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127876",
@@ -28067,7 +28067,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01663-001-6023608",
@@ -28163,7 +28163,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6102625",
@@ -28283,7 +28283,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083854",
@@ -28403,7 +28403,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00321-001-6024013",
@@ -28475,7 +28475,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01430-001-6103952",
@@ -28643,7 +28643,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127504",
@@ -28667,7 +28667,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18088-002-6054188",
@@ -29027,7 +29027,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06003-001-6048692",
@@ -29099,7 +29099,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01468-001-6118679",
@@ -29243,7 +29243,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083512",
@@ -29339,7 +29339,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127818",
@@ -29363,7 +29363,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083562",
@@ -29435,7 +29435,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01468-001-6118617",
@@ -29651,7 +29651,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05649-001-6095587",
@@ -29891,7 +29891,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127758",
@@ -29915,7 +29915,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-03572-001-6023631",
@@ -30083,7 +30083,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-13629-001-6024493",
@@ -30179,7 +30179,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127696",
@@ -30203,7 +30203,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01468-001-6118321",
@@ -30299,7 +30299,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-13629-001-6024385",
@@ -30371,7 +30371,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127629",
@@ -30395,7 +30395,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18161-004-6118853",
@@ -30491,7 +30491,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127498",
@@ -30515,7 +30515,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0400-020108-5974829",
@@ -30563,7 +30563,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-0600-042964-6099601",
@@ -30635,7 +30635,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-0600-042964-6099599",
@@ -30683,7 +30683,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18161-004-6118796",
