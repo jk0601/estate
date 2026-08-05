@@ -454,7 +454,7 @@ function buildBudget(cfg){
     const b = el("option", null, eok(v)); b.value = v; pmax.appendChild(b);
   });
   const bmax = el("option", null, "제한 없음"); bmax.value = "";  pmax.appendChild(bmax);
-  pmin.value = String(cfg.price_min ?? 75000);
+  pmin.value = "0";  // 최저: 제한 없음
   pmax.value = String(cfg.price_max ?? 90000);
   state.pmin = Number(pmin.value);
   state.pmax = Number(pmax.value);
