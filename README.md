@@ -54,9 +54,10 @@ python -m http.server -d docs 8000
 
 ```
 estate/
-├─ collect.py          # 오케스트레이터: 1→2→3단계 수집 → docs/data.json
-├─ radar.py            # 8억 레이더: 실거래+경매+공매 → docs/radar_data.json
-├─ radar.bat           # 레이더 하루 1회 실행(수집→커밋→push)
+├─ 매일아침.bat        # ★ 매일 이거 하나: 동향 + 레이더 수집 → 커밋 → push
+├─ collect.py          # 오케스트레이터: 1→2→3단계 수집 → docs/data.json (월 1회면 충분)
+├─ radar.py            # 8억 레이더: 실거래+경매+공매 → docs/radar_data.json (매일)
+├─ radar.bat           # 레이더만 하루 1회 실행(수집→커밋→push)
 ├─ src/
 │  ├─ cheongyak.py     # 1단계: 청약홈 입주예정정보 스크래퍼
 │  ├─ bunyang.py       # 2단계: 청약홈 분양정보 API(분양가)

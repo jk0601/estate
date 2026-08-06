@@ -1,19 +1,35 @@
 @echo off
-REM 8억 레이더: 실거래 + 법원경매 + 온비드 공매 수집 후 GitHub 반영
-REM 하루 1회 더블클릭하거나, Windows 작업 스케줄러에 등록하세요.
+REM ============================================================
+REM  8-eok radar only: real deals + court auction + onbid,
+REM  then commit & push. (Full daily run: use the other .bat)
+REM  Add --no-deals below to skip the slow real-deal scan.
+REM
+REM  NOTE: keep this file ASCII-only. cmd.exe reads a .bat with the
+REM  console codepage, so "chcp 65001" + Korean text in the file
+REM  makes the parser lose its place and run garbage fragments.
+REM ============================================================
 chcp 65001 >nul
+set PYTHONIOENCODING=utf-8
 cd /d "%~dp0"
-echo [%date% %time%] 8억 레이더 수집 시작
 
-REM 경매/공매만 빠르게 돌리려면 아래 줄에 --no-deals 를 붙이세요.
+echo [%date% %time%] radar.py start
 python radar.py
 if errorlevel 1 (
-  echo 수집 실패 - 종료
+  echo  !! radar.py failed
   pause
   exit /b 1
 )
 
 git add docs/radar_data.json
-git commit -m "8억 레이더 갱신"
+git diff --cached --quiet
+if errorlevel 1 goto do_commit
+echo  nothing changed - skipping commit
+goto done
+
+:do_commit
+git commit -m "radar update"
 git push
-echo [%date% %time%] 완료
+if errorlevel 1 echo  !! push failed - data is saved, push later by hand
+
+:done
+echo [%date% %time%] finished

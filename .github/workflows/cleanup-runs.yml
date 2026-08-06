@@ -1,0 +1,43 @@
+# Actions 실행 기록이 KEEP 개를 넘으면 오래된 것부터 삭제
+name: Cleanup workflow runs
+
+on:
+  schedule:
+    # 매일 09:00 KST (= 00:00 UTC) — daily 직후 정리
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Keep only the latest 10 runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          KEEP: "10"
+        run: |
+          set -euo pipefail
+          REPO="${{ github.repository }}"
+
+          # 최신순으로 실행 목록 수집 (최대 100개)
+          mapfile -t RUNS < <(
+            gh api "repos/${REPO}/actions/runs?per_page=100" \
+              --jq '.workflow_runs[].id'
+          )
+
+          TOTAL=${#RUNS[@]}
+          echo "total runs fetched: ${TOTAL} (keep ${KEEP})"
+
+          if [ "$TOTAL" -le "$KEEP" ]; then
+            echo "nothing to delete"
+            exit 0
+          fi
+
+          for id in "${RUNS[@]:$KEEP}"; do
+            echo "delete run ${id}"
+            gh api -X DELETE "repos/${REPO}/actions/runs/${id}" || true
+          done

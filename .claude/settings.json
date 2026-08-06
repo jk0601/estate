@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& cmd.exe /c \"C:\\\\Users\\\\j\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--j-claudecode-estate\\\\af2c9884-2b3b-4e2f-bb45-c08b660a0c31\\\\scratchpad\\\\stub2.bat\")",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
+    ]
+  }
+}
