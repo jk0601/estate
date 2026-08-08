@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06 09:54",
+ "generated_at": "2026-08-08 10:29",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 68817,
+  "scanned_deals": 69449,
   "complexes": [
    {
     "gu": "강동구",
@@ -455,6 +455,12 @@
     "jibun": "492",
     "deals": [
      {
+      "date": "2026-07-22",
+      "amount": 104500,
+      "area": 84.83,
+      "floor": 14
+     },
+     {
       "date": "2026-07-14",
       "amount": 99000,
       "area": 71.86,
@@ -695,13 +701,13 @@
       "floor": 2
      }
     ],
-    "deal_count": 40,
+    "deal_count": 41,
     "hit_count": 23,
     "price_min": 75000,
-    "price_med": 89750,
+    "price_med": 90000,
     "price_max": 110000,
-    "last_date": "2026-07-14",
-    "last_price": 99000,
+    "last_date": "2026-07-22",
+    "last_price": 104500,
     "area_min": 59.9,
     "area_max": 120.0,
     "hit_min": 75000,
@@ -1115,6 +1121,12 @@
     "jibun": "1007-13",
     "deals": [
      {
+      "date": "2026-07-31",
+      "amount": 87000,
+      "area": 59.8637,
+      "floor": 10
+     },
+     {
       "date": "2026-07-18",
       "amount": 85000,
       "area": 59.8637,
@@ -1343,17 +1355,17 @@
       "floor": 31
      }
     ],
-    "deal_count": 38,
-    "hit_count": 31,
+    "deal_count": 39,
+    "hit_count": 32,
     "price_min": 70000,
-    "price_med": 80500,
+    "price_med": 81000,
     "price_max": 99700,
-    "last_date": "2026-07-18",
-    "last_price": 85000,
+    "last_date": "2026-07-31",
+    "last_price": 87000,
     "area_min": 59.6,
     "area_max": 84.9,
     "hit_min": 75000,
-    "hit_last": "2026-07-18",
+    "hit_last": "2026-07-31",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%EB%8F%85%EC%82%B0%EB%8F%99%20e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EB%8F%85%EC%82%B0%EB%8D%94%ED%83%80%EC%9B%8C"
    },
@@ -1927,6 +1939,12 @@
     "jibun": "1015",
     "deals": [
      {
+      "date": "2026-07-20",
+      "amount": 76500,
+      "area": 52.9657,
+      "floor": 7
+     },
+     {
       "date": "2026-05-29",
       "amount": 78000,
       "area": 52.9657,
@@ -1993,17 +2011,17 @@
       "floor": 11
      }
     ],
-    "deal_count": 11,
-    "hit_count": 2,
+    "deal_count": 12,
+    "hit_count": 3,
     "price_min": 68000,
-    "price_med": 73000,
+    "price_med": 73250,
     "price_max": 78000,
-    "last_date": "2026-05-29",
-    "last_price": 78000,
+    "last_date": "2026-07-20",
+    "last_price": 76500,
     "area_min": 52.7,
     "area_max": 53.0,
     "hit_min": 75000,
-    "hit_last": "2026-05-29",
+    "hit_last": "2026-07-20",
     "naver_complex_no": "125381",
     "naver_url": "https://m.land.naver.com/complex/info/125381"
    },
@@ -2347,6 +2365,12 @@
     "jibun": "38-12",
     "deals": [
      {
+      "date": "2026-05-18",
+      "amount": 99000,
+      "area": 51.2,
+      "floor": 12
+     },
+     {
       "date": "2026-05-02",
       "amount": 74500,
       "area": 51.2,
@@ -2371,13 +2395,13 @@
       "floor": 9
      }
     ],
-    "deal_count": 4,
+    "deal_count": 5,
     "hit_count": 3,
     "price_min": 74500,
     "price_med": 75000,
-    "price_max": 76000,
-    "last_date": "2026-05-02",
-    "last_price": 74500,
+    "price_max": 99000,
+    "last_date": "2026-05-18",
+    "last_price": 99000,
     "area_min": 51.2,
     "area_max": 51.2,
     "hit_min": 75000,
@@ -3257,6 +3281,12 @@
       "floor": 11
      },
      {
+      "date": "2026-07-03",
+      "amount": 141000,
+      "area": 84.87,
+      "floor": 3
+     },
+     {
       "date": "2026-06-30",
       "amount": 130000,
       "area": 59.92,
@@ -3719,10 +3749,10 @@
       "floor": 12
      }
     ],
-    "deal_count": 86,
+    "deal_count": 87,
     "hit_count": 1,
     "price_min": 75000,
-    "price_med": 128750,
+    "price_med": 129000,
     "price_max": 178700,
     "last_date": "2026-07-24",
     "last_price": 153500,
@@ -4255,6 +4285,12 @@
     "jibun": "236",
     "deals": [
      {
+      "date": "2026-07-27",
+      "amount": 90000,
+      "area": 84.9416,
+      "floor": 20
+     },
+     {
       "date": "2026-07-01",
       "amount": 89000,
       "area": 84.9416,
@@ -4381,17 +4417,17 @@
       "floor": 13
      }
     ],
-    "deal_count": 21,
-    "hit_count": 18,
+    "deal_count": 22,
+    "hit_count": 19,
     "price_min": 76000,
-    "price_med": 85700,
+    "price_med": 86100,
     "price_max": 130000,
-    "last_date": "2026-07-01",
-    "last_price": 89000,
+    "last_date": "2026-07-27",
+    "last_price": 90000,
     "area_min": 84.9,
     "area_max": 148.0,
     "hit_min": 76000,
-    "hit_last": "2026-07-01",
+    "hit_last": "2026-07-27",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%AD%EB%8F%99%EC%A4%91%ED%9D%A5%EC%97%90%EC%8A%A4%ED%81%B4%EB%9E%98%EC%8A%A4%EB%B2%A0%EB%A5%B4%EB%8D%B0%EC%B9%B4%EC%9A%B4%ED%8B%B0"
    },
@@ -5103,6 +5139,12 @@
       "floor": 16
      },
      {
+      "date": "2026-06-25",
+      "amount": 100700,
+      "area": 49.82,
+      "floor": 23
+     },
+     {
       "date": "2026-06-19",
       "amount": 90500,
       "area": 49.82,
@@ -5295,10 +5337,10 @@
       "floor": 2
      }
     ],
-    "deal_count": 35,
+    "deal_count": 36,
     "hit_count": 17,
     "price_min": 61000,
-    "price_med": 90000,
+    "price_med": 90250,
     "price_max": 120000,
     "last_date": "2026-07-16",
     "last_price": 120000,
@@ -8563,6 +8605,12 @@
       "floor": 3
      },
      {
+      "date": "2026-06-10",
+      "amount": 92000,
+      "area": 59.905,
+      "floor": 17
+     },
+     {
       "date": "2026-06-03",
       "amount": 104000,
       "area": 84.901,
@@ -8875,10 +8923,10 @@
       "floor": 6
      }
     ],
-    "deal_count": 58,
+    "deal_count": 59,
     "hit_count": 22,
     "price_min": 68000,
-    "price_med": 90650,
+    "price_med": 90800,
     "price_max": 109000,
     "last_date": "2026-07-16",
     "last_price": 84000,
@@ -9743,6 +9791,12 @@
       "floor": 1
      },
      {
+      "date": "2026-07-11",
+      "amount": 92000,
+      "area": 59.36,
+      "floor": 6
+     },
+     {
       "date": "2026-06-27",
       "amount": 106000,
       "area": 84.67,
@@ -10199,7 +10253,7 @@
       "floor": 6
      }
     ],
-    "deal_count": 77,
+    "deal_count": 78,
     "hit_count": 35,
     "price_min": 72000,
     "price_med": 91500,
@@ -11233,6 +11287,30 @@
     "jibun": "746",
     "deals": [
      {
+      "date": "2026-07-17",
+      "amount": 124500,
+      "area": 59.97,
+      "floor": 11
+     },
+     {
+      "date": "2026-07-11",
+      "amount": 123000,
+      "area": 59.97,
+      "floor": 21
+     },
+     {
+      "date": "2026-07-06",
+      "amount": 98000,
+      "area": 49.74,
+      "floor": 5
+     },
+     {
+      "date": "2026-06-27",
+      "amount": 91000,
+      "area": 49.74,
+      "floor": 1
+     },
+     {
       "date": "2026-06-08",
       "amount": 99000,
       "area": 49.74,
@@ -11443,13 +11521,13 @@
       "floor": 10
      }
     ],
-    "deal_count": 35,
+    "deal_count": 39,
     "hit_count": 7,
     "price_min": 61700,
-    "price_med": 95500,
-    "price_max": 118000,
-    "last_date": "2026-06-08",
-    "last_price": 99000,
+    "price_med": 96000,
+    "price_max": 124500,
+    "last_date": "2026-07-17",
+    "last_price": 124500,
     "area_min": 49.7,
     "area_max": 60.0,
     "hit_min": 79800,
@@ -12187,6 +12265,18 @@
     "jibun": "1077",
     "deals": [
      {
+      "date": "2026-07-31",
+      "amount": 134500,
+      "area": 84.98,
+      "floor": 7
+     },
+     {
+      "date": "2026-07-31",
+      "amount": 104000,
+      "area": 52.85,
+      "floor": 4
+     },
+     {
       "date": "2026-06-13",
       "amount": 115700,
       "area": 59.88,
@@ -12397,13 +12487,13 @@
       "floor": 6
      }
     ],
-    "deal_count": 35,
+    "deal_count": 37,
     "hit_count": 7,
     "price_min": 70000,
     "price_med": 108500,
-    "price_max": 132000,
-    "last_date": "2026-06-13",
-    "last_price": 115700,
+    "price_max": 134500,
+    "last_date": "2026-07-31",
+    "last_price": 134500,
     "area_min": 52.9,
     "area_max": 85.0,
     "hit_min": 80000,
@@ -12429,6 +12519,12 @@
       "amount": 110000,
       "area": 84.98,
       "floor": 5
+     },
+     {
+      "date": "2026-07-17",
+      "amount": 105000,
+      "area": 84.98,
+      "floor": 14
      },
      {
       "date": "2026-07-14",
@@ -12713,10 +12809,10 @@
       "floor": 11
      }
     ],
-    "deal_count": 49,
+    "deal_count": 50,
     "hit_count": 17,
     "price_min": 80500,
-    "price_med": 96000,
+    "price_med": 96250,
     "price_max": 110000,
     "last_date": "2026-08-01",
     "last_price": 107500,
@@ -13466,6 +13562,12 @@
     "deals": [
      {
       "date": "2026-07-11",
+      "amount": 154000,
+      "area": 84.31,
+      "floor": 3
+     },
+     {
+      "date": "2026-07-11",
       "amount": 161000,
       "area": 84.31,
       "floor": 20
@@ -13711,13 +13813,13 @@
       "floor": 2
      }
     ],
-    "deal_count": 41,
+    "deal_count": 42,
     "hit_count": 2,
     "price_min": 81000,
     "price_med": 135000,
     "price_max": 169000,
     "last_date": "2026-07-11",
-    "last_price": 161000,
+    "last_price": 154000,
     "area_min": 59.4,
     "area_max": 100.5,
     "hit_min": 81000,
@@ -15142,9 +15244,21 @@
     "deals": [
      {
       "date": "2026-07-12",
+      "amount": 93000,
+      "area": 49.69,
+      "floor": 10
+     },
+     {
+      "date": "2026-07-12",
       "amount": 87000,
       "area": 49.69,
       "floor": 1
+     },
+     {
+      "date": "2026-07-09",
+      "amount": 117800,
+      "area": 59.94,
+      "floor": 12
      },
      {
       "date": "2026-07-04",
@@ -15387,13 +15501,13 @@
       "floor": 7
      }
     ],
-    "deal_count": 41,
+    "deal_count": 43,
     "hit_count": 25,
     "price_min": 72000,
-    "price_med": 89000,
-    "price_max": 116000,
+    "price_med": 89500,
+    "price_max": 117800,
     "last_date": "2026-07-12",
-    "last_price": 87000,
+    "last_price": 93000,
     "area_min": 49.7,
     "area_max": 59.9,
     "hit_min": 83500,
@@ -16043,6 +16157,18 @@
     "jibun": "410",
     "deals": [
      {
+      "date": "2026-08-05",
+      "amount": 142000,
+      "area": 84.97,
+      "floor": 11
+     },
+     {
+      "date": "2026-07-18",
+      "amount": 114000,
+      "area": 59.42,
+      "floor": 11
+     },
+     {
       "date": "2026-07-15",
       "amount": 149000,
       "area": 84.98,
@@ -16053,6 +16179,12 @@
       "amount": 123000,
       "area": 59.42,
       "floor": 7
+     },
+     {
+      "date": "2026-06-06",
+      "amount": 139500,
+      "area": 84.98,
+      "floor": 5
      },
      {
       "date": "2026-06-06",
@@ -16373,13 +16505,13 @@
       "floor": 2
      }
     ],
-    "deal_count": 55,
+    "deal_count": 58,
     "hit_count": 2,
     "price_min": 85000,
-    "price_med": 113000,
+    "price_med": 113500,
     "price_max": 149000,
-    "last_date": "2026-07-15",
-    "last_price": 149000,
+    "last_date": "2026-08-05",
+    "last_price": 142000,
     "area_min": 59.4,
     "area_max": 109.4,
     "hit_min": 85000,
@@ -17513,6 +17645,12 @@
     "jibun": "1150",
     "deals": [
      {
+      "date": "2026-07-29",
+      "amount": 98000,
+      "area": 59.27,
+      "floor": 8
+     },
+     {
       "date": "2026-06-27",
       "amount": 113000,
       "area": 84.95,
@@ -17639,13 +17777,13 @@
       "floor": 24
      }
     ],
-    "deal_count": 21,
+    "deal_count": 22,
     "hit_count": 8,
     "price_min": 86500,
-    "price_med": 93000,
+    "price_med": 94500,
     "price_max": 120000,
-    "last_date": "2026-06-27",
-    "last_price": 113000,
+    "last_date": "2026-07-29",
+    "last_price": 98000,
     "area_min": 59.3,
     "area_max": 85.0,
     "hit_min": 86500,
@@ -18419,6 +18557,12 @@
     "jibun": "4969",
     "deals": [
      {
+      "date": "2026-07-26",
+      "amount": 107500,
+      "area": 42.68,
+      "floor": 11
+     },
+     {
       "date": "2026-07-10",
       "amount": 100000,
       "area": 42.68,
@@ -18755,13 +18899,13 @@
       "floor": 22
      }
     ],
-    "deal_count": 56,
+    "deal_count": 57,
     "hit_count": 2,
     "price_min": 88000,
     "price_med": 165000,
     "price_max": 205000,
-    "last_date": "2026-07-10",
-    "last_price": 100000,
+    "last_date": "2026-07-26",
+    "last_price": 107500,
     "area_min": 42.7,
     "area_max": 115.0,
     "hit_min": 88000,
@@ -19609,6 +19753,12 @@
     "jibun": "396",
     "deals": [
      {
+      "date": "2026-07-29",
+      "amount": 119000,
+      "area": 84.956,
+      "floor": 7
+     },
+     {
       "date": "2026-07-18",
       "amount": 101000,
       "area": 59.953,
@@ -19777,13 +19927,13 @@
       "floor": 12
      }
     ],
-    "deal_count": 28,
+    "deal_count": 29,
     "hit_count": 3,
     "price_min": 89000,
-    "price_med": 106400,
+    "price_med": 109000,
     "price_max": 125000,
-    "last_date": "2026-07-18",
-    "last_price": 101000,
+    "last_date": "2026-07-29",
+    "last_price": 119000,
     "area_min": 60.0,
     "area_max": 96.4,
     "hit_min": 89000,
@@ -20119,6 +20269,12 @@
     "jibun": "1014",
     "deals": [
      {
+      "date": "2026-07-22",
+      "amount": 153000,
+      "area": 59.91,
+      "floor": 12
+     },
+     {
       "date": "2026-07-20",
       "amount": 154000,
       "area": 59.91,
@@ -20377,13 +20533,13 @@
       "floor": 6
      }
     ],
-    "deal_count": 43,
+    "deal_count": 44,
     "hit_count": 1,
     "price_min": 90000,
     "price_med": 122000,
     "price_max": 163500,
-    "last_date": "2026-07-20",
-    "last_price": 154000,
+    "last_date": "2026-07-22",
+    "last_price": 153000,
     "area_min": 49.3,
     "area_max": 84.8,
     "hit_min": 90000,
@@ -20983,6 +21139,12 @@
     "jibun": "644",
     "deals": [
      {
+      "date": "2026-07-25",
+      "amount": 130000,
+      "area": 84.8778,
+      "floor": 5
+     },
+     {
       "date": "2026-06-20",
       "amount": 132000,
       "area": 84.757,
@@ -21193,13 +21355,13 @@
       "floor": 5
      }
     ],
-    "deal_count": 35,
+    "deal_count": 36,
     "hit_count": 1,
     "price_min": 90000,
-    "price_med": 115000,
+    "price_med": 115500,
     "price_max": 141000,
-    "last_date": "2026-06-20",
-    "last_price": 132000,
+    "last_date": "2026-07-25",
+    "last_price": 130000,
     "area_min": 59.9,
     "area_max": 113.2,
     "hit_min": 90000,
@@ -21213,8 +21375,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260806",
-   "20270208"
+   "20260808",
+   "20270210"
   ],
   "items": [
    {
@@ -21240,6 +21402,30 @@
     "note": "특별매각조건 매수신청보증금 최저매각가격의 20%",
     "first_seen": "2026-08-05",
     "is_new": false
+   },
+   {
+    "id": "B0002102025013010236011",
+    "court": "서울중앙지방법원",
+    "dept": "경매11계",
+    "case_no": "2025타경102360",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 관악구 신림동 1425-4 9층904호",
+    "gu": "관악구",
+    "dong": "신림동",
+    "complex": "",
+    "usage": "아파트",
+    "area": 12.21,
+    "appraisal": 9600,
+    "min_bid": 1030,
+    "rate": 9,
+    "fail_count": 11,
+    "sale_date": "2026-08-27",
+    "place": "경매법정4별관211호",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
    },
    {
     "id": "B0002122025013000833311",
@@ -21338,30 +21524,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122024013014783711",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2024타경147837",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 금천구 가산로 147 제9층 제910호 (가산동, 가산지웰에스테이트)",
-    "gu": "금천구",
-    "dong": "가산동",
-    "complex": "가산지웰에스테이트",
-    "usage": "아파트",
-    "area": 15.95,
-    "appraisal": 14100,
-    "min_bid": 4620,
-    "rate": 26,
-    "fail_count": 6,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "특별매각조건 매수신청보증금 최저매각가격의 20%",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "B0002122025013000488311",
     "court": "서울남부지방법원",
     "dept": "경매4계",
@@ -21407,7 +21569,7 @@
     "views": 0,
     "note": "주택임차권자 한국토지주택공사의 승계인 서울보증보험 주식회사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금반환채권을 포기하고, 주택임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001420011",
@@ -21431,7 +21593,7 @@
     "views": 0,
     "note": "주택임차권자 한국토지주택공사의 승계인 서울보증보험 주식회사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금반환채권을 포기하고, 주택임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005158311",
@@ -21479,31 +21641,55 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
+    "is_new": false
+   },
+   {
+    "id": "B0002102025013010305011",
+    "court": "서울중앙지방법원",
+    "dept": "경매11계",
+    "case_no": "2025타경103050",
+    "dup_case": "2026타경100531",
+    "item_no": "1",
+    "address": "서울특별시 종로구 숭인동 1421-2 숭인한양립스 3층302호",
+    "gu": "종로구",
+    "dong": "숭인동",
+    "complex": "숭인한양립스",
+    "usage": "상가,오피스텔,근린시설",
+    "area": 12.78,
+    "appraisal": 10800,
+    "min_bid": 6912,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-08-27",
+    "place": "경매법정4별관211호",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
     "is_new": true
    },
    {
-    "id": "B0002122025013001181911",
-    "court": "서울남부지방법원",
-    "dept": "경매10계",
-    "case_no": "2025타경11819",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 구로동 98-10 비즈트위트 그린 제15층 제1509호",
-    "gu": "구로구",
-    "dong": "구로동",
-    "complex": "비즈트위트 그린",
-    "usage": "다세대",
-    "area": 15.11,
-    "appraisal": 11200,
-    "min_bid": 7168,
+    "id": "B0002102025013010305022",
+    "court": "서울중앙지방법원",
+    "dept": "경매11계",
+    "case_no": "2025타경103050",
+    "dup_case": "2026타경100531",
+    "item_no": "2",
+    "address": "서울특별시 종로구 숭인동 1421-2 숭인한양립스 5층503호",
+    "gu": "종로구",
+    "dong": "숭인동",
+    "complex": "숭인한양립스",
+    "usage": "상가,오피스텔,근린시설",
+    "area": 12.78,
+    "appraisal": 10800,
+    "min_bid": 6912,
     "rate": 51,
     "fail_count": 3,
-    "sale_date": "2026-08-06",
-    "place": "제112호법정",
+    "sale_date": "2026-08-27",
+    "place": "경매법정4별관211호",
     "views": 0,
-    "note": "한국토지주택공사의 주택임차권 승계인 서울보증보험 주식회사는 매수인에 대하여 배당받지 못한 잔액에 대한 임차보증금반환청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
    },
    {
     "id": "B0002122025013001224811",
@@ -21743,7 +21929,7 @@
     "views": 0,
     "note": "주택임차권자 한국토지주택공사의 승계인 서울보증보험주식회사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환채권을 포기하고, 주택임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000364311",
@@ -21767,7 +21953,7 @@
     "views": 0,
     "note": "주택임차권자 한국토지주택공사의 승계인인 서울보증보험 주식회사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금반환채권을 포기하고, 주택임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005174111",
@@ -21815,30 +22001,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-01",
-    "is_new": false
-   },
-   {
-    "id": "B0002122024013014873111",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2024타경148731",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 금천구 독산로 337 제8층 제801호 (독산동, 명도힐스티지)",
-    "gu": "금천구",
-    "dong": "독산동",
-    "complex": "명도힐스티지",
-    "usage": "아파트",
-    "area": 29.63,
-    "appraisal": 28100,
-    "min_bid": 9207,
-    "rate": 26,
-    "fail_count": 6,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -21983,7 +22145,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001415411",
@@ -22007,30 +22169,6 @@
     "views": 0,
     "note": "주택임차권자 한국토지주택공사의 승계인 서울보증보험 주식회사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금반환채권을 포기하고, 주택임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-06",
-    "is_new": true
-   },
-   {
-    "id": "B0002122024013015043711",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2024타경150437",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 영등포구 경인로114길 62 제5층 제510호",
-    "gu": "영등포구",
-    "dong": "영등포동1가",
-    "complex": "",
-    "usage": "아파트",
-    "area": 14.89,
-    "appraisal": 12800,
-    "min_bid": 10240,
-    "rate": 64,
-    "fail_count": 7,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -22103,54 +22241,6 @@
     "views": 0,
     "note": "신청채권자 겸 주택임차권 승계인 서울보증보험주식회사의 매수인에 대한 대항력 포기조건 매각",
     "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013001242111",
-    "court": "서울남부지방법원",
-    "dept": "경매10계",
-    "case_no": "2025타경12421",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 금천구 가산동 140-36 비즈트위트 바이올렛 5차 제8층 제806호",
-    "gu": "금천구",
-    "dong": "가산동",
-    "complex": "비즈트위트 바이올렛 5차",
-    "usage": "아파트",
-    "area": 12.19,
-    "appraisal": 10700,
-    "min_bid": 10700,
-    "rate": 80,
-    "fail_count": 1,
-    "sale_date": "2026-08-06",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013000432611",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경4326",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 영등포구 영중로 120 제18층 제1801호 (영등포동8가, 메이준)",
-    "gu": "영등포구",
-    "dong": "영등포동8가",
-    "complex": "메이준",
-    "usage": "다세대",
-    "area": 12.11,
-    "appraisal": 13600,
-    "min_bid": 10880,
-    "rate": 64,
-    "fail_count": 4,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -22247,30 +22337,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
-   },
-   {
-    "id": "B0002122025013001215511",
-    "court": "서울남부지방법원",
-    "dept": "경매10계",
-    "case_no": "2025타경12155",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 금천구 가산동 141-2 가산양우내안애애플 제17층 제1713호",
-    "gu": "금천구",
-    "dong": "가산동",
-    "complex": "가산양우내안애애플",
-    "usage": "아파트",
-    "area": 12.04,
-    "appraisal": 11200,
-    "min_bid": 11200,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-08-06",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 임차권승계인 서울보증보험(주)의 매수인에 대한 대항력 포기조건 매각",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -22370,30 +22436,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122025013001253211",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경12532",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 920-5 제13층 제1303호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "",
-    "usage": "아파트",
-    "area": 19.75,
-    "appraisal": 15900,
-    "min_bid": 12720,
-    "rate": 64,
-    "fail_count": 2,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "B0002122025013001381211",
     "court": "서울남부지방법원",
     "dept": "경매6계",
@@ -22463,7 +22505,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001213511",
@@ -22535,31 +22577,55 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
+    "is_new": false
+   },
+   {
+    "id": "B0002152025013005218711",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경52187",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서대문구 창천동 510-2 쓰리알유시티아파트 4층404호",
+    "gu": "서대문구",
+    "dong": "창천동",
+    "complex": "쓰리알유시티아파트",
+    "usage": "상가,오피스텔,근린시설",
+    "area": 17.19,
+    "appraisal": 22700,
+    "min_bid": 14528,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-09-01",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
     "is_new": true
    },
    {
-    "id": "B0002122025013001359911",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경13599",
+    "id": "B0002102025013000332711",
+    "court": "서울중앙지방법원",
+    "dept": "경매10계",
+    "case_no": "2025타경3327",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 영등포구 영등포동1가 75-4 메트로가든 제12층 제1205호",
-    "gu": "영등포구",
-    "dong": "영등포동1가",
-    "complex": "메트로가든",
-    "usage": "아파트",
-    "area": 12.4,
-    "appraisal": 14600,
-    "min_bid": 14600,
+    "address": "서울특별시 관악구 신림동 497-5 그린플러스신림해담채 5층502호",
+    "gu": "관악구",
+    "dong": "신림동",
+    "complex": "그린플러스신림해담채",
+    "usage": "상가,오피스텔,근린시설",
+    "area": 12.89,
+    "appraisal": 15100,
+    "min_bid": 15100,
     "rate": 80,
     "fail_count": 1,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
+    "sale_date": "2026-08-26",
+    "place": "제4별관211호법정",
     "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
    },
    {
     "id": "B0002102025013000197011",
@@ -22607,7 +22673,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010388111",
@@ -22632,6 +22698,30 @@
     "note": "공유자 우선매수 제한 있음",
     "first_seen": "2026-07-30",
     "is_new": false
+   },
+   {
+    "id": "B0002122025013000991111",
+    "court": "서울남부지방법원",
+    "dept": "경매14계",
+    "case_no": "2025타경9911",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 영등포구 당산동 121-130 리버뷰 제16층 제1609호",
+    "gu": "영등포구",
+    "dong": "당산동",
+    "complex": "리버뷰",
+    "usage": "연립주택,다세대,빌라",
+    "area": 18.92,
+    "appraisal": 17000,
+    "min_bid": 17000,
+    "rate": 80,
+    "fail_count": 4,
+    "sale_date": "2026-08-25",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "임차권승계인 한국주택금융공사의 매수인에 대한 대항력 포기조건 매각",
+    "first_seen": "2026-08-08",
+    "is_new": true
    },
    {
     "id": "B0002122025013001063611",
@@ -22703,7 +22793,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001324311",
@@ -22826,30 +22916,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122025013000930711",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경9307",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 오류동 6-63 루체비스타 제10층 제1004호",
-    "gu": "구로구",
-    "dong": "오류동",
-    "complex": "루체비스타",
-    "usage": "아파트",
-    "area": 29.98,
-    "appraisal": 25800,
-    "min_bid": 20640,
-    "rate": 64,
-    "fail_count": 4,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "B0002132025013000382111",
     "court": "서울북부지방법원",
     "dept": "경매1계",
@@ -22870,54 +22936,6 @@
     "place": "제101호입찰법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013000888311",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경8883",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 894-12 제5층 제501호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "",
-    "usage": "아파트",
-    "area": 25.75,
-    "appraisal": 26500,
-    "min_bid": 21200,
-    "rate": 64,
-    "fail_count": 6,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013000912611",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경9126",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 900-28 에스타워 제9층 제901호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "에스타워",
-    "usage": "아파트",
-    "area": 29.25,
-    "appraisal": 21800,
-    "min_bid": 21800,
-    "rate": 80,
-    "fail_count": 4,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -22946,78 +22964,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122025013000969911",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경9699",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 1065-4 한울에이치밸리움 제에이동 제3층 제301호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "한울에이치밸리움",
-    "usage": "아파트",
-    "area": 22.81,
-    "appraisal": 27700,
-    "min_bid": 22160,
-    "rate": 64,
-    "fail_count": 6,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013000984511",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경9845",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 오류동 6-63 루체비스타 7층 701호",
-    "gu": "구로구",
-    "dong": "오류동",
-    "complex": "루체비스타",
-    "usage": "아파트",
-    "area": 28.81,
-    "appraisal": 27800,
-    "min_bid": 22240,
-    "rate": 64,
-    "fail_count": 2,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013000924711",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경9247",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 926-3 메종드로제 제7층 제705호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "메종드로제",
-    "usage": "아파트",
-    "area": 33.4,
-    "appraisal": 28400,
-    "min_bid": 22720,
-    "rate": 64,
-    "fail_count": 4,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "B0002132025013001384411",
     "court": "서울북부지방법원",
     "dept": "경매7계",
@@ -23042,30 +22988,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122024013014838011",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2024타경148380",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 고척로 5 제14층 제1403호 (오류동, 루체비스타)",
-    "gu": "구로구",
-    "dong": "오류동",
-    "complex": "루체비스타",
-    "usage": "아파트",
-    "area": 29.98,
-    "appraisal": 28900,
-    "min_bid": 23120,
-    "rate": 64,
-    "fail_count": 8,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "B0002122025013001016911",
     "court": "서울남부지방법원",
     "dept": "경매4계",
@@ -23087,54 +23009,6 @@
     "views": 0,
     "note": "- 임차인 및 주택임차권 승계인 주택도시보증공사의 배당받지 못하는 잔액에 대한 임차보증금반환청구권 포기 조건 매각",
     "first_seen": "2026-07-31",
-    "is_new": false
-   },
-   {
-    "id": "B0002122026013000323611",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2026타경3236",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 928-25 로얄홈타운 제102동 제8층 제802호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "로얄홈타운",
-    "usage": "아파트",
-    "area": 40.06,
-    "appraisal": 23700,
-    "min_bid": 23700,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013000924411",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2025타경9244",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 926-3 메종드로제 제11층 제1103호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "메종드로제",
-    "usage": "아파트",
-    "area": 34.75,
-    "appraisal": 30400,
-    "min_bid": 24320,
-    "rate": 64,
-    "fail_count": 4,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -23183,30 +23057,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
-   },
-   {
-    "id": "B0002122024013010898611",
-    "court": "서울남부지방법원",
-    "dept": "경매13계",
-    "case_no": "2024타경108986",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 강서로8길 9(화곡동) 제6층 제601호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "",
-    "usage": "아파트",
-    "area": 25.75,
-    "appraisal": 27100,
-    "min_bid": 27100,
-    "rate": 80,
-    "fail_count": 8,
-    "sale_date": "2026-08-07",
-    "place": "제112호법정",
-    "views": 9,
-    "note": "임차인 및 주택임차권 승계인 주택도시보증공사의 매수인에 대한 대항력 포기 조건 매각",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -23253,9 +23103,9 @@
     "sale_date": "2026-08-25",
     "place": "신관209호경매법정",
     "views": 19,
-    "note": "-특별매각조건 매수신청보증금 최저매각가격의 20%\n-일괄매각\n-건물과 토지는 별도로 등기되어 있으나 건물의 경우 구분호로 등기되어 있고, 집합건축물대장상 구분건물로 등재되어 있으며 건물부분과 토지지분을 일괄하여 매각함.",
+    "note": "-재매각임.특별매각조건 매수신청보증금 최저매각가격의 20%\n-일괄매각\n-건물과 토지는 별도로 등기되어 있으나 건물의 경우 구분호로 등기되어 있고, 집합건축물대장상 구분건물로 등재되어 있으며 건물부분과 토지지분을 일괄하여 매각함.",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152024013005333712",
@@ -23277,9 +23127,9 @@
     "sale_date": "2026-08-25",
     "place": "신관209호경매법정",
     "views": 19,
-    "note": "-특별매각조건 매수신청보증금 최저매각가격의 20%\n-일괄매각\n-건물과 토지는 별도로 등기되어 있으나 건물의 경우 구분호로 등기되어 있고, 집합건축물대장상 구분건물로 등재되어 있으며 건물부분과 토지지분을 일괄하여 매각함.",
+    "note": "-재매각임.특별매각조건 매수신청보증금 최저매각가격의 20%\n-일괄매각\n-건물과 토지는 별도로 등기되어 있으나 건물의 경우 구분호로 등기되어 있고, 집합건축물대장상 구분건물로 등재되어 있으며 건물부분과 토지지분을 일괄하여 매각함.",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000331111",
@@ -23327,6 +23177,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
+    "is_new": false
+   },
+   {
+    "id": "B0002152025013005202211",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경52022",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 마포구 노고산동 1-3 신촌포스빌 5층503호",
+    "gu": "마포구",
+    "dong": "노고산동",
+    "complex": "신촌포스빌",
+    "usage": "아파트",
+    "area": 32.34,
+    "appraisal": 29100,
+    "min_bid": 29100,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-09-01",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
     "is_new": true
    },
    {
@@ -23351,7 +23225,7 @@
     "views": 0,
     "note": "지분매각, 공유자의 우선매수권 1회 제한.\n대지권 미등기이며, 대지권 유무는 알 수 없음.\n최저매각가격에 대지권가격이 포함됨.",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000373911",
@@ -23447,7 +23321,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001264011",
@@ -23639,6 +23513,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
+    "is_new": false
+   },
+   {
+    "id": "B0002102025013010385711",
+    "court": "서울중앙지방법원",
+    "dept": "경매11계",
+    "case_no": "2025타경103857",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강남구 삼성동 142-7 엘지선릉에클라트 에이동 4층403호",
+    "gu": "강남구",
+    "dong": "삼성동",
+    "complex": "엘지선릉에클라트",
+    "usage": "아파트",
+    "area": 36.16,
+    "appraisal": 41200,
+    "min_bid": 41200,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-27",
+    "place": "경매법정4별관211호",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
     "is_new": true
    },
    {
@@ -23687,7 +23585,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001236611",
@@ -23783,7 +23681,7 @@
     "views": 0,
     "note": "지분매각(공유자 우선매수 1회에 한함)",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001207611",
@@ -23855,7 +23753,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132024013011590111",
@@ -23927,7 +23825,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001166211",
@@ -24119,7 +24017,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013000005711",
@@ -24191,6 +24089,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
+    "is_new": false
+   },
+   {
+    "id": "B0002122025013000914011",
+    "court": "서울남부지방법원",
+    "dept": "경매14계",
+    "case_no": "2025타경9140",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 양천구 신정동 1218-1 일진아이윌아파트 제101동 제6층 제601호",
+    "gu": "양천구",
+    "dong": "신정동",
+    "complex": "일진아이윌아파트",
+    "usage": "아파트",
+    "area": 69.657,
+    "appraisal": 99100,
+    "min_bid": 63424,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-08-25",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "특별매각조건 매수신청보증금 최저매각가격의 20%",
+    "first_seen": "2026-08-08",
     "is_new": true
    },
    {
@@ -24239,7 +24161,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000008311",
@@ -24263,7 +24185,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122023013000631111",
@@ -24407,7 +24329,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001368011",
@@ -24554,6 +24476,30 @@
     "is_new": false
    },
    {
+    "id": "B0002152025013005136311",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경51363",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 은평구 녹번동 91-7 시니어캐슬 클라시온 4층406호",
+    "gu": "은평구",
+    "dong": "녹번동",
+    "complex": "시니어캐슬 클라시온",
+    "usage": "기타",
+    "area": 56.34,
+    "appraisal": 94000,
+    "min_bid": 75200,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-09-01",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001330811",
     "court": "서울북부지방법원",
     "dept": "경매4계",
@@ -24599,7 +24545,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005233811",
@@ -24623,7 +24569,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005173311",
@@ -24767,7 +24713,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000265111",
@@ -24887,7 +24833,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001308311",
@@ -24935,7 +24881,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000054911",
@@ -25010,28 +24956,52 @@
     "is_new": false
    },
    {
-    "id": "B0002122026013000315511",
-    "court": "서울남부지방법원",
-    "dept": "경매8계",
-    "case_no": "2026타경3155",
+    "id": "B0002152025013005205611",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경52056",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 강서구 등촌동 676 태진아름아파트 제101동 제2층 제206호",
-    "gu": "강서구",
-    "dong": "등촌동",
-    "complex": "태진아름아파트",
+    "address": "서울특별시 은평구 구산동 547 갈현1단지이-편한세상아파트 102동 13층1301호",
+    "gu": "은평구",
+    "dong": "구산동",
+    "complex": "갈현1단지이-편한세상아파트",
     "usage": "아파트",
-    "area": 121.22,
-    "appraisal": 104000,
-    "min_bid": 104000,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-08-18",
-    "place": "제112호법정",
+    "area": 122.578,
+    "appraisal": 101000,
+    "min_bid": 101000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-09-01",
+    "place": "신관209호경매법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-08-01",
-    "is_new": false
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
+    "id": "B0002102025013000294211",
+    "court": "서울중앙지방법원",
+    "dept": "경매11계",
+    "case_no": "2025타경2942",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 종로구 평창동 66-1 엘리시아 5층502호",
+    "gu": "종로구",
+    "dong": "평창동",
+    "complex": "엘리시아",
+    "usage": "아파트",
+    "area": 206.22,
+    "appraisal": 130000,
+    "min_bid": 104000,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-08-27",
+    "place": "경매법정4별관211호",
+    "views": 0,
+    "note": "감정평가서의 대상물건 현황에 의하면, 전유면적 206.22㎡, 공용면적 95.82㎡, 공급면적 302.04㎡임",
+    "first_seen": "2026-08-08",
+    "is_new": true
    },
    {
     "id": "B0002132025013001269311",
@@ -25106,28 +25076,28 @@
     "is_new": false
    },
    {
-    "id": "B0002122025013001405011",
-    "court": "서울남부지방법원",
-    "dept": "경매8계",
-    "case_no": "2025타경14050",
+    "id": "B0002102025013010410811",
+    "court": "서울중앙지방법원",
+    "dept": "경매10계",
+    "case_no": "2025타경104108",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 영등포구 당산동3가 563 당산동2차어울림 제102동 제5층 제502호",
-    "gu": "영등포구",
-    "dong": "당산동3가",
-    "complex": "당산동2차어울림",
+    "address": "서울특별시 동작구 신대방동 686-48 동작협성휴포레시그니처 105동 9층902호",
+    "gu": "동작구",
+    "dong": "신대방동",
+    "complex": "동작협성휴포레시그니처",
     "usage": "아파트",
-    "area": 84.8711,
-    "appraisal": 114000,
-    "min_bid": 114000,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-08-18",
-    "place": "제112호법정",
+    "area": 84.9814,
+    "appraisal": 113000,
+    "min_bid": 113000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-08-26",
+    "place": "제4별관211호법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-08-01",
-    "is_new": false
+    "first_seen": "2026-08-08",
+    "is_new": true
    },
    {
     "id": "B0002132025013001304711",
@@ -25223,7 +25193,7 @@
     "views": 0,
     "note": "미등기 대지권 있음. 최저매각가격에 대지권가격이 포함됨.",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001346211",
@@ -25370,6 +25340,30 @@
     "is_new": false
    },
    {
+    "id": "B0002102025013010277611",
+    "court": "서울중앙지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경102776",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서초구 반포동 107-52 브리앙뜨 4층401호",
+    "gu": "서초구",
+    "dong": "반포동",
+    "complex": "브리앙뜨",
+    "usage": "아파트",
+    "area": 134.94,
+    "appraisal": 201100,
+    "min_bid": 160880,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-08-25",
+    "place": "제4별관2층211호법정",
+    "views": 0,
+    "note": "특별매각조건 매수신청보증금 최저매각가격의 20%",
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
     "id": "B0002102025013010357711",
     "court": "서울중앙지방법원",
     "dept": "경매7계",
@@ -25490,6 +25484,54 @@
     "is_new": false
    },
    {
+    "id": "B0002102025013010173311",
+    "court": "서울중앙지방법원",
+    "dept": "경매10계",
+    "case_no": "2025타경101733",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강남구 삼성로 212 31동 14층1401호 (개포동,은마아파트)",
+    "gu": "강남구",
+    "dong": "대치동",
+    "complex": "은마아파트",
+    "usage": "아파트",
+    "area": 94.76,
+    "appraisal": 178000,
+    "min_bid": 178000,
+    "rate": 100,
+    "fail_count": 2,
+    "sale_date": "2026-08-26",
+    "place": "제4별관211호법정",
+    "views": 0,
+    "note": "지분매각(공유자 우선매수 1회에 한함)",
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
+    "id": "B0002102025013010318011",
+    "court": "서울중앙지방법원",
+    "dept": "경매11계",
+    "case_no": "2025타경103180",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서초구 방배동 980-45 10층1001호",
+    "gu": "서초구",
+    "dong": "방배동",
+    "complex": "",
+    "usage": "아파트",
+    "area": 227.97,
+    "appraisal": 244000,
+    "min_bid": 244000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-08-27",
+    "place": "경매법정4별관211호",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
     "id": "B0002152025013005194511",
     "court": "서울서부지방법원",
     "dept": "경매6계",
@@ -25512,6 +25554,30 @@
     "note": "특별매각조건으로 공유자의 우선매수청구권 1회로 제한함",
     "first_seen": "2026-08-05",
     "is_new": false
+   },
+   {
+    "id": "B0002152024013005643511",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2024타경56435",
+    "dup_case": "2023타경57882",
+    "item_no": "1",
+    "address": "서울특별시 용산구 이촌로65가길 23 219동 7층704호 (이촌동,한가람아파트)",
+    "gu": "용산구",
+    "dong": "이촌동",
+    "complex": "한가람아파트",
+    "usage": "아파트",
+    "area": 114.96,
+    "appraisal": 252000,
+    "min_bid": 252000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-01",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
    },
    {
     "id": "B0002112025013005193011",
@@ -25631,7 +25697,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152024013000043211",
@@ -25706,6 +25772,78 @@
     "is_new": false
    },
    {
+    "id": "B0002102025013010434911",
+    "court": "서울중앙지방법원",
+    "dept": "경매10계",
+    "case_no": "2025타경104349",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강남구 삼성동 90 삼성브르넨 10층1001호",
+    "gu": "강남구",
+    "dong": "삼성동",
+    "complex": "삼성브르넨",
+    "usage": "아파트",
+    "area": 41.5,
+    "appraisal": 335000,
+    "min_bid": 335000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-08-26",
+    "place": "제4별관211호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
+    "id": "B0002102024013000376411",
+    "court": "서울중앙지방법원",
+    "dept": "경매11계",
+    "case_no": "2024타경3764",
+    "dup_case": "2023타경117338 2024타경116684 2025타경102745",
+    "item_no": "1",
+    "address": "서울특별시 서초구 반포대로 275 128동 26층2602호 (반포동,래미안퍼스티지)",
+    "gu": "서초구",
+    "dong": "반포동",
+    "complex": "래미안퍼스티지",
+    "usage": "아파트",
+    "area": 84.93,
+    "appraisal": 350000,
+    "min_bid": 350000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-27",
+    "place": "경매법정4별관211호",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
+    "id": "B0002122026013000360511",
+    "court": "서울남부지방법원",
+    "dept": "경매14계",
+    "case_no": "2026타경3605",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 양천구 목동 916 제50층 제103-5003호",
+    "gu": "양천구",
+    "dong": "목동",
+    "complex": "",
+    "usage": "아파트",
+    "area": 180.42,
+    "appraisal": 458000,
+    "min_bid": 458000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-25",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
+   },
+   {
     "id": "B0002102025013000180211",
     "court": "서울중앙지방법원",
     "dept": "경매7계",
@@ -25728,6 +25866,30 @@
     "note": "",
     "first_seen": "2026-07-30",
     "is_new": false
+   },
+   {
+    "id": "B0002122025013000067611",
+    "court": "서울남부지방법원",
+    "dept": "경매14계",
+    "case_no": "2025타경676",
+    "dup_case": "2026타경3156",
+    "item_no": "1",
+    "address": "서울특별시 영등포구 여의도동 30-2 제10동 제12층 제10133호",
+    "gu": "영등포구",
+    "dong": "여의도동",
+    "complex": "",
+    "usage": "아파트",
+    "area": 146.68,
+    "appraisal": 508300,
+    "min_bid": 508300,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-08-25",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-08",
+    "is_new": true
    }
   ]
  },
@@ -26308,30 +26470,6 @@
     "status": "입찰준비중",
     "fail_count": 0,
     "note": "정정내역 있음",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2025-07956-004-5982501",
-    "cltr_mng_no": "2025-07956-004",
-    "name": "서울특별시 서대문구 충정로3가 189-8  외 2필지 내제1층108호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 서대문구 충정로3가",
-    "gu": "서대문구",
-    "dong": "충정로3가",
-    "prpt_type": "압류재산",
-    "org": "마포세무서",
-    "min_bid": 6000,
-    "appraisal": 10000,
-    "rate": null,
-    "area": 13.6533,
-    "land_area": 1.8,
-    "bid_from": "2026-08-03",
-    "bid_to": "2026-08-05",
-    "status": "입찰마감",
-    "fail_count": 4,
-    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -27386,7 +27524,7 @@
     "bid_from": "2026-10-19",
     "bid_to": "2026-10-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -28064,30 +28202,6 @@
     "is_new": false
    },
    {
-    "id": "2026-0400-019021-5920367",
-    "cltr_mng_no": "2026-0400-019021",
-    "name": "서울특별시 금천구 시흥동 113-12 206호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 20850,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "2024-17311-001-6118371",
     "cltr_mng_no": "2024-17311-001",
     "name": "서울특별시 노원구 공릉동 705 동부아파트 제104동 제9층 제903호",
@@ -28280,30 +28394,6 @@
     "is_new": false
    },
    {
-    "id": "2026-0400-019028-5920374",
-    "cltr_mng_no": "2026-0400-019028",
-    "name": "서울특별시 금천구 시흥동 113-12 806호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21290,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "2026-05262-001-6054138",
     "cltr_mng_no": "2026-05262-001",
     "name": "서울특별시 강서구 화곡동 900-28 외 1필지 에스타워 제4층 제403호",
@@ -28372,150 +28462,6 @@
     "status": "입찰준비중",
     "fail_count": 0,
     "note": "지분물건, 정정내역 있음",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019022-5920368",
-    "cltr_mng_no": "2026-0400-019022",
-    "name": "서울특별시 금천구 시흥동 113-12 1106호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21730,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019023-5920369",
-    "cltr_mng_no": "2026-0400-019023",
-    "name": "서울특별시 금천구 시흥동 113-12 1105호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21730,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019024-5920370",
-    "cltr_mng_no": "2026-0400-019024",
-    "name": "서울특별시 금천구 시흥동 113-12 1006호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21730,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019025-5920371",
-    "cltr_mng_no": "2026-0400-019025",
-    "name": "서울특별시 금천구 시흥동 113-12 1005호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21730,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019026-5920372",
-    "cltr_mng_no": "2026-0400-019026",
-    "name": "서울특별시 금천구 시흥동 113-12 906호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21730,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019027-5920373",
-    "cltr_mng_no": "2026-0400-019027",
-    "name": "서울특별시 금천구 시흥동 113-12 905호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21730,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -29168,54 +29114,6 @@
     "is_new": false
    },
    {
-    "id": "2026-01663-001-6023608",
-    "cltr_mng_no": "2026-01663-001",
-    "name": "서울특별시 구로구 고척동 296 외 1필지 고척대우아파트 제101동 제3층 제304호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 구로구 고척동",
-    "gu": "구로구",
-    "dong": "고척동",
-    "prpt_type": "압류재산",
-    "org": "강서세무서",
-    "min_bid": 29100,
-    "appraisal": 29100,
-    "rate": null,
-    "area": 29.985,
-    "land_area": 10.37,
-    "bid_from": "2026-08-03",
-    "bid_to": "2026-08-05",
-    "status": "입찰마감",
-    "fail_count": 0,
-    "note": "지분물건, 정정내역 있음",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-01664-001-6023609",
-    "cltr_mng_no": "2026-01664-001",
-    "name": "서울특별시 구로구 고척동 296 외 1필지 고척대우아파트 제101동 제3층 제304호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 구로구 고척동",
-    "gu": "구로구",
-    "dong": "고척동",
-    "prpt_type": "압류재산",
-    "org": "강서세무서",
-    "min_bid": 29100,
-    "appraisal": 29100,
-    "rate": null,
-    "area": 29.985,
-    "land_area": 10.37,
-    "bid_from": "2026-08-03",
-    "bid_to": "2026-08-05",
-    "status": "입찰마감",
-    "fail_count": 0,
-    "note": "지분물건, 정정내역 있음",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "2026-10296-001-6095589",
     "cltr_mng_no": "2026-10296-001",
     "name": "서울특별시 노원구 월계동 556 외 1필지 월계2단지주공아파트 제201동 제2층 제208호",
@@ -29261,7 +29159,7 @@
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-06",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127635",
@@ -29330,7 +29228,7 @@
     "bid_from": "2026-10-12",
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -29427,30 +29325,6 @@
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "정정내역 있음",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-01438-001-5982533",
-    "cltr_mng_no": "2026-01438-001",
-    "name": "서울특별시 은평구 응암동 81-173 더 위일 제5층 제502호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 은평구 응암동",
-    "gu": "은평구",
-    "dong": "응암동",
-    "prpt_type": "압류재산",
-    "org": "은평세무서",
-    "min_bid": 33000,
-    "appraisal": 55000,
-    "rate": null,
-    "area": 50.64,
-    "land_area": 17.45,
-    "bid_from": "2026-08-03",
-    "bid_to": "2026-08-05",
-    "status": "입찰마감",
-    "fail_count": 4,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -30098,7 +29972,7 @@
     "bid_from": "2026-10-06",
     "bid_to": "2026-10-07",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -30602,7 +30476,7 @@
     "bid_from": "2026-09-28",
     "bid_to": "2026-09-30",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -30866,7 +30740,7 @@
     "bid_from": "2026-09-14",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31040,30 +30914,6 @@
     "is_new": false
    },
    {
-    "id": "2026-03572-001-6023631",
-    "cltr_mng_no": "2026-03572-001",
-    "name": "서울특별시 은평구 불광동 635  북한산힐스테이트1차아파트 제1102동 제4층 제404호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 은평구 불광동",
-    "gu": "은평구",
-    "dong": "불광동",
-    "prpt_type": "압류재산",
-    "org": "화성세무서",
-    "min_bid": 86600,
-    "appraisal": 86600,
-    "rate": null,
-    "area": 59.817,
-    "land_area": 44.48,
-    "bid_from": "2026-08-03",
-    "bid_to": "2026-08-05",
-    "status": "입찰마감",
-    "fail_count": 0,
-    "note": "정정내역 있음",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "2026-05649-001-6095528",
     "cltr_mng_no": "2026-05649-001",
     "name": "서울특별시 노원구 상계동 1309 한일유앤아이아파트 제103동 제17층 제1704호",
@@ -31106,31 +30956,7 @@
     "bid_from": "2026-08-31",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "정정내역 있음",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-00321-001-6023604",
-    "cltr_mng_no": "2026-00321-001",
-    "name": "서울특별시 관악구 남현동 1079-3 외 11필지 하이파크아파트 제101동 제3층 제302호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 관악구 남현동",
-    "gu": "관악구",
-    "dong": "남현동",
-    "prpt_type": "압류재산",
-    "org": "역삼세무서",
-    "min_bid": 91800,
-    "appraisal": 91800,
-    "rate": null,
-    "area": 84.3,
-    "land_area": 47.2,
-    "bid_from": "2026-08-03",
-    "bid_to": "2026-08-05",
-    "status": "입찰마감",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31226,7 +31052,7 @@
     "bid_from": "2026-08-24",
     "bid_to": "2026-08-26",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31370,7 +31196,7 @@
     "bid_from": "2026-08-18",
     "bid_to": "2026-08-19",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31442,7 +31268,7 @@
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31541,30 +31367,6 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-07-30",
-    "is_new": false
-   },
-   {
-    "id": "2025-13629-001-6024330",
-    "cltr_mng_no": "2025-13629-001",
-    "name": "서울특별시 강동구 강일동 72 힐스테이트리슈빌강일 제505동 제3층 제313호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 강동구 강일동",
-    "gu": "강동구",
-    "dong": "강일동",
-    "prpt_type": "압류재산",
-    "org": "분당세무서",
-    "min_bid": 151000,
-    "appraisal": 151000,
-    "rate": null,
-    "area": 101.8406,
-    "land_area": null,
-    "bid_from": "2026-08-03",
-    "bid_to": "2026-08-05",
-    "status": "입찰마감",
-    "fail_count": 0,
-    "note": "정정내역 있음",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
@@ -31706,7 +31508,7 @@
     "bid_from": "2026-08-18",
     "bid_to": "2026-08-18",
     "status": "입찰준비중",
-    "fail_count": 24,
+    "fail_count": 25,
     "note": "",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31730,7 +31532,7 @@
     "bid_from": "2026-08-13",
     "bid_to": "2026-08-13",
     "status": "입찰준비중",
-    "fail_count": 24,
+    "fail_count": 25,
     "note": "",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31778,7 +31580,7 @@
     "bid_from": "2026-08-11",
     "bid_to": "2026-08-11",
     "status": "입찰준비중",
-    "fail_count": 24,
+    "fail_count": 25,
     "note": "",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -31829,30 +31631,6 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-07-30",
-    "is_new": false
-   },
-   {
-    "id": "2025-0600-042964-6099598",
-    "cltr_mng_no": "2025-0600-042964",
-    "name": "서울특별시 용산구 이태원동 124-1 제14층 제1802호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 용산구 이태원동",
-    "gu": "용산구",
-    "dong": "이태원동",
-    "prpt_type": "기타일반재산",
-    "org": "교보자산신탁(주)",
-    "min_bid": 307050,
-    "appraisal": 400000,
-    "rate": null,
-    "area": 223.19,
-    "land_area": 30.57,
-    "bid_from": "2026-08-06",
-    "bid_to": "2026-08-06",
-    "status": "입찰준비중",
-    "fail_count": 24,
-    "note": "",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
