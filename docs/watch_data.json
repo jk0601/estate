@@ -1,6 +1,6 @@
 {
   "filter": "34평 이하 (매매·전세)",
-  "updated": "2026-08-08 10:29",
+  "updated": "2026-08-08 10:40",
   "complexes": [
     {
       "name": "힐스테이트 메디알레",
@@ -71530,7 +71530,7 @@
             },
             {
               "trade": "전세",
-              "articleNo": "2642430555",
+              "articleNo": "2642528607",
               "dong": "204동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -71538,10 +71538,10 @@
               "price": 90000,
               "price_text": "9억",
               "floor": "9/25",
-              "direction": "남향",
-              "realtor": "현대힐스테이트(단지내)공인중개사사무소",
-              "feature": "l현대PICKl84 스카이라운지와 클럽힐스를 함께 누리는 핵심동",
-              "confirm": "20260807",
+              "direction": "남서향",
+              "realtor": "초대공인중개사사무소",
+              "feature": "남서향 4베이 안방 드레스룸 거실 팬트리 수납 특화 대은초근접 편리",
+              "confirm": "20260808",
               "naver_change": "SAME",
               "bunyang": 137820
             },
@@ -81186,7 +81186,7 @@
             },
             {
               "trade": "전세",
-              "articleNo": "2642518074",
+              "articleNo": "2642513773",
               "dong": "131동",
               "pyeong": 20.0,
               "area_supply": 66,
@@ -81195,8 +81195,8 @@
               "price_text": "6억",
               "floor": "12/13",
               "direction": "남향",
-              "realtor": "엄지공인중개사사무소",
-              "feature": "o20P 신혼부부강추o 귀한전세o 시스템에어컨2대o 녹번역도보5분",
+              "realtor": "토토이편한캐슬공인중개사사무소",
+              "feature": "20.  채광좋은 남향 풀가전옵션 냉장고 세탁기 건조기등 몸만 오세요",
               "confirm": "20260808",
               "naver_change": "SAME",
               "bunyang": null
@@ -81390,7 +81390,7 @@
             },
             {
               "trade": "전세",
-              "articleNo": "2641866750",
+              "articleNo": "2642525513",
               "dong": "107동",
               "pyeong": 24.5,
               "area_supply": 81,
@@ -81399,9 +81399,9 @@
               "price_text": "7억 1,000",
               "floor": "18/22",
               "direction": "남서향",
-              "realtor": "다원공인중개사사무소",
-              "feature": "25.계약가능.탑층.단독라인.포베이.에어컨.상가연결편리",
-              "confirm": "20260805",
+              "realtor": "제일단지내공인중개사사무소",
+              "feature": "강추 무융자 조용한 탑층 인기포베이구조 시스템에어컨2 내부깨끗",
+              "confirm": "20260808",
               "naver_change": "SAME",
               "bunyang": null
             },
