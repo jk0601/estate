@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08 11:05",
+ "generated_at": "2026-08-09 08:29",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 69449,
+  "scanned_deals": 69493,
   "complexes": [
    {
     "gu": "강동구",
@@ -106,8 +106,8 @@
     "area_max": 59.5,
     "hit_min": 75000,
     "hit_last": "2026-06-11",
-    "naver_complex_no": "131102",
-    "naver_url": "https://m.land.naver.com/complex/info/131102"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%B4%EB%8F%99%20%EB%9D%BC%EC%9B%80%ED%8F%AC%EB%A0%88"
    },
    {
     "gu": "강서구",
@@ -240,8 +240,8 @@
     "area_max": 59.8,
     "hit_min": 75000,
     "hit_last": "2026-06-21",
-    "naver_complex_no": "135606",
-    "naver_url": "https://m.land.naver.com/complex/info/135606"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%8A%A4%ED%83%80%ED%8C%8C%ED%81%AC%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "광진구",
@@ -268,8 +268,8 @@
     "area_max": 61.1,
     "hit_min": 75000,
     "hit_last": "2025-11-30",
-    "naver_complex_no": "109061",
-    "naver_url": "https://m.land.naver.com/complex/info/109061"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%A3%BC%EC%84%B1%ED%9E%90%EC%8A%A4%ED%86%A4"
    },
    {
     "gu": "광진구",
@@ -444,8 +444,8 @@
     "area_max": 85.0,
     "hit_min": 75000,
     "hit_last": "2026-07-08",
-    "naver_complex_no": "120035",
-    "naver_url": "https://m.land.naver.com/complex/info/120035"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%EC%9A%B0%EB%82%A8%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B9%8C%EB%8D%94%EC%84%BC%ED%8A%B8%EB%9F%B4"
    },
    {
     "gu": "구로구",
@@ -712,8 +712,8 @@
     "area_max": 120.0,
     "hit_min": 75000,
     "hit_last": "2026-06-15",
-    "naver_complex_no": "104934",
-    "naver_url": "https://m.land.naver.com/complex/info/104934"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%9C%EB%B4%89%EB%8F%99%20%EA%B0%9C%EB%B4%89%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
    },
    {
     "gu": "구로구",
@@ -944,8 +944,8 @@
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-07-28",
-    "naver_complex_no": "122446",
-    "naver_url": "https://m.land.naver.com/complex/info/122446"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%98%EB%B2%84%EB%9D%BC%EC%9D%B83%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "구로구",
@@ -1110,8 +1110,8 @@
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-07-02",
-    "naver_complex_no": "125299",
-    "naver_url": "https://m.land.naver.com/complex/info/125299"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%98%EB%B2%84%EB%9D%BC%EC%9D%B82%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "금천구",
@@ -1556,8 +1556,8 @@
     "area_max": 84.8,
     "hit_min": 75000,
     "hit_last": "2026-07-16",
-    "naver_complex_no": "110476",
-    "naver_url": "https://m.land.naver.com/complex/info/110476"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%EC%A4%91%EA%B3%84%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "노원구",
@@ -1834,8 +1834,8 @@
     "area_max": 117.5,
     "hit_min": 75000,
     "hit_last": "2026-07-17",
-    "naver_complex_no": "110793",
-    "naver_url": "https://m.land.naver.com/complex/info/110793"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9B%94%EA%B3%84%EB%8F%99%20%EB%85%B9%EC%B2%9C%EC%97%AD%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "도봉구",
@@ -1928,8 +1928,8 @@
     "area_max": 115.0,
     "hit_min": 75000,
     "hit_last": "2026-06-20",
-    "naver_complex_no": "103501",
-    "naver_url": "https://m.land.naver.com/complex/info/103501"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8C%8D%EB%AC%B8%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84"
    },
    {
     "gu": "동대문구",
@@ -2022,8 +2022,8 @@
     "area_max": 53.0,
     "hit_min": 75000,
     "hit_last": "2026-07-20",
-    "naver_complex_no": "125381",
-    "naver_url": "https://m.land.naver.com/complex/info/125381"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EB%8B%B5%EC%8B%AD%EB%A6%AC%EC%97%98%EB%A6%BC%ED%8D%BC%EC%8A%A4%ED%8A%B8"
    },
    {
     "gu": "서대문구",
@@ -2354,8 +2354,8 @@
     "area_max": 51.8,
     "hit_min": 75000,
     "hit_last": "2026-05-09",
-    "naver_complex_no": "122918",
-    "naver_url": "https://m.land.naver.com/complex/info/122918"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EC%B2%9C%EB%8F%99%20%EC%86%A1%ED%8C%8C%EA%B1%B4%EC%9B%90%EC%97%AC%EB%AF%B8%EC%A7%80%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "송파구",
@@ -2406,8 +2406,8 @@
     "area_max": 51.2,
     "hit_min": 75000,
     "hit_last": "2026-03-09",
-    "naver_complex_no": "113786",
-    "naver_url": "https://m.land.naver.com/complex/info/113786"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%82%BC%EC%A0%84%EB%8F%99%20%ED%95%98%EC%9D%B4%ED%8C%8C%ED%81%AC%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "양천구",
@@ -2892,8 +2892,8 @@
     "area_max": 77.8,
     "hit_min": 75000,
     "hit_last": "2026-01-24",
-    "naver_complex_no": "113607",
-    "naver_url": "https://m.land.naver.com/complex/info/113607"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%AC%B8%EB%9E%98%EB%8F%993%EA%B0%80%20%EC%98%88%EC%A7%80%ED%8C%B0%EB%A6%AC%EC%8A%A477%EC%B0%A8"
    },
    {
     "gu": "영등포구",
@@ -3110,8 +3110,8 @@
     "area_max": 85.0,
     "hit_min": 75000,
     "hit_last": "2026-07-27",
-    "naver_complex_no": "112914",
-    "naver_url": "https://m.land.naver.com/complex/info/112914"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%82%AC%EB%8F%99%20%EC%9D%91%EC%95%94%EC%97%AD%ED%9A%A8%EC%84%B1%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
    },
    {
     "gu": "은평구",
@@ -3760,8 +3760,8 @@
     "area_max": 114.9,
     "hit_min": 75000,
     "hit_last": "2025-11-13",
-    "naver_complex_no": "119588",
-    "naver_url": "https://m.land.naver.com/complex/info/119588"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EC%82%AC%EA%B0%80%EC%A0%95%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "중랑구",
@@ -3968,8 +3968,8 @@
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-07-25",
-    "naver_complex_no": "108142",
-    "naver_url": "https://m.land.naver.com/complex/info/108142"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EB%82%B4%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%9A%B0%EB%94%94%EC%95%881%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "구로구",
@@ -4104,8 +4104,8 @@
     "area_max": 115.0,
     "hit_min": 75500,
     "hit_last": "2026-07-18",
-    "naver_complex_no": "107066",
-    "naver_url": "https://m.land.naver.com/complex/info/107066"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%B2%9C%EC%99%95%EB%8F%99%20%EC%B2%9C%EC%99%95%EC%97%B0%EC%A7%80%ED%83%80%EC%9A%B42%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "은평구",
@@ -4228,8 +4228,8 @@
     "area_max": 84.9,
     "hit_min": 75500,
     "hit_last": "2026-06-15",
-    "naver_complex_no": "108372",
-    "naver_url": "https://m.land.naver.com/complex/info/108372"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%A7%84%EA%B4%80%EB%8F%99%20%EC%9D%80%ED%8F%89%EB%89%B4%ED%83%80%EC%9A%B4%EA%B8%B0%EC%9E%90%EC%B4%8C11%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "마포구",
@@ -4274,8 +4274,8 @@
     "area_max": 52.6,
     "hit_min": 75700,
     "hit_last": "2026-03-28",
-    "naver_complex_no": "116995",
-    "naver_url": "https://m.land.naver.com/complex/info/116995"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%A9%EC%A0%95%EB%8F%99%20%ED%95%A9%EC%A0%95%ED%95%9C%EA%B0%95%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "구로구",
@@ -4486,8 +4486,8 @@
     "area_max": 59.9,
     "hit_min": 76000,
     "hit_last": "2026-05-20",
-    "naver_complex_no": "111827",
-    "naver_url": "https://m.land.naver.com/complex/info/111827"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%82%AC%EB%8B%B9%EB%8F%99%20%EB%B0%98%EC%84%9D%EB%B8%94%EB%A0%88%EC%8A%A4"
    },
    {
     "gu": "서대문구",
@@ -4710,8 +4710,8 @@
     "area_max": 85.0,
     "hit_min": 76000,
     "hit_last": "2026-02-14",
-    "naver_complex_no": "125357",
-    "naver_url": "https://m.land.naver.com/complex/info/125357"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9A%B0%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%97%AD%EA%B8%88%EA%B0%95%ED%8E%9C%ED%85%8C%EB%A6%AC%EC%9B%80%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "성북구",
@@ -4876,8 +4876,8 @@
     "area_max": 109.1,
     "hit_min": 76300,
     "hit_last": "2026-05-27",
-    "naver_complex_no": "109073",
-    "naver_url": "https://m.land.naver.com/complex/info/109073"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%A0%95%EB%A6%89%EB%8F%99%20%EC%A0%95%EB%A6%89%EA%BF%88%EC%97%90%EA%B7%B8%EB%A6%B0"
    },
    {
     "gu": "마포구",
@@ -4952,8 +4952,8 @@
     "area_max": 60.0,
     "hit_min": 76700,
     "hit_last": "2026-06-23",
-    "naver_complex_no": "132834",
-    "naver_url": "https://m.land.naver.com/complex/info/132834"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9B%90%EB%8F%99%20%EB%A7%88%ED%8F%AC%EC%9B%94%EB%93%9C%EC%BB%B5%EC%A0%9C%EC%9D%B4%EC%8A%A4%EC%B9%B4%EC%9D%B4"
    },
    {
     "gu": "서대문구",
@@ -5082,8 +5082,8 @@
     "area_max": 59.8,
     "hit_min": 76700,
     "hit_last": "2026-06-23",
-    "naver_complex_no": "127108",
-    "naver_url": "https://m.land.naver.com/complex/info/127108"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%9D%80%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C2%EC%B0%A8"
    },
    {
     "gu": "강남구",
@@ -5348,8 +5348,8 @@
     "area_max": 60.0,
     "hit_min": 77000,
     "hit_last": "2026-02-20",
-    "naver_complex_no": "127671",
-    "naver_url": "https://m.land.naver.com/complex/info/127671"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EB%B2%84%EC%8A%A4%ED%8A%B84%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "구로구",
@@ -5514,8 +5514,8 @@
     "area_max": 101.6,
     "hit_min": 77000,
     "hit_last": "2026-07-13",
-    "naver_complex_no": "119598",
-    "naver_url": "https://m.land.naver.com/complex/info/119598"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%AD%EB%8F%99%EC%A0%9C%EC%9D%BC%ED%92%8D%EA%B2%BD%EC%B1%84%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8"
    },
    {
     "gu": "금천구",
@@ -6040,8 +6040,8 @@
     "area_max": 150.7,
     "hit_min": 77000,
     "hit_last": "2026-07-14",
-    "naver_complex_no": "104347",
-    "naver_url": "https://m.land.naver.com/complex/info/104347"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%9C%ED%9D%A5%EB%8F%99%20%EB%82%A8%EC%84%9C%EC%9A%B8%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8"
    },
    {
     "gu": "노원구",
@@ -6988,8 +6988,8 @@
     "area_max": 99.8,
     "hit_min": 77000,
     "hit_last": "2026-04-01",
-    "naver_complex_no": "119275",
-    "naver_url": "https://m.land.naver.com/complex/info/119275"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%85%B9%EB%B2%88%EC%97%ADe%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EC%BA%90%EC%8A%AC"
    },
    {
     "gu": "서대문구",
@@ -7034,8 +7034,8 @@
     "area_max": 84.1,
     "hit_min": 77500,
     "hit_last": "2026-04-27",
-    "naver_complex_no": "112312",
-    "naver_url": "https://m.land.naver.com/complex/info/112312"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%A0%9C%EB%8F%99%20%EC%A0%9C%EC%9D%BC%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "송파구",
@@ -7158,8 +7158,8 @@
     "area_max": 44.0,
     "hit_min": 77500,
     "hit_last": "2026-07-06",
-    "naver_complex_no": "143818",
-    "naver_url": "https://m.land.naver.com/complex/info/143818"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%80%EB%9D%BD%EB%8F%99%20%ED%85%8C%EB%9D%BC%ED%8E%A0%EB%A6%AC%EC%B2%B4%EC%86%A1%ED%8C%8C"
    },
    {
     "gu": "강남구",
@@ -7186,8 +7186,8 @@
     "area_max": 42.6,
     "hit_min": 78000,
     "hit_last": "2026-01-26",
-    "naver_complex_no": "117425",
-    "naver_url": "https://m.land.naver.com/complex/info/117425"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%B2%AD%EB%8B%B4%EB%8F%99%20%EB%9D%BC%ED%85%8C%EB%9D%BC%EC%8A%A4%EC%B2%AD%EB%8B%B4"
    },
    {
     "gu": "강북구",
@@ -7382,8 +7382,8 @@
     "area_max": 85.0,
     "hit_min": 78000,
     "hit_last": "2026-03-12",
-    "naver_complex_no": "109039",
-    "naver_url": "https://m.land.naver.com/complex/info/109039"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%AF%B8%EC%95%84%EB%8F%99%20%EA%BF%88%EC%9D%98%EC%88%B2%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
    },
    {
     "gu": "관악구",
@@ -7470,8 +7470,8 @@
     "area_max": 84.9,
     "hit_min": 78000,
     "hit_last": "2026-06-02",
-    "naver_complex_no": "105521",
-    "naver_url": "https://m.land.naver.com/complex/info/105521"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B4%89%EC%B2%9C%EB%8F%99%20%EC%84%9C%ED%9D%AC%EC%8A%A4%ED%83%80%ED%9E%90%EC%8A%A4"
    },
    {
     "gu": "광진구",
@@ -7516,8 +7516,8 @@
     "area_max": 60.0,
     "hit_min": 78000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": "149122",
-    "naver_url": "https://m.land.naver.com/complex/info/149122"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "노원구",
@@ -7796,8 +7796,8 @@
     "area_max": 85.0,
     "hit_min": 78000,
     "hit_last": "2026-07-10",
-    "naver_complex_no": "117873",
-    "naver_url": "https://m.land.naver.com/complex/info/117873"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%EB%85%B8%EC%9B%90%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
    },
    {
     "gu": "송파구",
@@ -7830,8 +7830,8 @@
     "area_max": 48.3,
     "hit_min": 78000,
     "hit_last": "2026-05-09",
-    "naver_complex_no": "121400",
-    "naver_url": "https://m.land.naver.com/complex/info/121400"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%82%BC%EC%A0%84%EB%8F%99%20%EC%97%90%EC%9D%B4%EB%A9%94%EC%8A%A4%EB%8D%94%EB%A6%AC%EB%B2%84%EC%86%A1%ED%8C%8C"
    },
    {
     "gu": "양천구",
@@ -8558,8 +8558,8 @@
     "area_max": 50.0,
     "hit_min": 78000,
     "hit_last": "2026-07-25",
-    "naver_complex_no": "109695",
-    "naver_url": "https://m.land.naver.com/complex/info/109695"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B9%EC%82%B0%EB%8F%993%EA%B0%80%20%EB%8B%B9%EC%82%B0%EA%B3%84%EB%A3%A1%EB%A6%AC%EC%8A%88%EB%B9%8C3%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "은평구",
@@ -8934,8 +8934,8 @@
     "area_max": 84.9,
     "hit_min": 78000,
     "hit_last": "2026-07-16",
-    "naver_complex_no": "113021",
-    "naver_url": "https://m.land.naver.com/complex/info/113021"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%8C%8C%ED%81%AC%EC%9E%90%EC%9D%B4"
    },
    {
     "gu": "양천구",
@@ -9290,8 +9290,8 @@
     "area_max": 84.8,
     "hit_min": 78500,
     "hit_last": "2025-12-01",
-    "naver_complex_no": "128214",
-    "naver_url": "https://m.land.naver.com/complex/info/128214"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%91%94%EC%B4%8C%EB%8F%99%20%EB%91%94%EC%B4%8C%ED%98%84%EB%8C%80%EC%88%98%EB%A6%B0%EB%82%98%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "관악구",
@@ -9324,8 +9324,8 @@
     "area_max": 72.7,
     "hit_min": 78500,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "132831",
-    "naver_url": "https://m.land.naver.com/complex/info/132831"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EB%A6%BC%EB%8F%99%20%EC%95%B0%ED%8C%B0%EB%A6%AC%EC%8A%A4%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "노원구",
@@ -9664,8 +9664,8 @@
     "area_max": 85.0,
     "hit_min": 78500,
     "hit_last": "2026-05-23",
-    "naver_complex_no": "124506",
-    "naver_url": "https://m.land.naver.com/complex/info/124506"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%ED%8F%AC%EB%A0%88%EB%82%98%EB%85%B8%EC%9B%90"
    },
    {
     "gu": "동대문구",
@@ -9710,8 +9710,8 @@
     "area_max": 68.4,
     "hit_min": 78500,
     "hit_last": "2026-07-17",
-    "naver_complex_no": "142917",
-    "naver_url": "https://m.land.naver.com/complex/info/142917"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%95%88%EB%8F%99%20%EB%B8%8C%EC%9D%B4%ED%8B%B0%EC%8A%A4%ED%83%80%EC%9D%BC"
    },
    {
     "gu": "영등포구",
@@ -10264,8 +10264,8 @@
     "area_max": 99.9,
     "hit_min": 79000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": "116048",
-    "naver_url": "https://m.land.naver.com/complex/info/116048"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%AF%B8%EC%95%84%EB%8F%99%20%EA%BF%88%EC%9D%98%EC%88%B2%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
    },
    {
     "gu": "서초구",
@@ -10292,8 +10292,8 @@
     "area_max": 76.4,
     "hit_min": 79000,
     "hit_last": "2025-11-25",
-    "naver_complex_no": "116237",
-    "naver_url": "https://m.land.naver.com/complex/info/116237"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%EB%B0%B0%EB%8F%99%20%EB%A6%AC%EB%B2%A0%ED%95%98%EC%9E%84"
    },
    {
     "gu": "은평구",
@@ -10860,8 +10860,8 @@
     "area_max": 99.9,
     "hit_min": 79000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": "118025",
-    "naver_url": "https://m.land.naver.com/complex/info/118025"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%88%98%EC%83%89%EB%8F%99%20DMC%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%8D%94%ED%8D%BC%EC%8A%A4%ED%8A%B8"
    },
    {
     "gu": "은평구",
@@ -11224,8 +11224,8 @@
     "area_max": 85.0,
     "hit_min": 79000,
     "hit_last": "2026-06-19",
-    "naver_complex_no": "119053",
-    "naver_url": "https://m.land.naver.com/complex/info/119053"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%95%B4%EB%AA%A8%EB%A1%9C"
    },
    {
     "gu": "강서구",
@@ -11532,8 +11532,8 @@
     "area_max": 60.0,
     "hit_min": 79800,
     "hit_last": "2026-03-25",
-    "naver_complex_no": "134510",
-    "naver_url": "https://m.land.naver.com/complex/info/134510"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EB%B2%84%EC%8A%A4%ED%8A%B88%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "강남구",
@@ -11816,8 +11816,8 @@
     "area_max": 106.9,
     "hit_min": 80000,
     "hit_last": "2026-07-23",
-    "naver_complex_no": "119166",
-    "naver_url": "https://m.land.naver.com/complex/info/119166"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%97%90%EB%93%80%ED%9E%90%EC%A6%88"
    },
    {
     "gu": "서대문구",
@@ -12018,8 +12018,8 @@
     "area_max": 114.9,
     "hit_min": 80000,
     "hit_last": "2026-04-10",
-    "naver_complex_no": "110458",
-    "naver_url": "https://m.land.naver.com/complex/info/110458"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%9D%80%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EB%8D%94%EC%83%B5"
    },
    {
     "gu": "성북구",
@@ -12202,8 +12202,8 @@
     "area_max": 119.6,
     "hit_min": 80000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "108463",
-    "naver_url": "https://m.land.naver.com/complex/info/108463"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%88%EC%95%94%EB%8F%99%20%EA%B8%B8%EC%9D%8C%EC%97%AD%EA%B8%88%ED%98%B8%EC%96%B4%EC%9A%B8%EB%A6%BC%EC%84%BC%ED%84%B0%ED%9E%90"
    },
    {
     "gu": "송파구",
@@ -12254,8 +12254,8 @@
     "area_max": 60.0,
     "hit_min": 80000,
     "hit_last": "2026-04-17",
-    "naver_complex_no": "117595",
-    "naver_url": "https://m.land.naver.com/complex/info/117595"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%80%EB%9D%BD%EB%8F%99%20%EC%A7%84%EB%84%A5%EC%8A%A4%EB%B2%A0%EB%A5%B4%EB%94%94%EC%97%A0"
    },
    {
     "gu": "양천구",
@@ -12820,8 +12820,8 @@
     "area_max": 85.0,
     "hit_min": 80500,
     "hit_last": "2026-02-09",
-    "naver_complex_no": "110251",
-    "naver_url": "https://m.land.naver.com/complex/info/110251"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B84%EC%B0%A8"
    },
    {
     "gu": "관악구",
@@ -13070,8 +13070,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-02-09",
-    "naver_complex_no": "107439",
-    "naver_url": "https://m.land.naver.com/complex/info/107439"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B4%89%EC%B2%9C%EB%8F%99%20%EA%B4%80%EC%95%85%ED%8C%8C%ED%81%AC%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
    },
    {
     "gu": "광진구",
@@ -13128,8 +13128,8 @@
     "area_max": 59.7,
     "hit_min": 81000,
     "hit_last": "2025-11-04",
-    "naver_complex_no": "134803",
-    "naver_url": "https://m.land.naver.com/complex/info/134803"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EA%B4%91%EC%A7%84%ED%8C%8C%ED%81%AC%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97"
    },
    {
     "gu": "광진구",
@@ -13162,8 +13162,8 @@
     "area_max": 65.3,
     "hit_min": 81000,
     "hit_last": "2026-05-07",
-    "naver_complex_no": "109896",
-    "naver_url": "https://m.land.naver.com/complex/info/109896"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%90%EC%96%91%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88"
    },
    {
     "gu": "노원구",
@@ -13550,8 +13550,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-04-30",
-    "naver_complex_no": "117590",
-    "naver_url": "https://m.land.naver.com/complex/info/117590"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9B%94%EA%B3%84%EB%8F%99%20%EC%9B%94%EA%B3%84%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "동대문구",
@@ -13824,8 +13824,8 @@
     "area_max": 100.5,
     "hit_min": 81000,
     "hit_last": "2025-10-14",
-    "naver_complex_no": "112482",
-    "naver_url": "https://m.land.naver.com/complex/info/112482"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%9C%98%EA%B2%BD%EB%8F%99%20%ED%9C%98%EA%B2%BDSK%EB%B7%B0"
    },
    {
     "gu": "동대문구",
@@ -13910,8 +13910,8 @@
     "area_max": 70.9,
     "hit_min": 81000,
     "hit_last": "2025-12-15",
-    "naver_complex_no": "119906",
-    "naver_url": "https://m.land.naver.com/complex/info/119906"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EC%9E%A5%EB%8F%99%20%EC%9A%B0%EC%84%B1%EC%97%90%EB%B9%84%EB%89%B4"
    },
    {
     "gu": "중랑구",
@@ -14184,8 +14184,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-05-02",
-    "naver_complex_no": "119155",
-    "naver_url": "https://m.land.naver.com/complex/info/119155"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%82%AC%EA%B0%80%EC%A0%95%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "은평구",
@@ -14318,8 +14318,8 @@
     "area_max": 72.1,
     "hit_min": 81500,
     "hit_last": "2025-12-13",
-    "naver_complex_no": "128330",
-    "naver_url": "https://m.land.naver.com/complex/info/128330"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%B4%EB%8F%99%20%EC%A7%91%EC%95%A4%EC%82%AC%EB%B9%84%ED%82%A4%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "성북구",
@@ -14520,8 +14520,8 @@
     "area_max": 84.9,
     "hit_min": 82000,
     "hit_last": "2025-12-13",
-    "naver_complex_no": "112474",
-    "naver_url": "https://m.land.naver.com/complex/info/112474"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B8%B8%EC%9D%8C%EB%8F%99%20%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EA%B3%A8%EB%93%A0%ED%9E%90%EC%8A%A4"
    },
    {
     "gu": "성북구",
@@ -15004,8 +15004,8 @@
     "area_max": 85.0,
     "hit_min": 82000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "109051",
-    "naver_url": "https://m.land.naver.com/complex/info/109051"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B3%B4%EB%AC%B8%EB%8F%996%EA%B0%80%20%EB%B3%B4%EB%AC%B8%ED%8C%8C%ED%81%AC%EB%B7%B0%EC%9E%90%EC%9D%B4"
    },
    {
     "gu": "양천구",
@@ -15032,8 +15032,8 @@
     "area_max": 70.2,
     "hit_min": 82000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "113150",
-    "naver_url": "https://m.land.naver.com/complex/info/113150"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%A0%95%EB%8F%99%20%EB%AA%A9%EB%8F%99%EC%8B%A0%EC%84%B8%EA%B3%84%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "강서구",
@@ -15126,8 +15126,8 @@
     "area_max": 84.9,
     "hit_min": 82750,
     "hit_last": "2026-07-06",
-    "naver_complex_no": "124391",
-    "naver_url": "https://m.land.naver.com/complex/info/124391"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%ED%99%94%EB%8F%99%20%EC%8B%A0%EB%A7%88%EA%B3%A1%EB%B2%BD%EC%82%B0%EB%B8%94%EB%A3%A8%EB%B0%8D"
    },
    {
     "gu": "노원구",
@@ -15232,8 +15232,8 @@
     "area_max": 84.0,
     "hit_min": 83000,
     "hit_last": "2026-07-16",
-    "naver_complex_no": "107067",
-    "naver_url": "https://m.land.naver.com/complex/info/107067"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B3%B5%EB%A6%89%EB%8F%99%20%EB%85%B8%EC%9B%90%ED%94%84%EB%A0%88%EB%AF%B8%EC%96%B4%EC%8A%A4%EC%97%A0%EC%BD%94"
    },
    {
     "gu": "강동구",
@@ -15512,8 +15512,8 @@
     "area_max": 59.9,
     "hit_min": 83500,
     "hit_last": "2026-07-12",
-    "naver_complex_no": "134513",
-    "naver_url": "https://m.land.naver.com/complex/info/134513"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EC%97%94%ED%8C%8C%ED%81%AC14%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "강서구",
@@ -15588,8 +15588,8 @@
     "area_max": 78.6,
     "hit_min": 84000,
     "hit_last": "2026-03-26",
-    "naver_complex_no": "127604",
-    "naver_url": "https://m.land.naver.com/complex/info/127604"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%ED%99%94%EB%8F%99%20%EB%A7%88%EA%B3%A1%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C"
    },
    {
     "gu": "서대문구",
@@ -15812,8 +15812,8 @@
     "area_max": 63.8,
     "hit_min": 84000,
     "hit_last": "2026-02-20",
-    "naver_complex_no": "124264",
-    "naver_url": "https://m.land.naver.com/complex/info/124264"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%86%A1%ED%8C%8C%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "송파구",
@@ -15846,8 +15846,8 @@
     "area_max": 64.7,
     "hit_min": 84000,
     "hit_last": "2026-04-04",
-    "naver_complex_no": "117840",
-    "naver_url": "https://m.land.naver.com/complex/info/117840"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%EA%B8%88%EB%8F%99%20%EC%97%98%EB%A6%AC%EC%8B%9C%EC%9B%80%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "중랑구",
@@ -15952,8 +15952,8 @@
     "area_max": 115.0,
     "hit_min": 84000,
     "hit_last": "2026-02-09",
-    "naver_complex_no": "107072",
-    "naver_url": "https://m.land.naver.com/complex/info/107072"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EC%9A%A9%EB%A7%88%EC%82%B0%ED%95%98%EB%8A%98%EC%B1%84"
    },
    {
     "gu": "광진구",
@@ -15980,8 +15980,8 @@
     "area_max": 59.3,
     "hit_min": 84800,
     "hit_last": "2025-12-05",
-    "naver_complex_no": "112103",
-    "naver_url": "https://m.land.naver.com/complex/info/112103"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%ED%8C%8C%ED%81%AC%ED%83%80%EC%9A%B4"
    },
    {
     "gu": "동대문구",
@@ -16146,8 +16146,8 @@
     "area_max": 85.0,
     "hit_min": 85000,
     "hit_last": "2026-04-21",
-    "naver_complex_no": "118948",
-    "naver_url": "https://m.land.naver.com/complex/info/118948"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%9C%98%EA%B2%BD%EB%8F%99%20%ED%9C%98%EA%B2%BD%ED%95%B4%EB%AA%A8%EB%A1%9C%ED%94%84%EB%A0%88%EC%8A%A4%ED%8B%B0%EC%A7%80"
    },
    {
     "gu": "성북구",
@@ -16516,8 +16516,8 @@
     "area_max": 109.4,
     "hit_min": 85000,
     "hit_last": "2025-10-14",
-    "naver_complex_no": "114972",
-    "naver_url": "https://m.land.naver.com/complex/info/114972"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%84%9D%EA%B4%80%EB%8F%99%20%EB%9E%98%EB%AF%B8%EC%95%88%EC%95%84%ED%8A%B8%EB%A6%AC%EC%B9%98"
    },
    {
     "gu": "양천구",
@@ -16954,8 +16954,8 @@
     "area_max": 84.9,
     "hit_min": 85500,
     "hit_last": "2026-05-13",
-    "naver_complex_no": "126242",
-    "naver_url": "https://m.land.naver.com/complex/info/126242"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9A%B0%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%97%AD%ED%9E%90%EB%8D%B0%EC%8A%A4%ED%95%98%EC%9E%84%EC%B0%B8%EC%A2%8B%EC%9D%80%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "용산구",
@@ -17634,8 +17634,8 @@
     "area_max": 101.0,
     "hit_min": 86000,
     "hit_last": "2025-12-05",
-    "naver_complex_no": "116158",
-    "naver_url": "https://m.land.naver.com/complex/info/116158"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EB%B7%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "금천구",
@@ -17990,8 +17990,8 @@
     "area_max": 119.4,
     "hit_min": 86500,
     "hit_last": "2026-01-20",
-    "naver_complex_no": "119787",
-    "naver_url": "https://m.land.naver.com/complex/info/119787"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%95%88%EB%8F%99%20%EB%8F%99%EB%8C%80%EB%AC%B8%EB%8D%94%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%8D%B0%EC%8B%9C%EC%95%99"
    },
    {
     "gu": "금천구",
@@ -18546,8 +18546,8 @@
     "area_max": 84.5,
     "hit_min": 88000,
     "hit_last": "2025-10-18",
-    "naver_complex_no": "109956",
-    "naver_url": "https://m.land.naver.com/complex/info/109956"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%85%EC%82%B0%EB%8F%99%20%EA%B8%88%EC%B2%9C%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EA%B3%A8%EB%93%9C%ED%8C%8C%ED%81%AC3%EC%B0%A8"
    },
    {
     "gu": "영등포구",
@@ -18910,8 +18910,8 @@
     "area_max": 115.0,
     "hit_min": 88000,
     "hit_last": "2025-10-17",
-    "naver_complex_no": "119377",
-    "naver_url": "https://m.land.naver.com/complex/info/119377"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EA%B8%B8%EB%8F%99%20%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%ED%81%B4%EB%9E%98%EC%8B%9C%EC%95%88"
    },
    {
     "gu": "영등포구",
@@ -18998,8 +18998,8 @@
     "area_max": 59.5,
     "hit_min": 88200,
     "hit_last": "2025-12-29",
-    "naver_complex_no": "119451",
-    "naver_url": "https://m.land.naver.com/complex/info/119451"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%ED%8F%89%EB%8F%993%EA%B0%80%20%EC%96%91%ED%8F%89%EC%97%AD%EB%AF%B8%EC%86%8C%EC%A7%80%EC%9B%80"
    },
    {
     "gu": "광진구",
@@ -19102,8 +19102,8 @@
     "area_max": 84.9,
     "hit_min": 88750,
     "hit_last": "2025-10-14",
-    "naver_complex_no": "104780",
-    "naver_url": "https://m.land.naver.com/complex/info/104780"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%97%BC%EC%B0%BD%EB%8F%99%20%EA%B0%95%EC%84%9C%EC%8C%8D%EC%9A%A9%EC%98%88%EA%B0%80"
    },
    {
     "gu": "동대문구",
@@ -19154,8 +19154,8 @@
     "area_max": 74.9,
     "hit_min": 89000,
     "hit_last": "2025-09-27",
-    "naver_complex_no": "111632",
-    "naver_url": "https://m.land.naver.com/complex/info/111632"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EC%B2%AD%EA%B3%84%EC%99%80%EC%9D%B4%EC%A6%88%EB%85%B8%EB%B2%A8%EB%A6%AC%EC%95%84"
    },
    {
     "gu": "송파구",
@@ -19182,8 +19182,8 @@
     "area_max": 54.9,
     "hit_min": 89000,
     "hit_last": "2026-06-25",
-    "naver_complex_no": "141001",
-    "naver_url": "https://m.land.naver.com/complex/info/141001"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%EA%B8%88%EB%8F%99%20%EB%8D%94%EB%B7%B021"
    },
    {
     "gu": "은평구",
@@ -19540,8 +19540,8 @@
     "area_max": 84.9,
     "hit_min": 89000,
     "hit_last": "2025-10-15",
-    "naver_complex_no": "111964",
-    "naver_url": "https://m.land.naver.com/complex/info/111964"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%85%B9%EB%B2%88%EB%8F%99%20%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EB%85%B9%EB%B2%88"
    },
    {
     "gu": "은평구",
@@ -19742,8 +19742,8 @@
     "area_max": 115.0,
     "hit_min": 89000,
     "hit_last": "2026-02-19",
-    "naver_complex_no": "103025",
-    "naver_url": "https://m.land.naver.com/complex/info/103025"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B6%88%EA%B4%91%EB%8F%99%20%EB%B6%88%EA%B4%91%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
    },
    {
     "gu": "중랑구",
@@ -20146,8 +20146,8 @@
     "area_max": 95.1,
     "hit_min": 89700,
     "hit_last": "2025-09-12",
-    "naver_complex_no": "119443",
-    "naver_url": "https://m.land.naver.com/complex/info/119443"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EB%9D%BC%EC%98%A8%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97"
    },
    {
     "gu": "강서구",
@@ -20258,8 +20258,8 @@
     "area_max": 85.0,
     "hit_min": 90000,
     "hit_last": "2026-04-08",
-    "naver_complex_no": "115965",
-    "naver_url": "https://m.land.naver.com/complex/info/115965"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%97%BC%EC%B0%BD%EB%8F%99%20e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EC%97%BC%EC%B0%BD"
    },
    {
     "gu": "동대문구",
@@ -20544,8 +20544,8 @@
     "area_max": 84.8,
     "hit_min": 90000,
     "hit_last": "2025-10-02",
-    "naver_complex_no": "113059",
-    "naver_url": "https://m.land.naver.com/complex/info/113059"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EB%8B%B5%EC%8B%AD%EB%A6%AC%ED%8C%8C%ED%81%AC%EC%9E%90%EC%9D%B4"
    },
    {
     "gu": "서초구",
@@ -20578,8 +20578,8 @@
     "area_max": 59.5,
     "hit_min": 90000,
     "hit_last": "2025-09-20",
-    "naver_complex_no": "128963",
-    "naver_url": "https://m.land.naver.com/complex/info/128963"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%EC%9E%AC%EB%8F%99%20%EB%A6%AC%EC%8B%9C%EB%B3%B8%ED%95%98%EC%9A%B0%EC%8A%A4"
    },
    {
     "gu": "성북구",
@@ -21128,8 +21128,8 @@
     "area_max": 116.9,
     "hit_min": 90000,
     "hit_last": "2026-04-28",
-    "naver_complex_no": "113985",
-    "naver_url": "https://m.land.naver.com/complex/info/113985"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%9C%84%EB%8F%99%20%EB%9E%98%EB%AF%B8%EC%95%88%EC%9E%A5%EC%9C%84%ED%8D%BC%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9D%B4"
    },
    {
     "gu": "성북구",
@@ -21366,8 +21366,8 @@
     "area_max": 113.2,
     "hit_min": 90000,
     "hit_last": "2025-10-10",
-    "naver_complex_no": "108138",
-    "naver_url": "https://m.land.naver.com/complex/info/108138"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%88%EC%95%94%EB%8F%99%20%EB%8F%88%EC%95%94%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84"
    }
   ]
  },
@@ -21375,8 +21375,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260808",
-   "20270210"
+   "20260809",
+   "20270211"
   ],
   "items": [
    {
