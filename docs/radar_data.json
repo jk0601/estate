@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08 11:05",
+ "generated_at": "2026-08-11 07:40",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 69449,
+  "scanned_deals": 69800,
   "complexes": [
    {
     "gu": "강동구",
@@ -106,8 +106,8 @@
     "area_max": 59.5,
     "hit_min": 75000,
     "hit_last": "2026-06-11",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%B4%EB%8F%99%20%EB%9D%BC%EC%9B%80%ED%8F%AC%EB%A0%88"
+    "naver_complex_no": "131102",
+    "naver_url": "https://m.land.naver.com/complex/info/131102"
    },
    {
     "gu": "강서구",
@@ -240,8 +240,8 @@
     "area_max": 59.8,
     "hit_min": 75000,
     "hit_last": "2026-06-21",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%8A%A4%ED%83%80%ED%8C%8C%ED%81%AC%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "135606",
+    "naver_url": "https://m.land.naver.com/complex/info/135606"
    },
    {
     "gu": "광진구",
@@ -268,8 +268,8 @@
     "area_max": 61.1,
     "hit_min": 75000,
     "hit_last": "2025-11-30",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%A3%BC%EC%84%B1%ED%9E%90%EC%8A%A4%ED%86%A4"
+    "naver_complex_no": "109061",
+    "naver_url": "https://m.land.naver.com/complex/info/109061"
    },
    {
     "gu": "광진구",
@@ -444,8 +444,8 @@
     "area_max": 85.0,
     "hit_min": 75000,
     "hit_last": "2026-07-08",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%EC%9A%B0%EB%82%A8%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B9%8C%EB%8D%94%EC%84%BC%ED%8A%B8%EB%9F%B4"
+    "naver_complex_no": "120035",
+    "naver_url": "https://m.land.naver.com/complex/info/120035"
    },
    {
     "gu": "구로구",
@@ -712,8 +712,8 @@
     "area_max": 120.0,
     "hit_min": 75000,
     "hit_last": "2026-06-15",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%9C%EB%B4%89%EB%8F%99%20%EA%B0%9C%EB%B4%89%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
+    "naver_complex_no": "104934",
+    "naver_url": "https://m.land.naver.com/complex/info/104934"
    },
    {
     "gu": "구로구",
@@ -944,8 +944,8 @@
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-07-28",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%98%EB%B2%84%EB%9D%BC%EC%9D%B83%EB%8B%A8%EC%A7%80"
+    "naver_complex_no": "122446",
+    "naver_url": "https://m.land.naver.com/complex/info/122446"
    },
    {
     "gu": "구로구",
@@ -1110,8 +1110,8 @@
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-07-02",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%98%EB%B2%84%EB%9D%BC%EC%9D%B82%EB%8B%A8%EC%A7%80"
+    "naver_complex_no": "125299",
+    "naver_url": "https://m.land.naver.com/complex/info/125299"
    },
    {
     "gu": "금천구",
@@ -1377,6 +1377,12 @@
     "jibun": "1322",
     "deals": [
      {
+      "date": "2026-07-26",
+      "amount": 90000,
+      "area": 84.53,
+      "floor": 15
+     },
+     {
       "date": "2026-07-16",
       "amount": 88500,
       "area": 84.13,
@@ -1545,19 +1551,19 @@
       "floor": 9
      }
     ],
-    "deal_count": 28,
-    "hit_count": 25,
+    "deal_count": 29,
+    "hit_count": 26,
     "price_min": 69500,
-    "price_med": 84850,
+    "price_med": 85000,
     "price_max": 98000,
-    "last_date": "2026-07-16",
-    "last_price": 88500,
+    "last_date": "2026-07-26",
+    "last_price": 90000,
     "area_min": 59.8,
     "area_max": 84.8,
     "hit_min": 75000,
-    "hit_last": "2026-07-16",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%EC%A4%91%EA%B3%84%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC"
+    "hit_last": "2026-07-26",
+    "naver_complex_no": "110476",
+    "naver_url": "https://m.land.naver.com/complex/info/110476"
    },
    {
     "gu": "노원구",
@@ -1566,6 +1572,12 @@
     "build_year": 2016,
     "jibun": "949",
     "deals": [
+     {
+      "date": "2026-07-23",
+      "amount": 105000,
+      "area": 84.96,
+      "floor": 17
+     },
      {
       "date": "2026-07-13",
       "amount": 98000,
@@ -1717,13 +1729,13 @@
       "floor": 8
      }
     ],
-    "deal_count": 25,
+    "deal_count": 26,
     "hit_count": 13,
     "price_min": 75000,
-    "price_med": 90000,
+    "price_med": 90250,
     "price_max": 105000,
-    "last_date": "2026-07-13",
-    "last_price": 98000,
+    "last_date": "2026-07-23",
+    "last_price": 105000,
     "area_min": 59.9,
     "area_max": 85.0,
     "hit_min": 75000,
@@ -1834,8 +1846,8 @@
     "area_max": 117.5,
     "hit_min": 75000,
     "hit_last": "2026-07-17",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9B%94%EA%B3%84%EB%8F%99%20%EB%85%B9%EC%B2%9C%EC%97%AD%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "110793",
+    "naver_url": "https://m.land.naver.com/complex/info/110793"
    },
    {
     "gu": "도봉구",
@@ -1928,8 +1940,8 @@
     "area_max": 115.0,
     "hit_min": 75000,
     "hit_last": "2026-06-20",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%8C%8D%EB%AC%B8%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84"
+    "naver_complex_no": "103501",
+    "naver_url": "https://m.land.naver.com/complex/info/103501"
    },
    {
     "gu": "동대문구",
@@ -2022,8 +2034,8 @@
     "area_max": 53.0,
     "hit_min": 75000,
     "hit_last": "2026-07-20",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EB%8B%B5%EC%8B%AD%EB%A6%AC%EC%97%98%EB%A6%BC%ED%8D%BC%EC%8A%A4%ED%8A%B8"
+    "naver_complex_no": "125381",
+    "naver_url": "https://m.land.naver.com/complex/info/125381"
    },
    {
     "gu": "서대문구",
@@ -2354,8 +2366,8 @@
     "area_max": 51.8,
     "hit_min": 75000,
     "hit_last": "2026-05-09",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EC%B2%9C%EB%8F%99%20%EC%86%A1%ED%8C%8C%EA%B1%B4%EC%9B%90%EC%97%AC%EB%AF%B8%EC%A7%80%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "122918",
+    "naver_url": "https://m.land.naver.com/complex/info/122918"
    },
    {
     "gu": "송파구",
@@ -2406,8 +2418,8 @@
     "area_max": 51.2,
     "hit_min": 75000,
     "hit_last": "2026-03-09",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%82%BC%EC%A0%84%EB%8F%99%20%ED%95%98%EC%9D%B4%ED%8C%8C%ED%81%AC%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "113786",
+    "naver_url": "https://m.land.naver.com/complex/info/113786"
    },
    {
     "gu": "양천구",
@@ -2416,6 +2428,12 @@
     "build_year": 2014,
     "jibun": "1063",
     "deals": [
+     {
+      "date": "2026-08-06",
+      "amount": 75000,
+      "area": 84.984,
+      "floor": 4
+     },
      {
       "date": "2026-08-01",
       "amount": 124500,
@@ -2487,12 +2505,6 @@
       "amount": 121000,
       "area": 84.966,
       "floor": 6
-     },
-     {
-      "date": "2026-05-13",
-      "amount": 75000,
-      "area": 84.984,
-      "floor": 4
      },
      {
       "date": "2026-05-10",
@@ -2728,12 +2740,12 @@
     "price_min": 75000,
     "price_med": 112500,
     "price_max": 140000,
-    "last_date": "2026-08-01",
-    "last_price": 124500,
+    "last_date": "2026-08-06",
+    "last_price": 75000,
     "area_min": 59.5,
     "area_max": 129.4,
     "hit_min": 75000,
-    "hit_last": "2026-05-13",
+    "hit_last": "2026-08-06",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%9B%94%EB%8F%99%20%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
    },
@@ -2892,8 +2904,8 @@
     "area_max": 77.8,
     "hit_min": 75000,
     "hit_last": "2026-01-24",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%AC%B8%EB%9E%98%EB%8F%993%EA%B0%80%20%EC%98%88%EC%A7%80%ED%8C%B0%EB%A6%AC%EC%8A%A477%EC%B0%A8"
+    "naver_complex_no": "113607",
+    "naver_url": "https://m.land.naver.com/complex/info/113607"
    },
    {
     "gu": "영등포구",
@@ -2971,6 +2983,12 @@
       "amount": 89000,
       "area": 71.93,
       "floor": 2
+     },
+     {
+      "date": "2026-06-06",
+      "amount": 86500,
+      "area": 71.99,
+      "floor": 11
      },
      {
       "date": "2026-05-29",
@@ -3099,10 +3117,10 @@
       "floor": 9
      }
     ],
-    "deal_count": 24,
-    "hit_count": 20,
+    "deal_count": 25,
+    "hit_count": 21,
     "price_min": 69000,
-    "price_med": 80500,
+    "price_med": 81000,
     "price_max": 94000,
     "last_date": "2026-07-27",
     "last_price": 89500,
@@ -3110,8 +3128,8 @@
     "area_max": 85.0,
     "hit_min": 75000,
     "hit_last": "2026-07-27",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%82%AC%EB%8F%99%20%EC%9D%91%EC%95%94%EC%97%AD%ED%9A%A8%EC%84%B1%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+    "naver_complex_no": "112914",
+    "naver_url": "https://m.land.naver.com/complex/info/112914"
    },
    {
     "gu": "은평구",
@@ -3226,6 +3244,12 @@
     "build_year": 2020,
     "jibun": "1545",
     "deals": [
+     {
+      "date": "2026-08-07",
+      "amount": 154000,
+      "area": 84.87,
+      "floor": 15
+     },
      {
       "date": "2026-07-24",
       "amount": 153500,
@@ -3749,19 +3773,19 @@
       "floor": 12
      }
     ],
-    "deal_count": 87,
+    "deal_count": 88,
     "hit_count": 1,
     "price_min": 75000,
     "price_med": 129000,
     "price_max": 178700,
-    "last_date": "2026-07-24",
-    "last_price": 153500,
+    "last_date": "2026-08-07",
+    "last_price": 154000,
     "area_min": 59.8,
     "area_max": 114.9,
     "hit_min": 75000,
     "hit_last": "2025-11-13",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EC%82%AC%EA%B0%80%EC%A0%95%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
+    "naver_complex_no": "119588",
+    "naver_url": "https://m.land.naver.com/complex/info/119588"
    },
    {
     "gu": "중랑구",
@@ -3770,6 +3794,12 @@
     "build_year": 2014,
     "jibun": "816",
     "deals": [
+     {
+      "date": "2026-08-08",
+      "amount": 78700,
+      "area": 59.49,
+      "floor": 12
+     },
      {
       "date": "2026-07-25",
       "amount": 85500,
@@ -3957,19 +3987,19 @@
       "floor": 11
      }
     ],
-    "deal_count": 31,
-    "hit_count": 26,
+    "deal_count": 32,
+    "hit_count": 27,
     "price_min": 50000,
     "price_med": 77000,
     "price_max": 88500,
-    "last_date": "2026-07-25",
-    "last_price": 85500,
-    "area_min": 60.0,
+    "last_date": "2026-08-08",
+    "last_price": 78700,
+    "area_min": 59.5,
     "area_max": 84.9,
     "hit_min": 75000,
-    "hit_last": "2026-07-25",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EB%82%B4%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%9A%B0%EB%94%94%EC%95%881%EB%8B%A8%EC%A7%80"
+    "hit_last": "2026-08-08",
+    "naver_complex_no": "108142",
+    "naver_url": "https://m.land.naver.com/complex/info/108142"
    },
    {
     "gu": "구로구",
@@ -4104,8 +4134,8 @@
     "area_max": 115.0,
     "hit_min": 75500,
     "hit_last": "2026-07-18",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%B2%9C%EC%99%95%EB%8F%99%20%EC%B2%9C%EC%99%95%EC%97%B0%EC%A7%80%ED%83%80%EC%9A%B42%EB%8B%A8%EC%A7%80"
+    "naver_complex_no": "107066",
+    "naver_url": "https://m.land.naver.com/complex/info/107066"
    },
    {
     "gu": "은평구",
@@ -4114,6 +4144,12 @@
     "build_year": 2015,
     "jibun": "150",
     "deals": [
+     {
+      "date": "2026-07-27",
+      "amount": 76500,
+      "area": 59.88,
+      "floor": 2
+     },
      {
       "date": "2026-06-15",
       "amount": 81000,
@@ -4217,19 +4253,19 @@
       "floor": 2
      }
     ],
-    "deal_count": 17,
-    "hit_count": 14,
+    "deal_count": 18,
+    "hit_count": 15,
     "price_min": 55000,
     "price_med": 81000,
     "price_max": 87000,
-    "last_date": "2026-06-15",
-    "last_price": 81000,
+    "last_date": "2026-07-27",
+    "last_price": 76500,
     "area_min": 59.8,
     "area_max": 84.9,
     "hit_min": 75500,
-    "hit_last": "2026-06-15",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%A7%84%EA%B4%80%EB%8F%99%20%EC%9D%80%ED%8F%89%EB%89%B4%ED%83%80%EC%9A%B4%EA%B8%B0%EC%9E%90%EC%B4%8C11%EB%8B%A8%EC%A7%80"
+    "hit_last": "2026-07-27",
+    "naver_complex_no": "108372",
+    "naver_url": "https://m.land.naver.com/complex/info/108372"
    },
    {
     "gu": "마포구",
@@ -4274,8 +4310,8 @@
     "area_max": 52.6,
     "hit_min": 75700,
     "hit_last": "2026-03-28",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%95%A9%EC%A0%95%EB%8F%99%20%ED%95%A9%EC%A0%95%ED%95%9C%EA%B0%95%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "116995",
+    "naver_url": "https://m.land.naver.com/complex/info/116995"
    },
    {
     "gu": "구로구",
@@ -4486,8 +4522,8 @@
     "area_max": 59.9,
     "hit_min": 76000,
     "hit_last": "2026-05-20",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%82%AC%EB%8B%B9%EB%8F%99%20%EB%B0%98%EC%84%9D%EB%B8%94%EB%A0%88%EC%8A%A4"
+    "naver_complex_no": "111827",
+    "naver_url": "https://m.land.naver.com/complex/info/111827"
    },
    {
     "gu": "서대문구",
@@ -4710,8 +4746,8 @@
     "area_max": 85.0,
     "hit_min": 76000,
     "hit_last": "2026-02-14",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9A%B0%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%97%AD%EA%B8%88%EA%B0%95%ED%8E%9C%ED%85%8C%EB%A6%AC%EC%9B%80%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC"
+    "naver_complex_no": "125357",
+    "naver_url": "https://m.land.naver.com/complex/info/125357"
    },
    {
     "gu": "성북구",
@@ -4876,8 +4912,8 @@
     "area_max": 109.1,
     "hit_min": 76300,
     "hit_last": "2026-05-27",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%A0%95%EB%A6%89%EB%8F%99%20%EC%A0%95%EB%A6%89%EA%BF%88%EC%97%90%EA%B7%B8%EB%A6%B0"
+    "naver_complex_no": "109073",
+    "naver_url": "https://m.land.naver.com/complex/info/109073"
    },
    {
     "gu": "마포구",
@@ -4952,8 +4988,8 @@
     "area_max": 60.0,
     "hit_min": 76700,
     "hit_last": "2026-06-23",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9B%90%EB%8F%99%20%EB%A7%88%ED%8F%AC%EC%9B%94%EB%93%9C%EC%BB%B5%EC%A0%9C%EC%9D%B4%EC%8A%A4%EC%B9%B4%EC%9D%B4"
+    "naver_complex_no": "132834",
+    "naver_url": "https://m.land.naver.com/complex/info/132834"
    },
    {
     "gu": "서대문구",
@@ -5082,8 +5118,8 @@
     "area_max": 59.8,
     "hit_min": 76700,
     "hit_last": "2026-06-23",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%9D%80%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C2%EC%B0%A8"
+    "naver_complex_no": "127108",
+    "naver_url": "https://m.land.naver.com/complex/info/127108"
    },
    {
     "gu": "강남구",
@@ -5120,6 +5156,12 @@
     "build_year": 2020,
     "jibun": "742",
     "deals": [
+     {
+      "date": "2026-08-05",
+      "amount": 116000,
+      "area": 59.99,
+      "floor": 4
+     },
      {
       "date": "2026-07-16",
       "amount": 120000,
@@ -5337,19 +5379,19 @@
       "floor": 2
      }
     ],
-    "deal_count": 36,
+    "deal_count": 37,
     "hit_count": 17,
     "price_min": 61000,
-    "price_med": 90250,
+    "price_med": 90500,
     "price_max": 120000,
-    "last_date": "2026-07-16",
-    "last_price": 120000,
+    "last_date": "2026-08-05",
+    "last_price": 116000,
     "area_min": 49.8,
     "area_max": 60.0,
     "hit_min": 77000,
     "hit_last": "2026-02-20",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EB%B2%84%EC%8A%A4%ED%8A%B84%EB%8B%A8%EC%A7%80"
+    "naver_complex_no": "127671",
+    "naver_url": "https://m.land.naver.com/complex/info/127671"
    },
    {
     "gu": "구로구",
@@ -5514,8 +5556,8 @@
     "area_max": 101.6,
     "hit_min": 77000,
     "hit_last": "2026-07-13",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%AD%EB%8F%99%EC%A0%9C%EC%9D%BC%ED%92%8D%EA%B2%BD%EC%B1%84%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8"
+    "naver_complex_no": "119598",
+    "naver_url": "https://m.land.naver.com/complex/info/119598"
    },
    {
     "gu": "금천구",
@@ -5529,6 +5571,12 @@
       "amount": 115500,
       "area": 115.801,
       "floor": 24
+     },
+     {
+      "date": "2026-07-29",
+      "amount": 99700,
+      "area": 84.786,
+      "floor": 16
      },
      {
       "date": "2026-07-19",
@@ -6029,7 +6077,7 @@
       "floor": 6
      }
     ],
-    "deal_count": 84,
+    "deal_count": 85,
     "hit_count": 29,
     "price_min": 70000,
     "price_med": 94000,
@@ -6040,8 +6088,8 @@
     "area_max": 150.7,
     "hit_min": 77000,
     "hit_last": "2026-07-14",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%9C%ED%9D%A5%EB%8F%99%20%EB%82%A8%EC%84%9C%EC%9A%B8%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8"
+    "naver_complex_no": "104347",
+    "naver_url": "https://m.land.naver.com/complex/info/104347"
    },
    {
     "gu": "노원구",
@@ -6988,8 +7036,8 @@
     "area_max": 99.8,
     "hit_min": 77000,
     "hit_last": "2026-04-01",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%85%B9%EB%B2%88%EC%97%ADe%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EC%BA%90%EC%8A%AC"
+    "naver_complex_no": "119275",
+    "naver_url": "https://m.land.naver.com/complex/info/119275"
    },
    {
     "gu": "서대문구",
@@ -7034,8 +7082,8 @@
     "area_max": 84.1,
     "hit_min": 77500,
     "hit_last": "2026-04-27",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%A0%9C%EB%8F%99%20%EC%A0%9C%EC%9D%BC%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "112312",
+    "naver_url": "https://m.land.naver.com/complex/info/112312"
    },
    {
     "gu": "송파구",
@@ -7158,8 +7206,8 @@
     "area_max": 44.0,
     "hit_min": 77500,
     "hit_last": "2026-07-06",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%80%EB%9D%BD%EB%8F%99%20%ED%85%8C%EB%9D%BC%ED%8E%A0%EB%A6%AC%EC%B2%B4%EC%86%A1%ED%8C%8C"
+    "naver_complex_no": "143818",
+    "naver_url": "https://m.land.naver.com/complex/info/143818"
    },
    {
     "gu": "강남구",
@@ -7186,8 +7234,8 @@
     "area_max": 42.6,
     "hit_min": 78000,
     "hit_last": "2026-01-26",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%B2%AD%EB%8B%B4%EB%8F%99%20%EB%9D%BC%ED%85%8C%EB%9D%BC%EC%8A%A4%EC%B2%AD%EB%8B%B4"
+    "naver_complex_no": "117425",
+    "naver_url": "https://m.land.naver.com/complex/info/117425"
    },
    {
     "gu": "강북구",
@@ -7382,8 +7430,8 @@
     "area_max": 85.0,
     "hit_min": 78000,
     "hit_last": "2026-03-12",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%AF%B8%EC%95%84%EB%8F%99%20%EA%BF%88%EC%9D%98%EC%88%B2%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
+    "naver_complex_no": "109039",
+    "naver_url": "https://m.land.naver.com/complex/info/109039"
    },
    {
     "gu": "관악구",
@@ -7464,8 +7512,8 @@
     "area_max": 84.9,
     "hit_min": 78000,
     "hit_last": "2026-06-02",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%B4%89%EC%B2%9C%EB%8F%99%20%EC%84%9C%ED%9D%AC%EC%8A%A4%ED%83%80%ED%9E%90%EC%8A%A4"
+    "naver_complex_no": "105521",
+    "naver_url": "https://m.land.naver.com/complex/info/105521"
    },
    {
     "gu": "광진구",
@@ -7510,8 +7558,8 @@
     "area_max": 60.0,
     "hit_min": 78000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "149122",
+    "naver_url": "https://m.land.naver.com/complex/info/149122"
    },
    {
     "gu": "노원구",
@@ -7520,6 +7568,12 @@
     "build_year": 2021,
     "jibun": "1355",
     "deals": [
+     {
+      "date": "2026-07-17",
+      "amount": 108000,
+      "area": 84.994,
+      "floor": 13
+     },
      {
       "date": "2026-07-10",
       "amount": 90000,
@@ -7779,19 +7833,19 @@
       "floor": 3
      }
     ],
-    "deal_count": 43,
+    "deal_count": 44,
     "hit_count": 18,
     "price_min": 71000,
-    "price_med": 90600,
+    "price_med": 90800,
     "price_max": 110000,
-    "last_date": "2026-07-10",
-    "last_price": 90000,
+    "last_date": "2026-07-17",
+    "last_price": 108000,
     "area_min": 48.4,
     "area_max": 85.0,
     "hit_min": 78000,
     "hit_last": "2026-07-10",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%EB%85%B8%EC%9B%90%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
+    "naver_complex_no": "117873",
+    "naver_url": "https://m.land.naver.com/complex/info/117873"
    },
    {
     "gu": "송파구",
@@ -7824,8 +7878,8 @@
     "area_max": 48.3,
     "hit_min": 78000,
     "hit_last": "2026-05-09",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%82%BC%EC%A0%84%EB%8F%99%20%EC%97%90%EC%9D%B4%EB%A9%94%EC%8A%A4%EB%8D%94%EB%A6%AC%EB%B2%84%EC%86%A1%ED%8C%8C"
+    "naver_complex_no": "121400",
+    "naver_url": "https://m.land.naver.com/complex/info/121400"
    },
    {
     "gu": "양천구",
@@ -8552,8 +8606,8 @@
     "area_max": 50.0,
     "hit_min": 78000,
     "hit_last": "2026-07-25",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B9%EC%82%B0%EB%8F%993%EA%B0%80%20%EB%8B%B9%EC%82%B0%EA%B3%84%EB%A3%A1%EB%A6%AC%EC%8A%88%EB%B9%8C3%EB%8B%A8%EC%A7%80"
+    "naver_complex_no": "109695",
+    "naver_url": "https://m.land.naver.com/complex/info/109695"
    },
    {
     "gu": "은평구",
@@ -8928,8 +8982,8 @@
     "area_max": 84.9,
     "hit_min": 78000,
     "hit_last": "2026-07-16",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%8C%8C%ED%81%AC%EC%9E%90%EC%9D%B4"
+    "naver_complex_no": "113021",
+    "naver_url": "https://m.land.naver.com/complex/info/113021"
    },
    {
     "gu": "양천구",
@@ -9284,8 +9338,8 @@
     "area_max": 84.8,
     "hit_min": 78500,
     "hit_last": "2025-12-01",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%91%94%EC%B4%8C%EB%8F%99%20%EB%91%94%EC%B4%8C%ED%98%84%EB%8C%80%EC%88%98%EB%A6%B0%EB%82%98%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "128214",
+    "naver_url": "https://m.land.naver.com/complex/info/128214"
    },
    {
     "gu": "관악구",
@@ -9318,8 +9372,8 @@
     "area_max": 72.7,
     "hit_min": 78500,
     "hit_last": "2025-10-16",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EB%A6%BC%EB%8F%99%20%EC%95%B0%ED%8C%B0%EB%A6%AC%EC%8A%A4%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "132831",
+    "naver_url": "https://m.land.naver.com/complex/info/132831"
    },
    {
     "gu": "노원구",
@@ -9658,8 +9712,8 @@
     "area_max": 85.0,
     "hit_min": 78500,
     "hit_last": "2026-05-23",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%ED%8F%AC%EB%A0%88%EB%82%98%EB%85%B8%EC%9B%90"
+    "naver_complex_no": "124506",
+    "naver_url": "https://m.land.naver.com/complex/info/124506"
    },
    {
     "gu": "동대문구",
@@ -9704,8 +9758,8 @@
     "area_max": 68.4,
     "hit_min": 78500,
     "hit_last": "2026-07-17",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%95%88%EB%8F%99%20%EB%B8%8C%EC%9D%B4%ED%8B%B0%EC%8A%A4%ED%83%80%EC%9D%BC"
+    "naver_complex_no": "142917",
+    "naver_url": "https://m.land.naver.com/complex/info/142917"
    },
    {
     "gu": "영등포구",
@@ -9778,6 +9832,12 @@
     "build_year": 2019,
     "jibun": "1369",
     "deals": [
+     {
+      "date": "2026-08-01",
+      "amount": 107500,
+      "area": 84.67,
+      "floor": 4
+     },
      {
       "date": "2026-07-11",
       "amount": 98000,
@@ -10247,19 +10307,19 @@
       "floor": 6
      }
     ],
-    "deal_count": 78,
+    "deal_count": 79,
     "hit_count": 35,
     "price_min": 72000,
     "price_med": 91500,
     "price_max": 125000,
-    "last_date": "2026-07-11",
-    "last_price": 98000,
+    "last_date": "2026-08-01",
+    "last_price": 107500,
     "area_min": 59.4,
     "area_max": 99.9,
     "hit_min": 79000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%AF%B8%EC%95%84%EB%8F%99%20%EA%BF%88%EC%9D%98%EC%88%B2%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
+    "naver_complex_no": "116048",
+    "naver_url": "https://m.land.naver.com/complex/info/116048"
    },
    {
     "gu": "서초구",
@@ -10286,8 +10346,8 @@
     "area_max": 76.4,
     "hit_min": 79000,
     "hit_last": "2025-11-25",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%EB%B0%B0%EB%8F%99%20%EB%A6%AC%EB%B2%A0%ED%95%98%EC%9E%84"
+    "naver_complex_no": "116237",
+    "naver_url": "https://m.land.naver.com/complex/info/116237"
    },
    {
     "gu": "은평구",
@@ -10301,6 +10361,12 @@
       "amount": 138800,
       "area": 84.87,
       "floor": 14
+     },
+     {
+      "date": "2026-07-18",
+      "amount": 132000,
+      "area": 84.97,
+      "floor": 6
      },
      {
       "date": "2026-07-16",
@@ -10843,10 +10909,10 @@
       "floor": 13
      }
     ],
-    "deal_count": 91,
+    "deal_count": 92,
     "hit_count": 5,
     "price_min": 79000,
-    "price_med": 115500,
+    "price_med": 115750,
     "price_max": 142500,
     "last_date": "2026-07-25",
     "last_price": 138800,
@@ -10854,8 +10920,8 @@
     "area_max": 99.9,
     "hit_min": 79000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%88%98%EC%83%89%EB%8F%99%20DMC%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%8D%94%ED%8D%BC%EC%8A%A4%ED%8A%B8"
+    "naver_complex_no": "118025",
+    "naver_url": "https://m.land.naver.com/complex/info/118025"
    },
    {
     "gu": "은평구",
@@ -11218,8 +11284,8 @@
     "area_max": 85.0,
     "hit_min": 79000,
     "hit_last": "2026-06-19",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%95%B4%EB%AA%A8%EB%A1%9C"
+    "naver_complex_no": "119053",
+    "naver_url": "https://m.land.naver.com/complex/info/119053"
    },
    {
     "gu": "강서구",
@@ -11526,8 +11592,8 @@
     "area_max": 60.0,
     "hit_min": 79800,
     "hit_last": "2026-03-25",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EB%B2%84%EC%8A%A4%ED%8A%B88%EB%8B%A8%EC%A7%80"
+    "naver_complex_no": "134510",
+    "naver_url": "https://m.land.naver.com/complex/info/134510"
    },
    {
     "gu": "강남구",
@@ -11810,8 +11876,8 @@
     "area_max": 106.9,
     "hit_min": 80000,
     "hit_last": "2026-07-23",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%97%90%EB%93%80%ED%9E%90%EC%A6%88"
+    "naver_complex_no": "119166",
+    "naver_url": "https://m.land.naver.com/complex/info/119166"
    },
    {
     "gu": "서대문구",
@@ -11820,6 +11886,12 @@
     "build_year": 2017,
     "jibun": "464",
     "deals": [
+     {
+      "date": "2026-07-28",
+      "amount": 164000,
+      "area": 114.868,
+      "floor": 18
+     },
      {
       "date": "2026-05-15",
       "amount": 138700,
@@ -12001,19 +12073,19 @@
       "floor": 12
      }
     ],
-    "deal_count": 30,
+    "deal_count": 31,
     "hit_count": 2,
     "price_min": 80000,
-    "price_med": 119750,
-    "price_max": 143000,
-    "last_date": "2026-05-15",
-    "last_price": 138700,
+    "price_med": 120000,
+    "price_max": 164000,
+    "last_date": "2026-07-28",
+    "last_price": 164000,
     "area_min": 59.9,
     "area_max": 114.9,
     "hit_min": 80000,
     "hit_last": "2026-04-10",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%9D%80%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EB%8D%94%EC%83%B5"
+    "naver_complex_no": "110458",
+    "naver_url": "https://m.land.naver.com/complex/info/110458"
    },
    {
     "gu": "성북구",
@@ -12196,8 +12268,8 @@
     "area_max": 119.6,
     "hit_min": 80000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%88%EC%95%94%EB%8F%99%20%EA%B8%B8%EC%9D%8C%EC%97%AD%EA%B8%88%ED%98%B8%EC%96%B4%EC%9A%B8%EB%A6%BC%EC%84%BC%ED%84%B0%ED%9E%90"
+    "naver_complex_no": "108463",
+    "naver_url": "https://m.land.naver.com/complex/info/108463"
    },
    {
     "gu": "송파구",
@@ -12248,8 +12320,8 @@
     "area_max": 60.0,
     "hit_min": 80000,
     "hit_last": "2026-04-17",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%80%EB%9D%BD%EB%8F%99%20%EC%A7%84%EB%84%A5%EC%8A%A4%EB%B2%A0%EB%A5%B4%EB%94%94%EC%97%A0"
+    "naver_complex_no": "117595",
+    "naver_url": "https://m.land.naver.com/complex/info/117595"
    },
    {
     "gu": "양천구",
@@ -12269,6 +12341,12 @@
       "amount": 104000,
       "area": 52.85,
       "floor": 4
+     },
+     {
+      "date": "2026-07-17",
+      "amount": 128000,
+      "area": 84.98,
+      "floor": 1
      },
      {
       "date": "2026-06-13",
@@ -12481,10 +12559,10 @@
       "floor": 6
      }
     ],
-    "deal_count": 37,
+    "deal_count": 38,
     "hit_count": 7,
     "price_min": 70000,
-    "price_med": 108500,
+    "price_med": 110750,
     "price_max": 134500,
     "last_date": "2026-07-31",
     "last_price": 134500,
@@ -12814,8 +12892,8 @@
     "area_max": 85.0,
     "hit_min": 80500,
     "hit_last": "2026-02-09",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B84%EC%B0%A8"
+    "naver_complex_no": "110251",
+    "naver_url": "https://m.land.naver.com/complex/info/110251"
    },
    {
     "gu": "관악구",
@@ -13064,8 +13142,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-02-09",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%B4%89%EC%B2%9C%EB%8F%99%20%EA%B4%80%EC%95%85%ED%8C%8C%ED%81%AC%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
+    "naver_complex_no": "107439",
+    "naver_url": "https://m.land.naver.com/complex/info/107439"
    },
    {
     "gu": "광진구",
@@ -13122,8 +13200,8 @@
     "area_max": 59.7,
     "hit_min": 81000,
     "hit_last": "2025-11-04",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EA%B4%91%EC%A7%84%ED%8C%8C%ED%81%AC%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97"
+    "naver_complex_no": "134803",
+    "naver_url": "https://m.land.naver.com/complex/info/134803"
    },
    {
     "gu": "광진구",
@@ -13156,8 +13234,8 @@
     "area_max": 65.3,
     "hit_min": 81000,
     "hit_last": "2026-05-07",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%90%EC%96%91%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88"
+    "naver_complex_no": "109896",
+    "naver_url": "https://m.land.naver.com/complex/info/109896"
    },
    {
     "gu": "노원구",
@@ -13544,8 +13622,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-04-30",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9B%94%EA%B3%84%EB%8F%99%20%EC%9B%94%EA%B3%84%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
+    "naver_complex_no": "117590",
+    "naver_url": "https://m.land.naver.com/complex/info/117590"
    },
    {
     "gu": "동대문구",
@@ -13818,8 +13896,8 @@
     "area_max": 100.5,
     "hit_min": 81000,
     "hit_last": "2025-10-14",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%9C%98%EA%B2%BD%EB%8F%99%20%ED%9C%98%EA%B2%BDSK%EB%B7%B0"
+    "naver_complex_no": "112482",
+    "naver_url": "https://m.land.naver.com/complex/info/112482"
    },
    {
     "gu": "동대문구",
@@ -13904,8 +13982,8 @@
     "area_max": 70.9,
     "hit_min": 81000,
     "hit_last": "2025-12-15",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EC%9E%A5%EB%8F%99%20%EC%9A%B0%EC%84%B1%EC%97%90%EB%B9%84%EB%89%B4"
+    "naver_complex_no": "119906",
+    "naver_url": "https://m.land.naver.com/complex/info/119906"
    },
    {
     "gu": "중랑구",
@@ -14178,8 +14256,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-05-02",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%82%AC%EA%B0%80%EC%A0%95%ED%8C%8C%ED%81%AC"
+    "naver_complex_no": "119155",
+    "naver_url": "https://m.land.naver.com/complex/info/119155"
    },
    {
     "gu": "은평구",
@@ -14312,8 +14390,8 @@
     "area_max": 72.1,
     "hit_min": 81500,
     "hit_last": "2025-12-13",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%B4%EB%8F%99%20%EC%A7%91%EC%95%A4%EC%82%AC%EB%B9%84%ED%82%A4%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "128330",
+    "naver_url": "https://m.land.naver.com/complex/info/128330"
    },
    {
     "gu": "성북구",
@@ -14514,8 +14592,8 @@
     "area_max": 84.9,
     "hit_min": 82000,
     "hit_last": "2025-12-13",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B8%B8%EC%9D%8C%EB%8F%99%20%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EA%B3%A8%EB%93%A0%ED%9E%90%EC%8A%A4"
+    "naver_complex_no": "112474",
+    "naver_url": "https://m.land.naver.com/complex/info/112474"
    },
    {
     "gu": "성북구",
@@ -14998,8 +15076,8 @@
     "area_max": 85.0,
     "hit_min": 82000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%B3%B4%EB%AC%B8%EB%8F%996%EA%B0%80%20%EB%B3%B4%EB%AC%B8%ED%8C%8C%ED%81%AC%EB%B7%B0%EC%9E%90%EC%9D%B4"
+    "naver_complex_no": "109051",
+    "naver_url": "https://m.land.naver.com/complex/info/109051"
    },
    {
     "gu": "양천구",
@@ -15026,8 +15104,8 @@
     "area_max": 70.2,
     "hit_min": 82000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%A0%95%EB%8F%99%20%EB%AA%A9%EB%8F%99%EC%8B%A0%EC%84%B8%EA%B3%84%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "113150",
+    "naver_url": "https://m.land.naver.com/complex/info/113150"
    },
    {
     "gu": "강서구",
@@ -15120,8 +15198,8 @@
     "area_max": 84.9,
     "hit_min": 82750,
     "hit_last": "2026-07-06",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%ED%99%94%EB%8F%99%20%EC%8B%A0%EB%A7%88%EA%B3%A1%EB%B2%BD%EC%82%B0%EB%B8%94%EB%A3%A8%EB%B0%8D"
+    "naver_complex_no": "124391",
+    "naver_url": "https://m.land.naver.com/complex/info/124391"
    },
    {
     "gu": "노원구",
@@ -15226,8 +15304,8 @@
     "area_max": 84.0,
     "hit_min": 83000,
     "hit_last": "2026-07-16",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B3%B5%EB%A6%89%EB%8F%99%20%EB%85%B8%EC%9B%90%ED%94%84%EB%A0%88%EB%AF%B8%EC%96%B4%EC%8A%A4%EC%97%A0%EC%BD%94"
+    "naver_complex_no": "107067",
+    "naver_url": "https://m.land.naver.com/complex/info/107067"
    },
    {
     "gu": "강동구",
@@ -15506,8 +15584,8 @@
     "area_max": 59.9,
     "hit_min": 83500,
     "hit_last": "2026-07-12",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EC%97%94%ED%8C%8C%ED%81%AC14%EB%8B%A8%EC%A7%80"
+    "naver_complex_no": "134513",
+    "naver_url": "https://m.land.naver.com/complex/info/134513"
    },
    {
     "gu": "강서구",
@@ -15582,8 +15660,8 @@
     "area_max": 78.6,
     "hit_min": 84000,
     "hit_last": "2026-03-26",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%ED%99%94%EB%8F%99%20%EB%A7%88%EA%B3%A1%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C"
+    "naver_complex_no": "127604",
+    "naver_url": "https://m.land.naver.com/complex/info/127604"
    },
    {
     "gu": "서대문구",
@@ -15806,8 +15884,8 @@
     "area_max": 63.8,
     "hit_min": 84000,
     "hit_last": "2026-02-20",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%86%A1%ED%8C%8C%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "124264",
+    "naver_url": "https://m.land.naver.com/complex/info/124264"
    },
    {
     "gu": "송파구",
@@ -15840,8 +15918,8 @@
     "area_max": 64.7,
     "hit_min": 84000,
     "hit_last": "2026-04-04",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%EA%B8%88%EB%8F%99%20%EC%97%98%EB%A6%AC%EC%8B%9C%EC%9B%80%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "117840",
+    "naver_url": "https://m.land.naver.com/complex/info/117840"
    },
    {
     "gu": "중랑구",
@@ -15946,8 +16024,8 @@
     "area_max": 115.0,
     "hit_min": 84000,
     "hit_last": "2026-02-09",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EC%9A%A9%EB%A7%88%EC%82%B0%ED%95%98%EB%8A%98%EC%B1%84"
+    "naver_complex_no": "107072",
+    "naver_url": "https://m.land.naver.com/complex/info/107072"
    },
    {
     "gu": "광진구",
@@ -15974,8 +16052,8 @@
     "area_max": 59.3,
     "hit_min": 84800,
     "hit_last": "2025-12-05",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%ED%8C%8C%ED%81%AC%ED%83%80%EC%9A%B4"
+    "naver_complex_no": "112103",
+    "naver_url": "https://m.land.naver.com/complex/info/112103"
    },
    {
     "gu": "동대문구",
@@ -16140,8 +16218,8 @@
     "area_max": 85.0,
     "hit_min": 85000,
     "hit_last": "2026-04-21",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%ED%9C%98%EA%B2%BD%EB%8F%99%20%ED%9C%98%EA%B2%BD%ED%95%B4%EB%AA%A8%EB%A1%9C%ED%94%84%EB%A0%88%EC%8A%A4%ED%8B%B0%EC%A7%80"
+    "naver_complex_no": "118948",
+    "naver_url": "https://m.land.naver.com/complex/info/118948"
    },
    {
     "gu": "성북구",
@@ -16510,8 +16588,8 @@
     "area_max": 109.4,
     "hit_min": 85000,
     "hit_last": "2025-10-14",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%84%9D%EA%B4%80%EB%8F%99%20%EB%9E%98%EB%AF%B8%EC%95%88%EC%95%84%ED%8A%B8%EB%A6%AC%EC%B9%98"
+    "naver_complex_no": "114972",
+    "naver_url": "https://m.land.naver.com/complex/info/114972"
    },
    {
     "gu": "양천구",
@@ -16948,8 +17026,8 @@
     "area_max": 84.9,
     "hit_min": 85500,
     "hit_last": "2026-05-13",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9A%B0%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%97%AD%ED%9E%90%EB%8D%B0%EC%8A%A4%ED%95%98%EC%9E%84%EC%B0%B8%EC%A2%8B%EC%9D%80%EC%95%84%ED%8C%8C%ED%8A%B8"
+    "naver_complex_no": "126242",
+    "naver_url": "https://m.land.naver.com/complex/info/126242"
    },
    {
     "gu": "용산구",
@@ -17628,8 +17706,8 @@
     "area_max": 101.0,
     "hit_min": 86000,
     "hit_last": "2025-12-05",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EB%B7%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
+    "naver_complex_no": "116158",
+    "naver_url": "https://m.land.naver.com/complex/info/116158"
    },
    {
     "gu": "금천구",
@@ -17984,8 +18062,8 @@
     "area_max": 119.4,
     "hit_min": 86500,
     "hit_last": "2026-01-20",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%95%88%EB%8F%99%20%EB%8F%99%EB%8C%80%EB%AC%B8%EB%8D%94%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%8D%B0%EC%8B%9C%EC%95%99"
+    "naver_complex_no": "119787",
+    "naver_url": "https://m.land.naver.com/complex/info/119787"
    },
    {
     "gu": "금천구",
@@ -18540,8 +18618,8 @@
     "area_max": 84.5,
     "hit_min": 88000,
     "hit_last": "2025-10-18",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%85%EC%82%B0%EB%8F%99%20%EA%B8%88%EC%B2%9C%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EA%B3%A8%EB%93%9C%ED%8C%8C%ED%81%AC3%EC%B0%A8"
+    "naver_complex_no": "109956",
+    "naver_url": "https://m.land.naver.com/complex/info/109956"
    },
    {
     "gu": "영등포구",
@@ -18555,6 +18633,12 @@
       "amount": 107500,
       "area": 42.68,
       "floor": 11
+     },
+     {
+      "date": "2026-07-12",
+      "amount": 174500,
+      "area": 59.91,
+      "floor": 6
      },
      {
       "date": "2026-07-10",
@@ -18893,7 +18977,7 @@
       "floor": 22
      }
     ],
-    "deal_count": 57,
+    "deal_count": 58,
     "hit_count": 2,
     "price_min": 88000,
     "price_med": 165000,
@@ -18904,8 +18988,8 @@
     "area_max": 115.0,
     "hit_min": 88000,
     "hit_last": "2025-10-17",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EA%B8%B8%EB%8F%99%20%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%ED%81%B4%EB%9E%98%EC%8B%9C%EC%95%88"
+    "naver_complex_no": "119377",
+    "naver_url": "https://m.land.naver.com/complex/info/119377"
    },
    {
     "gu": "영등포구",
@@ -18992,8 +19076,8 @@
     "area_max": 59.5,
     "hit_min": 88200,
     "hit_last": "2025-12-29",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%ED%8F%89%EB%8F%993%EA%B0%80%20%EC%96%91%ED%8F%89%EC%97%AD%EB%AF%B8%EC%86%8C%EC%A7%80%EC%9B%80"
+    "naver_complex_no": "119451",
+    "naver_url": "https://m.land.naver.com/complex/info/119451"
    },
    {
     "gu": "광진구",
@@ -19096,8 +19180,8 @@
     "area_max": 84.9,
     "hit_min": 88750,
     "hit_last": "2025-10-14",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%97%BC%EC%B0%BD%EB%8F%99%20%EA%B0%95%EC%84%9C%EC%8C%8D%EC%9A%A9%EC%98%88%EA%B0%80"
+    "naver_complex_no": "104780",
+    "naver_url": "https://m.land.naver.com/complex/info/104780"
    },
    {
     "gu": "동대문구",
@@ -19148,8 +19232,8 @@
     "area_max": 74.9,
     "hit_min": 89000,
     "hit_last": "2025-09-27",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EC%B2%AD%EA%B3%84%EC%99%80%EC%9D%B4%EC%A6%88%EB%85%B8%EB%B2%A8%EB%A6%AC%EC%95%84"
+    "naver_complex_no": "111632",
+    "naver_url": "https://m.land.naver.com/complex/info/111632"
    },
    {
     "gu": "송파구",
@@ -19176,8 +19260,8 @@
     "area_max": 54.9,
     "hit_min": 89000,
     "hit_last": "2026-06-25",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%EA%B8%88%EB%8F%99%20%EB%8D%94%EB%B7%B021"
+    "naver_complex_no": "141001",
+    "naver_url": "https://m.land.naver.com/complex/info/141001"
    },
    {
     "gu": "은평구",
@@ -19534,8 +19618,8 @@
     "area_max": 84.9,
     "hit_min": 89000,
     "hit_last": "2025-10-15",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%85%B9%EB%B2%88%EB%8F%99%20%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EB%85%B9%EB%B2%88"
+    "naver_complex_no": "111964",
+    "naver_url": "https://m.land.naver.com/complex/info/111964"
    },
    {
     "gu": "은평구",
@@ -19736,8 +19820,8 @@
     "area_max": 115.0,
     "hit_min": 89000,
     "hit_last": "2026-02-19",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%B6%88%EA%B4%91%EB%8F%99%20%EB%B6%88%EA%B4%91%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
+    "naver_complex_no": "103025",
+    "naver_url": "https://m.land.naver.com/complex/info/103025"
    },
    {
     "gu": "중랑구",
@@ -19746,6 +19830,12 @@
     "build_year": 2017,
     "jibun": "396",
     "deals": [
+     {
+      "date": "2026-07-29",
+      "amount": 99500,
+      "area": 59.953,
+      "floor": 6
+     },
      {
       "date": "2026-07-29",
       "amount": 119000,
@@ -19921,13 +20011,13 @@
       "floor": 12
      }
     ],
-    "deal_count": 29,
+    "deal_count": 30,
     "hit_count": 3,
     "price_min": 89000,
-    "price_med": 109000,
+    "price_med": 106400,
     "price_max": 125000,
     "last_date": "2026-07-29",
-    "last_price": 119000,
+    "last_price": 99500,
     "area_min": 60.0,
     "area_max": 96.4,
     "hit_min": 89000,
@@ -20140,8 +20230,8 @@
     "area_max": 95.1,
     "hit_min": 89700,
     "hit_last": "2025-09-12",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EB%9D%BC%EC%98%A8%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97"
+    "naver_complex_no": "119443",
+    "naver_url": "https://m.land.naver.com/complex/info/119443"
    },
    {
     "gu": "강서구",
@@ -20252,8 +20342,8 @@
     "area_max": 85.0,
     "hit_min": 90000,
     "hit_last": "2026-04-08",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%97%BC%EC%B0%BD%EB%8F%99%20e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EC%97%BC%EC%B0%BD"
+    "naver_complex_no": "115965",
+    "naver_url": "https://m.land.naver.com/complex/info/115965"
    },
    {
     "gu": "동대문구",
@@ -20262,6 +20352,12 @@
     "build_year": 2019,
     "jibun": "1014",
     "deals": [
+     {
+      "date": "2026-07-29",
+      "amount": 147500,
+      "area": 59.91,
+      "floor": 4
+     },
      {
       "date": "2026-07-22",
       "amount": 153000,
@@ -20527,19 +20623,19 @@
       "floor": 6
      }
     ],
-    "deal_count": 44,
+    "deal_count": 45,
     "hit_count": 1,
     "price_min": 90000,
     "price_med": 122000,
     "price_max": 163500,
-    "last_date": "2026-07-22",
-    "last_price": 153000,
+    "last_date": "2026-07-29",
+    "last_price": 147500,
     "area_min": 49.3,
     "area_max": 84.8,
     "hit_min": 90000,
     "hit_last": "2025-10-02",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EB%8B%B5%EC%8B%AD%EB%A6%AC%ED%8C%8C%ED%81%AC%EC%9E%90%EC%9D%B4"
+    "naver_complex_no": "113059",
+    "naver_url": "https://m.land.naver.com/complex/info/113059"
    },
    {
     "gu": "서초구",
@@ -20572,8 +20668,8 @@
     "area_max": 59.5,
     "hit_min": 90000,
     "hit_last": "2025-09-20",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%EC%9E%AC%EB%8F%99%20%EB%A6%AC%EC%8B%9C%EB%B3%B8%ED%95%98%EC%9A%B0%EC%8A%A4"
+    "naver_complex_no": "128963",
+    "naver_url": "https://m.land.naver.com/complex/info/128963"
    },
    {
     "gu": "성북구",
@@ -20587,6 +20683,18 @@
       "amount": 158000,
       "area": 101.72,
       "floor": 10
+     },
+     {
+      "date": "2026-07-24",
+      "amount": 134500,
+      "area": 59.99,
+      "floor": 6
+     },
+     {
+      "date": "2026-07-24",
+      "amount": 146100,
+      "area": 84.98,
+      "floor": 5
      },
      {
       "date": "2026-07-14",
@@ -21111,10 +21219,10 @@
       "floor": 17
      }
     ],
-    "deal_count": 88,
+    "deal_count": 90,
     "hit_count": 1,
     "price_min": 90000,
-    "price_med": 118000,
+    "price_med": 118250,
     "price_max": 158000,
     "last_date": "2026-07-25",
     "last_price": 158000,
@@ -21122,8 +21230,8 @@
     "area_max": 116.9,
     "hit_min": 90000,
     "hit_last": "2026-04-28",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%9C%84%EB%8F%99%20%EB%9E%98%EB%AF%B8%EC%95%88%EC%9E%A5%EC%9C%84%ED%8D%BC%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9D%B4"
+    "naver_complex_no": "113985",
+    "naver_url": "https://m.land.naver.com/complex/info/113985"
    },
    {
     "gu": "성북구",
@@ -21360,33 +21468,17 @@
     "area_max": 113.2,
     "hit_min": 90000,
     "hit_last": "2025-10-10",
-    "naver_complex_no": null,
-    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%88%EC%95%94%EB%8F%99%20%EB%8F%88%EC%95%94%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84"
+    "naver_complex_no": "108138",
+    "naver_url": "https://m.land.naver.com/complex/info/108138"
    }
-  ],
-  "months": [
-   "202509",
-   "202510",
-   "202511",
-   "202512",
-   "202601",
-   "202602",
-   "202603",
-   "202604",
-   "202605",
-   "202606",
-   "202607",
-   "202608"
-  ],
-  "stale": true,
-  "stale_from": "2026-08-10 15:43"
+  ]
  },
  "auctions": {
   "available": true,
   "note": "",
   "range": [
-   "20260808",
-   "20270210"
+   "20260811",
+   "20270213"
   ],
   "items": [
    {
@@ -21435,7 +21527,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010236011",
@@ -21483,7 +21575,7 @@
     "views": 11,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013000833311",
@@ -21603,7 +21695,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013000488311",
@@ -21966,28 +22058,28 @@
     "is_new": false
    },
    {
-    "id": "B0002132025013001197311",
-    "court": "서울북부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경11973",
+    "id": "B0002122025013001401911",
+    "court": "서울남부지방법원",
+    "dept": "경매16계",
+    "case_no": "2025타경14019",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 동대문구 장안동 372-12 아르떼하임 14층1401호",
-    "gu": "동대문구",
-    "dong": "장안동",
-    "complex": "아르떼하임",
+    "address": "서울특별시 구로구 오류동 34-13 현대썬앤빌구로 제10층 제1005호",
+    "gu": "구로구",
+    "dong": "오류동",
+    "complex": "현대썬앤빌구로",
     "usage": "아파트",
-    "area": 29.53,
-    "appraisal": 21300,
-    "min_bid": 8724,
-    "rate": 33,
-    "fail_count": 5,
-    "sale_date": "2026-08-19",
-    "place": "제101호법정",
+    "area": 14.064,
+    "appraisal": 8300,
+    "min_bid": 8300,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-08-27",
+    "place": "제112호법정",
     "views": 0,
-    "note": "",
-    "first_seen": "2026-07-31",
-    "is_new": false
+    "note": "임차인 및 주택임차권승계인 주택도시보증공사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환 청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
+    "first_seen": "2026-08-11",
+    "is_new": true
    },
    {
     "id": "B0002122026013000336711",
@@ -22059,7 +22151,7 @@
     "views": 0,
     "note": "임차인 및 주택임차권승계인 주택도시보증공사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환 청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005174111",
@@ -22227,7 +22319,7 @@
     "views": 0,
     "note": "임차인 및 주택임차권승계인 주택도시보증공사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환 청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001390511",
@@ -22515,7 +22607,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000357311",
@@ -22587,7 +22679,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102026013010017211",
@@ -22611,7 +22703,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001410311",
@@ -22827,7 +22919,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010388111",
@@ -22971,7 +23063,7 @@
     "views": 0,
     "note": "주택도시보증공사(양도전:임차인 김윤수)로부터 '임차보증금에 대하여 우선변제권만 주장하고 대항력은 포기하며, 전액을 변제받지 못하더라도 임차권등기를 말소하는 것에 동의한다.'는 내용의 확약서가 2026.06.26.자에 제출됨.",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001324311",
@@ -23019,7 +23111,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001246411",
@@ -23163,7 +23255,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005132811",
@@ -23187,7 +23279,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001017311",
@@ -23259,7 +23351,7 @@
     "views": 0,
     "note": "임차인 장아름의 주택임차권승계인 주택도시보증공사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환 청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001016911",
@@ -23307,7 +23399,7 @@
     "views": 0,
     "note": "임차인 및 주택임차권승계인 주택도시보증공사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환 청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152023013006110212",
@@ -23379,7 +23471,7 @@
     "views": 0,
     "note": "임차인 및 주택임차권승계인 주택도시보증공사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환 청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000391311",
@@ -23499,7 +23591,7 @@
     "views": 0,
     "note": "임차인 김세명의 주택임차권승계인 주택도시보증공사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환 청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122024013014377411",
@@ -23523,7 +23615,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152026013005012211",
@@ -24459,7 +24551,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013000914011",
@@ -24507,7 +24599,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001346411",
@@ -24963,7 +25055,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005173311",
@@ -25251,7 +25343,7 @@
     "views": 0,
     "note": "지분매각, 공유자의 우선매수신고는 1회에 한하여 행사할 수 있음.",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001308311",
@@ -25395,7 +25487,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005205611",
@@ -25515,7 +25607,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001383311",
@@ -25683,7 +25775,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010472211",
@@ -25707,7 +25799,7 @@
     "views": 0,
     "note": "지분매각, 공유자우선매수는 1회에 한하여 행사할 수 있음",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001346211",
@@ -25923,7 +26015,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001352311",
@@ -26043,7 +26135,7 @@
     "views": 0,
     "note": "제시외 건물 포함",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102026013010006211",
@@ -26067,7 +26159,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005195511",
@@ -26091,7 +26183,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010318011",
@@ -26259,7 +26351,7 @@
     "views": 0,
     "note": "일괄매각, 토지 지분 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005172712",
@@ -26283,7 +26375,7 @@
     "views": 0,
     "note": "일괄매각, 토지 지분 매각",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152024013000043211",
@@ -26427,7 +26519,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000360511",
@@ -29097,7 +29189,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6084012",
@@ -29601,7 +29693,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083934",
@@ -29769,7 +29861,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043697-6142858",
@@ -29793,7 +29885,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10296-001-6095589",
@@ -29841,7 +29933,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00001-005-6127925",
@@ -29913,7 +30005,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6102625",
@@ -29985,7 +30077,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043798-6142852",
@@ -30009,7 +30101,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043799-6142851",
@@ -30033,7 +30125,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01430-001-6104002",
@@ -30081,7 +30173,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043795-6142855",
@@ -30105,7 +30197,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043797-6142853",
@@ -30129,7 +30221,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083904",
@@ -30177,7 +30269,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043697-6142847",
@@ -30201,7 +30293,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12934-001-6127499",
@@ -30249,7 +30341,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043800-6142850",
@@ -30273,7 +30365,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083854",
@@ -30321,7 +30413,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10296-001-6095565",
@@ -30369,7 +30461,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043798-6142841",
@@ -30393,7 +30485,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043799-6142840",
@@ -30417,7 +30509,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043699-6142846",
@@ -30441,7 +30533,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6008812",
@@ -30489,7 +30581,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043797-6142842",
@@ -30513,7 +30605,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043691-6142827",
@@ -30537,7 +30629,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043697-6142836",
@@ -30561,7 +30653,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043693-6142837",
@@ -30585,7 +30677,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127570",
@@ -30633,7 +30725,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043796-6142832",
@@ -30657,7 +30749,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043794-6142834",
@@ -30681,7 +30773,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00321-001-6024013",
@@ -30729,7 +30821,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043799-6142829",
@@ -30753,7 +30845,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10296-001-6095534",
@@ -30849,7 +30941,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06003-001-6048910",
@@ -30921,7 +31013,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043797-6142831",
@@ -30945,7 +31037,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083771",
@@ -30993,7 +31085,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6008766",
@@ -31041,7 +31133,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043693-6142826",
@@ -31065,7 +31157,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043800-6142828",
@@ -31089,7 +31181,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043796-6142821",
@@ -31113,7 +31205,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043794-6142823",
@@ -31137,7 +31229,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043798-6142819",
@@ -31161,7 +31253,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043799-6142818",
@@ -31185,7 +31277,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-05181-001-6102942",
@@ -31233,7 +31325,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043651-6141548",
@@ -31257,7 +31349,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12934-001-6127384",
@@ -31305,7 +31397,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043797-6142820",
@@ -31329,7 +31421,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127504",
@@ -31377,7 +31469,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18088-002-6054188",
@@ -31449,7 +31541,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6008718",
@@ -31497,7 +31589,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043693-6142815",
@@ -31521,7 +31613,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043800-6142817",
@@ -31545,7 +31637,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01430-001-6103908",
@@ -31593,7 +31685,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043796-6142810",
@@ -31617,7 +31709,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083687",
@@ -31689,7 +31781,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043798-6142808",
@@ -31713,7 +31805,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043799-6142807",
@@ -31737,7 +31829,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0500-023992-5963394",
@@ -31905,7 +31997,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-13629-001-6024729",
@@ -31953,7 +32045,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00321-001-6023952",
@@ -32001,7 +32093,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043797-6142809",
@@ -32025,7 +32117,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043656-6141544",
@@ -32049,7 +32141,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12934-001-6127325",
@@ -32097,7 +32189,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043651-6141543",
@@ -32121,7 +32213,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043697-6142803",
@@ -32145,7 +32237,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06003-001-6048692",
@@ -32193,7 +32285,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18088-002-6054108",
@@ -32241,7 +32333,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127446",
@@ -32313,7 +32405,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043794-6142801",
@@ -32337,7 +32429,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043652-6141542",
@@ -32361,7 +32453,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043798-6142797",
@@ -32385,7 +32477,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043799-6142796",
@@ -32409,7 +32501,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043654-6141546",
@@ -32433,7 +32525,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083601",
@@ -32481,7 +32573,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043795-6142800",
@@ -32505,7 +32597,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043797-6142798",
@@ -32529,7 +32621,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083652",
@@ -32577,7 +32669,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043697-6142792",
@@ -32601,7 +32693,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043656-6141539",
@@ -32625,7 +32717,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-03572-001-6023916",
@@ -32673,7 +32765,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043693-6142793",
@@ -32697,7 +32789,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043800-6142795",
@@ -32721,7 +32813,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043796-6142788",
@@ -32745,7 +32837,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18088-002-6054057",
@@ -32793,7 +32885,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043798-6142786",
@@ -32817,7 +32909,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043799-6142785",
@@ -32841,7 +32933,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127390",
@@ -32889,7 +32981,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-07873-001-6083512",
@@ -32985,7 +33077,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043654-6141541",
@@ -33009,7 +33101,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043795-6142789",
@@ -33033,7 +33125,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043797-6142787",
@@ -33057,7 +33149,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10100-001-6127682",
@@ -33129,7 +33221,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083562",
@@ -33177,7 +33269,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043656-6141534",
@@ -33201,7 +33293,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-0600-044146-6059434",
@@ -33249,7 +33341,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043652-6141532",
@@ -33273,7 +33365,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127331",
@@ -33393,7 +33485,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05649-001-6095618",
@@ -33441,7 +33533,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083473",
@@ -33489,7 +33581,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00321-001-6023817",
@@ -33537,7 +33629,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6141516",
@@ -33561,7 +33653,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043654-6141531",
@@ -33585,7 +33677,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-05181-001-6102785",
@@ -33945,7 +34037,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05649-001-6095528",
@@ -34137,7 +34229,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-05181-001-6102544",
@@ -34329,7 +34421,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6141500",
@@ -34353,7 +34445,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-13629-001-6024385",
@@ -34497,7 +34589,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0500-025608-6018672",
@@ -34569,7 +34661,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127498",
@@ -34617,7 +34709,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6141484",
@@ -34641,7 +34733,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0400-020108-5974829",
@@ -34689,7 +34781,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-12862-001-6127440",
@@ -34809,7 +34901,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-0600-042964-6099599",
@@ -34905,7 +34997,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6024838",
@@ -34929,7 +35021,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18161-004-6118737",
@@ -34977,7 +35069,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6024736",
@@ -35001,7 +35093,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18161-004-6118676",
@@ -35049,7 +35141,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6024623",
@@ -35073,7 +35165,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18161-004-6118614",
