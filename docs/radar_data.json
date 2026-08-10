@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08 11:05",
+ "generated_at": "2026-08-10 15:43",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 69449,
+  "scanned_deals": 69489,
   "complexes": [
    {
     "gu": "강동구",
@@ -7405,12 +7405,6 @@
       "floor": 7
      },
      {
-      "date": "2026-06-02",
-      "amount": 88000,
-      "area": 84.93,
-      "floor": 13
-     },
-     {
       "date": "2026-05-15",
       "amount": 87500,
       "area": 84.93,
@@ -7459,11 +7453,11 @@
       "floor": 11
      }
     ],
-    "deal_count": 11,
-    "hit_count": 8,
+    "deal_count": 10,
+    "hit_count": 7,
     "price_min": 58500,
-    "price_med": 82000,
-    "price_max": 88000,
+    "price_med": 81750,
+    "price_max": 87500,
     "last_date": "2026-06-03",
     "last_price": 64000,
     "area_min": 52.6,
@@ -21375,8 +21369,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260808",
-   "20270210"
+   "20260810",
+   "20270212"
   ],
   "items": [
    {
@@ -21881,30 +21875,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-01",
-    "is_new": false
-   },
-   {
-    "id": "B0002132025013001197311",
-    "court": "서울북부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경11973",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 동대문구 장안동 372-12 아르떼하임 14층1401호",
-    "gu": "동대문구",
-    "dong": "장안동",
-    "complex": "아르떼하임",
-    "usage": "아파트",
-    "area": 29.53,
-    "appraisal": 21300,
-    "min_bid": 8724,
-    "rate": 33,
-    "fail_count": 5,
-    "sale_date": "2026-08-19",
-    "place": "제101호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-07-31",
     "is_new": false
    },
    {
@@ -26395,7 +26365,7 @@
     "land_area": 1.8,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-27",
@@ -27693,7 +27663,7 @@
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -28939,7 +28909,7 @@
     "land_area": 10.37,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-07-27",
@@ -28963,7 +28933,7 @@
     "land_area": 10.37,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-07-27",
@@ -29011,7 +28981,7 @@
     "land_area": 17.45,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
@@ -30763,7 +30733,7 @@
     "land_area": 44.48,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
@@ -30835,7 +30805,7 @@
     "land_area": 47.2,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-07-27",
@@ -31267,7 +31237,7 @@
     "land_area": null,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
