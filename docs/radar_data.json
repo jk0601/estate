@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11 08:35",
+ "generated_at": "2026-08-12 08:40",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -10,7 +10,7 @@
  },
  "deals": {
   "available": false,
-  "note": "수집 실패: 실거래가 조회 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev?serviceKey=pWAAQBAeLDDoJNtHc8GexLyA4%2FNPh9bmN3%2BF9wNZ4S1KfBAWVBg2f2EsXWmFTYawWi%2BVhOvqfl6x1m%2FctQ%2FCiA%3D%3D&LAWD_CD=11110&DEAL_YMD=202509&numOfRows=1000&pageNo=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='apis.data.go.kr', port=443) at 0x7f55e6bca570>, 'Connection to apis.data.go.kr timed out. (connect timeout=30)'))",
+  "note": "수집 실패: 실거래가 조회 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev?serviceKey=pWAAQBAeLDDoJNtHc8GexLyA4%2FNPh9bmN3%2BF9wNZ4S1KfBAWVBg2f2EsXWmFTYawWi%2BVhOvqfl6x1m%2FctQ%2FCiA%3D%3D&LAWD_CD=11110&DEAL_YMD=202509&numOfRows=1000&pageNo=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='apis.data.go.kr', port=443) at 0x7fcca22fa3c0>, 'Connection to apis.data.go.kr timed out. (connect timeout=30)'))",
   "complexes": [
    {
     "gu": "강동구",
@@ -21472,11 +21472,11 @@
    "202608"
   ],
   "stale": true,
-  "stale_from": "2026-08-11 07:40"
+  "stale_from": "2026-08-11 08:35"
  },
  "auctions": {
   "available": false,
-  "note": "수집 실패: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ151F00.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.courtauction.go.kr', port=443) at 0x7f55e6bcb170>, 'Connection to www.courtauction.go.kr timed out. (connect timeout=20)'))",
+  "note": "수집 실패: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ151F00.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.courtauction.go.kr', port=443) at 0x7fcca22fb020>, 'Connection to www.courtauction.go.kr timed out. (connect timeout=20)'))",
   "items": [
    {
     "id": "B0002122023013012695611",
@@ -26592,7 +26592,7 @@
    }
   ],
   "stale": true,
-  "stale_from": "2026-08-11 07:40"
+  "stale_from": "2026-08-11 08:35"
  },
  "onbid": {
   "available": false,
@@ -35312,6 +35312,6 @@
    }
   ],
   "stale": true,
-  "stale_from": "2026-08-11 07:40"
+  "stale_from": "2026-08-11 08:35"
  }
 }
