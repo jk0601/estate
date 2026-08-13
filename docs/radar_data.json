@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12 08:40",
+ "generated_at": "2026-08-13 08:42",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -9,8 +9,23 @@
   "scan_months": 12
  },
  "deals": {
-  "available": false,
-  "note": "수집 실패: 실거래가 조회 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev?serviceKey=pWAAQBAeLDDoJNtHc8GexLyA4%2FNPh9bmN3%2BF9wNZ4S1KfBAWVBg2f2EsXWmFTYawWi%2BVhOvqfl6x1m%2FctQ%2FCiA%3D%3D&LAWD_CD=11110&DEAL_YMD=202509&numOfRows=1000&pageNo=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='apis.data.go.kr', port=443) at 0x7fcca22fa3c0>, 'Connection to apis.data.go.kr timed out. (connect timeout=30)'))",
+  "available": true,
+  "note": "",
+  "months": [
+   "202509",
+   "202510",
+   "202511",
+   "202512",
+   "202601",
+   "202602",
+   "202603",
+   "202604",
+   "202605",
+   "202606",
+   "202607",
+   "202608"
+  ],
+  "scanned_deals": 70307,
   "complexes": [
    {
     "gu": "강동구",
@@ -91,8 +106,8 @@
     "area_max": 59.5,
     "hit_min": 75000,
     "hit_last": "2026-06-11",
-    "naver_complex_no": "131102",
-    "naver_url": "https://m.land.naver.com/complex/info/131102"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%B4%EB%8F%99%20%EB%9D%BC%EC%9B%80%ED%8F%AC%EB%A0%88"
    },
    {
     "gu": "강서구",
@@ -225,8 +240,8 @@
     "area_max": 59.8,
     "hit_min": 75000,
     "hit_last": "2026-06-21",
-    "naver_complex_no": "135606",
-    "naver_url": "https://m.land.naver.com/complex/info/135606"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%8A%A4%ED%83%80%ED%8C%8C%ED%81%AC%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "광진구",
@@ -253,8 +268,8 @@
     "area_max": 61.1,
     "hit_min": 75000,
     "hit_last": "2025-11-30",
-    "naver_complex_no": "109061",
-    "naver_url": "https://m.land.naver.com/complex/info/109061"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EC%A3%BC%EC%84%B1%ED%9E%90%EC%8A%A4%ED%86%A4"
    },
    {
     "gu": "광진구",
@@ -303,6 +318,12 @@
     "build_year": 2020,
     "jibun": "244",
     "deals": [
+     {
+      "date": "2026-07-29",
+      "amount": 81000,
+      "area": 84.9149,
+      "floor": 7
+     },
      {
       "date": "2026-07-08",
       "amount": 84000,
@@ -418,19 +439,19 @@
       "floor": 8
      }
     ],
-    "deal_count": 19,
-    "hit_count": 10,
+    "deal_count": 20,
+    "hit_count": 11,
     "price_min": 69500,
-    "price_med": 75000,
+    "price_med": 75175,
     "price_max": 84000,
-    "last_date": "2026-07-08",
-    "last_price": 84000,
+    "last_date": "2026-07-29",
+    "last_price": 81000,
     "area_min": 80.0,
     "area_max": 85.0,
     "hit_min": 75000,
-    "hit_last": "2026-07-08",
-    "naver_complex_no": "120035",
-    "naver_url": "https://m.land.naver.com/complex/info/120035"
+    "hit_last": "2026-07-29",
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%EC%9A%B0%EB%82%A8%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B9%8C%EB%8D%94%EC%84%BC%ED%8A%B8%EB%9F%B4"
    },
    {
     "gu": "구로구",
@@ -697,8 +718,8 @@
     "area_max": 120.0,
     "hit_min": 75000,
     "hit_last": "2026-06-15",
-    "naver_complex_no": "104934",
-    "naver_url": "https://m.land.naver.com/complex/info/104934"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%9C%EB%B4%89%EB%8F%99%20%EA%B0%9C%EB%B4%89%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
    },
    {
     "gu": "구로구",
@@ -929,8 +950,8 @@
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-07-28",
-    "naver_complex_no": "122446",
-    "naver_url": "https://m.land.naver.com/complex/info/122446"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%98%EB%B2%84%EB%9D%BC%EC%9D%B83%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "구로구",
@@ -939,6 +960,12 @@
     "build_year": 2019,
     "jibun": "237",
     "deals": [
+     {
+      "date": "2026-08-11",
+      "amount": 74500,
+      "area": 59.86,
+      "floor": 5
+     },
      {
       "date": "2026-07-02",
       "amount": 76000,
@@ -1084,19 +1111,19 @@
       "floor": 6
      }
     ],
-    "deal_count": 24,
+    "deal_count": 25,
     "hit_count": 6,
     "price_min": 63000,
     "price_med": 69000,
     "price_max": 83000,
-    "last_date": "2026-07-02",
-    "last_price": 76000,
+    "last_date": "2026-08-11",
+    "last_price": 74500,
     "area_min": 59.9,
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-07-02",
-    "naver_complex_no": "125299",
-    "naver_url": "https://m.land.naver.com/complex/info/125299"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%98%EB%B2%84%EB%9D%BC%EC%9D%B82%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "금천구",
@@ -1362,6 +1389,12 @@
     "jibun": "1322",
     "deals": [
      {
+      "date": "2026-08-12",
+      "amount": 83000,
+      "area": 59.75,
+      "floor": 10
+     },
+     {
       "date": "2026-07-26",
       "amount": 90000,
       "area": 84.53,
@@ -1536,19 +1569,19 @@
       "floor": 9
      }
     ],
-    "deal_count": 29,
-    "hit_count": 26,
+    "deal_count": 30,
+    "hit_count": 27,
     "price_min": 69500,
-    "price_med": 85000,
+    "price_med": 84850,
     "price_max": 98000,
-    "last_date": "2026-07-26",
-    "last_price": 90000,
+    "last_date": "2026-08-12",
+    "last_price": 83000,
     "area_min": 59.8,
     "area_max": 84.8,
     "hit_min": 75000,
-    "hit_last": "2026-07-26",
-    "naver_complex_no": "110476",
-    "naver_url": "https://m.land.naver.com/complex/info/110476"
+    "hit_last": "2026-08-12",
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%EC%A4%91%EA%B3%84%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "노원구",
@@ -1831,8 +1864,8 @@
     "area_max": 117.5,
     "hit_min": 75000,
     "hit_last": "2026-07-17",
-    "naver_complex_no": "110793",
-    "naver_url": "https://m.land.naver.com/complex/info/110793"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9B%94%EA%B3%84%EB%8F%99%20%EB%85%B9%EC%B2%9C%EC%97%AD%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "도봉구",
@@ -1925,8 +1958,8 @@
     "area_max": 115.0,
     "hit_min": 75000,
     "hit_last": "2026-06-20",
-    "naver_complex_no": "103501",
-    "naver_url": "https://m.land.naver.com/complex/info/103501"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8C%8D%EB%AC%B8%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84"
    },
    {
     "gu": "동대문구",
@@ -2019,8 +2052,8 @@
     "area_max": 53.0,
     "hit_min": 75000,
     "hit_last": "2026-07-20",
-    "naver_complex_no": "125381",
-    "naver_url": "https://m.land.naver.com/complex/info/125381"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EB%8B%B5%EC%8B%AD%EB%A6%AC%EC%97%98%EB%A6%BC%ED%8D%BC%EC%8A%A4%ED%8A%B8"
    },
    {
     "gu": "서대문구",
@@ -2351,8 +2384,8 @@
     "area_max": 51.8,
     "hit_min": 75000,
     "hit_last": "2026-05-09",
-    "naver_complex_no": "122918",
-    "naver_url": "https://m.land.naver.com/complex/info/122918"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EC%B2%9C%EB%8F%99%20%EC%86%A1%ED%8C%8C%EA%B1%B4%EC%9B%90%EC%97%AC%EB%AF%B8%EC%A7%80%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "송파구",
@@ -2403,8 +2436,8 @@
     "area_max": 51.2,
     "hit_min": 75000,
     "hit_last": "2026-03-09",
-    "naver_complex_no": "113786",
-    "naver_url": "https://m.land.naver.com/complex/info/113786"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%82%BC%EC%A0%84%EB%8F%99%20%ED%95%98%EC%9D%B4%ED%8C%8C%ED%81%AC%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "양천구",
@@ -2889,8 +2922,8 @@
     "area_max": 77.8,
     "hit_min": 75000,
     "hit_last": "2026-01-24",
-    "naver_complex_no": "113607",
-    "naver_url": "https://m.land.naver.com/complex/info/113607"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%AC%B8%EB%9E%98%EB%8F%993%EA%B0%80%20%EC%98%88%EC%A7%80%ED%8C%B0%EB%A6%AC%EC%8A%A477%EC%B0%A8"
    },
    {
     "gu": "영등포구",
@@ -3113,8 +3146,8 @@
     "area_max": 85.0,
     "hit_min": 75000,
     "hit_last": "2026-07-27",
-    "naver_complex_no": "112914",
-    "naver_url": "https://m.land.naver.com/complex/info/112914"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%82%AC%EB%8F%99%20%EC%9D%91%EC%95%94%EC%97%AD%ED%9A%A8%EC%84%B1%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
    },
    {
     "gu": "은평구",
@@ -3769,8 +3802,8 @@
     "area_max": 114.9,
     "hit_min": 75000,
     "hit_last": "2025-11-13",
-    "naver_complex_no": "119588",
-    "naver_url": "https://m.land.naver.com/complex/info/119588"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EC%82%AC%EA%B0%80%EC%A0%95%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "중랑구",
@@ -3983,8 +4016,8 @@
     "area_max": 84.9,
     "hit_min": 75000,
     "hit_last": "2026-08-08",
-    "naver_complex_no": "108142",
-    "naver_url": "https://m.land.naver.com/complex/info/108142"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EB%82%B4%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%9A%B0%EB%94%94%EC%95%881%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "구로구",
@@ -4119,8 +4152,8 @@
     "area_max": 115.0,
     "hit_min": 75500,
     "hit_last": "2026-07-18",
-    "naver_complex_no": "107066",
-    "naver_url": "https://m.land.naver.com/complex/info/107066"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%B2%9C%EC%99%95%EB%8F%99%20%EC%B2%9C%EC%99%95%EC%97%B0%EC%A7%80%ED%83%80%EC%9A%B42%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "은평구",
@@ -4249,8 +4282,8 @@
     "area_max": 84.9,
     "hit_min": 75500,
     "hit_last": "2026-07-27",
-    "naver_complex_no": "108372",
-    "naver_url": "https://m.land.naver.com/complex/info/108372"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%A7%84%EA%B4%80%EB%8F%99%20%EC%9D%80%ED%8F%89%EB%89%B4%ED%83%80%EC%9A%B4%EA%B8%B0%EC%9E%90%EC%B4%8C11%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "마포구",
@@ -4295,8 +4328,8 @@
     "area_max": 52.6,
     "hit_min": 75700,
     "hit_last": "2026-03-28",
-    "naver_complex_no": "116995",
-    "naver_url": "https://m.land.naver.com/complex/info/116995"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%A9%EC%A0%95%EB%8F%99%20%ED%95%A9%EC%A0%95%ED%95%9C%EA%B0%95%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "구로구",
@@ -4305,6 +4338,12 @@
     "build_year": 2019,
     "jibun": "236",
     "deals": [
+     {
+      "date": "2026-08-08",
+      "amount": 123500,
+      "area": 116.9785,
+      "floor": 16
+     },
      {
       "date": "2026-07-27",
       "amount": 90000,
@@ -4438,13 +4477,13 @@
       "floor": 13
      }
     ],
-    "deal_count": 22,
+    "deal_count": 23,
     "hit_count": 19,
     "price_min": 76000,
-    "price_med": 86100,
+    "price_med": 86500,
     "price_max": 130000,
-    "last_date": "2026-07-27",
-    "last_price": 90000,
+    "last_date": "2026-08-08",
+    "last_price": 123500,
     "area_min": 84.9,
     "area_max": 148.0,
     "hit_min": 76000,
@@ -4507,8 +4546,8 @@
     "area_max": 59.9,
     "hit_min": 76000,
     "hit_last": "2026-05-20",
-    "naver_complex_no": "111827",
-    "naver_url": "https://m.land.naver.com/complex/info/111827"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%82%AC%EB%8B%B9%EB%8F%99%20%EB%B0%98%EC%84%9D%EB%B8%94%EB%A0%88%EC%8A%A4"
    },
    {
     "gu": "서대문구",
@@ -4731,8 +4770,8 @@
     "area_max": 85.0,
     "hit_min": 76000,
     "hit_last": "2026-02-14",
-    "naver_complex_no": "125357",
-    "naver_url": "https://m.land.naver.com/complex/info/125357"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9A%B0%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%97%AD%EA%B8%88%EA%B0%95%ED%8E%9C%ED%85%8C%EB%A6%AC%EC%9B%80%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "성북구",
@@ -4897,8 +4936,8 @@
     "area_max": 109.1,
     "hit_min": 76300,
     "hit_last": "2026-05-27",
-    "naver_complex_no": "109073",
-    "naver_url": "https://m.land.naver.com/complex/info/109073"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%A0%95%EB%A6%89%EB%8F%99%20%EC%A0%95%EB%A6%89%EA%BF%88%EC%97%90%EA%B7%B8%EB%A6%B0"
    },
    {
     "gu": "마포구",
@@ -4973,8 +5012,8 @@
     "area_max": 60.0,
     "hit_min": 76700,
     "hit_last": "2026-06-23",
-    "naver_complex_no": "132834",
-    "naver_url": "https://m.land.naver.com/complex/info/132834"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9B%90%EB%8F%99%20%EB%A7%88%ED%8F%AC%EC%9B%94%EB%93%9C%EC%BB%B5%EC%A0%9C%EC%9D%B4%EC%8A%A4%EC%B9%B4%EC%9D%B4"
    },
    {
     "gu": "서대문구",
@@ -5103,8 +5142,8 @@
     "area_max": 59.8,
     "hit_min": 76700,
     "hit_last": "2026-06-23",
-    "naver_complex_no": "127108",
-    "naver_url": "https://m.land.naver.com/complex/info/127108"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%9D%80%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C2%EC%B0%A8"
    },
    {
     "gu": "강남구",
@@ -5375,8 +5414,8 @@
     "area_max": 60.0,
     "hit_min": 77000,
     "hit_last": "2026-02-20",
-    "naver_complex_no": "127671",
-    "naver_url": "https://m.land.naver.com/complex/info/127671"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EB%B2%84%EC%8A%A4%ED%8A%B84%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "구로구",
@@ -5385,6 +5424,12 @@
     "build_year": 2020,
     "jibun": "246",
     "deals": [
+     {
+      "date": "2026-07-28",
+      "amount": 74700,
+      "area": 84.6614,
+      "floor": 4
+     },
      {
       "date": "2026-07-22",
       "amount": 71500,
@@ -5530,19 +5575,19 @@
       "floor": 13
      }
     ],
-    "deal_count": 24,
+    "deal_count": 25,
     "hit_count": 2,
     "price_min": 66900,
     "price_med": 70000,
     "price_max": 77500,
-    "last_date": "2026-07-22",
-    "last_price": 71500,
+    "last_date": "2026-07-28",
+    "last_price": 74700,
     "area_min": 84.7,
     "area_max": 101.6,
     "hit_min": 77000,
     "hit_last": "2026-07-13",
-    "naver_complex_no": "119598",
-    "naver_url": "https://m.land.naver.com/complex/info/119598"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%AD%EB%8F%99%EC%A0%9C%EC%9D%BC%ED%92%8D%EA%B2%BD%EC%B1%84%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8"
    },
    {
     "gu": "금천구",
@@ -5551,6 +5596,12 @@
     "build_year": 2014,
     "jibun": "1026",
     "deals": [
+     {
+      "date": "2026-08-02",
+      "amount": 105000,
+      "area": 113.329,
+      "floor": 1
+     },
      {
       "date": "2026-07-30",
       "amount": 115500,
@@ -5562,6 +5613,12 @@
       "amount": 99700,
       "area": 84.786,
       "floor": 16
+     },
+     {
+      "date": "2026-07-29",
+      "amount": 90000,
+      "area": 59.817,
+      "floor": 13
      },
      {
       "date": "2026-07-19",
@@ -6062,19 +6119,19 @@
       "floor": 6
      }
     ],
-    "deal_count": 85,
-    "hit_count": 29,
+    "deal_count": 87,
+    "hit_count": 30,
     "price_min": 70000,
     "price_med": 94000,
     "price_max": 140000,
-    "last_date": "2026-07-30",
-    "last_price": 115500,
+    "last_date": "2026-08-02",
+    "last_price": 105000,
     "area_min": 59.8,
     "area_max": 150.7,
     "hit_min": 77000,
-    "hit_last": "2026-07-14",
-    "naver_complex_no": "104347",
-    "naver_url": "https://m.land.naver.com/complex/info/104347"
+    "hit_last": "2026-07-29",
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%9C%ED%9D%A5%EB%8F%99%20%EB%82%A8%EC%84%9C%EC%9A%B8%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8"
    },
    {
     "gu": "노원구",
@@ -6270,6 +6327,12 @@
       "amount": 158000,
       "area": 84.98,
       "floor": 16
+     },
+     {
+      "date": "2026-07-18",
+      "amount": 150000,
+      "area": 84.98,
+      "floor": 14
      },
      {
       "date": "2026-07-15",
@@ -7010,7 +7073,7 @@
       "floor": 2
      }
     ],
-    "deal_count": 125,
+    "deal_count": 126,
     "hit_count": 1,
     "price_min": 77000,
     "price_med": 128000,
@@ -7021,8 +7084,8 @@
     "area_max": 99.8,
     "hit_min": 77000,
     "hit_last": "2026-04-01",
-    "naver_complex_no": "119275",
-    "naver_url": "https://m.land.naver.com/complex/info/119275"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%85%B9%EB%B2%88%EC%97%ADe%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EC%BA%90%EC%8A%AC"
    },
    {
     "gu": "서대문구",
@@ -7067,8 +7130,8 @@
     "area_max": 84.1,
     "hit_min": 77500,
     "hit_last": "2026-04-27",
-    "naver_complex_no": "112312",
-    "naver_url": "https://m.land.naver.com/complex/info/112312"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%A0%9C%EB%8F%99%20%EC%A0%9C%EC%9D%BC%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "송파구",
@@ -7191,8 +7254,8 @@
     "area_max": 44.0,
     "hit_min": 77500,
     "hit_last": "2026-07-06",
-    "naver_complex_no": "143818",
-    "naver_url": "https://m.land.naver.com/complex/info/143818"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%80%EB%9D%BD%EB%8F%99%20%ED%85%8C%EB%9D%BC%ED%8E%A0%EB%A6%AC%EC%B2%B4%EC%86%A1%ED%8C%8C"
    },
    {
     "gu": "강남구",
@@ -7219,8 +7282,8 @@
     "area_max": 42.6,
     "hit_min": 78000,
     "hit_last": "2026-01-26",
-    "naver_complex_no": "117425",
-    "naver_url": "https://m.land.naver.com/complex/info/117425"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%B2%AD%EB%8B%B4%EB%8F%99%20%EB%9D%BC%ED%85%8C%EB%9D%BC%EC%8A%A4%EC%B2%AD%EB%8B%B4"
    },
    {
     "gu": "강북구",
@@ -7415,8 +7478,8 @@
     "area_max": 85.0,
     "hit_min": 78000,
     "hit_last": "2026-03-12",
-    "naver_complex_no": "109039",
-    "naver_url": "https://m.land.naver.com/complex/info/109039"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%AF%B8%EC%95%84%EB%8F%99%20%EA%BF%88%EC%9D%98%EC%88%B2%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
    },
    {
     "gu": "관악구",
@@ -7436,6 +7499,12 @@
       "amount": 86000,
       "area": 84.93,
       "floor": 7
+     },
+     {
+      "date": "2026-06-02",
+      "amount": 88000,
+      "area": 84.93,
+      "floor": 13
      },
      {
       "date": "2026-05-15",
@@ -7486,19 +7555,19 @@
       "floor": 11
      }
     ],
-    "deal_count": 10,
-    "hit_count": 7,
+    "deal_count": 11,
+    "hit_count": 8,
     "price_min": 58500,
-    "price_med": 81750,
-    "price_max": 87500,
+    "price_med": 82000,
+    "price_max": 88000,
     "last_date": "2026-06-03",
     "last_price": 64000,
     "area_min": 52.6,
     "area_max": 84.9,
     "hit_min": 78000,
     "hit_last": "2026-06-02",
-    "naver_complex_no": "105521",
-    "naver_url": "https://m.land.naver.com/complex/info/105521"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B4%89%EC%B2%9C%EB%8F%99%20%EC%84%9C%ED%9D%AC%EC%8A%A4%ED%83%80%ED%9E%90%EC%8A%A4"
    },
    {
     "gu": "광진구",
@@ -7543,8 +7612,8 @@
     "area_max": 60.0,
     "hit_min": 78000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": "149122",
-    "naver_url": "https://m.land.naver.com/complex/info/149122"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "노원구",
@@ -7829,8 +7898,8 @@
     "area_max": 85.0,
     "hit_min": 78000,
     "hit_last": "2026-07-10",
-    "naver_complex_no": "117873",
-    "naver_url": "https://m.land.naver.com/complex/info/117873"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%EB%85%B8%EC%9B%90%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
    },
    {
     "gu": "송파구",
@@ -7863,8 +7932,8 @@
     "area_max": 48.3,
     "hit_min": 78000,
     "hit_last": "2026-05-09",
-    "naver_complex_no": "121400",
-    "naver_url": "https://m.land.naver.com/complex/info/121400"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%82%BC%EC%A0%84%EB%8F%99%20%EC%97%90%EC%9D%B4%EB%A9%94%EC%8A%A4%EB%8D%94%EB%A6%AC%EB%B2%84%EC%86%A1%ED%8C%8C"
    },
    {
     "gu": "양천구",
@@ -8591,8 +8660,8 @@
     "area_max": 50.0,
     "hit_min": 78000,
     "hit_last": "2026-07-25",
-    "naver_complex_no": "109695",
-    "naver_url": "https://m.land.naver.com/complex/info/109695"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B9%EC%82%B0%EB%8F%993%EA%B0%80%20%EB%8B%B9%EC%82%B0%EA%B3%84%EB%A3%A1%EB%A6%AC%EC%8A%88%EB%B9%8C3%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "은평구",
@@ -8967,8 +9036,8 @@
     "area_max": 84.9,
     "hit_min": 78000,
     "hit_last": "2026-07-16",
-    "naver_complex_no": "113021",
-    "naver_url": "https://m.land.naver.com/complex/info/113021"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%8C%8C%ED%81%AC%EC%9E%90%EC%9D%B4"
    },
    {
     "gu": "양천구",
@@ -9323,8 +9392,8 @@
     "area_max": 84.8,
     "hit_min": 78500,
     "hit_last": "2025-12-01",
-    "naver_complex_no": "128214",
-    "naver_url": "https://m.land.naver.com/complex/info/128214"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%91%94%EC%B4%8C%EB%8F%99%20%EB%91%94%EC%B4%8C%ED%98%84%EB%8C%80%EC%88%98%EB%A6%B0%EB%82%98%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "관악구",
@@ -9357,8 +9426,8 @@
     "area_max": 72.7,
     "hit_min": 78500,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "132831",
-    "naver_url": "https://m.land.naver.com/complex/info/132831"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EB%A6%BC%EB%8F%99%20%EC%95%B0%ED%8C%B0%EB%A6%AC%EC%8A%A4%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "노원구",
@@ -9697,8 +9766,8 @@
     "area_max": 85.0,
     "hit_min": 78500,
     "hit_last": "2026-05-23",
-    "naver_complex_no": "124506",
-    "naver_url": "https://m.land.naver.com/complex/info/124506"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EA%B3%84%EB%8F%99%20%ED%8F%AC%EB%A0%88%EB%82%98%EB%85%B8%EC%9B%90"
    },
    {
     "gu": "동대문구",
@@ -9743,8 +9812,8 @@
     "area_max": 68.4,
     "hit_min": 78500,
     "hit_last": "2026-07-17",
-    "naver_complex_no": "142917",
-    "naver_url": "https://m.land.naver.com/complex/info/142917"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%95%88%EB%8F%99%20%EB%B8%8C%EC%9D%B4%ED%8B%B0%EC%8A%A4%ED%83%80%EC%9D%BC"
    },
    {
     "gu": "영등포구",
@@ -10303,8 +10372,8 @@
     "area_max": 99.9,
     "hit_min": 79000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": "116048",
-    "naver_url": "https://m.land.naver.com/complex/info/116048"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%AF%B8%EC%95%84%EB%8F%99%20%EA%BF%88%EC%9D%98%EC%88%B2%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4"
    },
    {
     "gu": "서초구",
@@ -10331,8 +10400,8 @@
     "area_max": 76.4,
     "hit_min": 79000,
     "hit_last": "2025-11-25",
-    "naver_complex_no": "116237",
-    "naver_url": "https://m.land.naver.com/complex/info/116237"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%EB%B0%B0%EB%8F%99%20%EB%A6%AC%EB%B2%A0%ED%95%98%EC%9E%84"
    },
    {
     "gu": "은평구",
@@ -10905,8 +10974,8 @@
     "area_max": 99.9,
     "hit_min": 79000,
     "hit_last": "2026-04-29",
-    "naver_complex_no": "118025",
-    "naver_url": "https://m.land.naver.com/complex/info/118025"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%88%98%EC%83%89%EB%8F%99%20DMC%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%8D%94%ED%8D%BC%EC%8A%A4%ED%8A%B8"
    },
    {
     "gu": "은평구",
@@ -11269,8 +11338,8 @@
     "area_max": 85.0,
     "hit_min": 79000,
     "hit_last": "2026-06-19",
-    "naver_complex_no": "119053",
-    "naver_url": "https://m.land.naver.com/complex/info/119053"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%95%B4%EB%AA%A8%EB%A1%9C"
    },
    {
     "gu": "강서구",
@@ -11331,6 +11400,12 @@
     "build_year": 2021,
     "jibun": "746",
     "deals": [
+     {
+      "date": "2026-07-17",
+      "amount": 99000,
+      "area": 49.8,
+      "floor": 7
+     },
      {
       "date": "2026-07-17",
       "amount": 124500,
@@ -11566,19 +11641,19 @@
       "floor": 10
      }
     ],
-    "deal_count": 39,
+    "deal_count": 40,
     "hit_count": 7,
     "price_min": 61700,
-    "price_med": 96000,
+    "price_med": 96250,
     "price_max": 124500,
     "last_date": "2026-07-17",
-    "last_price": 124500,
+    "last_price": 99000,
     "area_min": 49.7,
     "area_max": 60.0,
     "hit_min": 79800,
     "hit_last": "2026-03-25",
-    "naver_complex_no": "134510",
-    "naver_url": "https://m.land.naver.com/complex/info/134510"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EB%B2%84%EC%8A%A4%ED%8A%B88%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "강남구",
@@ -11861,8 +11936,8 @@
     "area_max": 106.9,
     "hit_min": 80000,
     "hit_last": "2026-07-23",
-    "naver_complex_no": "119166",
-    "naver_url": "https://m.land.naver.com/complex/info/119166"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%95%AD%EB%8F%99%20%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%97%90%EB%93%80%ED%9E%90%EC%A6%88"
    },
    {
     "gu": "서대문구",
@@ -12069,8 +12144,8 @@
     "area_max": 114.9,
     "hit_min": 80000,
     "hit_last": "2026-04-10",
-    "naver_complex_no": "110458",
-    "naver_url": "https://m.land.naver.com/complex/info/110458"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%9D%80%EB%8F%99%20%EB%B6%81%ED%95%9C%EC%82%B0%EB%8D%94%EC%83%B5"
    },
    {
     "gu": "성북구",
@@ -12253,8 +12328,8 @@
     "area_max": 119.6,
     "hit_min": 80000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "108463",
-    "naver_url": "https://m.land.naver.com/complex/info/108463"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%88%EC%95%94%EB%8F%99%20%EA%B8%B8%EC%9D%8C%EC%97%AD%EA%B8%88%ED%98%B8%EC%96%B4%EC%9A%B8%EB%A6%BC%EC%84%BC%ED%84%B0%ED%9E%90"
    },
    {
     "gu": "송파구",
@@ -12305,8 +12380,8 @@
     "area_max": 60.0,
     "hit_min": 80000,
     "hit_last": "2026-04-17",
-    "naver_complex_no": "117595",
-    "naver_url": "https://m.land.naver.com/complex/info/117595"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B0%80%EB%9D%BD%EB%8F%99%20%EC%A7%84%EB%84%A5%EC%8A%A4%EB%B2%A0%EB%A5%B4%EB%94%94%EC%97%A0"
    },
    {
     "gu": "양천구",
@@ -12316,10 +12391,22 @@
     "jibun": "1077",
     "deals": [
      {
+      "date": "2026-08-05",
+      "amount": 142000,
+      "area": 84.98,
+      "floor": 6
+     },
+     {
       "date": "2026-07-31",
       "amount": 134500,
       "area": 84.98,
       "floor": 7
+     },
+     {
+      "date": "2026-07-31",
+      "amount": 134500,
+      "area": 84.98,
+      "floor": 8
      },
      {
       "date": "2026-07-31",
@@ -12544,13 +12631,13 @@
       "floor": 6
      }
     ],
-    "deal_count": 38,
+    "deal_count": 40,
     "hit_count": 7,
     "price_min": 70000,
-    "price_med": 110750,
-    "price_max": 134500,
-    "last_date": "2026-07-31",
-    "last_price": 134500,
+    "price_med": 113500,
+    "price_max": 142000,
+    "last_date": "2026-08-05",
+    "last_price": 142000,
     "area_min": 52.9,
     "area_max": 85.0,
     "hit_min": 80000,
@@ -12877,8 +12964,8 @@
     "area_max": 85.0,
     "hit_min": 80500,
     "hit_last": "2026-02-09",
-    "naver_complex_no": "110251",
-    "naver_url": "https://m.land.naver.com/complex/info/110251"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B84%EC%B0%A8"
    },
    {
     "gu": "관악구",
@@ -13127,8 +13214,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-02-09",
-    "naver_complex_no": "107439",
-    "naver_url": "https://m.land.naver.com/complex/info/107439"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B4%89%EC%B2%9C%EB%8F%99%20%EA%B4%80%EC%95%85%ED%8C%8C%ED%81%AC%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4"
    },
    {
     "gu": "광진구",
@@ -13185,8 +13272,8 @@
     "area_max": 59.7,
     "hit_min": 81000,
     "hit_last": "2025-11-04",
-    "naver_complex_no": "134803",
-    "naver_url": "https://m.land.naver.com/complex/info/134803"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%EA%B4%91%EC%A7%84%ED%8C%8C%ED%81%AC%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97"
    },
    {
     "gu": "광진구",
@@ -13219,8 +13306,8 @@
     "area_max": 65.3,
     "hit_min": 81000,
     "hit_last": "2026-05-07",
-    "naver_complex_no": "109896",
-    "naver_url": "https://m.land.naver.com/complex/info/109896"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%90%EC%96%91%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88"
    },
    {
     "gu": "노원구",
@@ -13607,8 +13694,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-04-30",
-    "naver_complex_no": "117590",
-    "naver_url": "https://m.land.naver.com/complex/info/117590"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9B%94%EA%B3%84%EB%8F%99%20%EC%9B%94%EA%B3%84%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "동대문구",
@@ -13881,8 +13968,8 @@
     "area_max": 100.5,
     "hit_min": 81000,
     "hit_last": "2025-10-14",
-    "naver_complex_no": "112482",
-    "naver_url": "https://m.land.naver.com/complex/info/112482"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%9C%98%EA%B2%BD%EB%8F%99%20%ED%9C%98%EA%B2%BDSK%EB%B7%B0"
    },
    {
     "gu": "동대문구",
@@ -13967,8 +14054,8 @@
     "area_max": 70.9,
     "hit_min": 81000,
     "hit_last": "2025-12-15",
-    "naver_complex_no": "119906",
-    "naver_url": "https://m.land.naver.com/complex/info/119906"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EC%9E%A5%EB%8F%99%20%EC%9A%B0%EC%84%B1%EC%97%90%EB%B9%84%EB%89%B4"
    },
    {
     "gu": "중랑구",
@@ -14241,8 +14328,8 @@
     "area_max": 85.0,
     "hit_min": 81000,
     "hit_last": "2026-05-02",
-    "naver_complex_no": "119155",
-    "naver_url": "https://m.land.naver.com/complex/info/119155"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%ED%95%9C%EC%96%91%EC%88%98%EC%9E%90%EC%9D%B8%EC%82%AC%EA%B0%80%EC%A0%95%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "은평구",
@@ -14375,8 +14462,8 @@
     "area_max": 72.1,
     "hit_min": 81500,
     "hit_last": "2025-12-13",
-    "naver_complex_no": "128330",
-    "naver_url": "https://m.land.naver.com/complex/info/128330"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%B4%EB%8F%99%20%EC%A7%91%EC%95%A4%EC%82%AC%EB%B9%84%ED%82%A4%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "성북구",
@@ -14577,8 +14664,8 @@
     "area_max": 84.9,
     "hit_min": 82000,
     "hit_last": "2025-12-13",
-    "naver_complex_no": "112474",
-    "naver_url": "https://m.land.naver.com/complex/info/112474"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B8%B8%EC%9D%8C%EB%8F%99%20%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EA%B3%A8%EB%93%A0%ED%9E%90%EC%8A%A4"
    },
    {
     "gu": "성북구",
@@ -15061,8 +15148,8 @@
     "area_max": 85.0,
     "hit_min": 82000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "109051",
-    "naver_url": "https://m.land.naver.com/complex/info/109051"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B3%B4%EB%AC%B8%EB%8F%996%EA%B0%80%20%EB%B3%B4%EB%AC%B8%ED%8C%8C%ED%81%AC%EB%B7%B0%EC%9E%90%EC%9D%B4"
    },
    {
     "gu": "양천구",
@@ -15089,8 +15176,8 @@
     "area_max": 70.2,
     "hit_min": 82000,
     "hit_last": "2025-10-16",
-    "naver_complex_no": "113150",
-    "naver_url": "https://m.land.naver.com/complex/info/113150"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%A0%95%EB%8F%99%20%EB%AA%A9%EB%8F%99%EC%8B%A0%EC%84%B8%EA%B3%84%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "강서구",
@@ -15183,8 +15270,8 @@
     "area_max": 84.9,
     "hit_min": 82750,
     "hit_last": "2026-07-06",
-    "naver_complex_no": "124391",
-    "naver_url": "https://m.land.naver.com/complex/info/124391"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%ED%99%94%EB%8F%99%20%EC%8B%A0%EB%A7%88%EA%B3%A1%EB%B2%BD%EC%82%B0%EB%B8%94%EB%A3%A8%EB%B0%8D"
    },
    {
     "gu": "노원구",
@@ -15289,8 +15376,8 @@
     "area_max": 84.0,
     "hit_min": 83000,
     "hit_last": "2026-07-16",
-    "naver_complex_no": "107067",
-    "naver_url": "https://m.land.naver.com/complex/info/107067"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B3%B5%EB%A6%89%EB%8F%99%20%EB%85%B8%EC%9B%90%ED%94%84%EB%A0%88%EB%AF%B8%EC%96%B4%EC%8A%A4%EC%97%A0%EC%BD%94"
    },
    {
     "gu": "강동구",
@@ -15569,8 +15656,8 @@
     "area_max": 59.9,
     "hit_min": 83500,
     "hit_last": "2026-07-12",
-    "naver_complex_no": "134513",
-    "naver_url": "https://m.land.naver.com/complex/info/134513"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EC%9D%BC%EB%8F%99%20%EA%B0%95%EB%8F%99%EB%A6%AC%EC%97%94%ED%8C%8C%ED%81%AC14%EB%8B%A8%EC%A7%80"
    },
    {
     "gu": "강서구",
@@ -15645,8 +15732,8 @@
     "area_max": 78.6,
     "hit_min": 84000,
     "hit_last": "2026-03-26",
-    "naver_complex_no": "127604",
-    "naver_url": "https://m.land.naver.com/complex/info/127604"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B0%A9%ED%99%94%EB%8F%99%20%EB%A7%88%EA%B3%A1%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C"
    },
    {
     "gu": "서대문구",
@@ -15869,8 +15956,8 @@
     "area_max": 63.8,
     "hit_min": 84000,
     "hit_last": "2026-02-20",
-    "naver_complex_no": "124264",
-    "naver_url": "https://m.land.naver.com/complex/info/124264"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%86%A1%ED%8C%8C%EB%8F%99%20%ED%95%9C%EC%98%81%ED%95%B4%EC%8B%9C%EC%95%88%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "송파구",
@@ -15903,8 +15990,8 @@
     "area_max": 64.7,
     "hit_min": 84000,
     "hit_last": "2026-04-04",
-    "naver_complex_no": "117840",
-    "naver_url": "https://m.land.naver.com/complex/info/117840"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%EA%B8%88%EB%8F%99%20%EC%97%98%EB%A6%AC%EC%8B%9C%EC%9B%80%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "중랑구",
@@ -16009,8 +16096,8 @@
     "area_max": 115.0,
     "hit_min": 84000,
     "hit_last": "2026-02-09",
-    "naver_complex_no": "107072",
-    "naver_url": "https://m.land.naver.com/complex/info/107072"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EC%9A%A9%EB%A7%88%EC%82%B0%ED%95%98%EB%8A%98%EC%B1%84"
    },
    {
     "gu": "광진구",
@@ -16037,8 +16124,8 @@
     "area_max": 59.3,
     "hit_min": 84800,
     "hit_last": "2025-12-05",
-    "naver_complex_no": "112103",
-    "naver_url": "https://m.land.naver.com/complex/info/112103"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EA%B5%AC%EC%9D%98%EB%8F%99%20%ED%8C%8C%ED%81%AC%ED%83%80%EC%9A%B4"
    },
    {
     "gu": "동대문구",
@@ -16052,6 +16139,12 @@
       "amount": 119000,
       "area": 59.82,
       "floor": 15
+     },
+     {
+      "date": "2026-07-14",
+      "amount": 121500,
+      "area": 84.86,
+      "floor": 4
      },
      {
       "date": "2026-07-04",
@@ -16192,7 +16285,7 @@
       "floor": 8
      }
     ],
-    "deal_count": 24,
+    "deal_count": 25,
     "hit_count": 2,
     "price_min": 85000,
     "price_med": 102000,
@@ -16203,8 +16296,8 @@
     "area_max": 85.0,
     "hit_min": 85000,
     "hit_last": "2026-04-21",
-    "naver_complex_no": "118948",
-    "naver_url": "https://m.land.naver.com/complex/info/118948"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%ED%9C%98%EA%B2%BD%EB%8F%99%20%ED%9C%98%EA%B2%BD%ED%95%B4%EB%AA%A8%EB%A1%9C%ED%94%84%EB%A0%88%EC%8A%A4%ED%8B%B0%EC%A7%80"
    },
    {
     "gu": "성북구",
@@ -16573,8 +16666,8 @@
     "area_max": 109.4,
     "hit_min": 85000,
     "hit_last": "2025-10-14",
-    "naver_complex_no": "114972",
-    "naver_url": "https://m.land.naver.com/complex/info/114972"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%84%9D%EA%B4%80%EB%8F%99%20%EB%9E%98%EB%AF%B8%EC%95%88%EC%95%84%ED%8A%B8%EB%A6%AC%EC%B9%98"
    },
    {
     "gu": "양천구",
@@ -16583,6 +16676,12 @@
     "build_year": 2020,
     "jibun": "1078",
     "deals": [
+     {
+      "date": "2026-07-31",
+      "amount": 142500,
+      "area": 84.98,
+      "floor": 21
+     },
      {
       "date": "2026-07-20",
       "amount": 124000,
@@ -16890,13 +16989,13 @@
       "floor": 7
      }
     ],
-    "deal_count": 51,
+    "deal_count": 52,
     "hit_count": 3,
     "price_min": 74000,
-    "price_med": 122500,
+    "price_med": 122750,
     "price_max": 148000,
-    "last_date": "2026-07-20",
-    "last_price": 124000,
+    "last_date": "2026-07-31",
+    "last_price": 142500,
     "area_min": 52.9,
     "area_max": 101.5,
     "hit_min": 85000,
@@ -17011,8 +17110,8 @@
     "area_max": 84.9,
     "hit_min": 85500,
     "hit_last": "2026-05-13",
-    "naver_complex_no": "126242",
-    "naver_url": "https://m.land.naver.com/complex/info/126242"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A7%9D%EC%9A%B0%EB%8F%99%20%EC%8B%A0%EB%82%B4%EC%97%AD%ED%9E%90%EB%8D%B0%EC%8A%A4%ED%95%98%EC%9E%84%EC%B0%B8%EC%A2%8B%EC%9D%80%EC%95%84%ED%8C%8C%ED%8A%B8"
    },
    {
     "gu": "용산구",
@@ -17691,8 +17790,8 @@
     "area_max": 101.0,
     "hit_min": 86000,
     "hit_last": "2025-12-05",
-    "naver_complex_no": "116158",
-    "naver_url": "https://m.land.naver.com/complex/info/116158"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9D%91%EC%95%94%EB%8F%99%20%EB%B0%B1%EB%A0%A8%EC%82%B0%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EB%B7%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC"
    },
    {
     "gu": "금천구",
@@ -18047,8 +18146,8 @@
     "area_max": 119.4,
     "hit_min": 86500,
     "hit_last": "2026-01-20",
-    "naver_complex_no": "119787",
-    "naver_url": "https://m.land.naver.com/complex/info/119787"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%95%88%EB%8F%99%20%EB%8F%99%EB%8C%80%EB%AC%B8%EB%8D%94%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%8D%B0%EC%8B%9C%EC%95%99"
    },
    {
     "gu": "금천구",
@@ -18603,8 +18702,8 @@
     "area_max": 84.5,
     "hit_min": 88000,
     "hit_last": "2025-10-18",
-    "naver_complex_no": "109956",
-    "naver_url": "https://m.land.naver.com/complex/info/109956"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%85%EC%82%B0%EB%8F%99%20%EA%B8%88%EC%B2%9C%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EA%B3%A8%EB%93%9C%ED%8C%8C%ED%81%AC3%EC%B0%A8"
    },
    {
     "gu": "영등포구",
@@ -18973,8 +19072,8 @@
     "area_max": 115.0,
     "hit_min": 88000,
     "hit_last": "2025-10-17",
-    "naver_complex_no": "119377",
-    "naver_url": "https://m.land.naver.com/complex/info/119377"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EA%B8%B8%EB%8F%99%20%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%ED%81%B4%EB%9E%98%EC%8B%9C%EC%95%88"
    },
    {
     "gu": "영등포구",
@@ -19061,8 +19160,8 @@
     "area_max": 59.5,
     "hit_min": 88200,
     "hit_last": "2025-12-29",
-    "naver_complex_no": "119451",
-    "naver_url": "https://m.land.naver.com/complex/info/119451"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%ED%8F%89%EB%8F%993%EA%B0%80%20%EC%96%91%ED%8F%89%EC%97%AD%EB%AF%B8%EC%86%8C%EC%A7%80%EC%9B%80"
    },
    {
     "gu": "광진구",
@@ -19165,8 +19264,8 @@
     "area_max": 84.9,
     "hit_min": 88750,
     "hit_last": "2025-10-14",
-    "naver_complex_no": "104780",
-    "naver_url": "https://m.land.naver.com/complex/info/104780"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%97%BC%EC%B0%BD%EB%8F%99%20%EA%B0%95%EC%84%9C%EC%8C%8D%EC%9A%A9%EC%98%88%EA%B0%80"
    },
    {
     "gu": "동대문구",
@@ -19217,8 +19316,8 @@
     "area_max": 74.9,
     "hit_min": 89000,
     "hit_last": "2025-09-27",
-    "naver_complex_no": "111632",
-    "naver_url": "https://m.land.naver.com/complex/info/111632"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EC%B2%AD%EA%B3%84%EC%99%80%EC%9D%B4%EC%A6%88%EB%85%B8%EB%B2%A8%EB%A6%AC%EC%95%84"
    },
    {
     "gu": "송파구",
@@ -19245,8 +19344,8 @@
     "area_max": 54.9,
     "hit_min": 89000,
     "hit_last": "2026-06-25",
-    "naver_complex_no": "141001",
-    "naver_url": "https://m.land.naver.com/complex/info/141001"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%EA%B8%88%EB%8F%99%20%EB%8D%94%EB%B7%B021"
    },
    {
     "gu": "은평구",
@@ -19603,8 +19702,8 @@
     "area_max": 84.9,
     "hit_min": 89000,
     "hit_last": "2025-10-15",
-    "naver_complex_no": "111964",
-    "naver_url": "https://m.land.naver.com/complex/info/111964"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%85%B9%EB%B2%88%EB%8F%99%20%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EB%85%B9%EB%B2%88"
    },
    {
     "gu": "은평구",
@@ -19805,8 +19904,8 @@
     "area_max": 115.0,
     "hit_min": 89000,
     "hit_last": "2026-02-19",
-    "naver_complex_no": "103025",
-    "naver_url": "https://m.land.naver.com/complex/info/103025"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%B6%88%EA%B4%91%EB%8F%99%20%EB%B6%88%EA%B4%91%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC"
    },
    {
     "gu": "중랑구",
@@ -20215,8 +20314,8 @@
     "area_max": 95.1,
     "hit_min": 89700,
     "hit_last": "2025-09-12",
-    "naver_complex_no": "119443",
-    "naver_url": "https://m.land.naver.com/complex/info/119443"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%A9%B4%EB%AA%A9%EB%8F%99%20%EB%9D%BC%EC%98%A8%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97"
    },
    {
     "gu": "강서구",
@@ -20327,8 +20426,8 @@
     "area_max": 85.0,
     "hit_min": 90000,
     "hit_last": "2026-04-08",
-    "naver_complex_no": "115965",
-    "naver_url": "https://m.land.naver.com/complex/info/115965"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%97%BC%EC%B0%BD%EB%8F%99%20e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EC%97%BC%EC%B0%BD"
    },
    {
     "gu": "동대문구",
@@ -20619,8 +20718,8 @@
     "area_max": 84.8,
     "hit_min": 90000,
     "hit_last": "2025-10-02",
-    "naver_complex_no": "113059",
-    "naver_url": "https://m.land.naver.com/complex/info/113059"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8B%B5%EC%8B%AD%EB%A6%AC%EB%8F%99%20%EB%8B%B5%EC%8B%AD%EB%A6%AC%ED%8C%8C%ED%81%AC%EC%9E%90%EC%9D%B4"
    },
    {
     "gu": "서초구",
@@ -20653,8 +20752,8 @@
     "area_max": 59.5,
     "hit_min": 90000,
     "hit_last": "2025-09-20",
-    "naver_complex_no": "128963",
-    "naver_url": "https://m.land.naver.com/complex/info/128963"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%EC%9E%AC%EB%8F%99%20%EB%A6%AC%EC%8B%9C%EB%B3%B8%ED%95%98%EC%9A%B0%EC%8A%A4"
    },
    {
     "gu": "성북구",
@@ -20668,6 +20767,12 @@
       "amount": 158000,
       "area": 101.72,
       "floor": 10
+     },
+     {
+      "date": "2026-07-25",
+      "amount": 150000,
+      "area": 84.94,
+      "floor": 23
      },
      {
       "date": "2026-07-24",
@@ -21204,10 +21309,10 @@
       "floor": 17
      }
     ],
-    "deal_count": 90,
+    "deal_count": 91,
     "hit_count": 1,
     "price_min": 90000,
-    "price_med": 118250,
+    "price_med": 118500,
     "price_max": 158000,
     "last_date": "2026-07-25",
     "last_price": 158000,
@@ -21215,8 +21320,8 @@
     "area_max": 116.9,
     "hit_min": 90000,
     "hit_last": "2026-04-28",
-    "naver_complex_no": "113985",
-    "naver_url": "https://m.land.naver.com/complex/info/113985"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EC%9E%A5%EC%9C%84%EB%8F%99%20%EB%9E%98%EB%AF%B8%EC%95%88%EC%9E%A5%EC%9C%84%ED%8D%BC%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9D%B4"
    },
    {
     "gu": "성북구",
@@ -21453,30 +21558,14 @@
     "area_max": 113.2,
     "hit_min": 90000,
     "hit_last": "2025-10-10",
-    "naver_complex_no": "108138",
-    "naver_url": "https://m.land.naver.com/complex/info/108138"
+    "naver_complex_no": null,
+    "naver_url": "https://m.land.naver.com/search/result/%EB%8F%88%EC%95%94%EB%8F%99%20%EB%8F%88%EC%95%94%EC%BD%94%EC%98%A4%EB%A1%B1%ED%95%98%EB%8A%98%EC%B1%84"
    }
-  ],
-  "months": [
-   "202509",
-   "202510",
-   "202511",
-   "202512",
-   "202601",
-   "202602",
-   "202603",
-   "202604",
-   "202605",
-   "202606",
-   "202607",
-   "202608"
-  ],
-  "stale": true,
-  "stale_from": "2026-08-11 08:35"
+  ]
  },
  "auctions": {
   "available": false,
-  "note": "수집 실패: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ151F00.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.courtauction.go.kr', port=443) at 0x7fcca22fb020>, 'Connection to www.courtauction.go.kr timed out. (connect timeout=20)'))",
+  "note": "수집 실패: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ151F00.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.courtauction.go.kr', port=443) at 0x7f0d964b89e0>, 'Connection to www.courtauction.go.kr timed out. (connect timeout=20)'))",
   "items": [
    {
     "id": "B0002122023013012695611",
@@ -26592,11 +26681,11 @@
    }
   ],
   "stale": true,
-  "stale_from": "2026-08-11 08:35"
+  "stale_from": "2026-08-12 08:40"
  },
  "onbid": {
-  "available": false,
-  "note": "온비드 접속 실패: ConnectTimeout",
+  "available": true,
+  "note": "",
   "items": [
    {
     "id": "2025-07956-004-5982620",
@@ -26738,7 +26827,7 @@
     "bid_to": "2026-11-25",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -26983,30 +27072,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127877",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 4640,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-11-30",
-    "bid_to": "2026-12-02",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2024-17311-001-6118787",
     "cltr_mng_no": "2024-17311-001",
     "name": "서울특별시 노원구 공릉동 705 동부아파트 제104동 제9층 제903호",
@@ -27026,7 +27091,7 @@
     "bid_to": "2026-11-18",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -27096,8 +27161,8 @@
     "land_area": 1.8,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰진행중",
-    "fail_count": 0,
+    "status": "입찰마감",
+    "fail_count": 5,
     "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -27194,7 +27259,7 @@
     "bid_to": "2026-12-02",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -27290,7 +27355,7 @@
     "bid_to": "2026-11-11",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -27487,28 +27552,28 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127819",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
+    "id": "2026-14203-001-6146569",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
     "usage": "부동산 > 주거용건물 > 아파트",
     "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
     "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 9280,
-    "appraisal": 46400,
+    "org": "성북구청",
+    "min_bid": 9050,
+    "appraisal": 90500,
     "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-11-23",
-    "bid_to": "2026-11-25",
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-11-30",
+    "bid_to": "2026-12-02",
     "status": "입찰준비중",
     "fail_count": 0,
     "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2024-17311-001-6118666",
@@ -27530,7 +27595,7 @@
     "bid_to": "2026-11-04",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -27770,7 +27835,7 @@
     "bid_to": "2026-10-28",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -27842,7 +27907,7 @@
     "bid_to": "2026-11-25",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -28015,30 +28080,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127759",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 13920,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-11-16",
-    "bid_to": "2026-11-18",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2024-17311-001-6118547",
     "cltr_mng_no": "2024-17311-001",
     "name": "서울특별시 노원구 공릉동 705 동부아파트 제104동 제9층 제903호",
@@ -28058,7 +28099,7 @@
     "bid_to": "2026-10-21",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -28322,7 +28363,7 @@
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -28538,7 +28579,7 @@
     "bid_to": "2026-11-18",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -28565,6 +28606,30 @@
     "note": "",
     "first_seen": "2026-08-05",
     "is_new": false
+   },
+   {
+    "id": "2026-14203-001-6146534",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 18100,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-11-23",
+    "bid_to": "2026-11-25",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-00321-001-6024121",
@@ -28615,30 +28680,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127697",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 18560,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-11-09",
-    "bid_to": "2026-11-11",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2024-17311-001-6118432",
     "cltr_mng_no": "2024-17311-001",
     "name": "서울특별시 노원구 공릉동 705 동부아파트 제104동 제9층 제903호",
@@ -28658,7 +28699,7 @@
     "bid_to": "2026-10-07",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -28733,6 +28774,30 @@
     "note": "",
     "first_seen": "2026-07-27",
     "is_new": false
+   },
+   {
+    "id": "2026-07073-004-6146188",
+    "cltr_mng_no": "2026-07073-004",
+    "name": "서울특별시 동대문구 이문동 327-7 외 6필지 세진빌딩 제9층 제910호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 동대문구 이문동",
+    "gu": "동대문구",
+    "dong": "이문동",
+    "prpt_type": "압류재산",
+    "org": "동대문세무서",
+    "min_bid": 20100,
+    "appraisal": 20100,
+    "rate": null,
+    "area": 11.48,
+    "land_area": 2.976,
+    "bid_from": "2026-09-28",
+    "bid_to": "2026-09-30",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-14091-001-6133695",
@@ -28855,30 +28920,6 @@
     "is_new": false
    },
    {
-    "id": "2026-0400-019019-5920365",
-    "cltr_mng_no": "2026-0400-019019",
-    "name": "서울특별시 금천구 시흥동 113-12 406호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 20850,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "2024-17311-001-6118371",
     "cltr_mng_no": "2024-17311-001",
     "name": "서울특별시 노원구 공릉동 705 동부아파트 제104동 제9층 제903호",
@@ -28898,7 +28939,7 @@
     "bid_to": "2026-09-30",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "지분물건",
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -28954,102 +28995,6 @@
     "id": "2026-0400-019014-5920360",
     "cltr_mng_no": "2026-0400-019014",
     "name": "서울특별시 금천구 시흥동 113-12 705호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21290,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019015-5920361",
-    "cltr_mng_no": "2026-0400-019015",
-    "name": "서울특별시 금천구 시흥동 113-12 606호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21290,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019016-5920362",
-    "cltr_mng_no": "2026-0400-019016",
-    "name": "서울특별시 금천구 시흥동 113-12 605호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21290,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019017-5920363",
-    "cltr_mng_no": "2026-0400-019017",
-    "name": "서울특별시 금천구 시흥동 113-12 506호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 금천구 시흥동",
-    "gu": "금천구",
-    "dong": "시흥동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 무궁화신탁",
-    "min_bid": 21290,
-    "appraisal": null,
-    "rate": null,
-    "area": 18.07,
-    "land_area": null,
-    "bid_from": "2026-05-18",
-    "bid_to": "2026-05-18",
-    "status": "수의계약가능",
-    "fail_count": 5,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-0400-019018-5920364",
-    "cltr_mng_no": "2026-0400-019018",
-    "name": "서울특별시 금천구 시흥동 113-12 505호 아파트",
     "usage": "부동산 > 주거용건물 > 아파트",
     "usage_scls": "아파트",
     "address": "서울특별시 금천구 시흥동",
@@ -29335,30 +29280,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127630",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 23200,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-11-02",
-    "bid_to": "2026-11-04",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2026-01663-001-6023749",
     "cltr_mng_no": "2026-01663-001",
     "name": "서울특별시 구로구 고척동 296 외 1필지 고척대우아파트 제101동 제3층 제304호",
@@ -29498,7 +29419,7 @@
     "bid_to": "2026-11-11",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -29640,9 +29561,9 @@
     "land_area": 10.37,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰진행중",
-    "fail_count": 0,
-    "note": "지분물건",
+    "status": "입찰마감",
+    "fail_count": 1,
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -29664,9 +29585,9 @@
     "land_area": 10.37,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰진행중",
-    "fail_count": 0,
-    "note": "지분물건",
+    "status": "입찰마감",
+    "fail_count": 1,
+    "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -29693,6 +29614,30 @@
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
+   },
+   {
+    "id": "2026-14203-001-6146499",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 27150,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-11-16",
+    "bid_to": "2026-11-18",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-07873-001-6083934",
@@ -29736,8 +29681,8 @@
     "land_area": 17.45,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰진행중",
-    "fail_count": 0,
+    "status": "입찰마감",
+    "fail_count": 5,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -29791,30 +29736,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127565",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 27840,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-10-26",
-    "bid_to": "2026-10-28",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2026-12862-001-6127876",
     "cltr_mng_no": "2026-12862-001",
     "name": "서울특별시 강남구 삼성동 3-8 우정에쉐르아파트 제101동 제7층 제702호",
@@ -29834,7 +29755,7 @@
     "bid_to": "2026-12-02",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -29978,7 +29899,7 @@
     "bid_to": "2026-11-04",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -30295,30 +30216,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127499",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 32480,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-10-19",
-    "bid_to": "2026-10-21",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2026-0800-043693-6142848",
     "cltr_mng_no": "2026-0800-043693",
     "name": "서울특별시 구로구 가리봉동 779 제101동 제1층 제106호 아파트",
@@ -30559,6 +30456,30 @@
     "is_new": false
    },
    {
+    "id": "2026-12932-001-6146294",
+    "cltr_mng_no": "2026-12932-001",
+    "name": "서울특별시 노원구 공릉동 109 비선아파트 제502동 제2층 제203호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 노원구 공릉동",
+    "gu": "노원구",
+    "dong": "공릉동",
+    "prpt_type": "압류재산",
+    "org": "순천세무서",
+    "min_bid": 34560,
+    "appraisal": 43200,
+    "rate": null,
+    "area": 48.6,
+    "land_area": 28.233,
+    "bid_from": "2026-10-12",
+    "bid_to": "2026-10-14",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
     "id": "2026-0800-043795-6142844",
     "cltr_mng_no": "2026-0800-043795",
     "name": "서울특별시 구로구 가리봉동 779 제101동 제3층 제305호 아파트",
@@ -30698,7 +30619,7 @@
     "bid_to": "2026-10-28",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -30727,6 +30648,30 @@
     "is_new": false
    },
    {
+    "id": "2026-14203-001-6146464",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 36200,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-11-09",
+    "bid_to": "2026-11-11",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
     "id": "2026-0800-043796-6142832",
     "cltr_mng_no": "2026-0800-043796",
     "name": "서울특별시 구로구 가리봉동 779 제101동 제4층 제402호 아파트",
@@ -30749,6 +30694,30 @@
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
+   },
+   {
+    "id": "2026-16293-003-6146580",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 36400,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-11-30",
+    "bid_to": "2026-12-02",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-0800-043794-6142834",
@@ -30868,30 +30837,6 @@
     "fail_count": 0,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
-    "id": "2026-12934-001-6127441",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 37120,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-10-12",
-    "bid_to": "2026-10-14",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
     "is_new": false
    },
    {
@@ -31109,6 +31054,30 @@
     "note": "지분물건, 정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
+   },
+   {
+    "id": "2026-12932-001-6146246",
+    "cltr_mng_no": "2026-12932-001",
+    "name": "서울특별시 노원구 공릉동 109 비선아파트 제502동 제2층 제203호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 노원구 공릉동",
+    "gu": "노원구",
+    "dong": "공릉동",
+    "prpt_type": "압류재산",
+    "org": "순천세무서",
+    "min_bid": 38880,
+    "appraisal": 43200,
+    "rate": null,
+    "area": 48.6,
+    "land_area": 28.233,
+    "bid_from": "2026-10-06",
+    "bid_to": "2026-10-07",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-0800-043697-6142825",
@@ -31351,30 +31320,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127384",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 41760,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-10-06",
-    "bid_to": "2026-10-07",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2026-0800-043795-6142822",
     "cltr_mng_no": "2026-0800-043795",
     "name": "서울특별시 구로구 가리봉동 779 제101동 제3층 제305호 아파트",
@@ -31442,7 +31387,7 @@
     "bid_to": "2026-10-21",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -31565,6 +31510,30 @@
     "note": "지분물건",
     "first_seen": "2026-07-27",
     "is_new": false
+   },
+   {
+    "id": "2026-12932-001-6146197",
+    "cltr_mng_no": "2026-12932-001",
+    "name": "서울특별시 노원구 공릉동 109 비선아파트 제502동 제2층 제203호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 노원구 공릉동",
+    "gu": "노원구",
+    "dong": "공릉동",
+    "prpt_type": "압류재산",
+    "org": "순천세무서",
+    "min_bid": 43200,
+    "appraisal": 43200,
+    "rate": null,
+    "area": 48.6,
+    "land_area": 28.233,
+    "bid_from": "2026-09-28",
+    "bid_to": "2026-09-30",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-0800-043652-6141547",
@@ -31999,6 +31968,30 @@
     "is_new": false
    },
    {
+    "id": "2026-14203-001-6146427",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 45250,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-11-02",
+    "bid_to": "2026-11-04",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
     "id": "2025-13629-001-6024729",
     "cltr_mng_no": "2025-13629-001",
     "name": "서울특별시 강동구 강일동 72 힐스테이트리슈빌강일 제505동 제3층 제313호",
@@ -32143,30 +32136,6 @@
     "is_new": false
    },
    {
-    "id": "2026-12934-001-6127325",
-    "cltr_mng_no": "2026-12934-001",
-    "name": "서울특별시 도봉구 방학동 507 외 1필지 우성아파트 제101동 제1층 제105호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 도봉구 방학동",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "prpt_type": "압류재산",
-    "org": "북대전세무서",
-    "min_bid": 46400,
-    "appraisal": 46400,
-    "rate": null,
-    "area": 84.69,
-    "land_area": 38.3615,
-    "bid_from": "2026-09-28",
-    "bid_to": "2026-09-30",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-08-05",
-    "is_new": false
-   },
-   {
     "id": "2026-0800-043691-6142794",
     "cltr_mng_no": "2026-0800-043691",
     "name": "서울특별시 구로구 가리봉동 779 제101동 제1층 제101호 아파트",
@@ -32306,7 +32275,7 @@
     "bid_to": "2026-08-26",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -32354,7 +32323,7 @@
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -32378,7 +32347,7 @@
     "bid_to": "2026-11-04",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -32858,7 +32827,7 @@
     "bid_to": "2026-08-19",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -32954,7 +32923,7 @@
     "bid_to": "2026-10-07",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -32981,6 +32950,30 @@
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
+   },
+   {
+    "id": "2026-14203-001-6146387",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 54300,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-10-26",
+    "bid_to": "2026-10-28",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-07873-001-6083512",
@@ -33170,7 +33163,7 @@
     "bid_to": "2026-11-11",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -33194,7 +33187,7 @@
     "bid_to": "2026-11-25",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -33386,7 +33379,7 @@
     "bid_to": "2026-09-30",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -33410,7 +33403,7 @@
     "bid_to": "2026-10-28",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -33557,6 +33550,30 @@
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
+   },
+   {
+    "id": "2026-14203-001-6146343",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 63350,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-10-19",
+    "bid_to": "2026-10-21",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-0800-043656-6141529",
@@ -33746,7 +33763,7 @@
     "bid_to": "2026-11-04",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -33794,9 +33811,57 @@
     "bid_to": "2026-10-21",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
+   },
+   {
+    "id": "2026-14203-001-6146299",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 72400,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-10-12",
+    "bid_to": "2026-10-14",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
+    "id": "2026-16293-003-6146546",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 72800,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-11-23",
+    "bid_to": "2026-11-25",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-00321-001-6023748",
@@ -33864,8 +33929,8 @@
     "land_area": 44.48,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰진행중",
-    "fail_count": 0,
+    "status": "입찰마감",
+    "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -33893,6 +33958,30 @@
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
+   },
+   {
+    "id": "2026-14203-001-6146252",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 81450,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-10-06",
+    "bid_to": "2026-10-07",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2025-05181-001-6102703",
@@ -33936,9 +34025,9 @@
     "land_area": 47.2,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰진행중",
-    "fail_count": 0,
-    "note": "",
+    "status": "입찰마감",
+    "fail_count": 1,
+    "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
    },
@@ -33962,7 +34051,7 @@
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -33986,7 +34075,7 @@
     "bid_to": "2026-10-28",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34010,7 +34099,7 @@
     "bid_to": "2026-11-18",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34063,6 +34152,30 @@
     "is_new": false
    },
    {
+    "id": "2026-14203-001-6146203",
+    "cltr_mng_no": "2026-14203-001",
+    "name": "서울특별시 성북구 돈암동 609-1 한진아파트 제215동 제4층 제403호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 성북구 돈암동",
+    "gu": "성북구",
+    "dong": "돈암동",
+    "prpt_type": "압류재산",
+    "org": "성북구청",
+    "min_bid": 90500,
+    "appraisal": 90500,
+    "rate": null,
+    "area": 84.87,
+    "land_area": 35.36,
+    "bid_from": "2026-09-28",
+    "bid_to": "2026-09-30",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
     "id": "2025-13629-001-6024557",
     "cltr_mng_no": "2025-13629-001",
     "name": "서울특별시 강동구 강일동 72 힐스테이트리슈빌강일 제505동 제3층 제313호",
@@ -34106,7 +34219,7 @@
     "bid_to": "2026-10-07",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -34154,7 +34267,7 @@
     "bid_to": "2026-10-21",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34202,9 +34315,33 @@
     "bid_to": "2026-09-30",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
+   },
+   {
+    "id": "2026-16293-003-6146511",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 109200,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-11-16",
+    "bid_to": "2026-11-18",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-09811-001-6141459",
@@ -34274,7 +34411,7 @@
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34298,7 +34435,7 @@
     "bid_to": "2026-11-11",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34394,7 +34531,7 @@
     "bid_to": "2026-10-07",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34464,7 +34601,7 @@
     "land_area": null,
     "bid_from": "2026-08-10",
     "bid_to": "2026-08-12",
-    "status": "입찰진행중",
+    "status": "입찰마감",
     "fail_count": 1,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
@@ -34514,7 +34651,7 @@
     "bid_to": "2026-09-30",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34538,7 +34675,7 @@
     "bid_to": "2026-11-04",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34562,9 +34699,33 @@
     "bid_to": "2026-11-25",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
+   },
+   {
+    "id": "2026-16293-003-6146476",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 145600,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-11-09",
+    "bid_to": "2026-11-11",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2026-09811-001-6042951",
@@ -34634,7 +34795,7 @@
     "bid_to": "2026-10-28",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34663,6 +34824,30 @@
     "is_new": false
    },
    {
+    "id": "2026-16293-003-6146439",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 182000,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-11-02",
+    "bid_to": "2026-11-04",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
     "id": "2026-12862-001-6127498",
     "cltr_mng_no": "2026-12862-001",
     "name": "서울특별시 강남구 삼성동 3-8 우정에쉐르아파트 제101동 제7층 제702호",
@@ -34682,7 +34867,7 @@
     "bid_to": "2026-10-21",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34759,6 +34944,30 @@
     "is_new": false
    },
    {
+    "id": "2026-16293-003-6146399",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 218400,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-10-26",
+    "bid_to": "2026-10-28",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
     "id": "2026-09811-001-6042822",
     "cltr_mng_no": "2026-09811-001",
     "name": "서울특별시 강남구 역삼동 728-45 현대이스트빌 제1층 제102호",
@@ -34802,7 +35011,7 @@
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34825,7 +35034,7 @@
     "bid_from": "2026-08-18",
     "bid_to": "2026-08-18",
     "status": "입찰준비중",
-    "fail_count": 25,
+    "fail_count": 26,
     "note": "",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -34849,7 +35058,7 @@
     "bid_from": "2026-08-13",
     "bid_to": "2026-08-13",
     "status": "입찰준비중",
-    "fail_count": 25,
+    "fail_count": 26,
     "note": "",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -34874,9 +35083,33 @@
     "bid_to": "2026-10-07",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
+   },
+   {
+    "id": "2026-16293-003-6146356",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 254800,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-10-19",
+    "bid_to": "2026-10-21",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2025-17494-001-6141467",
@@ -34903,30 +35136,6 @@
     "is_new": false
    },
    {
-    "id": "2025-0600-042964-6099599",
-    "cltr_mng_no": "2025-0600-042964",
-    "name": "서울특별시 용산구 이태원동 124-1 제14층 제1802호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 용산구 이태원동",
-    "gu": "용산구",
-    "dong": "이태원동",
-    "prpt_type": "기타일반재산",
-    "org": "교보자산신탁(주)",
-    "min_bid": 276340,
-    "appraisal": 400000,
-    "rate": null,
-    "area": 223.19,
-    "land_area": 30.57,
-    "bid_from": "2026-08-11",
-    "bid_to": "2026-08-11",
-    "status": "입찰준비중",
-    "fail_count": 25,
-    "note": "",
-    "first_seen": "2026-07-27",
-    "is_new": false
-   },
-   {
     "id": "2026-12862-001-6127324",
     "cltr_mng_no": "2026-12862-001",
     "name": "서울특별시 강남구 삼성동 3-8 우정에쉐르아파트 제101동 제7층 제702호",
@@ -34946,7 +35155,7 @@
     "bid_to": "2026-09-30",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-08-05",
     "is_new": false
    },
@@ -34970,9 +35179,57 @@
     "bid_to": "2026-11-18",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
+   },
+   {
+    "id": "2026-16293-003-6146312",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 291200,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-10-12",
+    "bid_to": "2026-10-14",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
+   },
+   {
+    "id": "2026-16293-003-6146265",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 327600,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-10-06",
+    "bid_to": "2026-10-07",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2025-17494-001-6141450",
@@ -34997,6 +35254,30 @@
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
+   },
+   {
+    "id": "2026-16293-003-6146216",
+    "cltr_mng_no": "2026-16293-003",
+    "name": "서울특별시 강남구 대치동 316 은마아파트 제5동 제3층 제311호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 대치동",
+    "gu": "강남구",
+    "dong": "대치동",
+    "prpt_type": "압류재산",
+    "org": "삼성세무서",
+    "min_bid": 364000,
+    "appraisal": 364000,
+    "rate": null,
+    "area": 95.18,
+    "land_area": 48.3,
+    "bid_from": "2026-09-28",
+    "bid_to": "2026-09-30",
+    "status": "입찰준비중",
+    "fail_count": 0,
+    "note": "",
+    "first_seen": "2026-08-13",
+    "is_new": true
    },
    {
     "id": "2025-17494-001-6024838",
@@ -35042,7 +35323,7 @@
     "bid_to": "2026-11-11",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -35114,7 +35395,7 @@
     "bid_to": "2026-11-04",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -35186,7 +35467,7 @@
     "bid_to": "2026-10-28",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -35210,7 +35491,7 @@
     "bid_to": "2026-10-21",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -35234,7 +35515,7 @@
     "bid_to": "2026-10-14",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -35258,7 +35539,7 @@
     "bid_to": "2026-10-07",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -35282,7 +35563,7 @@
     "bid_to": "2026-09-30",
     "status": "입찰준비중",
     "fail_count": 0,
-    "note": "",
+    "note": "정정내역 있음",
     "first_seen": "2026-07-30",
     "is_new": false
    },
@@ -35310,8 +35591,6 @@
     "first_seen": "2026-07-30",
     "is_new": false
    }
-  ],
-  "stale": true,
-  "stale_from": "2026-08-11 08:35"
+  ]
  }
 }
