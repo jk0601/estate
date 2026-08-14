@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24 16:28",
+  "generated_at": "2026-08-14 11:19",
   "source": "청약홈(한국부동산원) 입주(예정)정보",
   "sido": [
     "서울",
@@ -3123,63 +3123,13 @@
     {
       "region": "경기",
       "supply_type": "분양",
-      "address": "경기도 양평군 양평읍 덕평리 661-7",
-      "gu": "양평군",
-      "dong": "덕평리",
-      "name": "양평 하늘채 센트로힐스",
-      "move_in": "2027-03",
-      "households": 539,
-      "id": 99,
-      "bunyang_price": 37988,
-      "pblanc": {
-        "pblanc_no": "2024000207",
-        "house_nm": "양평 하늘채 센트로힐스",
-        "supply_addr": "경기도 양평군 양평읍 덕평리 661-7 일원",
-        "notice_date": "2024-05-10",
-        "builder": "코오롱글로벌(주)",
-        "homepage": "https://www.hanulche-yp.kr"
-      },
-      "price_by_type": [
-        {
-          "type": "059.8697A",
-          "area": "82.1074",
-          "price": 39069,
-          "households": 42
-        },
-        {
-          "type": "059.8275B",
-          "area": "81.9007",
-          "price": 37988,
-          "households": 3
-        },
-        {
-          "type": "074.9468A",
-          "area": "102.3304",
-          "price": 48038,
-          "households": 16
-        },
-        {
-          "type": "074.9050B",
-          "area": "102.9668",
-          "price": 49271,
-          "households": 39
-        }
-      ],
-      "bunyang_price_min": 37988,
-      "bunyang_price_max": 49271,
-      "naver_complex_no": "195077",
-      "naver_url": "https://m.land.naver.com/complex/info/195077"
-    },
-    {
-      "region": "경기",
-      "supply_type": "분양",
       "address": "경기도 고양시 일산동구 풍동  822-0",
       "gu": "고양시",
       "dong": "풍동",
       "name": "e편한세상 일산 메이포레 1단지",
       "move_in": "2027-03",
       "households": 321,
-      "id": 100,
+      "id": 99,
       "bunyang_price": 79560,
       "pblanc": {
         "pblanc_no": "2024000603",
@@ -3211,7 +3161,7 @@
       "name": "e편한세상 일산 메이포레 2단지",
       "move_in": "2027-03",
       "households": 564,
-      "id": 101,
+      "id": 100,
       "bunyang_price": 56170,
       "pblanc": {
         "pblanc_no": "2024000604",
@@ -3255,7 +3205,7 @@
       "name": "e편한세상 일산 메이포레 3단지",
       "move_in": "2027-03",
       "households": 457,
-      "id": 102,
+      "id": 101,
       "bunyang_price": 56170,
       "pblanc": {
         "pblanc_no": "2024000604",
@@ -3299,7 +3249,7 @@
       "name": "영통자이 센트럴파크",
       "move_in": "2027-03",
       "households": 580,
-      "id": 103,
+      "id": 102,
       "bunyang_price": 101540,
       "pblanc": {
         "pblanc_no": "2024000012",
@@ -3349,7 +3299,7 @@
       "name": "안성당왕(B-1) 경남아너스빌 하이스트",
       "move_in": "2027-03",
       "households": 976,
-      "id": 104,
+      "id": 103,
       "bunyang_price": 45450,
       "pblanc": {
         "pblanc_no": "2023000658",
@@ -3387,10 +3337,60 @@
       "name": "안양동 695-18 외 3필지 공동주택(LH신축매입약정)",
       "move_in": "2027-03",
       "households": 104,
-      "id": 105,
+      "id": 104,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%95%88%EC%96%91%EB%8F%99%20695-18%20%EC%99%B8%203%ED%95%84%EC%A7%80%20%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%28LH%EC%8B%A0%EC%B6%95%EB%A7%A4%EC%9E%85%EC%95%BD%EC%A0%95%29"
+    },
+    {
+      "region": "경기",
+      "supply_type": "분양",
+      "address": "경기도 양평군 양평읍 덕평리 661-7",
+      "gu": "양평군",
+      "dong": "덕평리",
+      "name": "양평 하늘채 센트로힐스",
+      "move_in": "2027-03",
+      "households": 539,
+      "id": 105,
+      "bunyang_price": 37988,
+      "pblanc": {
+        "pblanc_no": "2024000207",
+        "house_nm": "양평 하늘채 센트로힐스",
+        "supply_addr": "경기도 양평군 양평읍 덕평리 661-7 일원",
+        "notice_date": "2024-05-10",
+        "builder": "코오롱글로벌(주)",
+        "homepage": "https://www.hanulche-yp.kr"
+      },
+      "price_by_type": [
+        {
+          "type": "059.8697A",
+          "area": "82.1074",
+          "price": 39069,
+          "households": 42
+        },
+        {
+          "type": "059.8275B",
+          "area": "81.9007",
+          "price": 37988,
+          "households": 3
+        },
+        {
+          "type": "074.9468A",
+          "area": "102.3304",
+          "price": 48038,
+          "households": 16
+        },
+        {
+          "type": "074.9050B",
+          "area": "102.9668",
+          "price": 49271,
+          "households": 39
+        }
+      ],
+      "bunyang_price_min": 37988,
+      "bunyang_price_max": 49271,
+      "naver_complex_no": "195077",
+      "naver_url": "https://m.land.naver.com/complex/info/195077"
     },
     {
       "region": "경기",
