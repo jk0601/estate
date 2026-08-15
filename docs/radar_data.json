@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
  "generated_at": "2026-08-15 09:26",
-=======
- "generated_at": "2026-08-15 08:21",
->>>>>>> fb58eecea33445921dbaf23e07cb49c7083953d9
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -13,7 +9,6 @@
   "scan_months": 12
  },
  "deals": {
-<<<<<<< HEAD
   "available": true,
   "note": "",
   "months": [
@@ -31,10 +26,6 @@
    "202608"
   ],
   "scanned_deals": 70678,
-=======
-  "available": false,
-  "note": "수집 실패: 실거래가 조회 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev?serviceKey=651d0cb963d2fed91b63c714c6342bde2ef58bbf4da7aa2a11a9d674099a935c&LAWD_CD=11110&DEAL_YMD=202509&numOfRows=1000&pageNo=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='apis.data.go.kr', port=443) at 0x7ff6d84e3980>, 'Connection to apis.data.go.kr timed out. (connect timeout=30)'))",
->>>>>>> fb58eecea33445921dbaf23e07cb49c7083953d9
   "complexes": [
    {
     "gu": "강동구",
@@ -21630,36 +21621,15 @@
     "naver_complex_no": "108138",
     "naver_url": "https://m.land.naver.com/complex/info/108138"
    }
-  ],
-  "months": [
-   "202509",
-   "202510",
-   "202511",
-   "202512",
-   "202601",
-   "202602",
-   "202603",
-   "202604",
-   "202605",
-   "202606",
-   "202607",
-   "202608"
-  ],
-  "stale": true,
-  "stale_from": "2026-08-14 13:26"
+  ]
  },
  "auctions": {
-<<<<<<< HEAD
   "available": true,
   "note": "",
   "range": [
    "20260815",
    "20270217"
   ],
-=======
-  "available": false,
-  "note": "수집 실패: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ151F00.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.courtauction.go.kr', port=443) at 0x7ff6d8314470>, 'Connection to www.courtauction.go.kr timed out. (connect timeout=20)'))",
->>>>>>> fb58eecea33445921dbaf23e07cb49c7083953d9
   "items": [
    {
     "id": "B0002122023013012695611",
@@ -27013,13 +26983,11 @@
     "first_seen": "2026-08-08",
     "is_new": false
    }
-  ],
-  "stale": true,
-  "stale_from": "2026-08-14 13:26"
+  ]
  },
  "onbid": {
-  "available": false,
-  "note": "온비드 접속 실패: ConnectTimeout",
+  "available": true,
+  "note": "",
   "items": [
    {
     "id": "2025-07956-004-5982620",
@@ -35805,8 +35773,6 @@
     "first_seen": "2026-08-15",
     "is_new": false
    }
-  ],
-  "stale": true,
-  "stale_from": "2026-08-14 13:26"
+  ]
  }
 }
