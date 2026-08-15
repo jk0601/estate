@@ -65,9 +65,15 @@ def fetch_articles(complex_no: str) -> list[dict]:
                              viewport={"width": 1280, "height": 900})
         page = ctx.new_page()
         page.on("request", on_request)
+        # networkidle 은 네이버(광고·폴링)에서 거의 도달하지 못해 타임아웃 난다.
+        # DOM만 기다린 뒤, 매물 API 요청(토큰)이 잡힐 때까지 명시적으로 대기.
         page.goto(f"https://new.land.naver.com/complexes/{complex_no}?tradeType=A1",
-                  wait_until="networkidle", timeout=45000)
-        page.wait_for_timeout(2500)
+                  wait_until="domcontentloaded", timeout=60000)
+        try:
+            page.wait_for_request(
+                lambda r: "api/articles/complex" in r.url, timeout=30000)
+        except Exception:
+            page.wait_for_timeout(3000)  # 폴백: 잠깐 더 두고 on_request 결과 확인
         token = auth.get("t", "")
         if not first.get("url") or not token:
             br.close()
