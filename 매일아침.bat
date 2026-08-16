@@ -36,6 +36,13 @@ echo.
 echo ============================================================
 echo  git commit and push
 echo ============================================================
+REM Refuse to commit broken JSON (merge conflict markers break GitHub Pages)
+python -c "import json; json.load(open('docs/radar_data.json',encoding='utf-8')); json.load(open('docs/watch_data.json',encoding='utf-8'))"
+if errorlevel 1 (
+  echo  !! JSON invalid - NOT committing. Resolve merge in radar_data.json / watch_data.json first.
+  goto done
+)
+
 git add docs/watch_data.json docs/radar_data.json docs/data.json
 git diff --cached --quiet
 if errorlevel 1 goto do_commit
@@ -44,6 +51,12 @@ goto done
 
 :do_commit
 git commit -m "daily update: watch + radar"
+git pull --rebase origin main
+if errorlevel 1 (
+  echo  !! git pull --rebase failed - fix conflicts then push by hand
+  echo  !! Do NOT leave ^<^<^<^<^<^<^< markers in JSON files
+  goto done
+)
 git push
 if errorlevel 1 echo  !! push failed - data is saved, push later by hand
 

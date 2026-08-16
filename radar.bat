@@ -20,6 +20,13 @@ if errorlevel 1 (
   exit /b 1
 )
 
+python -c "import json; json.load(open('docs/radar_data.json',encoding='utf-8'))"
+if errorlevel 1 (
+  echo  !! radar_data.json invalid - NOT committing
+  pause
+  exit /b 1
+)
+
 git add docs/radar_data.json
 git diff --cached --quiet
 if errorlevel 1 goto do_commit
@@ -28,6 +35,11 @@ goto done
 
 :do_commit
 git commit -m "radar update"
+git pull --rebase origin main
+if errorlevel 1 (
+  echo  !! git pull --rebase failed - fix conflicts then push by hand
+  goto done
+)
 git push
 if errorlevel 1 echo  !! push failed - data is saved, push later by hand
 
