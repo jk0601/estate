@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18 07:13",
+ "generated_at": "2026-08-18 07:21",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -27448,8 +27448,8 @@
   ]
  },
  "onbid": {
-  "available": false,
-  "note": "온비드 접속 실패: ConnectionError",
+  "available": true,
+  "note": "",
   "items": [
    {
     "id": "2025-07956-004-5982620",
@@ -36235,8 +36235,6 @@
     "first_seen": "2026-08-15",
     "is_new": false
    }
-  ],
-  "stale": true,
-  "stale_from": "2026-08-18 07:08"
+  ]
  }
 }
