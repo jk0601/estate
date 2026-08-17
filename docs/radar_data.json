@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18 07:08",
+ "generated_at": "2026-08-18 07:13",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -9,8 +9,23 @@
   "scan_months": 12
  },
  "deals": {
-  "available": false,
-  "note": "수집 실패: 실거래가 조회 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Read timed out.",
+  "available": true,
+  "note": "",
+  "months": [
+   "202509",
+   "202510",
+   "202511",
+   "202512",
+   "202601",
+   "202602",
+   "202603",
+   "202604",
+   "202605",
+   "202606",
+   "202607",
+   "202608"
+  ],
+  "scanned_deals": 70704,
   "complexes": [
    {
     "gu": "강동구",
@@ -6326,6 +6341,12 @@
     "jibun": "769",
     "deals": [
      {
+      "date": "2026-08-15",
+      "amount": 131000,
+      "area": 59.96,
+      "floor": 2
+     },
+     {
       "date": "2026-07-25",
       "amount": 128000,
       "area": 59.96,
@@ -7082,13 +7103,13 @@
       "floor": 2
      }
     ],
-    "deal_count": 126,
+    "deal_count": 127,
     "hit_count": 1,
     "price_min": 77000,
     "price_med": 128000,
     "price_max": 163000,
-    "last_date": "2026-07-25",
-    "last_price": 128000,
+    "last_date": "2026-08-15",
+    "last_price": 131000,
     "area_min": 44.9,
     "area_max": 99.8,
     "hit_min": 77000,
@@ -21606,27 +21627,15 @@
     "naver_complex_no": "108138",
     "naver_url": "https://m.land.naver.com/complex/info/108138"
    }
-  ],
-  "months": [
-   "202509",
-   "202510",
-   "202511",
-   "202512",
-   "202601",
-   "202602",
-   "202603",
-   "202604",
-   "202605",
-   "202606",
-   "202607",
-   "202608"
-  ],
-  "stale": true,
-  "stale_from": "2026-08-16 09:07"
+  ]
  },
  "auctions": {
-  "available": false,
-  "note": "수집 실패: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "available": true,
+  "note": "",
+  "range": [
+   "20260818",
+   "20270220"
+  ],
   "items": [
    {
     "id": "B0002122023013012695611",
@@ -23114,7 +23123,7 @@
     "views": 19,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013000197011",
@@ -23186,7 +23195,7 @@
     "views": 15,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102008013002509235",
@@ -23210,7 +23219,7 @@
     "views": 11,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000240811",
@@ -23330,7 +23339,7 @@
     "views": 11,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B000210200801300250921518",
@@ -23354,7 +23363,7 @@
     "views": 13,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102008013002509246",
@@ -23378,7 +23387,7 @@
     "views": 12,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102008013002509279",
@@ -23402,7 +23411,7 @@
     "views": 12,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B000210200801300250921013",
@@ -23426,7 +23435,7 @@
     "views": 9,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001122311",
@@ -23474,7 +23483,7 @@
     "views": 12,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102008013002509268",
@@ -23498,7 +23507,7 @@
     "views": 10,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B00021020080130025092811",
@@ -23522,7 +23531,7 @@
     "views": 10,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B000210200801300250921114",
@@ -23546,7 +23555,7 @@
     "views": 10,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B000210200801300250921215",
@@ -23570,7 +23579,7 @@
     "views": 10,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B000210200801300250921417",
@@ -23594,7 +23603,7 @@
     "views": 11,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001250511",
@@ -23714,7 +23723,7 @@
     "views": 9,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010393211",
@@ -24218,7 +24227,7 @@
     "views": 0,
     "note": "임차인 및 임차보증금반환채권승계인 주택도시보증공사의 매수인에 대한 대항력 포기조건 매각",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005175911",
@@ -24338,7 +24347,7 @@
     "views": 10,
     "note": "- 지분매각(공유자 우선매수 1회에 한함)\n-특별매각조건 매수신청보증금 최저매각가격의 20%",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001210511",
@@ -24818,7 +24827,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132026013001034011",
@@ -27290,7 +27299,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-16",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010434911",
@@ -27436,13 +27445,11 @@
     "first_seen": "2026-08-08",
     "is_new": false
    }
-  ],
-  "stale": true,
-  "stale_from": "2026-08-16 09:07"
+  ]
  },
  "onbid": {
-  "available": true,
-  "note": "",
+  "available": false,
+  "note": "온비드 접속 실패: ConnectionError",
   "items": [
    {
     "id": "2025-07956-004-5982620",
@@ -36228,6 +36235,8 @@
     "first_seen": "2026-08-15",
     "is_new": false
    }
-  ]
+  ],
+  "stale": true,
+  "stale_from": "2026-08-18 07:08"
  }
 }
