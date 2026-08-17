@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-16 09:07",
+ "generated_at": "2026-08-18 07:08",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -9,23 +9,8 @@
   "scan_months": 12
  },
  "deals": {
-  "available": true,
-  "note": "",
-  "months": [
-   "202509",
-   "202510",
-   "202511",
-   "202512",
-   "202601",
-   "202602",
-   "202603",
-   "202604",
-   "202605",
-   "202606",
-   "202607",
-   "202608"
-  ],
-  "scanned_deals": 70682,
+  "available": false,
+  "note": "수집 실패: 실거래가 조회 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Read timed out.",
   "complexes": [
    {
     "gu": "강동구",
@@ -21621,15 +21606,27 @@
     "naver_complex_no": "108138",
     "naver_url": "https://m.land.naver.com/complex/info/108138"
    }
-  ]
+  ],
+  "months": [
+   "202509",
+   "202510",
+   "202511",
+   "202512",
+   "202601",
+   "202602",
+   "202603",
+   "202604",
+   "202605",
+   "202606",
+   "202607",
+   "202608"
+  ],
+  "stale": true,
+  "stale_from": "2026-08-16 09:07"
  },
  "auctions": {
-  "available": true,
-  "note": "",
-  "range": [
-   "20260816",
-   "20270218"
-  ],
+  "available": false,
+  "note": "수집 실패: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
   "items": [
    {
     "id": "B0002122023013012695611",
@@ -27439,7 +27436,9 @@
     "first_seen": "2026-08-08",
     "is_new": false
    }
-  ]
+  ],
+  "stale": true,
+  "stale_from": "2026-08-16 09:07"
  },
  "onbid": {
   "available": true,
