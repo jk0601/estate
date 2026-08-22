@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22 15:36",
+ "generated_at": "2026-08-23 08:35",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 71591,
+  "scanned_deals": 71584,
   "complexes": [
    {
     "gu": "강동구",
@@ -1151,12 +1151,6 @@
       "floor": 10
      },
      {
-      "date": "2026-07-18",
-      "amount": 85000,
-      "area": 59.8637,
-      "floor": 9
-     },
-     {
       "date": "2026-06-19",
       "amount": 96000,
       "area": 78.5532,
@@ -1379,10 +1373,10 @@
       "floor": 31
      }
     ],
-    "deal_count": 39,
-    "hit_count": 32,
+    "deal_count": 38,
+    "hit_count": 31,
     "price_min": 70000,
-    "price_med": 81000,
+    "price_med": 80500,
     "price_max": 99700,
     "last_date": "2026-07-31",
     "last_price": 87000,
@@ -21883,8 +21877,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260822",
-   "20270224"
+   "20260823",
+   "20270225"
   ],
   "items": [
    {
@@ -22077,7 +22071,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122024013014783711",
@@ -22533,7 +22527,7 @@
     "views": 0,
     "note": "건축물현황도[평면도(9층)]와 건축물현황도[평면도(910호)]는 불일치 (좌우반전)",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000336711",
@@ -23229,7 +23223,7 @@
     "views": 0,
     "note": "주택도시보증공사로부터 2026.07.01.자에 '임차보증금에 대하여 우선변제권만 주장하고 대항력은 포기하며, 임대차 보증금 전액을 변제받지 못하더라도 임차권등기를 말소하는 데 동의한다'는 내용의 확약서가 제출됨",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005161111",
@@ -23277,7 +23271,7 @@
     "views": 0,
     "note": "토지 별도등기 있음\n주택도시보증공사로부터 2026.06.26.자에 '임차보증금에 대하여 우선변제권만 주장하고 대항력은 포기하며, 임대차 보증금 전액을 변제받지 못하더라도 임차권등기를 말소하는 데 동의한다'는 내용의 확약서가 제출됨",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005170211",
@@ -25869,7 +25863,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132026013000002911",
@@ -26373,7 +26367,7 @@
     "views": 0,
     "note": "대지권미등기이나 매각목적물 및 평가에 포함됨.\n신청인 분양계약서 사본 및 분양금 납부확인서 제출(2025.12.11.자)",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000432611",
@@ -27093,7 +27087,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005220211",
@@ -27117,7 +27111,7 @@
     "views": 0,
     "note": "선행사건 2025타경52129(중복)의 현황조사서 및 감정평가서 원용\n2026.07.31.자 파르네빌아파트 입주자 대표회의가 제출한 신고서에 따르면 2026년 6월까지 공용부분에 대한 관리비 16,992,930원(연체료 제외)이 미납된 상태로 위 금액은 매수인이 승계함",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010402511",
@@ -27741,7 +27735,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152024013000043211",
@@ -28155,7 +28149,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6162690",
@@ -28179,7 +28173,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6162691",
@@ -28203,7 +28197,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6103091",
@@ -28275,7 +28269,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-027-6103094",
@@ -28347,7 +28341,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6162720",
@@ -28371,7 +28365,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-07956-004-5982619",
@@ -28587,7 +28581,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6162542",
@@ -28611,7 +28605,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6162543",
@@ -28635,7 +28629,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6103014",
@@ -28731,7 +28725,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054637",
@@ -28827,7 +28821,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-027-6103017",
@@ -28899,7 +28893,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6162572",
@@ -28923,7 +28917,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-07956-004-5982603",
@@ -28971,7 +28965,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-017-6102933",
@@ -29115,7 +29109,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6162388",
@@ -29139,7 +29133,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6162389",
@@ -29163,7 +29157,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102935",
@@ -29235,7 +29229,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-027-6102938",
@@ -29307,7 +29301,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6103100",
@@ -29355,7 +29349,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14091-001-6134632",
@@ -29547,7 +29541,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6162233",
@@ -29571,7 +29565,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6162234",
@@ -29595,7 +29589,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102856",
@@ -29691,7 +29685,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2023-13824-001-6156071",
@@ -29715,7 +29709,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054586",
@@ -29811,7 +29805,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01438-001-5982592",
@@ -29883,7 +29877,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-020-6102855",
@@ -29931,7 +29925,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-017-6102775",
@@ -30075,7 +30069,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6162083",
@@ -30099,7 +30093,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6162084",
@@ -30123,7 +30117,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6162265",
@@ -30147,7 +30141,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102777",
@@ -30219,7 +30213,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127881",
@@ -30267,7 +30261,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6084209",
@@ -30483,7 +30477,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6161932",
@@ -30507,7 +30501,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6161933",
@@ -30531,7 +30525,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-027-6102780",
@@ -30675,7 +30669,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-037-6161931",
@@ -30699,7 +30693,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054530",
@@ -30771,7 +30765,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10432-001-6102978",
@@ -30819,7 +30813,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-017-6102611",
@@ -30963,7 +30957,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6161785",
@@ -30987,7 +30981,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6161786",
@@ -31011,7 +31005,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102613",
@@ -31083,7 +31077,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-027-6102698",
@@ -31155,7 +31149,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6103023",
@@ -31203,7 +31197,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14091-001-6134363",
@@ -31299,7 +31293,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-017-6102534",
@@ -31443,7 +31437,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6161629",
@@ -31467,7 +31461,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6161630",
@@ -31491,7 +31485,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-11297-001-6162753",
@@ -31515,7 +31509,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102536",
@@ -31611,7 +31605,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2023-13824-001-6156025",
@@ -31635,7 +31629,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054472",
@@ -31755,7 +31749,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6084083",
@@ -31779,7 +31773,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10432-001-6102899",
@@ -31947,7 +31941,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6161483",
@@ -31971,7 +31965,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6161484",
@@ -31995,7 +31989,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14094-001-6162339",
@@ -32019,7 +32013,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102459",
@@ -32091,7 +32085,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01438-001-5982404",
@@ -32211,7 +32205,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-020-6102535",
@@ -32259,7 +32253,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13281-001-6134212",
@@ -32427,7 +32421,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-038-6161319",
@@ -32451,7 +32445,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-039-6161327",
@@ -32475,7 +32469,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6084004",
@@ -32499,7 +32493,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102381",
@@ -32619,7 +32613,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054411",
@@ -32715,7 +32709,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-027-6102462",
@@ -32811,7 +32805,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10432-001-6102820",
@@ -32883,7 +32877,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14094-001-6162184",
@@ -32907,7 +32901,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14091-001-6134087",
@@ -33051,7 +33045,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118547",
@@ -33099,7 +33093,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-15976-001-6162669",
@@ -33123,7 +33117,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054347",
@@ -33195,7 +33189,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10296-001-6095730",
@@ -33243,7 +33237,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10432-001-6102740",
@@ -33315,7 +33309,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13281-001-6133937",
@@ -33459,7 +33453,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6102868",
@@ -33627,7 +33621,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14094-001-6161880",
@@ -33651,7 +33645,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00321-001-6024121",
@@ -33723,7 +33717,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118432",
@@ -33771,7 +33765,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054212",
@@ -33963,7 +33957,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118371",
@@ -34011,7 +34005,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054138",
@@ -34059,7 +34053,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-03007-008-6067827",
@@ -34227,7 +34221,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13281-001-6133549",
@@ -34323,7 +34317,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2023-13824-001-6155889",
@@ -34347,7 +34341,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127701",
@@ -34395,7 +34389,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083982",
@@ -34515,7 +34509,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043691-6142860",
@@ -34587,7 +34581,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-05181-001-6103020",
@@ -34659,7 +34653,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-09209-001-6162090",
@@ -34683,7 +34677,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2023-13824-001-6155846",
@@ -34707,7 +34701,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-15976-001-6162365",
@@ -34731,7 +34725,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043691-6142849",
@@ -34947,7 +34941,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043798-6142852",
@@ -35259,7 +35253,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10296-001-6095565",
@@ -35379,7 +35373,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043699-6142846",
@@ -35571,7 +35565,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043693-6142837",
@@ -35859,7 +35853,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01430-001-6103952",
@@ -35931,7 +35925,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06003-001-6155769",
@@ -35955,7 +35949,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083821",
@@ -36147,7 +36141,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043693-6142826",
@@ -36507,7 +36501,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06003-001-6155720",
@@ -36531,7 +36525,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-15976-001-6162059",
@@ -36555,7 +36549,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043697-6142814",
@@ -36891,7 +36885,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0500-023992-5963394",
@@ -37227,7 +37221,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043651-6141543",
@@ -37299,7 +37293,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06003-001-6155668",
@@ -37323,7 +37317,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043693-6142804",
@@ -37611,7 +37605,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043699-6142802",
@@ -37659,7 +37653,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043795-6142800",
@@ -37923,7 +37917,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-05181-001-6102864",
@@ -38019,7 +38013,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10100-001-6127682",
@@ -38067,7 +38061,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043655-6141535",
@@ -38115,7 +38109,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6083562",
@@ -38259,7 +38253,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043654-6141536",
@@ -38379,7 +38373,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00321-001-6023817",
@@ -38427,7 +38421,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-09811-001-6141492",
@@ -38499,7 +38493,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-05181-001-6102785",
@@ -38595,7 +38589,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01468-001-6118558",
@@ -38691,7 +38685,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05649-001-6095552",
@@ -38787,7 +38781,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01468-001-6118501",
@@ -38931,7 +38925,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-22",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-01468-001-6118443",
