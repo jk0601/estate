@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-23 08:35",
+ "generated_at": "2026-08-24 09:24",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -21877,8 +21877,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260823",
-   "20270225"
+   "20260824",
+   "20270226"
   ],
   "items": [
    {
@@ -22362,6 +22362,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122025013001350811",
+    "court": "서울남부지방법원",
+    "dept": "경매9계",
+    "case_no": "2025타경13508",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 구로구 오류동 34-13 현대썬앤빌구로 제14층 제1415호",
+    "gu": "구로구",
+    "dong": "오류동",
+    "complex": "현대썬앤빌구로",
+    "usage": "아파트",
+    "area": 14.064,
+    "appraisal": 7600,
+    "min_bid": 7600,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-09",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "임차인 및 임차보증금반환채권승계인 서울보증보험 주식회사의 매수인에 대한 대항력 포기조건 매각",
+    "first_seen": "2026-08-24",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001375411",
     "court": "서울북부지방법원",
     "dept": "경매7계",
@@ -22672,6 +22696,30 @@
     "note": "",
     "first_seen": "2026-08-01",
     "is_new": false
+   },
+   {
+    "id": "B0002122026013000346311",
+    "court": "서울남부지방법원",
+    "dept": "경매9계",
+    "case_no": "2026타경3463",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강서구 방화동 619-7 에어팰리스 제6층 제606호",
+    "gu": "강서구",
+    "dong": "방화동",
+    "complex": "에어팰리스",
+    "usage": "아파트",
+    "area": 14.1,
+    "appraisal": 9200,
+    "min_bid": 9200,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-09",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "임차인 및 임차보증금반환채권승계인 서울보증보험 주식회사의 매수인에 대한 대항력 포기조건 매각",
+    "first_seen": "2026-08-24",
+    "is_new": true
    },
    {
     "id": "B0002132025013001327011",
@@ -26394,6 +26442,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122025013001325711",
+    "court": "서울남부지방법원",
+    "dept": "경매9계",
+    "case_no": "2025타경13257",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 구로구 오류동 343 금강수목원아파트 제104동 제5층 제502호",
+    "gu": "구로구",
+    "dong": "오류동",
+    "complex": "금강수목원아파트",
+    "usage": "아파트",
+    "area": 84.983,
+    "appraisal": 98500,
+    "min_bid": 98500,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-09",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-24",
+    "is_new": true
+   },
+   {
     "id": "B0002122025013001385011",
     "court": "서울남부지방법원",
     "dept": "경매12계",
@@ -26586,6 +26658,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122025013001370911",
+    "court": "서울남부지방법원",
+    "dept": "경매9계",
+    "case_no": "2025타경13709",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 구로구 개봉동 476 한마을아파트 제116동 제22층 제2201호",
+    "gu": "구로구",
+    "dong": "개봉동",
+    "complex": "한마을아파트",
+    "usage": "아파트",
+    "area": 149.97,
+    "appraisal": 111000,
+    "min_bid": 111000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-09",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-24",
+    "is_new": true
+   },
+   {
     "id": "B0002102025013010410811",
     "court": "서울중앙지방법원",
     "dept": "경매10계",
@@ -26632,6 +26728,30 @@
     "note": "",
     "first_seen": "2026-08-15",
     "is_new": false
+   },
+   {
+    "id": "B0002122025013001387711",
+    "court": "서울남부지방법원",
+    "dept": "경매9계",
+    "case_no": "2025타경13877",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강서구 염창동 292 염창동아아파트 제101동 제3층 제303호",
+    "gu": "강서구",
+    "dong": "염창동",
+    "complex": "염창동아아파트",
+    "usage": "아파트",
+    "area": 114.84,
+    "appraisal": 124000,
+    "min_bid": 124000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-09",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-08-24",
+    "is_new": true
    },
    {
     "id": "B0002102025013010319311",
@@ -34530,7 +34650,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -34746,7 +34866,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -34770,7 +34890,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -34818,7 +34938,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -34866,7 +34986,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -34914,7 +35034,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -34962,7 +35082,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -34986,7 +35106,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35034,7 +35154,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35058,7 +35178,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35082,7 +35202,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35130,7 +35250,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35154,7 +35274,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35178,7 +35298,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35202,7 +35322,7 @@
     "bid_from": "2026-09-29",
     "bid_to": "2026-09-29",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35226,7 +35346,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35298,7 +35418,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35322,7 +35442,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35346,7 +35466,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35394,7 +35514,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35466,7 +35586,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35490,7 +35610,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35514,7 +35634,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35538,7 +35658,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35586,7 +35706,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35634,7 +35754,7 @@
     "bid_from": "2026-09-21",
     "bid_to": "2026-09-21",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35682,7 +35802,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35730,7 +35850,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35778,7 +35898,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35802,7 +35922,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35898,7 +36018,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -35994,7 +36114,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36018,7 +36138,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36042,7 +36162,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36114,7 +36234,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36162,7 +36282,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36186,7 +36306,7 @@
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36210,7 +36330,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36234,7 +36354,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36258,7 +36378,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36282,7 +36402,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36330,7 +36450,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36378,7 +36498,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36402,7 +36522,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36450,7 +36570,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36570,7 +36690,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36666,7 +36786,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36690,7 +36810,7 @@
     "bid_from": "2026-09-09",
     "bid_to": "2026-09-09",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36762,7 +36882,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36810,7 +36930,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36834,7 +36954,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -36858,7 +36978,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37098,7 +37218,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37146,7 +37266,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37170,7 +37290,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37266,7 +37386,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37338,7 +37458,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37386,7 +37506,7 @@
     "bid_from": "2026-09-02",
     "bid_to": "2026-09-02",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37458,7 +37578,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37482,7 +37602,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37530,7 +37650,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37554,7 +37674,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37626,7 +37746,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37674,7 +37794,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37698,7 +37818,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -37818,7 +37938,7 @@
     "bid_from": "2026-08-27",
     "bid_to": "2026-08-27",
     "status": "입찰준비중",
-    "fail_count": 0,
+    "fail_count": 1,
     "note": "",
     "first_seen": "2026-08-11",
     "is_new": false
@@ -40097,7 +40217,7 @@
     "land_area": 1928.8706,
     "bid_from": "2026-08-24",
     "bid_to": "2026-08-24",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-15",
