@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29 10:29",
+ "generated_at": "2026-08-30 13:55",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 72460,
+  "scanned_deals": 72461,
   "complexes": [
    {
     "gu": "강동구",
@@ -3303,6 +3303,12 @@
       "floor": 4
      },
      {
+      "date": "2026-07-20",
+      "amount": 75000,
+      "area": 59.99,
+      "floor": 6
+     },
+     {
       "date": "2026-06-13",
       "amount": 76500,
       "area": 59.92,
@@ -3381,17 +3387,17 @@
       "floor": 8
      }
     ],
-    "deal_count": 14,
-    "hit_count": 5,
+    "deal_count": 15,
+    "hit_count": 6,
     "price_min": 68000,
-    "price_med": 73800,
+    "price_med": 74000,
     "price_max": 77000,
     "last_date": "2026-07-25",
     "last_price": 71500,
     "area_min": 59.9,
     "area_max": 60.0,
     "hit_min": 75000,
-    "hit_last": "2026-06-13",
+    "hit_last": "2026-07-20",
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%EC%A7%84%EA%B4%80%EB%8F%99%20%EC%9D%80%ED%8F%89%EB%89%B4%ED%83%80%EC%9A%B4%EA%BF%88%EC%97%90%EA%B7%B8%EB%A6%B0"
    },
@@ -22127,8 +22133,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260829",
-   "20270303"
+   "20260830",
+   "20270304"
   ],
   "items": [
    {
@@ -22801,7 +22807,7 @@
     "views": 0,
     "note": "신청채권자는 매수인에게 배당받지 못한 잔액 상당 임대차보증금반환청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-29",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005124211",
@@ -23425,7 +23431,7 @@
     "views": 0,
     "note": "신청채권자는 매수인에게 배당받지 못한 잔액 상당 임대차보증금반환청구권을 포기하고, 임차권등기를 말소하는 것을 조건으로 매각",
     "first_seen": "2026-08-29",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001063611",
@@ -24601,7 +24607,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-29",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005202211",
@@ -25273,7 +25279,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-29",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005136311",
@@ -26161,7 +26167,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-29",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013000046511",
@@ -26689,7 +26695,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-08-29",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005172711",
