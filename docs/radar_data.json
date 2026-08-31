@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30 13:55",
+ "generated_at": "2026-08-31 13:02",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202607",
    "202608"
   ],
-  "scanned_deals": 72461,
+  "scanned_deals": 72463,
   "complexes": [
    {
     "gu": "강동구",
@@ -22133,8 +22133,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260830",
-   "20270304"
+   "20260831",
+   "20270305"
   ],
   "items": [
    {
@@ -38221,30 +38221,6 @@
     "fail_count": 0,
     "note": "정정내역 있음",
     "first_seen": "2026-07-30",
-    "is_new": false
-   },
-   {
-    "id": "2026-0800-044659-6148700",
-    "cltr_mng_no": "2026-0800-044659",
-    "name": "서울특별시 동대문구 휘경동 381 공동주택 301호 외 312세대 및 근린생활시설 5개호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 휘경동",
-    "gu": "동대문구",
-    "dong": "휘경동",
-    "prpt_type": "기타일반재산",
-    "org": "주식회사 하나자산신탁",
-    "min_bid": 9353000,
-    "appraisal": 10807500,
-    "rate": null,
-    "area": 6416.98,
-    "land_area": 1928.8706,
-    "bid_from": "2026-08-28",
-    "bid_to": "2026-08-28",
-    "status": "입찰마감",
-    "fail_count": 2,
-    "note": "",
-    "first_seen": "2026-08-15",
     "is_new": false
    }
   ]
