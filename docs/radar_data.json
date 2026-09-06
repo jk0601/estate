@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06 16:02",
+ "generated_at": "2026-09-07 08:57",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -9,8 +9,23 @@
   "scan_months": 12
  },
  "deals": {
-  "available": false,
-  "note": "수집 실패: 실거래가 조회 실패: HTTP 403",
+  "available": true,
+  "note": "",
+  "months": [
+   "202510",
+   "202511",
+   "202512",
+   "202601",
+   "202602",
+   "202603",
+   "202604",
+   "202605",
+   "202606",
+   "202607",
+   "202608",
+   "202609"
+  ],
+  "scanned_deals": 64702,
   "complexes": [
    {
     "gu": "강동구",
@@ -19712,30 +19727,14 @@
     "naver_complex_no": "113985",
     "naver_url": "https://m.land.naver.com/complex/info/113985"
    }
-  ],
-  "months": [
-   "202510",
-   "202511",
-   "202512",
-   "202601",
-   "202602",
-   "202603",
-   "202604",
-   "202605",
-   "202606",
-   "202607",
-   "202608",
-   "202609"
-  ],
-  "stale": true,
-  "stale_from": "2026-09-05 17:57"
+  ]
  },
  "auctions": {
   "available": true,
   "note": "",
   "range": [
-   "20260906",
-   "20270311"
+   "20260907",
+   "20270312"
   ],
   "items": [
    {
@@ -22813,8 +22812,8 @@
   ]
  },
  "onbid": {
-  "available": false,
-  "note": "온비드 접속 실패: ReadTimeout",
+  "available": true,
+  "note": "",
   "items": [
    {
     "id": "2024-04393-028-6134648",
@@ -29606,7 +29605,7 @@
     "fail_count": 4,
     "note": "수의계약 가능",
     "first_seen": "2026-09-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0500-023996-5963390",
@@ -29630,7 +29629,7 @@
     "fail_count": 4,
     "note": "수의계약 가능",
     "first_seen": "2026-09-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0500-023997-5963389",
@@ -29654,7 +29653,7 @@
     "fail_count": 4,
     "note": "수의계약 가능",
     "first_seen": "2026-09-05",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043655-6141545",
@@ -31816,8 +31815,6 @@
     "first_seen": "2026-07-30",
     "is_new": false
    }
-  ],
-  "stale": true,
-  "stale_from": "2026-09-05 17:57"
+  ]
  }
 }
