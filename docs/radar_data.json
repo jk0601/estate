@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10 10:47",
+ "generated_at": "2026-09-11 10:25",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202608",
    "202609"
   ],
-  "scanned_deals": 65262,
+  "scanned_deals": 65407,
   "complexes": [
    {
     "gu": "강동구",
@@ -4787,6 +4787,12 @@
     "jibun": "468",
     "deals": [
      {
+      "date": "2026-08-25",
+      "amount": 85000,
+      "area": 59.7501,
+      "floor": 10
+     },
+     {
       "date": "2026-08-18",
       "amount": 86800,
       "area": 59.7501,
@@ -4883,17 +4889,17 @@
       "floor": 9
      }
     ],
-    "deal_count": 16,
-    "hit_count": 16,
+    "deal_count": 17,
+    "hit_count": 17,
     "price_min": 76700,
     "price_med": 80000,
     "price_max": 86800,
-    "last_date": "2026-08-18",
-    "last_price": 86800,
+    "last_date": "2026-08-25",
+    "last_price": 85000,
     "area_min": 59.8,
     "area_max": 59.8,
     "hit_min": 76700,
-    "hit_last": "2026-08-18",
+    "hit_last": "2026-08-25",
     "naver_complex_no": "127108",
     "naver_url": "https://m.land.naver.com/complex/info/127108"
    },
@@ -5891,6 +5897,12 @@
     "jibun": "769",
     "deals": [
      {
+      "date": "2026-08-25",
+      "amount": 150000,
+      "area": 84.92,
+      "floor": 20
+     },
+     {
       "date": "2026-08-15",
       "amount": 131000,
       "area": 59.96,
@@ -6563,13 +6575,13 @@
       "floor": 4
      }
     ],
-    "deal_count": 112,
+    "deal_count": 113,
     "hit_count": 1,
     "price_min": 77000,
     "price_med": 129000,
     "price_max": 163000,
-    "last_date": "2026-08-15",
-    "last_price": 131000,
+    "last_date": "2026-08-25",
+    "last_price": 150000,
     "area_min": 44.9,
     "area_max": 99.8,
     "hit_min": 77000,
@@ -8411,6 +8423,12 @@
       "floor": 3
      },
      {
+      "date": "2026-08-26",
+      "amount": 140000,
+      "area": 84.9728,
+      "floor": 5
+     },
+     {
       "date": "2026-08-11",
       "amount": 108000,
       "area": 59.9908,
@@ -8699,11 +8717,11 @@
       "floor": 2
      }
     ],
-    "deal_count": 49,
+    "deal_count": 50,
     "hit_count": 4,
     "price_min": 70000,
-    "price_med": 115000,
-    "price_max": 137500,
+    "price_med": 116000,
+    "price_max": 140000,
     "last_date": "2026-09-03",
     "last_price": 129000,
     "area_min": 50.0,
@@ -9925,6 +9943,12 @@
     "jibun": "66",
     "deals": [
      {
+      "date": "2026-08-28",
+      "amount": 103800,
+      "area": 49.74,
+      "floor": 18
+     },
+     {
       "date": "2026-07-30",
       "amount": 120000,
       "area": 59.97,
@@ -10183,13 +10207,13 @@
       "floor": 18
      }
     ],
-    "deal_count": 43,
+    "deal_count": 44,
     "hit_count": 7,
     "price_min": 61700,
     "price_med": 97000,
     "price_max": 126000,
-    "last_date": "2026-07-30",
-    "last_price": 120000,
+    "last_date": "2026-08-28",
+    "last_price": 103800,
     "area_min": 49.7,
     "area_max": 60.0,
     "hit_min": 79800,
@@ -10256,6 +10280,12 @@
     "build_year": 2019,
     "jibun": "241",
     "deals": [
+     {
+      "date": "2026-09-02",
+      "amount": 86500,
+      "area": 84.9544,
+      "floor": 10
+     },
      {
       "date": "2026-08-29",
       "amount": 91500,
@@ -10467,17 +10497,17 @@
       "floor": 4
      }
     ],
-    "deal_count": 35,
-    "hit_count": 30,
+    "deal_count": 36,
+    "hit_count": 31,
     "price_min": 80000,
     "price_med": 84000,
     "price_max": 130000,
-    "last_date": "2026-08-29",
-    "last_price": 91500,
+    "last_date": "2026-09-02",
+    "last_price": 86500,
     "area_min": 76.9,
     "area_max": 106.9,
     "hit_min": 80000,
-    "hit_last": "2026-08-15",
+    "hit_last": "2026-09-02",
     "naver_complex_no": "119166",
     "naver_url": "https://m.land.naver.com/complex/info/119166"
    },
@@ -11517,6 +11547,12 @@
     "jibun": "764",
     "deals": [
      {
+      "date": "2026-09-04",
+      "amount": 112000,
+      "area": 84.98,
+      "floor": 16
+     },
+     {
       "date": "2026-08-19",
       "amount": 96700,
       "area": 59.98,
@@ -11817,13 +11853,13 @@
       "floor": 16
      }
     ],
-    "deal_count": 50,
+    "deal_count": 51,
     "hit_count": 15,
     "price_min": 80500,
-    "price_med": 96850,
-    "price_max": 110000,
-    "last_date": "2026-08-19",
-    "last_price": 96700,
+    "price_med": 97000,
+    "price_max": 112000,
+    "last_date": "2026-09-04",
+    "last_price": 112000,
     "area_min": 60.0,
     "area_max": 85.0,
     "hit_min": 80500,
@@ -15985,6 +16021,12 @@
     "jibun": "828",
     "deals": [
      {
+      "date": "2026-08-21",
+      "amount": 99000,
+      "area": 49.6971,
+      "floor": 17
+     },
+     {
       "date": "2026-07-31",
       "amount": 94000,
       "area": 46.2439,
@@ -16183,13 +16225,13 @@
       "floor": 8
      }
     ],
-    "deal_count": 33,
+    "deal_count": 34,
     "hit_count": 7,
     "price_min": 66500,
     "price_med": 95000,
     "price_max": 195000,
-    "last_date": "2026-07-31",
-    "last_price": 94000,
+    "last_date": "2026-08-21",
+    "last_price": 99000,
     "area_min": 45.7,
     "area_max": 93.2,
     "hit_min": 85900,
@@ -16204,6 +16246,12 @@
     "build_year": 2020,
     "jibun": "767",
     "deals": [
+     {
+      "date": "2026-09-04",
+      "amount": 104000,
+      "area": 59.9335,
+      "floor": 15
+     },
      {
       "date": "2026-08-21",
       "amount": 110000,
@@ -16625,13 +16673,13 @@
       "floor": 15
      }
     ],
-    "deal_count": 70,
+    "deal_count": 71,
     "hit_count": 2,
     "price_min": 86000,
-    "price_med": 107000,
+    "price_med": 106000,
     "price_max": 135500,
-    "last_date": "2026-08-21",
-    "last_price": 110000,
+    "last_date": "2026-09-04",
+    "last_price": 104000,
     "area_min": 59.9,
     "area_max": 101.0,
     "hit_min": 86000,
@@ -16978,6 +17026,12 @@
     "build_year": 2018,
     "jibun": "1155",
     "deals": [
+     {
+      "date": "2026-09-07",
+      "amount": 104500,
+      "area": 59.9672,
+      "floor": 26
+     },
      {
       "date": "2026-08-29",
       "amount": 112000,
@@ -17489,13 +17543,13 @@
       "floor": 39
      }
     ],
-    "deal_count": 85,
+    "deal_count": 86,
     "hit_count": 2,
     "price_min": 88000,
     "price_med": 104500,
     "price_max": 135000,
-    "last_date": "2026-08-29",
-    "last_price": 112000,
+    "last_date": "2026-09-07",
+    "last_price": 104500,
     "area_min": 60.0,
     "area_max": 84.5,
     "hit_min": 88000,
@@ -19887,8 +19941,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260910",
-   "20270315"
+   "20260911",
+   "20270316"
   ],
   "items": [
    {
@@ -19913,7 +19967,7 @@
     "views": 70,
     "note": "특별매각조건 매수신청보증금 최저매각가격의 20%",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013000940211",
@@ -19961,7 +20015,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112024013006197811",
@@ -20033,7 +20087,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005088511",
@@ -20084,6 +20138,54 @@
     "is_new": false
    },
    {
+    "id": "B0002122026013000336711",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경3367",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 금천구 가산동 141-2 가산양우내안애애플 제10층 제1008호",
+    "gu": "금천구",
+    "dong": "가산동",
+    "complex": "가산양우내안애애플",
+    "usage": "아파트",
+    "area": 12.04,
+    "appraisal": 11000,
+    "min_bid": 7040,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "주택임차권자 한국토지주택공사의 승계인 서울보증보험주식회사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금 반환채권을 포기하고, 주택임차권등기를 말소하는 것을 조건으로 매각",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
+    "id": "B0002122026013000364311",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경3643",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 금천구 가산동 141-2 가산양우내안애애플 제16층 제1603호",
+    "gu": "금천구",
+    "dong": "가산동",
+    "complex": "가산양우내안애애플",
+    "usage": "아파트",
+    "area": 12.04,
+    "appraisal": 11000,
+    "min_bid": 7040,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "주택임차권자 한국토지주택공사의 승계인인 서울보증보험 주식회사는 매수인에 대하여 배당받지 못하는 잔액에 대한 임대차보증금반환채권을 포기하고, 주택임차권등기를 말소하는 것을 조건으로 매각",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002152025013005174111",
     "court": "서울서부지방법원",
     "dept": "경매6계",
@@ -20105,7 +20207,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001278011",
@@ -20132,6 +20234,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132025013001241711",
+    "court": "서울북부지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경12417",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 동대문구 장안동 372-5 장안뉴씨티 9층907호",
+    "gu": "동대문구",
+    "dong": "장안동",
+    "complex": "장안뉴씨티",
+    "usage": "아파트",
+    "area": 17.63,
+    "appraisal": 9500,
+    "min_bid": 7600,
+    "rate": 64,
+    "fail_count": 5,
+    "sale_date": "2026-09-29",
+    "place": "법정동제101호입찰법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002112025013005137511",
     "court": "서울동부지방법원",
     "dept": "경매3계",
@@ -20153,7 +20279,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001358111",
@@ -20201,7 +20327,7 @@
     "views": 0,
     "note": "신청채권자 겸 주택임차권 승계인 서울보증보험주식회사의 매수인에 대한 대항력 포기조건 매각",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000340111",
@@ -20225,7 +20351,7 @@
     "views": 0,
     "note": "신청채권자 겸 주택임차권 승계인 서울보증보험주식회사의 매수인에 대한 대항력 포기조건 매각",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005196511",
@@ -20273,7 +20399,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010456611",
@@ -20348,30 +20474,6 @@
     "is_new": false
    },
    {
-    "id": "B0002132025013001289611",
-    "court": "서울북부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경12896",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 성북구 정릉동 148-10 갤럭시더정릉 5층 505호",
-    "gu": "성북구",
-    "dong": "정릉동",
-    "complex": "갤럭시더정릉",
-    "usage": "아파트",
-    "area": 11.79,
-    "appraisal": 19400,
-    "min_bid": 9932,
-    "rate": 41,
-    "fail_count": 4,
-    "sale_date": "2026-09-29",
-    "place": "제101호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": true
-   },
-   {
     "id": "B0002122025013001193911",
     "court": "서울남부지방법원",
     "dept": "경매5계",
@@ -20420,6 +20522,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122026013000527911",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경5279",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 금천구 가산동 141-2 가산양우내안애애플 제11층 제1101호",
+    "gu": "금천구",
+    "dong": "가산동",
+    "complex": "가산양우내안애애플",
+    "usage": "아파트",
+    "area": 12.04,
+    "appraisal": 11000,
+    "min_bid": 11000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "주택임차권자 한국토지주택공사의 승계인인 서울보증보험 주식회사는 매수인에 대하여 배당받지 못한 임차보증금 잔액에 대한 반환청구권을 포기하고 임차권등기를 말소하는 것을 조건으로 매각",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002122025013000833511",
     "court": "서울남부지방법원",
     "dept": "경매4계",
@@ -20444,30 +20570,6 @@
     "is_new": false
    },
    {
-    "id": "B0002132025013001213511",
-    "court": "서울북부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경12135",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 중랑구 망우동 207-6 세움삼익플라주 4층 401호",
-    "gu": "중랑구",
-    "dong": "망우동",
-    "complex": "세움삼익플라주",
-    "usage": "아파트",
-    "area": 54.6,
-    "appraisal": 52900,
-    "min_bid": 11093,
-    "rate": 17,
-    "fail_count": 8,
-    "sale_date": "2026-09-29",
-    "place": "제101호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": true
-   },
-   {
     "id": "B0002122025013001311311",
     "court": "서울남부지방법원",
     "dept": "경매7계",
@@ -20489,7 +20591,7 @@
     "views": 0,
     "note": "신청채권자 겸 주택임차권 승계인 서울보증보험 주식회사의 매수인에 대한 대항력 포기조건 매각",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001192011",
@@ -20564,30 +20666,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122026013000334211",
-    "court": "서울남부지방법원",
-    "dept": "경매2계",
-    "case_no": "2026타경3342",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 금천구 가산동 140-36 비즈트위트 바이올렛 5차 제9층 제906호",
-    "gu": "금천구",
-    "dong": "가산동",
-    "complex": "비즈트위트 바이올렛 5차",
-    "usage": "기타",
-    "area": 12.19,
-    "appraisal": 12000,
-    "min_bid": 12000,
-    "rate": 80,
-    "fail_count": 1,
-    "sale_date": "2026-09-10",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 임차권승계인 서울보증보험 주식회사의 매수인에 대한 대항력 포기조건 매각",
-    "first_seen": "2026-08-27",
-    "is_new": false
-   },
-   {
     "id": "B0002152024013006424511",
     "court": "서울서부지방법원",
     "dept": "경매6계",
@@ -20609,7 +20687,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005138911",
@@ -20636,6 +20714,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122025013001094711",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2025타경10947",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 구로구 오류동 6-63 루체비스타 제15층 제1502호",
+    "gu": "구로구",
+    "dong": "오류동",
+    "complex": "루체비스타",
+    "usage": "아파트",
+    "area": 29.98,
+    "appraisal": 30500,
+    "min_bid": 12492,
+    "rate": 33,
+    "fail_count": 5,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002112025013005117311",
     "court": "서울동부지방법원",
     "dept": "경매4계",
@@ -20657,30 +20759,6 @@
     "views": 0,
     "note": "토지 별도등기 있음\n주택도시보증공사로부터 2026.06.26.자에 '임차보증금에 대하여 우선변제권만 주장하고 대항력은 포기하며, 임대차 보증금 전액을 변제받지 못하더라도 임차권등기를 말소하는 데 동의한다'는 내용의 확약서가 제출됨",
     "first_seen": "2026-08-22",
-    "is_new": false
-   },
-   {
-    "id": "B0002122026013000357311",
-    "court": "서울남부지방법원",
-    "dept": "경매2계",
-    "case_no": "2026타경3573",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 영등포구 영등포동8가 51-1 메이준 제18층 제1802호",
-    "gu": "영등포구",
-    "dong": "영등포동8가",
-    "complex": "메이준",
-    "usage": "기타",
-    "area": 12.11,
-    "appraisal": 12700,
-    "min_bid": 12700,
-    "rate": 80,
-    "fail_count": 1,
-    "sale_date": "2026-09-10",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -20754,6 +20832,54 @@
     "note": "",
     "first_seen": "2026-08-27",
     "is_new": false
+   },
+   {
+    "id": "B0002102026013010087611",
+    "court": "서울중앙지방법원",
+    "dept": "경매7계",
+    "case_no": "2026타경100876",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 관악구 신림동 1433-55 프라비다트라움 3층301호",
+    "gu": "관악구",
+    "dong": "신림동",
+    "complex": "프라비다트라움",
+    "usage": "아파트",
+    "area": 14.05,
+    "appraisal": 13600,
+    "min_bid": 13600,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
+    "id": "B0002122025013001009211",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2025타경10092",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 영등포구 영등포동1가 145 제12층 제1212호",
+    "gu": "영등포구",
+    "dong": "영등포동1가",
+    "complex": "",
+    "usage": "아파트",
+    "area": 15.076,
+    "appraisal": 13600,
+    "min_bid": 13600,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "B0002122025013001410311",
@@ -20873,6 +20999,30 @@
     "views": 0,
     "note": "지분매각.공유자 우선매수권 1회 제한",
     "first_seen": "2026-09-10",
+    "is_new": false
+   },
+   {
+    "id": "B0002122026013000014111",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경141",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 구로구 구로동 744-3 제4층 제401호",
+    "gu": "구로구",
+    "dong": "구로동",
+    "complex": "",
+    "usage": "아파트",
+    "area": 38.81,
+    "appraisal": 20400,
+    "min_bid": 20400,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
     "is_new": true
    },
    {
@@ -20897,7 +21047,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000420611",
@@ -20921,7 +21071,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000459611",
@@ -20945,7 +21095,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000423711",
@@ -20969,7 +21119,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000366111",
@@ -20993,7 +21143,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000465711",
@@ -21017,7 +21167,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000403911",
@@ -21065,7 +21215,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000538411",
@@ -21113,7 +21263,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000429911",
@@ -21137,7 +21287,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000393711",
@@ -21161,7 +21311,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000528511",
@@ -21185,7 +21335,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000402211",
@@ -21209,7 +21359,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000537711",
@@ -21233,7 +21383,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001333111",
@@ -21257,7 +21407,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000492311",
@@ -21281,7 +21431,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005116511",
@@ -21329,7 +21479,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000385211",
@@ -21377,7 +21527,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000522311",
@@ -21401,7 +21551,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013000386011",
@@ -21428,6 +21578,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122026013000373711",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경3737",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강서구 화곡동 899-8 한울아파트 제11층 제1101호",
+    "gu": "강서구",
+    "dong": "화곡동",
+    "complex": "한울아파트",
+    "usage": "아파트",
+    "area": 28.82,
+    "appraisal": 25600,
+    "min_bid": 25600,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013000474911",
     "court": "서울북부지방법원",
     "dept": "경매3계",
@@ -21449,7 +21623,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000501811",
@@ -21473,7 +21647,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000495411",
@@ -21497,7 +21671,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000432911",
@@ -21521,7 +21695,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000558211",
@@ -21545,7 +21719,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000331111",
@@ -21593,7 +21767,7 @@
     "views": 0,
     "note": "집합건축물대장상 도시형생활주택(원룸형아파트)",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000447311",
@@ -21617,7 +21791,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000546911",
@@ -21641,7 +21815,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000376011",
@@ -21689,7 +21863,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000414511",
@@ -21713,7 +21887,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000519311",
@@ -21737,7 +21911,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000549011",
@@ -21761,7 +21935,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000378411",
@@ -21785,7 +21959,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010376211",
@@ -21860,6 +22034,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132025013000555111",
+    "court": "서울북부지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경5551",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 도봉구 쌍문동 507-1 에드가쌍문 7층741호",
+    "gu": "도봉구",
+    "dong": "쌍문동",
+    "complex": "에드가쌍문",
+    "usage": "아파트",
+    "area": 30.0311,
+    "appraisal": 32800,
+    "min_bid": 32800,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-29",
+    "place": "법정동제101호입찰법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001210511",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -21881,7 +22079,7 @@
     "views": 0,
     "note": "지분매각임. 공유자 우선매수신고 제한 있음(1회에 한하여 허용)",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001388611",
@@ -21953,7 +22151,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001293011",
@@ -22001,7 +22199,7 @@
     "views": 0,
     "note": "일괄매각",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005172212",
@@ -22025,7 +22223,7 @@
     "views": 0,
     "note": "일괄매각",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112024013006581911",
@@ -22049,6 +22247,30 @@
     "views": 0,
     "note": "지분매각\n공유자의 우선매수신고는 1회에 한하여 행사할 수 있음",
     "first_seen": "2026-09-10",
+    "is_new": false
+   },
+   {
+    "id": "B0002122026013000465411",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경4654",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강서구 화곡동 921-18 제10층 제1002호",
+    "gu": "강서구",
+    "dong": "화곡동",
+    "complex": "",
+    "usage": "아파트",
+    "area": 58.55,
+    "appraisal": 40500,
+    "min_bid": 40500,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
     "is_new": true
    },
    {
@@ -22073,7 +22295,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001313111",
@@ -22097,7 +22319,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001375911",
@@ -22121,7 +22343,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001207611",
@@ -22145,6 +22367,54 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
+    "is_new": false
+   },
+   {
+    "id": "B0002122026013000540111",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경5401",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 양천구 신월동 530-7 우창아파트 제2층 제201호",
+    "gu": "양천구",
+    "dong": "신월동",
+    "complex": "우창아파트",
+    "usage": "아파트",
+    "area": 83.61,
+    "appraisal": 46500,
+    "min_bid": 46500,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
+    "id": "B0002132025013001370511",
+    "court": "서울북부지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경13705",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 성북구 상월곡동 55-56 우남아파트 101동 18층 1803호",
+    "gu": "성북구",
+    "dong": "상월곡동",
+    "complex": "우남아파트",
+    "usage": "아파트",
+    "area": 59.64,
+    "appraisal": 46600,
+    "min_bid": 46600,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-29",
+    "place": "법정동제101호입찰법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
     "is_new": true
    },
    {
@@ -22169,7 +22439,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001297711",
@@ -22193,7 +22463,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005224211",
@@ -22217,7 +22487,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000638711",
@@ -22265,7 +22535,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000344911",
@@ -22289,7 +22559,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000612711",
@@ -22313,31 +22583,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
-   },
-   {
-    "id": "B0002132025013001370811",
-    "court": "서울북부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경13708",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 도봉구 방학동 720-18 방학동삼성래미안 111동 4층 401호",
-    "gu": "도봉구",
-    "dong": "방학동",
-    "complex": "방학동삼성래미안",
-    "usage": "아파트",
-    "area": 134.981,
-    "appraisal": 58500,
-    "min_bid": 58500,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-09-29",
-    "place": "제101호법정",
-    "views": 0,
-    "note": "지분매각임. 공유자 우선매수신고 제한 있음(1회에 한하여 허용)",
-    "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001366011",
@@ -22361,7 +22607,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005136211",
@@ -22388,6 +22634,30 @@
     "is_new": false
    },
    {
+    "id": "B0002122026013000309111",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경3091",
+    "dup_case": "2026타경5003",
+    "item_no": "1",
+    "address": "서울특별시 구로구 구로동 642-46 우방아파트 제1동 제13층 제1303호",
+    "gu": "구로구",
+    "dong": "구로동",
+    "complex": "우방아파트",
+    "usage": "아파트",
+    "area": 84.9,
+    "appraisal": 61300,
+    "min_bid": 61300,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002132024013000394711",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -22409,7 +22679,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132026013000002811",
@@ -22481,30 +22751,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
-   },
-   {
-    "id": "B0002122026013000306311",
-    "court": "서울남부지방법원",
-    "dept": "경매2계",
-    "case_no": "2026타경3063",
-    "dup_case": "2026타경5648",
-    "item_no": "1",
-    "address": "서울특별시 구로구 구로동 1277 우리유앤미아파트 제101동 제9층 제902호",
-    "gu": "구로구",
-    "dong": "구로동",
-    "complex": "우리유앤미아파트",
-    "usage": "아파트",
-    "area": 84.42,
-    "appraisal": 65600,
-    "min_bid": 65600,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-09-10",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -22529,7 +22775,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000323411",
@@ -22553,7 +22799,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001315211",
@@ -22577,7 +22823,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001390411",
@@ -22628,6 +22874,30 @@
     "is_new": false
    },
    {
+    "id": "B0002132025013001286611",
+    "court": "서울북부지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경12866",
+    "dup_case": "2025타경6189",
+    "item_no": "1",
+    "address": "서울특별시 도봉구 창동 815 창동2차현대아파트 202동 23층 2304호",
+    "gu": "도봉구",
+    "dong": "창동",
+    "complex": "창동2차현대아파트",
+    "usage": "아파트",
+    "area": 84.504,
+    "appraisal": 86700,
+    "min_bid": 69360,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-09-29",
+    "place": "법정동제101호입찰법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001308611",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -22649,31 +22919,31 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
-    "id": "B0002102025013010355511",
-    "court": "서울중앙지방법원",
-    "dept": "경매12계",
-    "case_no": "2025타경103555",
-    "dup_case": "2026타경101347",
+    "id": "B0002132025013001335511",
+    "court": "서울북부지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경13355",
+    "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 관악구 신림동 1735 관악산휴먼시아 229동 7층704호",
-    "gu": "관악구",
-    "dong": "신림동",
-    "complex": "관악산휴먼시아",
+    "address": "서울특별시 노원구 중계동 34-5 중계현대6차아파트 104동 1층 101호",
+    "gu": "노원구",
+    "dong": "중계동",
+    "complex": "중계현대6차아파트",
     "usage": "아파트",
-    "area": 84.96,
+    "area": 84.98,
     "appraisal": 73000,
     "min_bid": 73000,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-09-10",
-    "place": "제4별관제211호법정(2층)",
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-09-29",
+    "place": "법정동제101호입찰법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-08-20",
-    "is_new": false
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "B0002132026013001035611",
@@ -22721,7 +22991,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000304611",
@@ -22769,7 +23039,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132024013012355111",
@@ -22793,30 +23063,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
-   },
-   {
-    "id": "B0002122024013000641711",
-    "court": "서울남부지방법원",
-    "dept": "경매2계",
-    "case_no": "2024타경6417",
-    "dup_case": "2024타경104779 2026타경114",
-    "item_no": "1",
-    "address": "서울특별시 양천구 신정이펜2로 55 제206동 제1층 제103호 (신정동, 신정이펜하우스2단지)",
-    "gu": "양천구",
-    "dong": "신정동",
-    "complex": "신정이펜하우스2단지",
-    "usage": "아파트",
-    "area": 84.51,
-    "appraisal": 80000,
-    "min_bid": 80000,
-    "rate": 80,
-    "fail_count": 1,
-    "sale_date": "2026-09-10",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -22841,7 +23087,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001197511",
@@ -22865,7 +23111,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001315511",
@@ -22889,6 +23135,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
+    "is_new": false
+   },
+   {
+    "id": "B0002132025013001308311",
+    "court": "서울북부지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경13083",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 도봉구 창동 815 창동2차현대아파트 201동 20층 2002호",
+    "gu": "도봉구",
+    "dong": "창동",
+    "complex": "창동2차현대아파트",
+    "usage": "아파트",
+    "area": 95.633,
+    "appraisal": 89400,
+    "min_bid": 89400,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-09-29",
+    "place": "법정동제101호입찰법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
     "is_new": true
    },
    {
@@ -22916,28 +23186,28 @@
     "is_new": false
    },
    {
-    "id": "B0002122026013000432511",
+    "id": "B0002122026013000521611",
     "court": "서울남부지방법원",
-    "dept": "경매2계",
-    "case_no": "2026타경4325",
-    "dup_case": "",
+    "dept": "경매15계",
+    "case_no": "2026타경5216",
+    "dup_case": "2026타경6112",
     "item_no": "1",
-    "address": "서울특별시 구로구 구로동 560 신도림현대아파트 제102동 제18층 제1804호",
+    "address": "서울특별시 구로구 개봉동 480 현대홈타운2단지 제204동 제10층 제1004호",
     "gu": "구로구",
-    "dong": "구로동",
-    "complex": "신도림현대아파트",
+    "dong": "개봉동",
+    "complex": "현대홈타운2단지",
     "usage": "아파트",
-    "area": 80.01,
-    "appraisal": 95200,
-    "min_bid": 95200,
+    "area": 84.915,
+    "appraisal": 92700,
+    "min_bid": 92700,
     "rate": 100,
     "fail_count": 0,
-    "sale_date": "2026-09-10",
+    "sale_date": "2026-10-01",
     "place": "제112호법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-08-27",
-    "is_new": false
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "B0002132025013001297411",
@@ -22961,7 +23231,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132026013000001811",
@@ -22988,30 +23258,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122024013010336311",
-    "court": "서울남부지방법원",
-    "dept": "경매2계",
-    "case_no": "2024타경103363",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 영등포구 당산로41길 23 제105동 제11층 제1102호 (당산동4가, 당산현대아파트)",
-    "gu": "영등포구",
-    "dong": "당산동4가",
-    "complex": "당산현대아파트",
-    "usage": "아파트",
-    "area": 84.5,
-    "appraisal": 111000,
-    "min_bid": 111000,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-09-10",
-    "place": "제112호법정",
-    "views": 10,
-    "note": "",
-    "first_seen": "2026-08-27",
-    "is_new": false
-   },
-   {
     "id": "B0002132025013001383311",
     "court": "서울북부지방법원",
     "dept": "경매4계",
@@ -23034,6 +23280,30 @@
     "note": "",
     "first_seen": "2026-09-08",
     "is_new": false
+   },
+   {
+    "id": "B0002122026013000497111",
+    "court": "서울남부지방법원",
+    "dept": "경매15계",
+    "case_no": "2026타경4971",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강서구 화곡동 1095-4 그랜드아이파크 제17층 제103-1703호",
+    "gu": "강서구",
+    "dong": "화곡동",
+    "complex": "그랜드아이파크",
+    "usage": "아파트",
+    "area": 126.65,
+    "appraisal": 116000,
+    "min_bid": 116000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "제112호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "B0002132023013011642611",
@@ -23108,6 +23378,30 @@
     "is_new": false
    },
    {
+    "id": "B0002102026013010008811",
+    "court": "서울중앙지방법원",
+    "dept": "경매10계",
+    "case_no": "2026타경100088",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서초구 서초동 1466-2 서초네스피아에이 6층601호",
+    "gu": "서초구",
+    "dong": "서초동",
+    "complex": "서초네스피아에이",
+    "usage": "아파트",
+    "area": 104.75,
+    "appraisal": 125000,
+    "min_bid": 125000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-30",
+    "place": "제4별관211호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "B0002152025013000067511",
     "court": "서울서부지방법원",
     "dept": "경매3계",
@@ -23130,6 +23424,30 @@
     "note": "미등기 대지권 있음. 최저매각가격에 대지권가격이 포함됨.",
     "first_seen": "2026-09-09",
     "is_new": false
+   },
+   {
+    "id": "B0002132025013001254111",
+    "court": "서울북부지방법원",
+    "dept": "경매3계",
+    "case_no": "2025타경12541",
+    "dup_case": "2025타경12645",
+    "item_no": "1",
+    "address": "서울특별시 성북구 하월곡동 46-73 코업스타클래스 28층 101-2802호",
+    "gu": "성북구",
+    "dong": "하월곡동",
+    "complex": "코업스타클래스",
+    "usage": "아파트",
+    "area": 166.87,
+    "appraisal": 174000,
+    "min_bid": 139200,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-09-29",
+    "place": "법정동제101호입찰법정",
+    "views": 0,
+    "note": "토지 별도등기(구분지상권) 있음.",
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "B0002102025013010472711",
@@ -23225,7 +23543,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010354211",
@@ -23321,7 +23639,7 @@
     "views": 10,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112024013005981411",
@@ -23346,6 +23664,30 @@
     "note": "",
     "first_seen": "2026-09-03",
     "is_new": false
+   },
+   {
+    "id": "B0002102025013010463411",
+    "court": "서울중앙지방법원",
+    "dept": "경매10계",
+    "case_no": "2025타경104634",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서초구 방배동 725 방배삼호아파트 나동 13층1304호",
+    "gu": "서초구",
+    "dong": "방배동",
+    "complex": "방배삼호아파트",
+    "usage": "아파트",
+    "area": 164.55,
+    "appraisal": 213100,
+    "min_bid": 213100,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-30",
+    "place": "제4별관211호법정",
+    "views": 0,
+    "note": "- 지분매각(공유자 우선매수 1회에 한함)",
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "B0002112025013005130011",
@@ -23489,31 +23831,31 @@
     "views": 9,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
-    "id": "B0002102025013000281211",
+    "id": "B0002102024013012505311",
     "court": "서울중앙지방법원",
-    "dept": "경매12계",
-    "case_no": "2025타경2812",
+    "dept": "경매7계",
+    "case_no": "2024타경125053",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 강남구 삼성동 90 삼성브르넨 16층1601호",
+    "address": "서울특별시 강남구 영동대로 22(일원동) 810동 18층1804호 (일원동,디에이치자이개포)",
     "gu": "강남구",
-    "dong": "삼성동",
-    "complex": "삼성브르넨",
+    "dong": "일원동",
+    "complex": "디에이치자이개포",
     "usage": "아파트",
-    "area": 41.5,
-    "appraisal": 327400,
-    "min_bid": 327400,
+    "area": 76.77,
+    "appraisal": 303000,
+    "min_bid": 303000,
     "rate": 100,
     "fail_count": 0,
-    "sale_date": "2026-09-10",
-    "place": "제4별관제211호법정(2층)",
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-08-20",
-    "is_new": false
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "B0002102024013012485211",
@@ -23562,6 +23904,78 @@
     "note": "지분매각, 공유자 우선매수신고 1회 제한",
     "first_seen": "2026-09-03",
     "is_new": false
+   },
+   {
+    "id": "B0002102025013010430811",
+    "court": "서울중앙지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경104308",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강남구 대치동 1027 래미안대치팰리스 104동 12층1201호",
+    "gu": "강남구",
+    "dong": "대치동",
+    "complex": "래미안대치팰리스",
+    "usage": "아파트",
+    "area": 84.98,
+    "appraisal": 507000,
+    "min_bid": 507000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
+    "id": "B0002102026013010031611",
+    "court": "서울중앙지방법원",
+    "dept": "경매10계",
+    "case_no": "2026타경100316",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서초구 잠원동 162 반포센트럴자이 104동 22층2201호",
+    "gu": "서초구",
+    "dong": "잠원동",
+    "complex": "반포센트럴자이",
+    "usage": "아파트",
+    "area": 84.98,
+    "appraisal": 525000,
+    "min_bid": 525000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-09-30",
+    "place": "제4별관211호법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
+    "id": "B0002102025013010395411",
+    "court": "서울중앙지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경103954",
+    "dup_case": "2025타경104510",
+    "item_no": "1",
+    "address": "서울특별시 서초구 반포동 12 래미안원펜타스 102동 14층1403호",
+    "gu": "서초구",
+    "dong": "반포동",
+    "complex": "래미안원펜타스",
+    "usage": "아파트",
+    "area": 84.728,
+    "appraisal": 580000,
+    "min_bid": 580000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
    }
   ]
  },
@@ -23663,7 +24077,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6194798",
@@ -23687,7 +24101,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6194799",
@@ -23711,7 +24125,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6194801",
@@ -23735,7 +24149,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6194797",
@@ -23759,7 +24173,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6194802",
@@ -23783,7 +24197,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-037-6162689",
@@ -23831,7 +24245,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6162687",
@@ -23879,7 +24293,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6162720",
@@ -24047,7 +24461,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6194773",
@@ -24071,7 +24485,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6194774",
@@ -24095,7 +24509,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6194776",
@@ -24119,7 +24533,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6194772",
@@ -24143,7 +24557,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6194777",
@@ -24167,7 +24581,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118845",
@@ -24335,7 +24749,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6162539",
@@ -24383,7 +24797,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6162572",
@@ -24527,7 +24941,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6194748",
@@ -24551,7 +24965,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6194749",
@@ -24575,7 +24989,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6194751",
@@ -24599,7 +25013,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6194747",
@@ -24623,7 +25037,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6194752",
@@ -24647,7 +25061,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-037-6162387",
@@ -24719,7 +25133,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6162385",
@@ -24767,7 +25181,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6103100",
@@ -24959,7 +25373,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6194722",
@@ -24983,7 +25397,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6194723",
@@ -25007,7 +25421,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6194725",
@@ -25031,7 +25445,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6194721",
@@ -25055,7 +25469,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6194726",
@@ -25079,7 +25493,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118787",
@@ -25295,7 +25709,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6162230",
@@ -25343,7 +25757,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-036-6162081",
@@ -25439,7 +25853,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6134647",
@@ -25463,7 +25877,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6194709",
@@ -25487,7 +25901,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6134648",
@@ -25511,7 +25925,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6162265",
@@ -25559,7 +25973,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6134649",
@@ -25583,7 +25997,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-037-6162082",
@@ -25823,7 +26237,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6134517",
@@ -25847,7 +26261,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6103093",
@@ -25871,7 +26285,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6134518",
@@ -25895,7 +26309,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-027-6194710",
@@ -25919,7 +26333,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6103091",
@@ -25943,7 +26357,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6134519",
@@ -25967,7 +26381,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118727",
@@ -26039,7 +26453,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-037-6161931",
@@ -26327,7 +26741,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6134383",
@@ -26351,7 +26765,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6103016",
@@ -26375,7 +26789,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6134384",
@@ -26399,7 +26813,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6103014",
@@ -26423,7 +26837,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6134385",
@@ -26447,7 +26861,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-037-6161784",
@@ -26495,7 +26909,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6161929",
@@ -26543,7 +26957,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-16163-001-6103023",
@@ -26759,7 +27173,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6134246",
@@ -26783,7 +27197,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6102937",
@@ -26807,7 +27221,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6134247",
@@ -26831,7 +27245,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-11297-001-6162753",
@@ -26879,7 +27293,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6134248",
@@ -26903,7 +27317,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118666",
@@ -27047,7 +27461,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6161782",
@@ -27095,7 +27509,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6084083",
@@ -27239,7 +27653,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6134108",
@@ -27263,7 +27677,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6102858",
@@ -27287,7 +27701,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6134109",
@@ -27311,7 +27725,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14094-001-6162339",
@@ -27359,7 +27773,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6134110",
@@ -27383,7 +27797,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-037-6161507",
@@ -27455,7 +27869,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6161627",
@@ -27503,7 +27917,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13281-001-6134212",
@@ -27623,7 +28037,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-024-6133969",
@@ -27647,7 +28061,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-026-6102779",
@@ -27671,7 +28085,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-028-6133970",
@@ -27695,7 +28109,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-06247-001-6084004",
@@ -27743,7 +28157,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-021-6102777",
@@ -27767,7 +28181,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-035-6133971",
@@ -27791,7 +28205,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-17311-001-6118604",
@@ -27863,7 +28277,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-05262-001-6054411",
@@ -28007,7 +28421,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-00339-001-6084137",
@@ -28079,7 +28493,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10432-001-6102820",
@@ -28271,7 +28685,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2024-04393-029-6161324",
@@ -28343,7 +28757,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2023-13824-001-6155979",
@@ -28511,7 +28925,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14090-001-6162182",
@@ -29399,7 +29813,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14961-001-6185938",
@@ -30023,7 +30437,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043794-6142856",
@@ -30671,7 +31085,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0800-043697-6142836",
@@ -31607,7 +32021,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-16413-001-6169711",
@@ -31703,7 +32117,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14961-001-6185482",
@@ -32135,7 +32549,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-13878-001-6127331",
@@ -32183,7 +32597,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-15705-001-6155740",
@@ -32330,6 +32744,30 @@
     "is_new": false
    },
    {
+    "id": "2022-0900-045023-6195010",
+    "cltr_mng_no": "2022-0900-045023",
+    "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 청담동",
+    "gu": "강남구",
+    "dong": "청담동",
+    "prpt_type": "기타일반재산",
+    "org": "신한자산신탁 주식회사",
+    "min_bid": 65610,
+    "appraisal": 90700,
+    "rate": null,
+    "area": 49.82,
+    "land_area": 26.2822,
+    "bid_from": "2026-10-13",
+    "bid_to": "2026-10-13",
+    "status": "입찰준비중",
+    "fail_count": 6,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "2026-09811-001-6141492",
     "cltr_mng_no": "2026-09811-001",
     "name": "서울특별시 강남구 역삼동 728-45 현대이스트빌 제1층 제102호",
@@ -32447,7 +32885,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14961-001-6185062",
@@ -32472,6 +32910,30 @@
     "note": "정정내역 있음",
     "first_seen": "2026-09-03",
     "is_new": false
+   },
+   {
+    "id": "2022-0900-045023-6195009",
+    "cltr_mng_no": "2022-0900-045023",
+    "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 청담동",
+    "gu": "강남구",
+    "dong": "청담동",
+    "prpt_type": "기타일반재산",
+    "org": "신한자산신탁 주식회사",
+    "min_bid": 70000,
+    "appraisal": 90700,
+    "rate": null,
+    "area": 49.82,
+    "land_area": 26.2822,
+    "bid_from": "2026-10-08",
+    "bid_to": "2026-10-08",
+    "status": "입찰준비중",
+    "fail_count": 6,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "2026-10100-001-6127616",
@@ -32615,7 +33077,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-14961-001-6184867",
@@ -32640,6 +33102,30 @@
     "note": "정정내역 있음",
     "first_seen": "2026-09-03",
     "is_new": false
+   },
+   {
+    "id": "2022-0900-045023-6195008",
+    "cltr_mng_no": "2022-0900-045023",
+    "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 청담동",
+    "gu": "강남구",
+    "dong": "청담동",
+    "prpt_type": "기타일반재산",
+    "org": "신한자산신탁 주식회사",
+    "min_bid": 77700,
+    "appraisal": 90700,
+    "rate": null,
+    "area": 49.82,
+    "land_area": 26.2822,
+    "bid_from": "2026-10-06",
+    "bid_to": "2026-10-06",
+    "status": "입찰준비중",
+    "fail_count": 6,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
    },
    {
     "id": "2026-05649-001-6095552",
@@ -32687,7 +33173,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-11297-001-6161544",
@@ -32738,6 +33224,30 @@
     "is_new": false
    },
    {
+    "id": "2022-0900-045023-6195007",
+    "cltr_mng_no": "2022-0900-045023",
+    "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 청담동",
+    "gu": "강남구",
+    "dong": "청담동",
+    "prpt_type": "기타일반재산",
+    "org": "신한자산신탁 주식회사",
+    "min_bid": 86200,
+    "appraisal": 90700,
+    "rate": null,
+    "area": 49.82,
+    "land_area": 26.2822,
+    "bid_from": "2026-10-01",
+    "bid_to": "2026-10-01",
+    "status": "입찰준비중",
+    "fail_count": 6,
+    "note": "",
+    "first_seen": "2026-09-11",
+    "is_new": true
+   },
+   {
     "id": "2026-09811-001-6141476",
     "cltr_mng_no": "2026-09811-001",
     "name": "서울특별시 강남구 역삼동 728-45 현대이스트빌 제1층 제102호",
@@ -32783,7 +33293,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-16413-001-6169677",
@@ -32855,6 +33365,30 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
+    "is_new": false
+   },
+   {
+    "id": "2022-0900-045023-6195006",
+    "cltr_mng_no": "2022-0900-045023",
+    "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 청담동",
+    "gu": "강남구",
+    "dong": "청담동",
+    "prpt_type": "기타일반재산",
+    "org": "신한자산신탁 주식회사",
+    "min_bid": 95700,
+    "appraisal": 90700,
+    "rate": null,
+    "area": 49.82,
+    "land_area": 26.2822,
+    "bid_from": "2026-09-29",
+    "bid_to": "2026-09-29",
+    "status": "입찰준비중",
+    "fail_count": 6,
+    "note": "",
+    "first_seen": "2026-09-11",
     "is_new": true
    },
    {
@@ -32903,7 +33437,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-05181-001-6103020",
@@ -32927,6 +33461,30 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
+    "is_new": false
+   },
+   {
+    "id": "2022-0900-045023-6195005",
+    "cltr_mng_no": "2022-0900-045023",
+    "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 청담동",
+    "gu": "강남구",
+    "dong": "청담동",
+    "prpt_type": "기타일반재산",
+    "org": "신한자산신탁 주식회사",
+    "min_bid": 106200,
+    "appraisal": 90700,
+    "rate": null,
+    "area": 49.82,
+    "land_area": 26.2822,
+    "bid_from": "2026-09-23",
+    "bid_to": "2026-09-23",
+    "status": "입찰준비중",
+    "fail_count": 6,
+    "note": "",
+    "first_seen": "2026-09-11",
     "is_new": true
    },
    {
@@ -33047,6 +33605,30 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
+    "is_new": false
+   },
+   {
+    "id": "2022-0900-045023-6195004",
+    "cltr_mng_no": "2022-0900-045023",
+    "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
+    "usage": "부동산 > 주거용건물 > 아파트",
+    "usage_scls": "아파트",
+    "address": "서울특별시 강남구 청담동",
+    "gu": "강남구",
+    "dong": "청담동",
+    "prpt_type": "기타일반재산",
+    "org": "신한자산신탁 주식회사",
+    "min_bid": 117910,
+    "appraisal": 90700,
+    "rate": null,
+    "area": 49.82,
+    "land_area": 26.2822,
+    "bid_from": "2026-09-21",
+    "bid_to": "2026-09-21",
+    "status": "입찰준비중",
+    "fail_count": 6,
+    "note": "",
+    "first_seen": "2026-09-11",
     "is_new": true
    },
    {
@@ -33071,7 +33653,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-10100-001-6127370",
@@ -33167,7 +33749,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-16413-001-6169644",
@@ -33287,7 +33869,7 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-09811-001-6042951",
@@ -33839,7 +34421,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0900-048473-6193047",
@@ -33863,7 +34445,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6024736",
@@ -33911,7 +34493,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18161-004-6118676",
@@ -33983,7 +34565,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0900-048473-6193044",
@@ -34007,7 +34589,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-17494-001-6024623",
@@ -34079,7 +34661,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2026-0900-048473-6193042",
@@ -34103,7 +34685,7 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-10",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "2025-18161-004-6118555",
