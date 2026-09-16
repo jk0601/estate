@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15 07:02",
+ "generated_at": "2026-09-16 13:24",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202608",
    "202609"
   ],
-  "scanned_deals": 65791,
+  "scanned_deals": 65964,
   "complexes": [
    {
     "gu": "강동구",
@@ -319,6 +319,18 @@
     "jibun": "242",
     "deals": [
      {
+      "date": "2026-09-11",
+      "amount": 77000,
+      "area": 59.86,
+      "floor": 13
+     },
+     {
+      "date": "2026-08-28",
+      "amount": 76000,
+      "area": 59.86,
+      "floor": 16
+     },
+     {
       "date": "2026-08-28",
       "amount": 74000,
       "area": 59.86,
@@ -517,17 +529,17 @@
       "floor": 5
      }
     ],
-    "deal_count": 33,
-    "hit_count": 9,
+    "deal_count": 35,
+    "hit_count": 11,
     "price_min": 64500,
-    "price_med": 68600,
+    "price_med": 68750,
     "price_max": 86000,
-    "last_date": "2026-08-28",
-    "last_price": 74000,
+    "last_date": "2026-09-11",
+    "last_price": 77000,
     "area_min": 59.9,
     "area_max": 84.9,
     "hit_min": 75000,
-    "hit_last": "2026-07-28",
+    "hit_last": "2026-09-11",
     "naver_complex_no": "122446",
     "naver_url": "https://m.land.naver.com/complex/info/122446"
    },
@@ -3351,6 +3363,12 @@
     "jibun": "816",
     "deals": [
      {
+      "date": "2026-09-12",
+      "amount": 80000,
+      "area": 84.62,
+      "floor": 5
+     },
+     {
       "date": "2026-08-22",
       "amount": 87000,
       "area": 84.91,
@@ -3549,17 +3567,17 @@
       "floor": 2
      }
     ],
-    "deal_count": 33,
-    "hit_count": 28,
+    "deal_count": 34,
+    "hit_count": 29,
     "price_min": 50000,
-    "price_med": 77000,
+    "price_med": 77250,
     "price_max": 88500,
-    "last_date": "2026-08-22",
-    "last_price": 87000,
+    "last_date": "2026-09-12",
+    "last_price": 80000,
     "area_min": 59.5,
     "area_max": 84.9,
     "hit_min": 75000,
-    "hit_last": "2026-08-22",
+    "hit_last": "2026-09-12",
     "naver_complex_no": "108142",
     "naver_url": "https://m.land.naver.com/complex/info/108142"
    },
@@ -8419,6 +8437,12 @@
     "jibun": "71-6",
     "deals": [
      {
+      "date": "2026-09-04",
+      "amount": 79700,
+      "area": 59.97,
+      "floor": 2
+     },
+     {
       "date": "2026-04-29",
       "amount": 78950,
       "area": 59.97,
@@ -8437,17 +8461,17 @@
       "floor": 7
      }
     ],
-    "deal_count": 3,
-    "hit_count": 3,
+    "deal_count": 4,
+    "hit_count": 4,
     "price_min": 78500,
-    "price_med": 78950,
+    "price_med": 79325,
     "price_max": 81500,
-    "last_date": "2026-04-29",
-    "last_price": 78950,
+    "last_date": "2026-09-04",
+    "last_price": 79700,
     "area_min": 60.0,
     "area_max": 60.0,
     "hit_min": 78500,
-    "hit_last": "2026-04-29",
+    "hit_last": "2026-09-04",
     "naver_complex_no": "149122",
     "naver_url": "https://m.land.naver.com/complex/info/149122"
    },
@@ -8890,6 +8914,12 @@
     "build_year": 2019,
     "jibun": "1369",
     "deals": [
+     {
+      "date": "2026-09-05",
+      "amount": 101000,
+      "area": 84.67,
+      "floor": 1
+     },
      {
       "date": "2026-08-28",
       "amount": 73000,
@@ -9335,13 +9365,13 @@
       "floor": 5
      }
     ],
-    "deal_count": 74,
+    "deal_count": 75,
     "hit_count": 30,
     "price_min": 72000,
-    "price_med": 92250,
+    "price_med": 92500,
     "price_max": 140000,
-    "last_date": "2026-08-28",
-    "last_price": 73000,
+    "last_date": "2026-09-05",
+    "last_price": 101000,
     "area_min": 46.7,
     "area_max": 115.6,
     "hit_min": 79000,
@@ -12815,6 +12845,12 @@
     "jibun": "1543",
     "deals": [
      {
+      "date": "2026-09-10",
+      "amount": 132500,
+      "area": 84.989,
+      "floor": 16
+     },
+     {
       "date": "2026-07-24",
       "amount": 125000,
       "area": 84.6068,
@@ -13031,13 +13067,13 @@
       "floor": 5
      }
     ],
-    "deal_count": 36,
+    "deal_count": 37,
     "hit_count": 9,
     "price_min": 81000,
-    "price_med": 98000,
-    "price_max": 128000,
-    "last_date": "2026-07-24",
-    "last_price": 125000,
+    "price_med": 98500,
+    "price_max": 132500,
+    "last_date": "2026-09-10",
+    "last_price": 132500,
     "area_min": 60.0,
     "area_max": 85.0,
     "hit_min": 81000,
@@ -13180,6 +13216,12 @@
     "build_year": 2017,
     "jibun": "458",
     "deals": [
+     {
+      "date": "2026-09-14",
+      "amount": 140000,
+      "area": 72.97,
+      "floor": 14
+     },
      {
       "date": "2026-08-18",
       "amount": 129500,
@@ -13583,13 +13625,13 @@
       "floor": 14
      }
     ],
-    "deal_count": 67,
+    "deal_count": 68,
     "hit_count": 8,
     "price_min": 82000,
-    "price_med": 122500,
+    "price_med": 123250,
     "price_max": 144800,
-    "last_date": "2026-08-18",
-    "last_price": 129500,
+    "last_date": "2026-09-14",
+    "last_price": 140000,
     "area_min": 45.8,
     "area_max": 85.0,
     "hit_min": 82000,
@@ -17075,6 +17117,12 @@
     "jibun": "1155",
     "deals": [
      {
+      "date": "2026-09-12",
+      "amount": 112000,
+      "area": 59.9662,
+      "floor": 32
+     },
+     {
       "date": "2026-09-08",
       "amount": 130000,
       "area": 84.408,
@@ -17597,13 +17645,13 @@
       "floor": 39
      }
     ],
-    "deal_count": 87,
+    "deal_count": 88,
     "hit_count": 2,
     "price_min": 88000,
     "price_med": 104500,
     "price_max": 135000,
-    "last_date": "2026-09-08",
-    "last_price": 130000,
+    "last_date": "2026-09-12",
+    "last_price": 112000,
     "area_min": 60.0,
     "area_max": 84.5,
     "hit_min": 88000,
@@ -18867,6 +18915,12 @@
     "jibun": "396",
     "deals": [
      {
+      "date": "2026-09-14",
+      "amount": 116000,
+      "area": 84.956,
+      "floor": 3
+     },
+     {
       "date": "2026-07-29",
       "amount": 99500,
       "area": 59.953,
@@ -19017,13 +19071,13 @@
       "floor": 19
      }
     ],
-    "deal_count": 25,
+    "deal_count": 26,
     "hit_count": 2,
     "price_min": 89000,
-    "price_med": 103000,
+    "price_med": 106000,
     "price_max": 125000,
-    "last_date": "2026-07-29",
-    "last_price": 99500,
+    "last_date": "2026-09-14",
+    "last_price": 116000,
     "area_min": 60.0,
     "area_max": 96.4,
     "hit_min": 89000,
@@ -20001,8 +20055,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20260915",
-   "20270320"
+   "20260916",
+   "20270321"
   ],
   "items": [
    {
@@ -20027,30 +20081,6 @@
     "views": 70,
     "note": "특별매각조건 매수신청보증금 최저매각가격의 20%",
     "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013000940211",
-    "court": "서울남부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경9402",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 구로동 106-2 대림역포스큐 제16층 제1611호",
-    "gu": "구로구",
-    "dong": "구로동",
-    "complex": "대림역포스큐",
-    "usage": "기타",
-    "area": 14.579,
-    "appraisal": 9600,
-    "min_bid": 2516,
-    "rate": 21,
-    "fail_count": 7,
-    "sale_date": "2026-09-15",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -20147,30 +20177,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-09",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013001187811",
-    "court": "서울남부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경11878",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 화곡동 926-5 한양아이클래스 제12층 제1219호",
-    "gu": "강서구",
-    "dong": "화곡동",
-    "complex": "한양아이클래스",
-    "usage": "기타",
-    "area": 13.79,
-    "appraisal": 7700,
-    "min_bid": 6160,
-    "rate": 64,
-    "fail_count": 2,
-    "sale_date": "2026-09-15",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "-임차인 및 임차보증금반환채권승계인 서울보증보험 주식회사의 매수인에 대한 대항력 포기조건 매각",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -20363,30 +20369,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
-   },
-   {
-    "id": "B0002122025013001358111",
-    "court": "서울남부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경13581",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 오류동 34-13 현대썬앤빌구로 제12층 제1213호",
-    "gu": "구로구",
-    "dong": "오류동",
-    "complex": "현대썬앤빌구로",
-    "usage": "기타",
-    "area": 14.064,
-    "appraisal": 8200,
-    "min_bid": 8200,
-    "rate": 80,
-    "fail_count": 1,
-    "sale_date": "2026-09-15",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 임차보증금반환채권승계인 서울보증보험 주식회사의 매수인에 대한 대항력 포기조건 매각",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -20702,30 +20684,6 @@
     "is_new": false
    },
    {
-    "id": "B0002122025013001385711",
-    "court": "서울남부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경13857",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 구로동 97 로제리움2차 제18층 제1820호",
-    "gu": "구로구",
-    "dong": "구로동",
-    "complex": "로제리움2차",
-    "usage": "아파트",
-    "area": 14.04,
-    "appraisal": 11500,
-    "min_bid": 11500,
-    "rate": 80,
-    "fail_count": 1,
-    "sale_date": "2026-09-15",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "임차인 및 임차보증금반환채권승계인 서울보증보험 주식회사의 매수인에 대한 대항력 포기조건 매각",
-    "first_seen": "2026-08-27",
-    "is_new": false
-   },
-   {
     "id": "B0002152025013005088522",
     "court": "서울서부지방법원",
     "dept": "경매3계",
@@ -20748,6 +20706,30 @@
     "note": "",
     "first_seen": "2026-09-09",
     "is_new": false
+   },
+   {
+    "id": "B0002152025013005218711",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경52187",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서대문구 창천동 510-2 쓰리알유시티아파트 4층404호",
+    "gu": "서대문구",
+    "dong": "창천동",
+    "complex": "쓰리알유시티아파트",
+    "usage": "상가,오피스텔,근린시설",
+    "area": 17.19,
+    "appraisal": 22700,
+    "min_bid": 11622,
+    "rate": 41,
+    "fail_count": 4,
+    "sale_date": "2026-10-06",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
+    "is_new": true
    },
    {
     "id": "B0002152024013006424511",
@@ -20795,6 +20777,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
+    "is_new": false
+   },
+   {
+    "id": "B0002102025013000197011",
+    "court": "서울중앙지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경1970",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 관악구 신림동 497-5 그린플러스신림해담채 4층410호",
+    "gu": "관악구",
+    "dong": "신림동",
+    "complex": "그린플러스신림해담채",
+    "usage": "다세대",
+    "area": 13.23,
+    "appraisal": 15600,
+    "min_bid": 12480,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
     "is_new": true
    },
    {
@@ -20819,30 +20825,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-11",
-    "is_new": false
-   },
-   {
-    "id": "B0002122025013001381211",
-    "court": "서울남부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경13812",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 구로구 구로동 97 로제리움2차 제18층 제1819호",
-    "gu": "구로구",
-    "dong": "구로동",
-    "complex": "로제리움2차",
-    "usage": "아파트",
-    "area": 14.04,
-    "appraisal": 13000,
-    "min_bid": 13000,
-    "rate": 80,
-    "fail_count": 1,
-    "sale_date": "2026-09-15",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -20891,7 +20873,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013000991111",
@@ -20987,7 +20969,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001410311",
@@ -21035,30 +21017,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
-   },
-   {
-    "id": "B0002122025013001063611",
-    "court": "서울남부지방법원",
-    "dept": "경매6계",
-    "case_no": "2025타경10636",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강서구 등촌동 637 서울 시니어스 가양타워 제9층 제901호",
-    "gu": "강서구",
-    "dong": "등촌동",
-    "complex": "서울 시니어스 가양타워",
-    "usage": "기타",
-    "area": 50.01,
-    "appraisal": 34000,
-    "min_bid": 13926,
-    "rate": 33,
-    "fail_count": 5,
-    "sale_date": "2026-09-15",
-    "place": "제112호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -21083,7 +21041,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001360811",
@@ -21107,31 +21065,31 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
-    "id": "B0002102025013010312711",
+    "id": "B0002102025013010388111",
     "court": "서울중앙지방법원",
-    "dept": "경매21계",
-    "case_no": "2025타경103127",
+    "dept": "경매7계",
+    "case_no": "2025타경103881",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 중구 오장동 145-1 오렌지카운티을지로 13층1305호",
-    "gu": "중구",
-    "dong": "오장동",
-    "complex": "오렌지카운티을지로",
-    "usage": "연립주택,다세대,빌라",
-    "area": 14.37,
-    "appraisal": 25000,
-    "min_bid": 16000,
-    "rate": 51,
-    "fail_count": 3,
-    "sale_date": "2026-09-15",
-    "place": "경매법정(4별관211호)",
+    "address": "서울특별시 동작구 상도동 408 상도동삼호아파트 102동 7층702호",
+    "gu": "동작구",
+    "dong": "상도동",
+    "complex": "상도동삼호아파트",
+    "usage": "아파트",
+    "area": 114.63,
+    "appraisal": 16461,
+    "min_bid": 16461,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
     "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
-    "is_new": false
+    "note": "공유자 우선매수 제한 있음",
+    "first_seen": "2026-09-16",
+    "is_new": true
    },
    {
     "id": "B0002102025013010393211",
@@ -21155,7 +21113,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001384411",
@@ -21203,7 +21161,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152023013006110212",
@@ -21590,6 +21548,30 @@
     "is_new": false
    },
    {
+    "id": "B0002152025013005202211",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경52022",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 마포구 노고산동 1-3 신촌포스빌 5층503호",
+    "gu": "마포구",
+    "dong": "노고산동",
+    "complex": "신촌포스빌",
+    "usage": "아파트",
+    "area": 32.34,
+    "appraisal": 29100,
+    "min_bid": 23280,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-10-06",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013000537711",
     "court": "서울북부지방법원",
     "dept": "경매3계",
@@ -21731,7 +21713,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000385211",
@@ -22022,30 +22004,6 @@
     "is_new": false
    },
    {
-    "id": "B0002112024013006002911",
-    "court": "서울동부지방법원",
-    "dept": "경매3계",
-    "case_no": "2024타경60029",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 강동구 풍성로 188 8층806호 (성내동,집앤사비카)",
-    "gu": "강동구",
-    "dong": "성내동",
-    "complex": "집앤사비카",
-    "usage": "아파트",
-    "area": 28.74,
-    "appraisal": 44000,
-    "min_bid": 28160,
-    "rate": 51,
-    "fail_count": 3,
-    "sale_date": "2026-09-28",
-    "place": "제101호법정",
-    "views": 0,
-    "note": "집합건축물대장상 도시형생활주택(원룸형아파트)",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "B0002132026013001050511",
     "court": "서울북부지방법원",
     "dept": "경매5계",
@@ -22067,6 +22025,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
+    "is_new": false
+   },
+   {
+    "id": "B0002102025013010296911",
+    "court": "서울중앙지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경102969",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강남구 역삼동 681-26 역삼동하나빌 6층602호",
+    "gu": "강남구",
+    "dong": "역삼동",
+    "complex": "역삼동하나빌",
+    "usage": "아파트",
+    "area": 28.44,
+    "appraisal": 45200,
+    "min_bid": 28928,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
+    "views": 0,
+    "note": "임차인 박정진은 대항력 있는 임차인으로 배당에서 보증금을 변제받지 못하면 잔액을 매수인이 인수함",
+    "first_seen": "2026-09-16",
     "is_new": true
    },
    {
@@ -22283,7 +22265,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013000378411",
@@ -22547,7 +22529,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152025013005172211",
@@ -22691,7 +22673,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001378711",
@@ -22787,7 +22769,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001375911",
@@ -23147,6 +23129,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
+    "is_new": false
+   },
+   {
+    "id": "B0002152025013005136311",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경51363",
+    "dup_case": "2026타경50889",
+    "item_no": "1",
+    "address": "서울특별시 은평구 녹번동 91-7 시니어캐슬 클라시온 4층406호",
+    "gu": "은평구",
+    "dong": "녹번동",
+    "complex": "시니어캐슬 클라시온",
+    "usage": "기타",
+    "area": 56.34,
+    "appraisal": 94000,
+    "min_bid": 60160,
+    "rate": 51,
+    "fail_count": 3,
+    "sale_date": "2026-10-06",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
     "is_new": true
    },
    {
@@ -23339,7 +23345,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002152026013005025211",
@@ -23678,6 +23684,30 @@
     "is_new": false
    },
    {
+    "id": "B0002152025013005205611",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경52056",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 은평구 구산동 547 갈현1단지이-편한세상아파트 102동 13층1301호",
+    "gu": "은평구",
+    "dong": "구산동",
+    "complex": "갈현1단지이-편한세상아파트",
+    "usage": "아파트",
+    "area": 122.578,
+    "appraisal": 101000,
+    "min_bid": 80800,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-10-06",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
+    "is_new": true
+   },
+   {
     "id": "B0002132025013001197511",
     "court": "서울북부지방법원",
     "dept": "경매6계",
@@ -23747,7 +23777,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001308311",
@@ -23819,7 +23849,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122026013000521611",
@@ -23891,7 +23921,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001297411",
@@ -24179,7 +24209,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001254111",
@@ -24275,7 +24305,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010277611",
@@ -24302,28 +24332,28 @@
     "is_new": false
    },
    {
-    "id": "B0002102025013010354211",
+    "id": "B0002102025013010357711",
     "court": "서울중앙지방법원",
-    "dept": "경매21계",
-    "case_no": "2025타경103542",
+    "dept": "경매7계",
+    "case_no": "2025타경103577",
     "dup_case": "",
     "item_no": "1",
-    "address": "서울특별시 강남구 대치동 915-13 스카이써밋아파트 3층302호",
-    "gu": "강남구",
-    "dong": "대치동",
-    "complex": "스카이써밋아파트",
-    "usage": "아파트",
-    "area": 120.0,
-    "appraisal": 166000,
-    "min_bid": 166000,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-09-15",
-    "place": "경매법정(4별관211호)",
+    "address": "서울특별시 중구 중림동 355 브라운스톤 서울 20층102-2002호",
+    "gu": "중구",
+    "dong": "중림동",
+    "complex": "브라운스톤 서울",
+    "usage": "오피스텔",
+    "area": 112.527,
+    "appraisal": 169000,
+    "min_bid": 169000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
     "views": 0,
     "note": "",
-    "first_seen": "2026-08-27",
-    "is_new": false
+    "first_seen": "2026-09-16",
+    "is_new": true
    },
    {
     "id": "B0002102025013010173311",
@@ -24347,6 +24377,30 @@
     "views": 0,
     "note": "지분매각(공유자 우선매수 1회에 한함)",
     "first_seen": "2026-09-15",
+    "is_new": false
+   },
+   {
+    "id": "B0002152025013005235711",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2025타경52357",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 마포구 도화동 357 도화동현대아파트 107동 13층1303호",
+    "gu": "마포구",
+    "dong": "도화동",
+    "complex": "도화동현대아파트",
+    "usage": "아파트",
+    "area": 128.26,
+    "appraisal": 182000,
+    "min_bid": 182000,
+    "rate": 100,
+    "fail_count": 0,
+    "sale_date": "2026-10-06",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
     "is_new": true
    },
    {
@@ -24395,7 +24449,7 @@
     "views": 0,
     "note": "제시외 건물 포함",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102026013010006211",
@@ -24419,30 +24473,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
-   },
-   {
-    "id": "B0002112024013005981411",
-    "court": "서울동부지방법원",
-    "dept": "경매2계",
-    "case_no": "2024타경59814",
-    "dup_case": "",
-    "item_no": "1",
-    "address": "서울특별시 송파구 오금로35길 17 28동 3층302호",
-    "gu": "송파구",
-    "dong": "오금동",
-    "complex": "",
-    "usage": "아파트",
-    "area": 170.32,
-    "appraisal": 209000,
-    "min_bid": 209000,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-09-21",
-    "place": "제101호법정",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-09-03",
     "is_new": false
    },
    {
@@ -24470,6 +24500,30 @@
     "is_new": false
    },
    {
+    "id": "B0002152024013005015411",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2024타경50154",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 용산구 이촌로29길 21-7 104동 12층1204호 (한강로3가,한강로우림필유아파트)",
+    "gu": "용산구",
+    "dong": "한강로3가",
+    "complex": "한강로우림필유아파트",
+    "usage": "아파트",
+    "area": 84.99,
+    "appraisal": 216000,
+    "min_bid": 216000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-06",
+    "place": "신관209호경매법정",
+    "views": 3,
+    "note": "",
+    "first_seen": "2026-09-16",
+    "is_new": true
+   },
+   {
     "id": "B0002102026013010039322",
     "court": "서울중앙지방법원",
     "dept": "경매9계",
@@ -24491,7 +24545,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102026013010043411",
@@ -24515,6 +24569,54 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
+    "is_new": false
+   },
+   {
+    "id": "B0002152024013005643511",
+    "court": "서울서부지방법원",
+    "dept": "경매5계",
+    "case_no": "2024타경56435",
+    "dup_case": "2023타경57882",
+    "item_no": "1",
+    "address": "서울특별시 용산구 이촌로65가길 23 219동 7층704호 (이촌동,한가람아파트)",
+    "gu": "용산구",
+    "dong": "이촌동",
+    "complex": "한가람아파트",
+    "usage": "아파트",
+    "area": 114.96,
+    "appraisal": 252000,
+    "min_bid": 252000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-06",
+    "place": "신관209호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
+    "is_new": true
+   },
+   {
+    "id": "B0002102025013010332711",
+    "court": "서울중앙지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경103327",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 서초구 반포동 50-8 신성리더스카운티 6층602호",
+    "gu": "서초구",
+    "dong": "반포동",
+    "complex": "신성리더스카운티",
+    "usage": "아파트",
+    "area": 209.46,
+    "appraisal": 320000,
+    "min_bid": 256000,
+    "rate": 64,
+    "fail_count": 2,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
     "is_new": true
    },
    {
@@ -24539,7 +24641,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002112025013005130011",
@@ -24611,30 +24713,6 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
-   },
-   {
-    "id": "B0002102025013010333611",
-    "court": "서울중앙지방법원",
-    "dept": "경매21계",
-    "case_no": "2025타경103336",
-    "dup_case": "2025타경3693",
-    "item_no": "1",
-    "address": "서울특별시 서초구 방배동 805-1 라빌레뜨 1층101호",
-    "gu": "서초구",
-    "dong": "방배동",
-    "complex": "라빌레뜨",
-    "usage": "아파트",
-    "area": 203.63,
-    "appraisal": 286000,
-    "min_bid": 286000,
-    "rate": 100,
-    "fail_count": 0,
-    "sale_date": "2026-09-15",
-    "place": "경매법정(4별관211호)",
-    "views": 0,
-    "note": "",
-    "first_seen": "2026-08-27",
     "is_new": false
    },
    {
@@ -24731,7 +24809,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102026013010039311",
@@ -24755,6 +24833,30 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
+    "is_new": false
+   },
+   {
+    "id": "B0002102025013000278211",
+    "court": "서울중앙지방법원",
+    "dept": "경매7계",
+    "case_no": "2025타경2782",
+    "dup_case": "",
+    "item_no": "1",
+    "address": "서울특별시 강남구 삼성동 90 삼성브르넨 12층1201호",
+    "gu": "강남구",
+    "dong": "삼성동",
+    "complex": "삼성브르넨",
+    "usage": "오피스텔",
+    "area": 41.5,
+    "appraisal": 327000,
+    "min_bid": 327000,
+    "rate": 80,
+    "fail_count": 1,
+    "sale_date": "2026-10-01",
+    "place": "4별관211호경매법정",
+    "views": 0,
+    "note": "",
+    "first_seen": "2026-09-16",
     "is_new": true
    },
    {
@@ -24779,7 +24881,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002102025013010459011",
@@ -24803,7 +24905,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013000067611",
@@ -24971,7 +25073,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-09-15",
-    "is_new": true
+    "is_new": false
    }
   ]
  },
@@ -26774,7 +26876,7 @@
     "bid_from": "2026-09-14",
     "bid_to": "2026-09-16",
     "status": "입찰진행중",
-    "fail_count": 2,
+    "fail_count": 9,
     "note": "정정내역 있음",
     "first_seen": "2026-07-27",
     "is_new": false
@@ -29348,30 +29450,6 @@
     "is_new": false
    },
    {
-    "id": "2026-13877-001-6193996",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 11600,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-12-14",
-    "bid_to": "2026-12-16",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "2024-04393-021-6102777",
     "cltr_mng_no": "2024-04393-021",
     "name": "서울특별시 은평구 갈현동 548 (유)갈현상가 제4층 제411호",
@@ -31076,30 +31154,6 @@
     "is_new": false
    },
    {
-    "id": "2026-13877-001-6193969",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 23200,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-12-07",
-    "bid_to": "2026-12-09",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "2026-14961-001-6185938",
     "cltr_mng_no": "2026-14961-001",
     "name": "서울특별시 서대문구 연희동 700 대림아파트 제2동 제2층 제201호",
@@ -32005,7 +32059,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32396,30 +32450,6 @@
     "is_new": false
    },
    {
-    "id": "2026-13877-001-6193942",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 34800,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-11-30",
-    "bid_to": "2026-12-02",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "2026-0800-043697-6142836",
     "cltr_mng_no": "2026-0800-043697",
     "name": "서울특별시 구로구 가리봉동 779 제101동 제2층 제202호 아파트",
@@ -32437,7 +32467,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32509,7 +32539,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32581,7 +32611,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32629,7 +32659,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32653,7 +32683,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32677,7 +32707,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32749,7 +32779,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32869,7 +32899,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -32893,7 +32923,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -33037,7 +33067,7 @@
     "land_area": null,
     "bid_from": "2026-09-16",
     "bid_to": "2026-09-16",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 4,
     "note": "",
     "first_seen": "2026-08-11",
@@ -33497,30 +33527,6 @@
     "fail_count": 0,
     "note": "정정내역 있음",
     "first_seen": "2026-08-22",
-    "is_new": false
-   },
-   {
-    "id": "2026-13877-001-6193914",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 46400,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-11-23",
-    "bid_to": "2026-11-25",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
     "is_new": false
    },
    {
@@ -34028,30 +34034,6 @@
     "is_new": false
    },
    {
-    "id": "2026-13877-001-6193888",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 58000,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-11-16",
-    "bid_to": "2026-11-18",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "2026-18154-002-6198218",
     "cltr_mng_no": "2026-18154-002",
     "name": "서울특별시 광진구 광장동 580 광장12차현대홈타운 제1202동 제3층 제303호",
@@ -34412,30 +34394,6 @@
     "is_new": false
    },
    {
-    "id": "2026-13877-001-6193864",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 69600,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-11-09",
-    "bid_to": "2026-11-11",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "2026-14961-001-6185062",
     "cltr_mng_no": "2026-14961-001",
     "name": "서울특별시 서대문구 연희동 700 대림아파트 제2동 제2층 제201호",
@@ -34724,30 +34682,6 @@
     "is_new": false
    },
    {
-    "id": "2026-13877-001-6193840",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 81200,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-11-02",
-    "bid_to": "2026-11-04",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "2026-11297-001-6161544",
     "cltr_mng_no": "2026-11297-001",
     "name": "서울특별시 관악구 신림동 1735 관악산휴먼시아 제205동 제20층 제2004호",
@@ -34940,30 +34874,6 @@
     "is_new": false
    },
    {
-    "id": "2026-13877-001-6193815",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 92800,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-10-26",
-    "bid_to": "2026-10-28",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
-    "is_new": false
-   },
-   {
     "id": "2022-0900-045023-6195006",
     "cltr_mng_no": "2022-0900-045023",
     "name": "서울특별시 강남구 청담동 62-6 청담디에브스아파트 제6층 제602호",
@@ -35033,30 +34943,6 @@
     "fail_count": 0,
     "note": "지분물건",
     "first_seen": "2026-09-12",
-    "is_new": false
-   },
-   {
-    "id": "2026-13877-001-6193789",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 104400,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-10-19",
-    "bid_to": "2026-10-21",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
     "is_new": false
    },
    {
@@ -35225,30 +35111,6 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-09-12",
-    "is_new": false
-   },
-   {
-    "id": "2026-13877-001-6193759",
-    "cltr_mng_no": "2026-13877-001",
-    "name": "서울특별시 동대문구 답십리동 10 동아아파트 제102동 제13층 제1305호",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 동대문구 답십리동",
-    "gu": "동대문구",
-    "dong": "답십리동",
-    "prpt_type": "압류재산",
-    "org": "중부세무서",
-    "min_bid": 116000,
-    "appraisal": 116000,
-    "rate": null,
-    "area": 101.94,
-    "land_area": 37.06,
-    "bid_from": "2026-10-12",
-    "bid_to": "2026-10-14",
-    "status": "입찰준비중",
-    "fail_count": 0,
-    "note": "",
-    "first_seen": "2026-09-10",
     "is_new": false
    },
    {
@@ -35537,30 +35399,6 @@
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-08-11",
-    "is_new": false
-   },
-   {
-    "id": "2026-0500-025608-6018672",
-    "cltr_mng_no": "2026-0500-025608",
-    "name": "서울특별시 강서구 가양동 1500 109동 1802호 아파트",
-    "usage": "부동산 > 주거용건물 > 아파트",
-    "usage_scls": "아파트",
-    "address": "서울특별시 강서구 가양동",
-    "gu": "강서구",
-    "dong": "가양동",
-    "prpt_type": "기타일반재산",
-    "org": "한국임업진흥원",
-    "min_bid": 158000,
-    "appraisal": 158000,
-    "rate": null,
-    "area": 84.997,
-    "land_area": null,
-    "bid_from": "2026-06-05",
-    "bid_to": "2026-06-18",
-    "status": "수의계약가능",
-    "fail_count": 2,
-    "note": "수의계약 가능",
-    "first_seen": "2026-07-27",
     "is_new": false
    },
    {
