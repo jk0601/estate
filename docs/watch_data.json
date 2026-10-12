@@ -1,6 +1,6 @@
 {
   "filter": "34평 이하 (매매·전세)",
-  "updated": "2026-10-12 09:51",
+  "updated": "2026-10-12 11:03",
   "complexes": [
     {
       "name": "힐스테이트 메디알레",
@@ -396937,7 +396937,7 @@
               "feature": "59A 초등학교 인접동 아이키우기 좋은매물",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -396954,7 +396954,7 @@
               "feature": null,
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -396971,7 +396971,7 @@
               "feature": "59C타입 드레스룸 조합원옵션",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -396988,7 +396988,7 @@
               "feature": "59 매매  P8억4천 조합원풀옵션 급매매 조건 맟추어드림",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397005,7 +397005,7 @@
               "feature": "단지내상가입점O대조1번지,25,최상입지,준공되면 매물 들어갑니다",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397022,7 +397022,7 @@
               "feature": "힐스소망추천매매, 25P,이자매도자부담,학교불광역인접.",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397039,7 +397039,7 @@
               "feature": "0저층세대의 아늑하고 동간거리 넓어 채광 통풍 우수하며 편의시설이용",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397056,7 +397056,7 @@
               "feature": "단지내 중앙 뻥뷰 인기 판상형  조합원풀옵션",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397073,7 +397073,7 @@
               "feature": "74A,급매추천,저층선호하시는분,주출입구,전망,불광역 초역세권",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397090,7 +397090,7 @@
               "feature": "초투 저렴 미래가치 충분한 투자처 프리미엄 신축",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397107,7 +397107,7 @@
               "feature": "74 매매   최저금액  급매매 조건 맟추어드림",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397124,7 +397124,7 @@
               "feature": "대단지 신축 프리미엄을 최저가에 당신이 선택하세요 ",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397141,11 +397141,11 @@
               "feature": "30 O디딤돌 일반분양 매물 O빠른 계약 예상",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
-              "articleNo": "2654610097",
+              "articleNo": "2654690843",
               "dong": "201동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -397153,12 +397153,12 @@
               "price": 138960,
               "price_text": "13억 8,960",
               "floor": "7/14",
-              "direction": "남동향",
-              "realtor": "원탑메디알레부동산공인중개사사무소",
-              "feature": "원탑추천 25 2단지 이자매도인부담 저렴한 초투 연신내역 가까움",
-              "confirm": "20261010",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "중도금이자 매도자 부담 l 로얄층 l 초투저렴 l 일반분양",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397175,7 +397175,7 @@
               "feature": "59C 두나루 강추 O 4Bay, 팬트리, 초기투자금 적은 일반분양",
               "confirm": "20261010",
               "naver_change": "INCREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397192,7 +397192,7 @@
               "feature": "74A 급매매 입구동 GTX A 수혜동",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397209,7 +397209,7 @@
               "feature": "급 매물 4인 가족 강추 공원근처 연신내 도보가능",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397226,11 +397226,11 @@
               "feature": "로얄타입59C 공원라인 4베이맞통풍판상형구조 조합원풀옵션",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
-              "articleNo": "2654609786",
+              "articleNo": "2654692208",
               "dong": "109동",
               "pyeong": 29.6,
               "area_supply": 98,
@@ -397238,16 +397238,16 @@
               "price": 139862,
               "price_text": "13억 9,862",
               "floor": "2/25",
-              "direction": "남동향",
-              "realtor": "원탑메디알레부동산공인중개사사무소",
-              "feature": "원탑강추 74C 저렴한초투 필로티2층 매도인이자부담 매수마지막기회",
-              "confirm": "20261010",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "중도금이자 매도자 부담 l 필로티 2층 l 초투저렴 l 일반분양",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "매매",
-              "articleNo": "2654596377",
+              "articleNo": "2654692029",
               "dong": "102동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -397255,12 +397255,12 @@
               "price": 139915,
               "price_text": "13억 9,915",
               "floor": "20/23",
-              "direction": "남동향",
-              "realtor": "초대공인중개사사무소",
-              "feature": "성공으로초대O공원라인 로얄타입4베이판상형 고층뷰 조합원풀옵션",
-              "confirm": "20261010",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "선호도 높은 포베이 구조, 커뮤니티 이용 편리, 조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397277,7 +397277,7 @@
               "feature": "59A, 조합원옵션,  로얄층, 초품아 신축, 트리플역세권",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397294,7 +397294,7 @@
               "feature": "74A1 타입 조합원풀옵션 GTXA이용편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397311,7 +397311,7 @@
               "feature": "은평추천 l 조합원풀옵션 l 초투저렴 l 판상형",
               "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397328,7 +397328,7 @@
               "feature": "대조1번지,30P,급매,입주권 마지막 매수기회 잡으세요 10월초투조건",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397345,7 +397345,7 @@
               "feature": null,
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397362,7 +397362,7 @@
               "feature": null,
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397379,7 +397379,7 @@
               "feature": "74필로티 2층 일반분양 로얄 매물 초투 4억대",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397396,7 +397396,7 @@
               "feature": "P8억5천,74A, 3bay 맞동풍구조,단지조경 굿",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397413,7 +397413,7 @@
               "feature": "74A1 타입 조합원풀옵션 GTXA이용편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397430,7 +397430,7 @@
               "feature": "74A로얄동 판상형 정문인접동 모든협의가능",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397447,7 +397447,7 @@
               "feature": "30 탁트인뷰, 선점기회, 확실한 메이드",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397464,7 +397464,7 @@
               "feature": "74 매매  P8억6천  조합원풀옵션 급매매 조건 맟추어드림",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397481,7 +397481,7 @@
               "feature": "34 O단지네입점   O적극추천   O모든협의가능",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397498,7 +397498,7 @@
               "feature": "신축 대단지 불광역세권 조합원 풀옵션 입구동 트인뷰 ",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397515,7 +397515,7 @@
               "feature": "원탑강추 74 앞뒤로 탁트인 넓은 동간거리 조합원 풀옵션 매물",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397532,7 +397532,7 @@
               "feature": "원탑추천 30센터동 이동 동선 편리 어린이집",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397549,7 +397549,7 @@
               "feature": "은평추천 l 일반분양 l 판상형 74A l 필로티 2층",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397566,7 +397566,7 @@
               "feature": "성공으로초대O초품아2단지 GTX A 빠른이동 시스탬에어컨4대",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397583,7 +397583,7 @@
               "feature": "59A 두나루 O 신축 걱정 NO, 김경희 교수와 함께 안전한 계약하기",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397600,7 +397600,7 @@
               "feature": "74A1, 3bay 맞동풍구조, 로얄층, 불광역 가까워요",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397617,7 +397617,7 @@
               "feature": "74A1, 3bay 맞동풍구조, 로얄층, 불광역 가까워요",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397634,7 +397634,7 @@
               "feature": "59A타입, 발코니 확장",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397651,7 +397651,7 @@
               "feature": "원탑추천 25맨앞동 저렴한 초투 에어컨4대 확장 상가 지하철 가까움",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397668,7 +397668,7 @@
               "feature": "74B 두나루 O 신축걱정NO, 김경희 교수와 안전한 계약 O 풀옵션 O",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397685,7 +397685,7 @@
               "feature": "대조1번지,30P,연신내역 이용편리,출퇴근시간단축하세요,최고커뮤이용굿",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397702,7 +397702,7 @@
               "feature": "원탑강추 74A 로얄동 고층 조합원 매물 마지막매수타이밍",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397719,7 +397719,7 @@
               "feature": "원탑추천 25 2단지 74 뷰가 예쁜집 대은초 초품아",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397736,7 +397736,7 @@
               "feature": "59C 방3 화2 분양권귀한매매 생초6억대출가능 조합원옵션",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397753,7 +397753,7 @@
               "feature": null,
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397770,7 +397770,7 @@
               "feature": "10월말입주시작,74B2, P 8.9억원,조합원 무상옵션,지금이 매수기회",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397787,7 +397787,7 @@
               "feature": "74C, 선호타입, 조합원매물, 로얄동, 모든조건협의가능",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397804,11 +397804,11 @@
               "feature": "원탑추천 74C 중앙동이라 좋아요. 생활편리 공원 커뮤니티 지하철 등",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "매매",
-              "articleNo": "2654618721",
+              "articleNo": "2654738997",
               "dong": "210동",
               "pyeong": 29.9,
               "area_supply": 99,
@@ -397817,11 +397817,11 @@
               "price_text": "14억 8,700",
               "floor": "13/23",
               "direction": "남향",
-              "realtor": "올리브(단지내)공인중개사사무소",
-              "feature": "74B 터워형, 조합원매물, 2단지로얄동, 모든조건협의가능",
-              "confirm": "20261010",
+              "realtor": "디딤돌공인중개사사무소",
+              "feature": "30, O디딤돌 강추 O매수 찬스 O  연신내역 GTX 인근",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397838,7 +397838,7 @@
               "feature": "74타입, 3Bay,판사형, 조합원옵션,  로얄층, 초품아 신축",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397855,7 +397855,7 @@
               "feature": "불광역 가까운동 뻥뷰 조합원물건",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397872,7 +397872,7 @@
               "feature": "역세권,신축,입주협의",
               "confirm": "20260915",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397889,7 +397889,7 @@
               "feature": "84B 남향 트인로얄동 불광역세권 커뮤니티이용편리 추천급매물",
               "confirm": "20260915",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397906,7 +397906,7 @@
               "feature": "은평추천 l 최고 로얄동 l 4베이 구조 l 조합원풀옵션",
               "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397923,7 +397923,7 @@
               "feature": null,
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397940,7 +397940,7 @@
               "feature": "34 커뮤니티이용편리, 조합원, 채광좋은집, 평형별최저가보유",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397957,7 +397957,7 @@
               "feature": "불광역 가까운동 단지 중앙에 최고의 개방감 로얄동 초등 학교 가까운동",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397974,7 +397974,7 @@
               "feature": "로얄동 로얄층 시스템에어컨4 풀옵션 ",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -397991,7 +397991,7 @@
               "feature": "성공으로초대O실거주편한 중심동 84독립적구조 조합원풀옵션",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -398008,7 +398008,7 @@
               "feature": "메디알레 84매물 중앙동 트인전망",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -398025,7 +398025,7 @@
               "feature": "84중에 숨은 보석같은 타입 대은초 근접 정남향 풍부한 일조량 쾌적한실내",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -398042,7 +398042,7 @@
               "feature": "84B 타워형,  주출입구동, 시원하게트인뷰, 초투10억5천만원",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -398059,7 +398059,7 @@
               "feature": "34 귀한 판상형, 조합원물건",
               "confirm": "20260912",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -398076,7 +398076,7 @@
               "feature": null,
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -398093,11 +398093,11 @@
               "feature": "원탑추천 신축메디알레 34 저렴하게 매수기회",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
-              "articleNo": "2654597504",
+              "articleNo": "2654692264",
               "dong": "202동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -398106,11 +398106,11 @@
               "price_text": "16억 8,000",
               "floor": "17/25",
               "direction": "남향",
-              "realtor": "초대공인중개사사무소",
-              "feature": "전세대출가능 초품아84B 조합원풀옵션 주방에어컨추가 GTX A빠른이동",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "준공 후 매매 l 선호도 높은 2단지 l 로얄층 l 조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "매매",
@@ -398127,7 +398127,7 @@
               "feature": "원탑추천 34 로얄동 로얄층 스카이라운지 탁트인 전망",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398144,7 +398144,7 @@
               "feature": "20 신혼강추, 역세권, 시원하게트인조망, 평형별최저가보유",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398161,7 +398161,7 @@
               "feature": "51 넓은 거실로 실용적인 2룸 만족도 높음",
               "confirm": "20260915",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398178,7 +398178,7 @@
               "feature": "21P,신혼부부환영,바로입주가능,전망채광좋고 거실사이즈넓음.",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398195,7 +398195,7 @@
               "feature": "21 l 안정감드는 뷰, 트여있어요 방 2 , 거실 넓어요",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398212,7 +398212,7 @@
               "feature": "51  방2 화1 신혼부부강추  첫입주  착한전세 판상형 시에풀 확장",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398229,7 +398229,7 @@
               "feature": "25 l  생활편리한동, 푸릇푸릇 공원뷰, 첫입주",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398246,7 +398246,7 @@
               "feature": "0귀한 51타입 전세 초입구동으로 전망굿 생활편의시설이용편리 역세권",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398263,7 +398263,7 @@
               "feature": "북한산 조망, 단지상가 이용 편리, 주출입구이동 편리",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398280,7 +398280,7 @@
               "feature": "21P 넓은거실, 초록뷰, 신혼부부 환영",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398297,7 +398297,7 @@
               "feature": "51 신혼부부 강추, 채광좋은 트인뷰, 지하철가까워요",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398314,7 +398314,7 @@
               "feature": "51  방2 화1 신혼부부강추  첫입주  착한전세 판상형 시에풀 확장",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398331,7 +398331,7 @@
               "feature": "귀한 소형 전세물, 신혼부부 적극추천, 상가동으로 편리, 고층으로 뷰맛집",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398348,7 +398348,7 @@
               "feature": "59A 신축 첫입주 전세 에어컨풀 식세기 붙박이장옵션굿 채광굿",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398365,7 +398365,7 @@
               "feature": "25 로얄동 판상형 에풀 인덕션 상가인접",
               "confirm": "20261010",
               "naver_change": "DECREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398382,7 +398382,7 @@
               "feature": "59C 첫입주  2단지 착한전세  시에풀 확장  조정가",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398399,7 +398399,7 @@
               "feature": "원탑강추 2단지 51B 신혼강추 방2 화1 에어컨 인덕션까지",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398416,7 +398416,7 @@
               "feature": "51B 트인정원뷰 채광굿 시스템에어컨 방2 호텔급커뮤니티",
               "confirm": "20260916",
               "naver_change": "INCREASE",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398433,7 +398433,7 @@
               "feature": "25 주변인프라좋음, 로얄동, 커뮤니티이용편리, 평형별최저가보유",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398450,7 +398450,7 @@
               "feature": "25P, 신혼부부추천전세, 빠른입주가능,채광전망좋음.",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398467,7 +398467,7 @@
               "feature": "25P,전세 공원인접, 불광역 대조시장인접,생활권편리.",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398484,7 +398484,7 @@
               "feature": "25 역촌역세권 도보5분, 트인뷰, 4년계약가능",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398501,7 +398501,7 @@
               "feature": "로얄동층 판상형, 고층뷰, 최저가 전세, 신혼부부 강추",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398518,7 +398518,7 @@
               "feature": "25, 4년계약가능, 선호하는 라인",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398535,7 +398535,7 @@
               "feature": "59A 트인뷰 조합원풀옵션 빠른입주환영",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398552,7 +398552,7 @@
               "feature": "단지내상가입점,대조1번지,25,좋은임대인,공원인접동 산책굿,커뮤니티굿",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398569,7 +398569,7 @@
               "feature": "59B 전세 현관부터 넓은 툭 터진 구조 주방거실 일자형배치",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398586,7 +398586,7 @@
               "feature": "25P, 채광좋고 공원인접, 주출입구 가까운동, 신혼부부적극추천.",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398603,7 +398603,7 @@
               "feature": "59B 고층 조합원풀옵션 장기거주가능 빠른입주환영",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398620,7 +398620,7 @@
               "feature": "찐25 착한 전세",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398637,7 +398637,7 @@
               "feature": "25  초저렴 착한전세 시에4 초록초록  아이키우기좋아요",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398654,7 +398654,7 @@
               "feature": "재개발닥터엘 추천 막힘없는 뷰 조합원풀옵션 유상옵션빵빵 11월초빠른입주",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398671,7 +398671,7 @@
               "feature": "불광역세권 대단지 힐스테이트메디알레 신축아파트 입주",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398688,7 +398688,7 @@
               "feature": "59A 두나루 O 착한가격, 곧 나갈 집, 트인뷰, 조합원풀옵션",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398705,7 +398705,7 @@
               "feature": "3호선 불광역 신축 대단지 아파트 입주 물건",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398722,7 +398722,7 @@
               "feature": "25P, 신혼부부환영,.판상형구조로 생활권편리한 동.",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398739,7 +398739,7 @@
               "feature": "호텔식 커뮤니티, 조건 다 맞춰드림, 반전세가능",
               "confirm": "20260916",
               "naver_change": "INCREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398756,7 +398756,24 @@
               "feature": "신혼부부강추 신축첫입 확장공사 에어컨",
               "confirm": "20260921",
               "naver_change": "INCREASE",
-              "bunyang": 95270
+              "bunyang": null
+            },
+            {
+              "trade": "전세",
+              "articleNo": "2654736854",
+              "dong": "210동",
+              "pyeong": 24.2,
+              "area_supply": 80,
+              "area_exclusive": 59,
+              "price": 57000,
+              "price_text": "5억 7,000",
+              "floor": "4/23",
+              "direction": "남서향",
+              "realtor": "불광해오름공인중개사사무소",
+              "feature": "신축 첫입주.커뮤니티센터 최고.예쁜조망",
+              "confirm": "20261012",
+              "naver_change": "SAME",
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398773,7 +398790,7 @@
               "feature": "59A 선호판상형 풀에어컨 빠른입주환영 장기거주가능",
               "confirm": "20260922",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398790,7 +398807,7 @@
               "feature": "59A 급전세 선호판상형 풀에어컨 빠른입주환영 중문",
               "confirm": "20260923",
               "naver_change": "INCREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398807,7 +398824,7 @@
               "feature": "로얄동층 판상형, 뻥뷰, 고층뷰, 최저가 전세, 신혼부부 강추",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398824,7 +398841,7 @@
               "feature": "조합원옵션저렴전세장기거주 트리플역세권",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398841,7 +398858,7 @@
               "feature": "24, O디딤돌 추천 O시원한 뻥뷰 O정남향 채광최고",
               "confirm": "20260922",
               "naver_change": "DECREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398858,7 +398875,7 @@
               "feature": "0신혼부부 1인거주 우수함 생활편의시설 더블역세권 가까운 로얄동",
               "confirm": "20260919",
               "naver_change": "INCREASE",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398875,7 +398892,7 @@
               "feature": "입구동 안방드레스룸 4베이 GTXA",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398892,7 +398909,7 @@
               "feature": "판상형, 풀에어컨, 최저가",
               "confirm": "20260916",
               "naver_change": "INCREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398909,7 +398926,7 @@
               "feature": "25P,로얄동,커뮤니티인접,입주는 12월가능.",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398926,7 +398943,7 @@
               "feature": "59A 선호판상형 빠른입주환영 조합원풀옵션",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398943,24 +398960,7 @@
               "feature": null,
               "confirm": "20260915",
               "naver_change": "DECREASE",
-              "bunyang": 115060
-            },
-            {
-              "trade": "전세",
-              "articleNo": "2654590289",
-              "dong": "210동",
-              "pyeong": 24.2,
-              "area_supply": 80,
-              "area_exclusive": 59,
-              "price": 58000,
-              "price_text": "5억 8,000",
-              "floor": "4/23",
-              "direction": "남서향",
-              "realtor": "베스트공인중개사사무소",
-              "feature": "첫입주  확장형 시스템에어컨설치 입주협의 커뮤니티 끝판왕",
-              "confirm": "20261010",
-              "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398977,7 +398977,7 @@
               "feature": "단지내상가입점,대조1번지,25,대은초이용편리,인기타입,환기 좋아요",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -398994,7 +398994,7 @@
               "feature": "장기거주, 귀한 판상형, 10.30 집보기예약중",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399011,7 +399011,7 @@
               "feature": "선호도 높은 동 커뮤니티 근접 연신내 역세권 초등학교 가까움",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399028,7 +399028,7 @@
               "feature": "59A 신축 첫입주 전세 에어컨풀 식세기 붙박이장옵션굿 채광굿",
               "confirm": "20260928",
               "naver_change": "INCREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399045,7 +399045,7 @@
               "feature": "59A고층,남동향,확장형 ,조합원 풀옵션,인덕션,식기세척기,중문 등 다수",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399062,7 +399062,7 @@
               "feature": "59A 초등학교 인접동 아이키우기 좋은매물",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399079,7 +399079,7 @@
               "feature": "24 O 전세  O 인기있는 타입 O인기 있는 102동",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399096,7 +399096,7 @@
               "feature": "59C 펜트리있는 선호 4베이 로얄 급전세 장기거주가능",
               "confirm": "20260929",
               "naver_change": "INCREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399113,7 +399113,24 @@
               "feature": "59B타워형 GTXA 및 상가이용 편리",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
+            },
+            {
+              "trade": "전세",
+              "articleNo": "2653119593",
+              "dong": "202동",
+              "pyeong": 24.2,
+              "area_supply": 80,
+              "area_exclusive": 59,
+              "price": 59000,
+              "price_text": "5억 9,000",
+              "floor": "17/25",
+              "direction": "남서향",
+              "realtor": "탑메디알레(02.356.8947)공인중개사사무소",
+              "feature": "0 동간거리가 넓어 우수한 조망권 0 단지 초입동으로 진출입 편리함0",
+              "confirm": "20261002",
+              "naver_change": "DECREASE",
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399130,7 +399147,7 @@
               "feature": "바로나갈 전세, 단지내 녹지뷰, 최저가 전세, 신혼부부 강추",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399147,7 +399164,7 @@
               "feature": "24 조합원 물건, 무융자, 가성비 갑, 인기동",
               "confirm": "20260912",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399164,7 +399181,7 @@
               "feature": "단지내상가입점O대조1번지,25,불광역 편리,커뮤니티 이용굿,초품아",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399181,7 +399198,7 @@
               "feature": "59A 전세자금대출 급전세 풀옵션 트인뷰 빠른입주환영",
               "confirm": "20260915",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399198,7 +399215,7 @@
               "feature": "30.O디딤돌 단지내로얄층 O실거주만족도최고 O컨디션최고 O대은초교인접",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399215,7 +399232,7 @@
               "feature": "2단지 내부에 위치한 조합원 유상옵션  59타입",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399232,11 +399249,11 @@
               "feature": "l현대PICKl59 1단지 북측 메인 출입이 편리한 생활 중심",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654594647",
+              "articleNo": "2654733747",
               "dong": "101동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -399245,11 +399262,11 @@
               "price_text": "6억",
               "floor": "고/15",
               "direction": "남동향",
-              "realtor": "탑메디알레(02.356.8947)공인중개사사무소",
-              "feature": "0단지초입동으로 생활편의시설 및 단지중앙공원이용편리하며 탁트인전망0",
-              "confirm": "20261010",
+              "realtor": "넘버원공인중개사사무소",
+              "feature": "조합원분 1단지 59a 대공원 어린이놀이터 인접",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399266,11 +399283,11 @@
               "feature": "30 주인직통, 빠른입주선호, 평형별다양하게보유, 공동어려워요",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654293752",
+              "articleNo": "2654692034",
               "dong": "102동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -399278,12 +399295,12 @@
               "price": 60000,
               "price_text": "6억",
               "floor": "14/23",
-              "direction": "남향",
-              "realtor": "디딤돌공인중개사사무소",
-              "feature": "24 O 디딤돌 원픽 O 로얄층  O 선호하는 타입",
-              "confirm": "20261008",
+              "direction": "남동향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "선호도높은 포베이 구조 l 조합원풀옵션 l 커뮤니티 이용 편리",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399300,7 +399317,7 @@
               "feature": "최저 전세 선점 하세요 인기 있는 포베이 구조 뻥 뚫린 뷰",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399317,7 +399334,7 @@
               "feature": "25조합원옵션 대출협의 장기거주",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399334,7 +399351,7 @@
               "feature": "불광역 연신내역 이용편리 커뮤니티시설 이용편리 물놀이터 초근접",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399351,7 +399368,7 @@
               "feature": "원탑 신혼추천 거실넓은 59B 타입 전세 공원 바로앞 커뮤니티이용 굿",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399368,7 +399385,7 @@
               "feature": "선호도 높은 동 커뮤니티 근접 공원 인근 조정가능",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399385,7 +399402,7 @@
               "feature": "조합원 매물 가성비 좋은 전세 물건",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399402,7 +399419,7 @@
               "feature": "최저가전세,전망굿,정원뷰,했살,통풍좋음,신혼부부강추",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399419,7 +399436,7 @@
               "feature": "1단지O 59 C타입 동간O 거리 좋은 저렴한 전세",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399436,7 +399453,7 @@
               "feature": "은평의 중심 랜드마크, 첫입주, 쿼드역세권, 인프라최고, 황금추천",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399453,7 +399470,7 @@
               "feature": "59B 두나루 O에4,중문,인덕션,식세기 O김경희 교수와 안전한 계약",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399470,7 +399487,7 @@
               "feature": "바로나갈 전세, 단지내 녹지뷰, 최저가 전세, 신혼부부 강추",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399487,11 +399504,11 @@
               "feature": "59A 전세자금대출 급전세 풀옵션 추천매물",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654590701",
+              "articleNo": "2654692278",
               "dong": "110동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -399500,11 +399517,11 @@
               "price_text": "6억",
               "floor": "12/14",
               "direction": "남동향",
-              "realtor": "엘공인중개사사무소",
-              "feature": "남동향 선호하는층수 벽수담 조경생활권 방 3개, 욕실 2개",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "탑층 바로 아래 l 조합원풀옵션 l 판상형 59A l 은평추천",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399521,7 +399538,7 @@
               "feature": "일반분양, 조정가능, 신본부부강추, 넓은거실, 단지내 정원뷰",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399538,7 +399555,7 @@
               "feature": "역세권,신축,에어컨,입주협의",
               "confirm": "20260922",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399555,7 +399572,7 @@
               "feature": "0드레스룸0 동간거리 넓어 채광 전망굿 단지초입동으로 생활편의시설편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399572,7 +399589,7 @@
               "feature": "59A 남동향 조합원옵션 입구동",
               "confirm": "20261010",
               "naver_change": "INCREASE",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399589,7 +399606,7 @@
               "feature": "59B 전세자금대출되는 급전세 조합원풀옵션 빠른입주환영",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399606,7 +399623,7 @@
               "feature": "30 최저가 추천, 빠른입주가능",
               "confirm": "20260915",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399623,7 +399640,7 @@
               "feature": "전형적인 판상형구조. 3Bay로개방감. 통풍.채광좋음",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399640,7 +399657,7 @@
               "feature": "지하철역 도보거리, 확트인뷰, 신혼부부강추, 전세물량 최다보유",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399657,7 +399674,7 @@
               "feature": "59A 판상형 조합원매물. 반전세가능. 트인뷰 역세권 초품아 첫입주",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399674,7 +399691,7 @@
               "feature": "59로얄동 로얄층 트인뷰 조합원풀옵션 인기구조판상형",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399691,11 +399708,11 @@
               "feature": "조합풀옵션 판상형 트인전망 로얄층 장기거주",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654608234",
+              "articleNo": "2654716513",
               "dong": "201동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -399704,11 +399721,11 @@
               "price_text": "6억",
               "floor": "12/14",
               "direction": "남동향",
-              "realtor": "엘공인중개사사무소",
-              "feature": "재개발닥터엘 벽수담 인접 수경조경 상가 이용편리 불광역 연신내역 생활권",
-              "confirm": "20261010",
+              "realtor": "불광해오름공인중개사사무소",
+              "feature": "신축 첫입주.조합원풀옵션.커뮤니티 센터 최고",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399725,7 +399742,7 @@
               "feature": "대단지 신축 역 가까운 입구동 조합원 옵션 당신이 주인공입니다",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399742,7 +399759,7 @@
               "feature": "0저층세대로 어린자녀 키우기 편리함 초입동으로 단지 편의시설이용편리함",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399759,7 +399776,7 @@
               "feature": "0 전망굿 고층뷰 탁트인전망 단지초입동으로 차량진출입 편의시설이용편리",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399776,7 +399793,7 @@
               "feature": "0  폭포 전망굿00 중층으로 채광좋음 0생활편리 신혼부부적합0",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399793,7 +399810,7 @@
               "feature": "24 인기동, 무융자, 조합원 물건임. 강력추천",
               "confirm": "20260912",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399810,7 +399827,7 @@
               "feature": "힐스소망추천전세,스카이라운지위치, 동층최고전세매물.",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399827,7 +399844,7 @@
               "feature": "21 I 주인의뢰 I 안전 계약 I 평형별 타입별 최저가 최대 보유",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399844,11 +399861,11 @@
               "feature": "불광역 가까운 205동 신혼부부 추천전세",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654625412",
+              "articleNo": "2654691214",
               "dong": "209동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -399857,11 +399874,11 @@
               "price_text": "6억",
               "floor": "8/23",
               "direction": "남향",
-              "realtor": "미래공인중개사사무소",
-              "feature": "불광역 연신내역GTXA 교통편리 대은초초근접 동명여고 등학교편리",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "선호도 높은 2단지 l 판상형 59A l 조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399878,7 +399895,7 @@
               "feature": "59A 선호판상형 뷰굿 조합원 풀옵션 트인뷰 장기거주",
               "confirm": "20261008",
               "naver_change": "DECREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399895,7 +399912,7 @@
               "feature": "신축첫입주 l 조합원매물 l 옵션최고 l 중앙동 l 대은초인접동 l",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399912,7 +399929,7 @@
               "feature": "힐스테이트 메디알레 쓰리룸 중소형 아파트 전세임대",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399929,7 +399946,7 @@
               "feature": "강추, 햇살 좋은 남향, 특화커뮤니티 수혜동, 트인전망, 조합원옵션 외",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399946,7 +399963,7 @@
               "feature": "신축아파트  첫 입주",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 95270
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399963,7 +399980,7 @@
               "feature": "저렴전세 에풀 인덕션 펜트리 식세기장기거주",
               "confirm": "20261006",
               "naver_change": "DECREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399980,7 +399997,7 @@
               "feature": "0단지 중앙공원 영구조망 전망굿 채광 통풍우수 신혼부부적합 평형0",
               "confirm": "20261006",
               "naver_change": "DECREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -399997,7 +400014,7 @@
               "feature": "단지내상가입점,대조1번지,25,안방 드레스룸, 옵션굿,동간거리멀어요",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400014,7 +400031,7 @@
               "feature": "고층뻥뷰, 조합옵션, 판상형, 신혼부부 강추, 전세물량 최다보유",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400031,7 +400048,7 @@
               "feature": "재개발닥터엘 59A 타입 3베이구조 3룸 2욕실 구성 신혼부부 선호",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400048,7 +400065,7 @@
               "feature": "74A 풀에어컨 빠른입주환영 추천매물",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400065,7 +400082,7 @@
               "feature": "74A1 전세 공원뷰 초등학교인접동",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400082,24 +400099,7 @@
               "feature": "59 남동향 중고층 저렴한 전세",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
-            },
-            {
-              "trade": "전세",
-              "articleNo": "2653119593",
-              "dong": "202동",
-              "pyeong": 24.2,
-              "area_supply": 80,
-              "area_exclusive": 59,
-              "price": 62000,
-              "price_text": "6억 2,000",
-              "floor": "17/25",
-              "direction": "남서향",
-              "realtor": "탑메디알레(02.356.8947)공인중개사사무소",
-              "feature": "0 동간거리가 넓어 우수한 조망권 0 단지 초입동으로 진출입 편리함0",
-              "confirm": "20261002",
-              "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400116,7 +400116,7 @@
               "feature": "36호선GTX A도보역세권 초품아2단지 판상형59A 가전옵션다수",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400133,7 +400133,7 @@
               "feature": "신혼부부 심쿵할 역대급 고층 뷰 59A 판상형",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400150,7 +400150,7 @@
               "feature": "단지내 중앙 뻥뷰 인기 판상형  조합원풀옵션",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400167,7 +400167,7 @@
               "feature": null,
               "confirm": "20260921",
               "naver_change": "DECREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400184,7 +400184,7 @@
               "feature": "59 조합원풀옵션 2단지 중앙 로얄동 로얄층",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400201,7 +400201,7 @@
               "feature": "자녀 키우며 살기 완벽한 2단지 핵심동 상가동 근접 불광역 상권 이용편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400218,7 +400218,7 @@
               "feature": "원탑추천 2단지 59 전세 커뮤니티 옥토넛물놀이터 조합원풀옵션 남향",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400235,7 +400235,7 @@
               "feature": "풀에어컨, 호텔식커뮤, 앞뒤 트인뷰, 조건조율가능",
               "confirm": "20260916",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400252,7 +400252,7 @@
               "feature": "밝고환한집, 커뮤니티인접, 입주및 조건조율가능",
               "confirm": "20260916",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400269,7 +400269,7 @@
               "feature": null,
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400286,7 +400286,7 @@
               "feature": "인기많은 포베이 판상형 o 타입유일 드레스룸 o 호텔급 커뮤니티",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400303,7 +400303,7 @@
               "feature": "0초고층으로 중앙공원뷰 채광 통풍 우수하며 앞 뒤 동간거리넓음0",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400320,11 +400320,11 @@
               "feature": "살기좋은 로얄동, 입주및 조건조율가능",
               "confirm": "20260916",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654621869",
+              "articleNo": "2654692102",
               "dong": "114동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -400332,12 +400332,12 @@
               "price": 63000,
               "price_text": "6억 3,000",
               "floor": "9/22",
-              "direction": "남동향",
-              "realtor": "불광자이공인중개사사무소",
-              "feature": "신축아파트 첫입주 .59A 타입",
-              "confirm": "20261010",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "로얄동로얄층 l 뷰 좋음 l 판상형 59A l 조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400354,7 +400354,7 @@
               "feature": "59A,확장형,조합원옵션,트인 전망 ",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400371,7 +400371,7 @@
               "feature": "장기가능 반려묘 가능한 59C타입 전세 6억5천 드레스룸과 펜트리까지",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400388,7 +400388,7 @@
               "feature": "에4 인덕션 중문 식세기 장기거주",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400405,7 +400405,7 @@
               "feature": "조합풀옵션계좌바로  뷰트임  로얄층",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400422,7 +400422,7 @@
               "feature": "K 선호도 1등, 로얄동 로얄층 l 뻥뷰 l 조합원풀옵션 유상옵션",
               "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400439,7 +400439,7 @@
               "feature": "2단지 연신내역, 대은초, 불광역 가까운 로얄동 로얄층 조합원 74타입",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400456,7 +400456,7 @@
               "feature": null,
               "confirm": "20260915",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400473,7 +400473,7 @@
               "feature": "30P, 생활하기 편리한 동, 불광역 학교 모두 가까운동",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400490,7 +400490,7 @@
               "feature": null,
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400507,7 +400507,7 @@
               "feature": "59 동간거리 최고 냉장고 포함 완전 풀옵션 59 전세",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400524,7 +400524,7 @@
               "feature": "대조1번지,30P,연신내역 이용편리,출퇴근시간단축하세요,최고커뮤이용굿",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400541,7 +400541,7 @@
               "feature": "74a 선호판상형 빠른입주환영 풀옵션 추천매물",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400558,7 +400558,7 @@
               "feature": "74, 바로계약가능한 전세, 입지좋고 이동편리한 동",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400575,7 +400575,7 @@
               "feature": "74    첫입주  2단지 착한전세  시에풀 확장 조정가",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400592,7 +400592,7 @@
               "feature": "74    첫입주  2단지 착한전세  시에풀 확장 조정가",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400609,7 +400609,7 @@
               "feature": "가성비 좋은 전세 조합원 풀 옵션 ",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400626,7 +400626,7 @@
               "feature": "불광역, 초등학교 가까운동, 로열동로열층 전세",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400643,7 +400643,7 @@
               "feature": "74A 선호판상형 빠른입주환영 조합원풀옵션 장기거주가능 급전세",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400660,7 +400660,24 @@
               "feature": "연신내역 도보거리, 최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
+            },
+            {
+              "trade": "전세",
+              "articleNo": "2654690342",
+              "dong": "101동",
+              "pyeong": 29.9,
+              "area_supply": 99,
+              "area_exclusive": 74,
+              "price": 65000,
+              "price_text": "6억 5,000",
+              "floor": "9/15",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "은평추천 l 협의가능 l  조합원풀옵션 l 로얄층",
+              "confirm": "20261012",
+              "naver_change": "SAME",
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400677,24 +400694,7 @@
               "feature": "30 O디딤돌 전세 매물 O빠른 계약 예상",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
-            },
-            {
-              "trade": "전세",
-              "articleNo": "2654622597",
-              "dong": "101동",
-              "pyeong": 29.9,
-              "area_supply": 99,
-              "area_exclusive": 74,
-              "price": 65000,
-              "price_text": "6억 5,000",
-              "floor": "9/15",
-              "direction": "동향",
-              "realtor": "디딤돌공인중개사사무소",
-              "feature": "30 O디딤돌 만족도 최고 O전세 O고층 뻥뷰",
-              "confirm": "20261010",
-              "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400711,7 +400711,7 @@
               "feature": "연신내역 도보거리, 최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400728,7 +400728,7 @@
               "feature": "급전세 신축아파트 10월31일이후 입주가능 보증금 조절가 ",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400745,7 +400745,7 @@
               "feature": "단지내상가입점O대조1번지,25,귀한 인기타입,거실 개방감좋아요,공원뷰",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400762,7 +400762,7 @@
               "feature": "단지내상가입점O대조1번지,25,귀한 인기타입,안방드레스룸O,4베이구조",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400779,7 +400779,7 @@
               "feature": "59C 두나루 O 공원뷰, 4Bay, 팬트리, 조합원 풀옵션",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400796,7 +400796,7 @@
               "feature": "전세대출가능 1단지공원 인접한 입지, 센트럴플라자 품은 59C 안심",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400813,11 +400813,11 @@
               "feature": "바로앞 공원, 전망 굿",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654615318",
+              "articleNo": "2654722534",
               "dong": "103동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -400826,11 +400826,11 @@
               "price_text": "6억 5,000",
               "floor": "11/24",
               "direction": "남동향",
-              "realtor": "엘공인중개사사무소",
-              "feature": "신혼부부 추천 1단지 공원앞 쾌적한 위치 옥토넛물놀이터 가까운 생활권",
-              "confirm": "20261010",
+              "realtor": "불광해오름공인중개사사무소",
+              "feature": "신축 첫입주.커뮤니티 센터 최고.조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400847,7 +400847,7 @@
               "feature": "공원옆동으로 쾌적하고 조용함",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400864,7 +400864,7 @@
               "feature": "단지 앞 청정 공원 품은 103동 매물 사생활 침해 걱정 없이 완벽함",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400881,7 +400881,7 @@
               "feature": "24 O 디딤돌추천 O드레스룸 O선호하는 단지",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400898,7 +400898,24 @@
               "feature": "강추, 59A, 햇살 좋은 남향, 공원뷰의 트인전망, 커뮤니티 프리미엄",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
+            },
+            {
+              "trade": "전세",
+              "articleNo": "2654726182",
+              "dong": "107동",
+              "pyeong": 30.2,
+              "area_supply": 100,
+              "area_exclusive": 74,
+              "price": 65000,
+              "price_text": "6억 5,000",
+              "floor": "4/25",
+              "direction": "남서향",
+              "realtor": "디딤돌공인중개사사무소",
+              "feature": "30 O디딤돌 전세 O인기구조 4베이 O더블역세권",
+              "confirm": "20261012",
+              "naver_change": "SAME",
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400915,7 +400932,7 @@
               "feature": "앞쪽동 트인뷰, 불광역 역세권, 최저가 전세, 바로나갈 집",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400932,7 +400949,7 @@
               "feature": "74C 선호판상형 조합원풀옵션 장기거주가능 급전세",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400949,7 +400966,7 @@
               "feature": "59a타입 1단지 대공원인접 로얄동 로얄층",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400966,7 +400983,7 @@
               "feature": "원탑추천 74탑층 판상형 맞통풍 층간소음 제로 조합원풀옵션",
               "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -400983,7 +401000,7 @@
               "feature": "59B 두나루 O 신축미등기 걱정 NO, 김경희 교수와 함께 안전한 계약",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401000,7 +401017,7 @@
               "feature": "59C, 선호도높은 판상형구조, 주출입구, 1월 입주, 전망",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401017,7 +401034,7 @@
               "feature": "불광역3.6호선  역세권 조합원분  풀옵션  냉장고만 제외 팡상형구조",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401034,7 +401051,7 @@
               "feature": "25 햇볕통풍최상 선호도가높은 정남향 4베이 입구동입니다 ",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401051,7 +401068,7 @@
               "feature": "25 공동환영  신혼부부추천 조합원풀옵션 밝고 환한집",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401068,7 +401085,7 @@
               "feature": "30 O단지네입점   O상가입구동 O지하철 4개 역세권",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401085,11 +401102,11 @@
               "feature": "연신내역 가까운 동 상가이용 편리 조합원 풀 옵션 ",
               "confirm": "20261008",
               "naver_change": "DECREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654538142",
+              "articleNo": "2654726756",
               "dong": "112동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -401098,11 +401115,11 @@
               "price_text": "6억 5,000",
               "floor": "21/22",
               "direction": "남동향",
-              "realtor": "두나루공인중개사사무소",
-              "feature": "59A 두나루 O 오븐,에4,중문,인덕,식세 O 햇살가득 밝은집 O",
-              "confirm": "20261010",
+              "realtor": "불광해오름공인중개사사무소",
+              "feature": "신축 첫입주 .커뮤니티센터 최고.조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401119,7 +401136,7 @@
               "feature": "단지내상가입점O대조1번지,30,저렴전세 바로계약가능 선점필수",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401136,7 +401153,7 @@
               "feature": "0 탁트인전망0 채광좋음 단지초입동으로 생활편의시설 차량진출입 편리함",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401153,7 +401170,7 @@
               "feature": "신축 첫 입주 대단지 깨끗한 아파트 전세.",
               "confirm": "20261005",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401170,7 +401187,7 @@
               "feature": "판상형, 맞통풍 굿. 상가인접. 3.6호선 불광역.  가격(월세)조절가.",
               "confirm": "20260921",
               "naver_change": "DECREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401187,7 +401204,7 @@
               "feature": "74A 두나루 O 신축걱정No, 김경희 교수와 안.전.한 계약 O",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401204,7 +401221,7 @@
               "feature": "불광역 가까운동 단지 중앙에 최고의 입지 로얄층 로얄동 상가동 인접",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401221,7 +401238,7 @@
               "feature": "59A 전세자금대출 로얄뷰 동층 뻥뷰 조합원풀옵션 장기거주가능",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401238,7 +401255,7 @@
               "feature": "재개발닥터엘 상가가까운생활동선 불광역 연신내역 이용편리",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401255,7 +401272,7 @@
               "feature": "o25o 전세대출가능o 조합원풀옵션o 불광역도보o 신축대단지",
               "confirm": "20260921",
               "naver_change": "INCREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401272,7 +401289,7 @@
               "feature": "24 O 전세대출가능 O 연신내역GTX O 단지 정문동",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401289,7 +401306,7 @@
               "feature": "선호도 높은 4베이 강력추천 앞뒤 전망 공원 개방감 좋은 거실",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401306,7 +401323,7 @@
               "feature": "74B 전세자금대출 풀에어컨 정원뷰 가격굿 빠른입주환영",
               "confirm": "20260918",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401323,7 +401340,7 @@
               "feature": "전세대출 굿, 빠른 입주 굿 36호선 역세권 신축 아파트",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401340,7 +401357,7 @@
               "feature": "앞동 가림없이 프라이빗한 생활 가능 로얄층이 선사하는 개방감",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401357,7 +401374,7 @@
               "feature": "25.전세대출가능.계약가능.탑층.층간소음제로.조합원풀옵션.초품아",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401374,7 +401391,7 @@
               "feature": "대은초 가까운 생활권 주차장 출입구 근접 아이 키우기 좋은 단지환경",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401391,7 +401408,7 @@
               "feature": "59A,조합원 옵션",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401408,7 +401425,7 @@
               "feature": "30.계약가능.팬트리있는인기타입.불광역5분컷.조합원풀옵션.초품아",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401425,7 +401442,7 @@
               "feature": "강추, 대출가능, 특화 커뮤니티 수혜동, 대은초 인접, 조합원 옵션",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401442,7 +401459,7 @@
               "feature": "전세대출 가능  풀옵션  스카이라운지 로얄동",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401459,7 +401476,7 @@
               "feature": "인기 많은 2단지에 위치한 59A타입",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401476,7 +401493,7 @@
               "feature": "재개발닥터엘 대은초 초근접 중앙라인으로 커뮤니티 및 시설물 이용편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401493,7 +401510,7 @@
               "feature": "재개발닥터엘 2단지 중앙라인 대은초인접 불광역 연신내역 생활권",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401510,7 +401527,7 @@
               "feature": "남향,대은초 중앙라인 커뮤니티이용편리 유상옵션 추가",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401527,7 +401544,7 @@
               "feature": "재개발닥터엘 유상옵션추가 대은초 초근접 중앙라인 남동향  교통편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401544,7 +401561,7 @@
               "feature": "59A,확장형,조합원옵션,탁트인 전망,초등학교인접,연신내역 쪽",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401561,11 +401578,11 @@
               "feature": "단지내상가입점O대조1번지,30,연신내역 GTX 역세권,초품아,대은초굿",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654594365",
+              "articleNo": "2654715865",
               "dong": "211동",
               "pyeong": 29.9,
               "area_supply": 99,
@@ -401574,11 +401591,11 @@
               "price_text": "6억 5,000",
               "floor": "3/11",
               "direction": "남동향",
-              "realtor": "원탑메디알레부동산공인중개사사무소",
-              "feature": "원탑추천 74 GTX A 연신내역 가까운 동 커뮤니티 이용 편리",
-              "confirm": "20261010",
+              "realtor": "불광해오름공인중개사사무소",
+              "feature": "신축 첫입주.커뮤니티 센터 가까운 동.입구동",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401595,7 +401612,7 @@
               "feature": "연신내역 도보거리, 최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401612,7 +401629,7 @@
               "feature": "연신내역 도보 최단거리 74A 대은초 동명여고 커뮤니티시설 편리하게 이용",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401629,7 +401646,7 @@
               "feature": "O 사진 O 불광역 역세권 GTX O 신축 O 초품아 추천매물",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401646,7 +401663,7 @@
               "feature": "30 O 디딤돌 엄선  O 초품아 O 전세",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401663,7 +401680,7 @@
               "feature": "전망좋은 74A로열동, 4년거주가능, 2단지 전세추천, 불광역 도보 5분",
               "confirm": "20261006",
               "naver_change": "DECREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401680,7 +401697,7 @@
               "feature": "조망좋고 로얄동 로얄층 조합원옵션",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401697,7 +401714,7 @@
               "feature": "59A, 커뮤니티 수혜동, 트인 전망, 초등생 우리아이 안심 대은초 인접",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401714,7 +401731,7 @@
               "feature": "최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰, 전세 물량 최다보유",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401731,11 +401748,11 @@
               "feature": "24  공동환영 I 대출o 조합원물건",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2651812166",
+              "articleNo": "2654706000",
               "dong": "209동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -401745,10 +401762,10 @@
               "floor": "15/23",
               "direction": "남동향",
               "realtor": "원탑(단지내)공인중개사사무소",
-              "feature": "신축 트리플역세권 초품아 채광 통풍 우수 트인 전망",
-              "confirm": "20260928",
+              "feature": "선호도 높은 2단지 로얄동 로얄층 대은초 안심도보 트리플역세권",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401765,7 +401782,7 @@
               "feature": "74전세자금대출가능 조합풀옵션 판상형구조",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401782,7 +401799,7 @@
               "feature": "74A 전세자금대출가능 급전세 추천매물",
               "confirm": "20261007",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401799,7 +401816,7 @@
               "feature": "74A 전세자금대출 유일 급전세 추천매물",
               "confirm": "20261006",
               "naver_change": "DECREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401816,7 +401833,7 @@
               "feature": "74A 전세자금대출가능 풀에어컨 장기거주가능 가격추천",
               "confirm": "20260922",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401833,7 +401850,7 @@
               "feature": "74A 전세자금대출가능 풀에어컨 빠른입주환영",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401850,7 +401867,7 @@
               "feature": null,
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401867,7 +401884,7 @@
               "feature": "재개발닥터엘 남동향 선호층 1단지 공원 산책동선 연신내역 이용편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401884,7 +401901,7 @@
               "feature": "대출가능 급전세, 약조정 가능, 단지내 녹지뷰, 최저가 전세",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401901,7 +401918,7 @@
               "feature": "59c타입 막힘없는 대공원뷰 4베이 팬트리구조 모두가 원하는 로얄동로얄층",
               "confirm": "20261006",
               "naver_change": "DECREASE",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401918,7 +401935,7 @@
               "feature": " 1단지 신축 첫입주 74A 타입",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401935,7 +401952,24 @@
               "feature": "최고인기 74D, 4베이 판상형, 단지내 녹지뷰, 전세 물량 최다보유",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
+            },
+            {
+              "trade": "전세",
+              "articleNo": "2654694707",
+              "dong": "212동",
+              "pyeong": 29.9,
+              "area_supply": 99,
+              "area_exclusive": 74,
+              "price": 67000,
+              "price_text": "6억 7,000",
+              "floor": "10/11",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "선호도 높은 2단지 l 탑층 바로 아래 l 조합원풀옵션",
+              "confirm": "20261012",
+              "naver_change": "SAME",
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401952,24 +401986,7 @@
               "feature": "전세대출가능 l 초등학교 가까운 동 l 아이키우기 최적 l 은평추천",
               "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 136290
-            },
-            {
-              "trade": "전세",
-              "articleNo": "2654304733",
-              "dong": "212동",
-              "pyeong": 29.9,
-              "area_supply": 99,
-              "area_exclusive": 74,
-              "price": 67000,
-              "price_text": "6억 7,000",
-              "floor": "10/11",
-              "direction": "남동향",
-              "realtor": "대조1번지메디알레단지내공인중개사사무소",
-              "feature": "단지내상가입점,대조1번지,30,조합옵션,연신내역이용굿,대은초 통학편리",
-              "confirm": "20261008",
-              "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -401986,7 +402003,7 @@
               "feature": "맘껏 아이키우기좋은 층 동 첫입주 3역세권 ",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402003,7 +402020,7 @@
               "feature": "원탑강추 74A 전세대출가능한 저렴한전세 필로티2층 에4 아이키우기좋은집",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402020,7 +402037,7 @@
               "feature": "재개발닥터엘 드레스룸포함구성 1단지공원 포레키즈인접",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402037,7 +402054,7 @@
               "feature": "1단지 대공원뷰 판상형 4베이 팬트리 드레스룸특화타입",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402054,24 +402071,7 @@
               "feature": "인기좋은 59C 연신내역 가까운동 뻥뷰 조합원옵션다량",
               "confirm": "20261009",
               "naver_change": "SAME",
-              "bunyang": 115060
-            },
-            {
-              "trade": "전세",
-              "articleNo": "2654388412",
-              "dong": "107동",
-              "pyeong": 30.2,
-              "area_supply": 100,
-              "area_exclusive": 74,
-              "price": 68000,
-              "price_text": "6억 8,000",
-              "floor": "4/25",
-              "direction": "남서향",
-              "realtor": "대조1번지단지내공인중개사사무소",
-              "feature": "단지내상가입점O대조1번지,30,조정가,불광역 가장인근동,출퇴근시간단축",
-              "confirm": "20261010",
-              "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402088,7 +402088,7 @@
               "feature": "공원 앞 조합원 59a타입 남서향 매물",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402105,7 +402105,7 @@
               "feature": "0단지초입동으로 차량진출입 단지내상가 접근성 우수한 로얄동0",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402122,7 +402122,7 @@
               "feature": "원탑추천 59 상가 편의시설 조합원풀옵션 줄눈 탄성 세라믹 코팅 추가",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402139,7 +402139,7 @@
               "feature": null,
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402156,7 +402156,7 @@
               "feature": "30 선호타입, 빠른입주선호, 평형별다양하게보유",
               "confirm": "20261008",
               "naver_change": "INCREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402173,7 +402173,7 @@
               "feature": "불광역세권 신축 대단지 첫입주 로얄층 조합원 풀옵션 입주협의",
               "confirm": "20260930",
               "naver_change": "DECREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402190,7 +402190,7 @@
               "feature": "급전세 신축아파트 10월31일이후 입주가능 보증금 조절가 ",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402207,7 +402207,7 @@
               "feature": "재개발닥터엘 벽수담조경 1단지공원 포레키즈그라운드 인접 교통 생활 편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402224,7 +402224,7 @@
               "feature": "공원인접 막힘없는 시원한뷰 조합원풀옵션",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402241,7 +402241,7 @@
               "feature": "역세권,신축,조합웜매물,",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402258,7 +402258,7 @@
               "feature": "24 주인직통, 전대가, 아이키우기좋은환경, 채광좋음",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402275,7 +402275,7 @@
               "feature": "메디알레 84 djr 최저가격 7억",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402292,7 +402292,7 @@
               "feature": "스트레스없는  세대 고층  스카이 전망",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402309,7 +402309,7 @@
               "feature": "공원라인 로얄타입59C 드레스룸 펜트리 수납편리 조합원풀옵션",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402326,7 +402326,7 @@
               "feature": "59A 조합원 풀옵션",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402343,11 +402343,11 @@
               "feature": "상가동인접 역도보 용이 조합원옵션  전액현금원함 인기있는 74D타입",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654305478",
+              "articleNo": "2654695191",
               "dong": "107동",
               "pyeong": 30.2,
               "area_supply": 100,
@@ -402356,11 +402356,11 @@
               "price_text": "7억",
               "floor": "12/25",
               "direction": "남서향",
-              "realtor": "대조1번지메디알레단지내공인중개사사무소",
-              "feature": "단지내상가입점,대조1번지,30,인기 포베이구조,방마다 채광좋아요",
-              "confirm": "20261008",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "로얄동 로얄층 l 4베이 구조 l 커뮤니티이용과 생활 편리",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402377,7 +402377,7 @@
               "feature": "공원 인접동으로 조용함",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402394,7 +402394,7 @@
               "feature": "귀한 전세매물. 고층의 막힘없는뷰, 신축역세권아파트로 강추",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402411,7 +402411,7 @@
               "feature": "강추, 귀한 4베이의 74D, 특화 커뮤니티 인접동, 조합원 옵션",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402428,11 +402428,11 @@
               "feature": "원탑추천 74C 고층 공원이용 편리 조합원 풀옵션",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654539523",
+              "articleNo": "2654694203",
               "dong": "108동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -402441,11 +402441,11 @@
               "price_text": "7억",
               "floor": "18/25",
               "direction": "남서향",
-              "realtor": "고구려공인중개사사무소",
-              "feature": "2년거주 가능 최고인기 84D타입, 역세권, 전세물량 최다보유",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "강력추천 l 최저가 l 선호도 높은 포베이 구조 l 조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402462,7 +402462,7 @@
               "feature": "74 조합풀옵션 판상형구조 장기거주",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402479,7 +402479,7 @@
               "feature": "중심단지 생활편리한74C 고층뷰 센트럴플라자 옥토넛물놀이",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402496,7 +402496,7 @@
               "feature": "아침햇살 상쾌한 남동향구조 센트럴플라자 품은 108동",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402513,7 +402513,7 @@
               "feature": "원탑추천 74 로얄동 넓은 동간거리 풀옵션 모든 생활편리한 동",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402530,7 +402530,7 @@
               "feature": "84D 로얄동 로얄층 귀한매물",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402547,7 +402547,7 @@
               "feature": "34P,수생비오톱인근, 조합원풀옵션,전망좋고 이동편리한 동.",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402564,7 +402564,7 @@
               "feature": "84 조합풀옵션 급전세 장기거주",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402581,7 +402581,7 @@
               "feature": "84B 정남향 조합원풀옵션 장기거주가능 급전세",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402598,7 +402598,7 @@
               "feature": "34 장기거주가능, 소유주 내방 접수",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402615,7 +402615,7 @@
               "feature": "84D선호타입 펜트리 빠른입주환영 조합원 풀옵션 급전세",
               "confirm": "20260916",
               "naver_change": "DECREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402632,7 +402632,7 @@
               "feature": "원탑추천 59 전세대출가능 넓은동간거리 공원 주민운동시설이용편리",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402649,7 +402649,7 @@
               "feature": "84 최저전세  조합풀옵션 남향 장기거주",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402666,7 +402666,7 @@
               "feature": "74C1,탑층,탁트인 조망,조합원 옵션.",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402683,7 +402683,7 @@
               "feature": "재개발닥터엘 전세대출가능 남동향 1단지공원생활권 벽수담 조경 상가근접",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402700,7 +402700,7 @@
               "feature": "0보증금조정가능 채광좋음 교통편리 숲세권 단지초입동으로 생활편리0",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402717,7 +402717,7 @@
               "feature": "재개발닥터엘 방3 욕실2 드레스룸 구성 벽수담조경 조경 및 커뮤니티 편리",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402734,7 +402734,7 @@
               "feature": "0실거주 만족도가 높은 인기 74A타입0동간거리넓어 전망굿0상가이용편리0",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402751,7 +402751,7 @@
               "feature": "1단지 주출입구와 가깝고 전망 뚫린 74A타입 전세입니다",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402768,7 +402768,7 @@
               "feature": "신축 첫입주.풀옵션.커뮤니티 센터 최고",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402785,7 +402785,7 @@
               "feature": "25 O디딤돌 전세 O 전세대출가능 O조합원풀옵 O 인기동 개방감굿",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402802,7 +402802,7 @@
               "feature": "조합원풀옵션, 교통편리",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402819,7 +402819,7 @@
               "feature": "재개발닥터엘 안방드레스룸 상가근접 시장및대형쇼핑몰이용편리 교통편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402836,7 +402836,7 @@
               "feature": "0입구초입동으로 편의시설이용편리 동간거리 넓어 조망권 채광 통풍우수0",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402853,7 +402853,7 @@
               "feature": "정문앞.상가연결동,거실.발코니넓은타입,조합원풀옵션,3.6호선,GTX",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402870,7 +402870,7 @@
               "feature": "찐34 착한 전세",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402887,7 +402887,7 @@
               "feature": "단지내상가입점O대조1번지,34,바로선점필수,진행가능,가장저렴전세",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402904,7 +402904,7 @@
               "feature": "타워형 2베이, 거실큼, 남향",
               "confirm": "20260922",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402921,28 +402921,11 @@
               "feature": "84B, 조합원풀옵션, 빠른입주환영,동간거리넓어 트인뷰.",
               "confirm": "20260922",
               "naver_change": "DECREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654615088",
-              "dong": "203동",
-              "pyeong": 30.2,
-              "area_supply": 100,
-              "area_exclusive": 74,
-              "price": 70000,
-              "price_text": "7억",
-              "floor": "20/25",
-              "direction": "남서향",
-              "realtor": "엘공인중개사사무소",
-              "feature": "재개발닥터엘 74D 드레스룸 구성 대은초 커뮤니티 시설 이용편리한 동",
-              "confirm": "20261010",
-              "naver_change": "SAME",
-              "bunyang": 134500
-            },
-            {
-              "trade": "전세",
-              "articleNo": "2654604281",
+              "articleNo": "2654734102",
               "dong": "203동",
               "pyeong": 30.2,
               "area_supply": 100,
@@ -402951,11 +402934,28 @@
               "price_text": "7억",
               "floor": "6/25",
               "direction": "남서향",
-              "realtor": "탑메디알레(02.356.8947)공인중개사사무소",
-              "feature": "0선호도높은 4베이 D타입0단지 중앙에 위치해 생활편리0동간거리넓어전망굿",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "로얄동 로얄층 l 4베이 구조 l 선호도 높은 2단지",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
+            },
+            {
+              "trade": "전세",
+              "articleNo": "2654693763",
+              "dong": "203동",
+              "pyeong": 30.2,
+              "area_supply": 100,
+              "area_exclusive": 74,
+              "price": 70000,
+              "price_text": "7억",
+              "floor": "20/25",
+              "direction": "남서향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "로얄동 로얄층 l 4베이 구조 l 선호도 높은 2단지",
+              "confirm": "20261012",
+              "naver_change": "SAME",
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402972,7 +402972,7 @@
               "feature": "원탑추천 30P 포베이라 좋은집 센터내 위치",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -402989,7 +402989,7 @@
               "feature": "2단지 넓은 동간, 4bay,맞통풍, 조합원 매물 풀옵션",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403006,7 +403006,7 @@
               "feature": "36호선 GTX A도보역세권 조합원풀옵션59A 대은초도보통로 인접",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403023,7 +403023,7 @@
               "feature": "재개발닥터엘 드레스룸포함 대은초인접 커뮤니티 이용 편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403040,7 +403040,7 @@
               "feature": "경성o,신축,첫입주,불광역세권,추천매물",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403057,7 +403057,7 @@
               "feature": "호불호 없는 74A타입 오전 일찍부턴 해가 잘 들어와 상쾌한 아침을 시작",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403074,7 +403074,7 @@
               "feature": "0연신내역 이용편리한 초입동이며 대은초교 가까운 로얄동0",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403091,7 +403091,7 @@
               "feature": null,
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403108,7 +403108,7 @@
               "feature": "단지내상가입점,대조1번지,30,조합옵션,연신내역이용굿,대은초 통학편리",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403125,7 +403125,7 @@
               "feature": "불광역 가까운동 단지 중앙에 최고의 개방감 로얄동 초등 학교 가까",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403142,7 +403142,7 @@
               "feature": "30 O디딤돌 엄선 O 초등학교인접 O 연신내역세권",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403159,7 +403159,7 @@
               "feature": "연신내역세권 ,대은초등학교 인접  , 커뮤니티,핼스,골프 ,최상층,로얄동",
               "confirm": "20260918",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403176,7 +403176,7 @@
               "feature": "84B 로얄 정남향 조합원풀옵션 반전세도가능 장기거주가능",
               "confirm": "20260922",
               "naver_change": "DECREASE",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403193,7 +403193,7 @@
               "feature": "연신내역 가까운동 로얄층 조합원옵션다량",
               "confirm": "20261009",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403210,7 +403210,7 @@
               "feature": "공원단지 생활편한중심동 남향84B 조합원풀옵션 단지내어린이집인접",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403227,11 +403227,11 @@
               "feature": "인기동 커뮤니티앞, 채광좋고 밝은집, 조건조율가능",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654610399",
+              "articleNo": "2654733255",
               "dong": "108동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -403239,12 +403239,12 @@
               "price": 73000,
               "price_text": "7억 3,000",
               "floor": "17/25",
-              "direction": "남서향",
-              "realtor": "고구려공인중개사사무소",
-              "feature": "뷰 좋은 84B타입, 계약갱신 가능해요, 전세물량 최다보유",
-              "confirm": "20261010",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "은평추천 l 장기거주가능 l 조합원풀옵션 l 유상옵션다수 추가",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403261,7 +403261,7 @@
               "feature": "공동은 어려워요, 최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403278,7 +403278,7 @@
               "feature": "84 남향 착한전세  조합원옵션  장기거주가 빠른입주환영",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403295,7 +403295,7 @@
               "feature": "34 l 남향, 조합원옵션, 조건적극협의, 예쁜 저층뷰",
               "confirm": "20260922",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403312,7 +403312,7 @@
               "feature": "84 남향 착한전세  장기거주가 빠른입주환영",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403329,7 +403329,7 @@
               "feature": "84B 남형 정원뷰 풀옵션 빠른입주환영 호텔급커뮤니티",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403346,7 +403346,7 @@
               "feature": "불광역 가까운동 뻥뷰 조합원물건",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403363,7 +403363,7 @@
               "feature": "84B 조합원 풀옵션 빠른입주환영 풀옵션 추천매물",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403380,7 +403380,7 @@
               "feature": "재개발닥터엘 인기있는 동 남향구조 커뮤니티 조경시설 이용편리",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403397,7 +403397,7 @@
               "feature": "84 조합풀옵션 뷰 트임 초등인접 장기거주",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403414,7 +403414,7 @@
               "feature": null,
               "confirm": "20260919",
               "naver_change": "DECREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403431,7 +403431,7 @@
               "feature": "84 로얄동 조합원옵션 대은초인접 장기거주",
               "confirm": "20261006",
               "naver_change": "DECREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403448,7 +403448,7 @@
               "feature": "재개발닥터엘 불광역 연신내역 생활권 교통편리 NC백화점 이마트 이요편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403465,7 +403465,7 @@
               "feature": "인기타입, 최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403482,7 +403482,7 @@
               "feature": "84B 남향 정원뷰 장기거주가능 조합원풀옵션 추천매물",
               "confirm": "20260918",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403499,7 +403499,7 @@
               "feature": "84 트인뻥뷰 조합원풀옵션 호텔급커뮤니티 빠른입주환영",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403516,7 +403516,7 @@
               "feature": "84B 조합원풀옵션 빠른입주환영 추천전세",
               "confirm": "20260922",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403533,7 +403533,7 @@
               "feature": "84B 정원뷰 조합원풀옵션 남향채광굿 장기거주가능 추천매물",
               "confirm": "20260919",
               "naver_change": "INCREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403550,7 +403550,7 @@
               "feature": "59 뻥뷰 공원 바로앞 조합원O 전세대출",
               "confirm": "20260922",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403567,7 +403567,7 @@
               "feature": "연신내역 도보거리, 최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403584,7 +403584,7 @@
               "feature": "원탑추천 30 전세대출 가능 앞동 조합원풀옵션 커뮤니티 상가이용편리",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403601,7 +403601,7 @@
               "feature": null,
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403618,7 +403618,7 @@
               "feature": "로얄층로얄동 l 일조량 굿 l 조합원풀옵션 l 생활편리",
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403635,7 +403635,7 @@
               "feature": "84 조합풀옵션 동간거리넓고예쁜집 장기거주",
               "confirm": "20260916",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403652,11 +403652,11 @@
               "feature": "조합원풀옵션 1단지 74c 뷰,채광굿 어린이집,유아놀이터인접",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654627590",
+              "articleNo": "2654692999",
               "dong": "109동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -403665,15 +403665,15 @@
               "price_text": "7억 5,000",
               "floor": "22/25",
               "direction": "남향",
-              "realtor": "두나루공인중개사사무소",
-              "feature": "84B 두나루 강추 O 착한가격, 남향 O 에어컨5 중문 인덕션 식세기",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "강력추천 l 84 전세 l 에어컨 5대 l 조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654626491",
+              "articleNo": "2654691605",
               "dong": "109동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -403681,12 +403681,12 @@
               "price": 75000,
               "price_text": "7억 5,000",
               "floor": "5/25",
-              "direction": "남서향",
-              "realtor": "고구려공인중개사사무소",
-              "feature": "정원뷰 좋은 84B타입, 불광역 역세권, 전세물량 최다보유",
-              "confirm": "20261010",
+              "direction": "남향",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "84 전세 l 조합원풀옵션 l 에어컨 5대 l 은평추천",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403703,7 +403703,7 @@
               "feature": "남향 구조로 채광 우수 필로티가든 포레키즈그라운드 휴식공간 근접 이용편리",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403720,7 +403720,7 @@
               "feature": "최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰, 고층 트인뷰",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403737,7 +403737,7 @@
               "feature": "최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰, 고층 트인뷰",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403754,7 +403754,7 @@
               "feature": "남향구조 공원인접 1단지 로얄동 커뮤니티시설 이용 편리 상가인접",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403771,7 +403771,7 @@
               "feature": "조합원옵션 84b타입 1단지 로얄층 어린이놀이터,센트럴플라자인접",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403788,7 +403788,7 @@
               "feature": "단지중앙 로얄동 로얄층 뷰예쁜집 조합원 풀옵션",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403805,7 +403805,7 @@
               "feature": "84B 남향 조합원 장기거주가능 풀옵션 빠른입주환영",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403822,7 +403822,7 @@
               "feature": "재개발닥터엘 조합원풀옵션 유상옵션추가 1단지공원 가까운 쾌적한 74A",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403839,7 +403839,7 @@
               "feature": "재개발닥터엘  조용한주거라인 1단지생활편의 접근 우수 남동향으로 채광좋음",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403856,7 +403856,7 @@
               "feature": "원탑추천 25 센터동 고층 전세자금대출 가능 조합원 풀옵션",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403873,7 +403873,7 @@
               "feature": "1단지 조합원물건 채광 통풍좋은 74A 판상형구조 단지이용편한 중심동",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403890,11 +403890,11 @@
               "feature": "조합원옵션 1단지 상가동인접 불광역,대은초인접",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654179784",
+              "articleNo": "2654740443",
               "dong": "201동",
               "pyeong": 24.2,
               "area_supply": 80,
@@ -403902,12 +403902,12 @@
               "price": 75000,
               "price_text": "7억 5,000",
               "floor": "14/14",
-              "direction": "남향",
-              "realtor": "참마음부동산공인중개사사무소",
-              "feature": "프리미엄신축 대출가능한 귀한 전세 매물입니다",
-              "confirm": "20261008",
+              "direction": "남서향",
+              "realtor": "현대힐스테이트(단지내)공인중개사사무소",
+              "feature": "l현대PICKl59 입구동,상가동,다양한 커뮤니티 접근 동선 편리",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403924,7 +403924,7 @@
               "feature": "단지내상가입점O대조1번지,30P,연신내역 이용편리,대은초 통학 좋아요",
               "confirm": "20260929",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403941,7 +403941,7 @@
               "feature": "넘버원추천 조합원분 급전세 2단지 84b타입 뻥뷰",
               "confirm": "20260918",
               "naver_change": "INCREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403958,11 +403958,11 @@
               "feature": "로얄층로얄동 안정적 단지뷰  l 일조량 굿 l 조합원풀옵션 l 생활편리",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654623793",
+              "articleNo": "2654779586",
               "dong": "203동",
               "pyeong": 30.2,
               "area_supply": 100,
@@ -403971,11 +403971,11 @@
               "price_text": "7억 5,000",
               "floor": "17/25",
               "direction": "남서향",
-              "realtor": "현대힐스테이트공인중개사사무소",
-              "feature": "중앙 출입구동, 로얄층, 포베이 판상형 맞통풍 구조, 조합원 풀옵션 등",
-              "confirm": "20261010",
+              "realtor": "불광해오름공인중개사사무소",
+              "feature": "신축 첫입주.커뮤니티 센터 최고.조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -403992,7 +403992,7 @@
               "feature": "대단지 신축 아파트 즉시 입주 가능 조합원분으로 다양한 옵션 급전세",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404009,7 +404009,7 @@
               "feature": "84B남향 로얄 뻥뷰 조합원풀옵션 장기거주가능 빠른입주환영",
               "confirm": "20260921",
               "naver_change": "DECREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404026,7 +404026,7 @@
               "feature": "원탑 추천 84D 2단지 포베이 펜트리 인기타입 대은초 초품아",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404043,7 +404043,7 @@
               "feature": null,
               "confirm": "20260923",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404060,7 +404060,7 @@
               "feature": "30, O디딤돌  전세  O 로얄동 O 중층",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404077,7 +404077,7 @@
               "feature": "30, O디딤돌  전세  O 로얄동 O 중층",
               "confirm": "20260915",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404094,7 +404094,7 @@
               "feature": "84B 트인뻥뷰 조합원 풀옵션 남향 채광 굿 추천매물",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404111,7 +404111,7 @@
               "feature": "원탑추천 나만의 2단지 테라동 84E타입 포베이 남향 초품아",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404128,7 +404128,7 @@
               "feature": "84 조합풀옵션 뷰 트임 초등인접 장기거주",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404145,7 +404145,7 @@
               "feature": "74B 두나루 O 신축걱정NO, 김경희 교수와 안전한 계약 O 풀옵션 O",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404162,7 +404162,7 @@
               "feature": "전세대출가능 대은초 가까운 생활권 옥토넛물놀이터 이용 편리 남동향구조",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404179,7 +404179,7 @@
               "feature": "대출가능 I 남서향 I 로열층 I 채광우수",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404196,7 +404196,7 @@
               "feature": null,
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 115060
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404213,7 +404213,7 @@
               "feature": "불광역 가까운동 조합원물건",
               "confirm": "20261009",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404230,7 +404230,7 @@
               "feature": "84B, 햇살 좋은 남향의 예쁜 정원뷰, 조합원 옵션 및 추가 옵션",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404247,7 +404247,7 @@
               "feature": "단지내상가입점O대조1번지,34,귀한 인기 타입 4베이구조,불광역이용굿",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404264,7 +404264,7 @@
               "feature": "84B, 빌트인 냉장고 외 조합원 풀옵션, 특화 커뮤니티 프리미엄",
               "confirm": "20260928",
               "naver_change": "INCREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404281,11 +404281,11 @@
               "feature": "최저가 전세, 옵션풍부, 판상형, 단지내 녹지뷰, 전세 물량 최다보유",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654626433",
+              "articleNo": "2654691198",
               "dong": "204동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -404294,11 +404294,11 @@
               "price_text": "7억 8,000",
               "floor": "6/25",
               "direction": "남향",
-              "realtor": "미래공인중개사사무소",
-              "feature": "커뮤니티 시설 및 상가동 이용 편리 하루 종일 밝고 따뜻한 남향구조",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "강력추천 l 84 전세 l 최고 로얄동 l 조합원풀옵션",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404315,7 +404315,7 @@
               "feature": "대은초 안전하게 등학교 거실과 방 배치가 좋고 채광 공간활용까지 굿",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404332,7 +404332,7 @@
               "feature": "재개발닥터엘 전세대출가능 유상옵션 드레스룸구성 벽수담조경 1단지공원초인접",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404349,11 +404349,11 @@
               "feature": "옥토넛물놀이터와 1단지공원 품은 남향, 상가 옆 중앙라인 84B",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654611781",
+              "articleNo": "2654691505",
               "dong": "108동",
               "pyeong": 33.9,
               "area_supply": 112,
@@ -404362,11 +404362,11 @@
               "price_text": "8억",
               "floor": "18/25",
               "direction": "남서향",
-              "realtor": "엘공인중개사사무소",
-              "feature": "재개발닥터엘 4베이 판상형 드레스룸 팬트리 구성 중앙라인 1단지공원 인접",
-              "confirm": "20261010",
+              "realtor": "메디알레은평공인중개사사무소",
+              "feature": "선호도 높은 포베이 구조 l 조합원풀옵션 l 로얄동로얄층",
+              "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404383,7 +404383,7 @@
               "feature": "27년1월입주 전세대출가능 생활편한 중심동 로얄층 74C 조합원풀옵션",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404400,7 +404400,7 @@
               "feature": "84D 두나루 O 중앙동, 4Bay, 팬트리, 조합원풀옵션유상옵션 다수",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404417,7 +404417,7 @@
               "feature": "34.정남향.대출무.전세자금대출가능.오래살수있는집.에5.중문.인덕션",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404434,7 +404434,7 @@
               "feature": "귀한 D타입 판상형 조합원 옵션多 현금가",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404451,7 +404451,7 @@
               "feature": "역세권,조용한남향,입주협의",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404468,7 +404468,7 @@
               "feature": "84D,확장형,조합원옵션.",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404485,7 +404485,7 @@
               "feature": "불광,연신내 가기좋은동 로얄동 조합원옵션",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404502,7 +404502,7 @@
               "feature": "1단지 중심 생활권,필로티가든 가까운 휴식 동선,가족실거주 추천",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404519,7 +404519,7 @@
               "feature": "풀옵션,전세 융자 가능, 채광좋음",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404536,7 +404536,7 @@
               "feature": null,
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404553,7 +404553,7 @@
               "feature": "전세대출가능 옥토넛물놀이터와 상가이용편리 대은초와 주차장 출입구 인접",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404570,7 +404570,7 @@
               "feature": "84b타입 동간거리 넓은 2단지 로얄층 어린이놀이터,유아놀이터인접",
               "confirm": "20260928",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404587,7 +404587,7 @@
               "feature": "조합원옵션, 단지내커뮤니티 이용편리, 3bay 남동향",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404604,7 +404604,7 @@
               "feature": "0. 현대H. 선점필수,4베이,판상형,추천동호수, 풀에어컨,",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404621,7 +404621,7 @@
               "feature": "최저가,전세매물,남향,2단최적,불광역8분거리,조정가능",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404638,7 +404638,7 @@
               "feature": "34 가장넓은 안정적인 주방구조",
               "confirm": "20260917",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404655,7 +404655,7 @@
               "feature": "좋은 동 호수 84매물 전세",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404672,7 +404672,7 @@
               "feature": "74D 조합원 풀옵션 뻥 둟린 뷰 첫 입주의 주인공은 당신입니다 ",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 134500
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404689,7 +404689,7 @@
               "feature": "34 O단지네입점 O조합원풀옵션  O스카이라운지동   O정남향",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404706,7 +404706,7 @@
               "feature": "34 장기거주가능, 소유주 내방 접수",
               "confirm": "20261002",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404723,7 +404723,7 @@
               "feature": "불광역세권 신축대단지 스카이라운지 입구동 정남향 확장형 풀옵션 반전세가능",
               "confirm": "20261006",
               "naver_change": "INCREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404740,7 +404740,7 @@
               "feature": "선호도 높은 2단지 l 포베이 구조 l 조합원풀옵션",
               "confirm": "20260919",
               "naver_change": "INCREASE",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404757,7 +404757,7 @@
               "feature": "0귀한 테라스동 단지앞 폭포 조망 불광역 대은초교 가까운 로얄동 0",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404774,7 +404774,7 @@
               "feature": "재개발닥터엘 희소 84E 4베이 안방드레스룸 대은초 초근접동",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404791,7 +404791,7 @@
               "feature": "입지최고 컨디션 최고인 귀한 테라스",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404808,7 +404808,7 @@
               "feature": "대은초 초근접 저렴한 전세로 귀한 테라스 84T를 누려보세요",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404825,7 +404825,7 @@
               "feature": "전세대출가능74A 초품아2단지 조합원풀옵션 36호선GTX A도보역세권",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404842,7 +404842,7 @@
               "feature": "초등학교2분거리,에어컨4,인덕션,오븐,식세기,빌트인냉장고.조명특화",
               "confirm": "20260918",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404859,7 +404859,7 @@
               "feature": "84 조합풀옵션 뷰 트임 초등인접 장기거주",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404876,7 +404876,7 @@
               "feature": "l현대PICKl74 전세대출가능매물,끝내주는 뻥뷰,조용하고 주거만족업",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 133690
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404893,7 +404893,7 @@
               "feature": "84b타입 1단지 어린이놀이터 주민운동시설 랜드마크동",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404910,7 +404910,7 @@
               "feature": "34P,조합원 매물, 트리플역세권,초품아 신축후 첫입주",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404927,7 +404927,7 @@
               "feature": null,
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404944,7 +404944,7 @@
               "feature": "84 조합풀옵션 뷰 트임 초등인접 장기거주",
               "confirm": "20260921",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404961,7 +404961,7 @@
               "feature": "원탑 추천 84D 2단지 포베이 펜트리 인기타입 대은초 초품아",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404978,7 +404978,7 @@
               "feature": "84D, 2단지 로얄동, 트인 전망 로얄층, 펜트리, 조합원 옵션",
               "confirm": "20261012",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -404995,7 +404995,7 @@
               "feature": "강력추천 l 84 전세 l 최고 로얄동 로얄층 l 조합원풀옵션",
               "confirm": "20260922",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405012,7 +405012,7 @@
               "feature": "0테라스동  채광좋음 전망굿 불광역 대은초교 가까운 로얄동 0",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405029,7 +405029,7 @@
               "feature": "74A전세대출가능 GTX A빠른이동가능 대은초 도보통로근접",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405046,7 +405046,7 @@
               "feature": "74A1,확장형,조합원옵션.연신내역방면,초등학교인접",
               "confirm": "20260919",
               "naver_change": "SAME",
-              "bunyang": 136290
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405063,7 +405063,7 @@
               "feature": "재개발닥터엘 전세대출가능 안방 드레스룸 구성 옥토넛물놀이터 1단지공원 근",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405080,7 +405080,7 @@
               "feature": "사진O,전세대출가능,막힘없이 확트인뷰,로얄동,조합원풀옵션,특급커뮤니티",
               "confirm": "20261006",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405097,7 +405097,7 @@
               "feature": "원탑추천 2단지 34 로얄동 로얄층 전세대출가 탁트인 뷰 센터내위치 최고",
               "confirm": "20261007",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405114,7 +405114,7 @@
               "feature": "34,전세대출 가능한 전세,정남향,채광좋은집,에4대,10월말부터 입주가능",
               "confirm": "20260914",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405131,7 +405131,7 @@
               "feature": "재개발닥터엘 4Bay 판상형 팬트리 드레스룸 수납공간 여유 스카이라운지",
               "confirm": "20261010",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405148,7 +405148,7 @@
               "feature": "조합원 풀 옵션 안정적인 정원뷰 신축의 프리미엄의 주인공은 당신입니다",
               "confirm": "20260930",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405165,7 +405165,7 @@
               "feature": "재개발닥터엘 조합원풀옵션 외 유상옵션 빵빵 스카이라운지동 외부휴식공간충분",
               "confirm": "20261001",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             },
             {
               "trade": "전세",
@@ -405182,13 +405182,13 @@
               "feature": "84B 두나루 O 융자無,전세대출가능 O 에5,중문,인덕,식세 O",
               "confirm": "20261008",
               "naver_change": "SAME",
-              "bunyang": 137820
+              "bunyang": null
             }
           ],
           "stats": {
             "count": 415,
             "min": 52000,
-            "avg": 67607,
+            "avg": 67590,
             "max": 100000
           }
         }
@@ -453429,7 +453429,7 @@
             },
             {
               "trade": "매매",
-              "articleNo": "2654701592",
+              "articleNo": "2654755528",
               "dong": "129동",
               "pyeong": 25.1,
               "area_supply": 83,
@@ -453438,8 +453438,8 @@
               "price_text": "13억",
               "floor": "2/9",
               "direction": "남향",
-              "realtor": "다원공인중개사사무소",
-              "feature": "25.공동환영.필로티.판상형.숲세권.시스템에어컨4대.김냉",
+              "realtor": "에이스(단지내)부동산공인중개사사무소",
+              "feature": "공동환영.실조망컷.필로티2층.정남향.에4.김냉.인기판상형.",
               "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
@@ -453463,7 +453463,7 @@
             },
             {
               "trade": "매매",
-              "articleNo": "2654707723",
+              "articleNo": "2654776972",
               "dong": "130동",
               "pyeong": 25.1,
               "area_supply": 83,
@@ -453472,8 +453472,25 @@
               "price_text": "13억",
               "floor": "1/8",
               "direction": "남향",
-              "realtor": "제일단지공인중개사사무소",
-              "feature": "공동환영 입주협의가능 남향집 시스템 에어컨 3 입주협의 깨끗관리잘됨",
+              "realtor": "이끌림부동산",
+              "feature": "공동.숲향기와 마음껏 뛸 내아이의 권리를 선물해 주세요.",
+              "confirm": "20261012",
+              "naver_change": "SAME",
+              "bunyang": null
+            },
+            {
+              "trade": "매매",
+              "articleNo": "2654760607",
+              "dong": "130동",
+              "pyeong": 25.1,
+              "area_supply": 83,
+              "area_exclusive": 59,
+              "price": 130000,
+              "price_text": "13억",
+              "floor": "1/8",
+              "direction": "남동향",
+              "realtor": "e끌림(단지내)공인중개사사무소",
+              "feature": "내 아이에게 숲과 뛸 권리를 선물해 주는 최선의 선택지.",
               "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
@@ -453514,7 +453531,7 @@
             },
             {
               "trade": "매매",
-              "articleNo": "2654511878",
+              "articleNo": "2654790850",
               "dong": "125동",
               "pyeong": 25.1,
               "area_supply": 83,
@@ -453525,7 +453542,7 @@
               "direction": "남향",
               "realtor": "엄지공인중개사사무소",
               "feature": "o25P 공동환영o 인기판상형o 시스템에어컨2대o 빌트인김냉o 입주협의",
-              "confirm": "20261010",
+              "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
@@ -453582,7 +453599,7 @@
             },
             {
               "trade": "매매",
-              "articleNo": "2654391623",
+              "articleNo": "2654773112",
               "dong": "107동",
               "pyeong": 24.5,
               "area_supply": 81,
@@ -453592,8 +453609,8 @@
               "floor": "13/22",
               "direction": "남서향",
               "realtor": "일광단지내공인중개사사무소",
-              "feature": "25. 상가이용편리한동.인기포베이.시스템에어컨2.입주협의",
-              "confirm": "20261009",
+              "feature": "25. 상가이용편리한앞동.시스템에어컨2.포베이구조.입주협의",
+              "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
@@ -453735,6 +453752,23 @@
             },
             {
               "trade": "매매",
+              "articleNo": "2654780154",
+              "dong": "113동",
+              "pyeong": 25.1,
+              "area_supply": 83,
+              "area_exclusive": 59,
+              "price": 145000,
+              "price_text": "14억 5,000",
+              "floor": "6/18",
+              "direction": "남서향",
+              "realtor": "다원공인중개사사무소",
+              "feature": "25.공동환영.판상형.뻥뷰.채광굿.시스템에어컨2대.중문.집주인거주",
+              "confirm": "20261012",
+              "naver_change": "SAME",
+              "bunyang": null
+            },
+            {
+              "trade": "매매",
               "articleNo": "2654506392",
               "dong": "117동",
               "pyeong": 24.5,
@@ -453781,23 +453815,6 @@
               "realtor": "제일단지공인중개사사무소",
               "feature": "채광과  전망이 예쁜 집 시스템에어컨 설치  됨 커뮤니티 연결인기동",
               "confirm": "20261007",
-              "naver_change": "SAME",
-              "bunyang": null
-            },
-            {
-              "trade": "매매",
-              "articleNo": "2654431835",
-              "dong": "113동",
-              "pyeong": 25.1,
-              "area_supply": 83,
-              "area_exclusive": 59,
-              "price": 148000,
-              "price_text": "14억 8,000",
-              "floor": "6/18",
-              "direction": "남서향",
-              "realtor": "다원공인중개사사무소",
-              "feature": "25.공동환영.판상형.뻥뷰.채광굿.시스템에어컨2대.중문.집주인거주",
-              "confirm": "20261009",
               "naver_change": "SAME",
               "bunyang": null
             },
@@ -453854,7 +453871,7 @@
             },
             {
               "trade": "매매",
-              "articleNo": "2654367403",
+              "articleNo": "2654771278",
               "dong": "118동",
               "pyeong": 34.8,
               "area_supply": 115,
@@ -453863,9 +453880,9 @@
               "price_text": "14억 9,000",
               "floor": "1/23",
               "direction": "남동향",
-              "realtor": "이끌림부동산",
-              "feature": "34. 최저가로 입주하세요. 사는 순간 집값 상승 예약된 집.",
-              "confirm": "20261009",
+              "realtor": "e끌림(단지내)공인중개사사무소",
+              "feature": "층간소음 제로,  아이들 마음껏 뛰어 노는집. 행복도 크게 뛸 집",
+              "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
@@ -454075,7 +454092,7 @@
             },
             {
               "trade": "전세",
-              "articleNo": "2654366388",
+              "articleNo": "2654757740",
               "dong": "108동",
               "pyeong": 25.1,
               "area_supply": 83,
@@ -454086,13 +454103,13 @@
               "direction": "남동향",
               "realtor": "에이스(단지내)부동산공인중개사사무소",
               "feature": "강추앞동라인.에4.냉장고.김치냉장고등 가전풀옵션.중문.신혼부부강추",
-              "confirm": "20261009",
+              "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654585507",
+              "articleNo": "2654790657",
               "dong": "127동",
               "pyeong": 25.1,
               "area_supply": 83,
@@ -454101,9 +454118,9 @@
               "price_text": "6억 7,000",
               "floor": "4/9",
               "direction": "남서향",
-              "realtor": "에이스(단지내)부동산공인중개사사무소",
-              "feature": "확트인 백련산뷰최고.채광최고.에2.중문.김냉.인기판상형.입주협의가능.",
-              "confirm": "20261010",
+              "realtor": "엄지공인중개사사무소",
+              "feature": "o25펑o 판상형 인기구조o 시스템에어컨2대o 깔끔 관리 잘된집",
+              "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
@@ -454245,7 +454262,7 @@
             },
             {
               "trade": "전세",
-              "articleNo": "2654117370",
+              "articleNo": "2654730628",
               "dong": "111동",
               "pyeong": 34.5,
               "area_supply": 114,
@@ -454256,7 +454273,7 @@
               "direction": "남동향",
               "realtor": "일등단지내(375-8500)공인중개사사무소",
               "feature": "34,공동환영. 살구나무조망. 입구동. 커뮤니티이용편리.시스템에언4대",
-              "confirm": "20261008",
+              "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
@@ -454313,7 +454330,7 @@
             },
             {
               "trade": "전세",
-              "articleNo": "2654699204",
+              "articleNo": "2654786031",
               "dong": "121동",
               "pyeong": 33.3,
               "area_supply": 110,
@@ -454322,15 +454339,15 @@
               "price_text": "8억",
               "floor": "4/18",
               "direction": "남동향",
-              "realtor": "다원부동산중개사사무소",
-              "feature": "34.공동환영.채광.조망백점.커뮤니티연결동.에4대.붙박이장.식세기.",
+              "realtor": "일광단지내공인중개사사무소",
+              "feature": "공동환영.커뮤니티연결동.주인거주.시스템에어컨4.안방붙박이장.입주협의",
               "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
             {
               "trade": "전세",
-              "articleNo": "2654189798",
+              "articleNo": "2654776063",
               "dong": "121동",
               "pyeong": 33.3,
               "area_supply": 110,
@@ -454341,7 +454358,7 @@
               "direction": "남동향",
               "realtor": "토토이편한캐슬 공인중개사사무소",
               "feature": "34.확트인뷰 .컴뮤니티 연결동. 에4 .안방 붙박이장.",
-              "confirm": "20261008",
+              "confirm": "20261012",
               "naver_change": "SAME",
               "bunyang": null
             },
