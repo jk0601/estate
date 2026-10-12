@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12 11:03",
+  "generated_at": "2026-10-12 11:23",
   "source": "청약홈(한국부동산원) 입주(예정)정보",
   "sido": [
     "서울",
@@ -24,7 +24,7 @@
     "2027-11",
     "2027-12"
   ],
-  "count": 212,
+  "count": 242,
   "complexes": [
     {
       "region": "경기",
@@ -342,6 +342,48 @@
     },
     {
       "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강북구 미아동 194-2",
+      "gu": "강북구",
+      "dong": "미아동",
+      "name": "엘리프 미아역 1단지",
+      "move_in": "2026-08",
+      "households": 78,
+      "id": 8,
+      "bunyang_price": null,
+      "naver_complex_no": "157684",
+      "naver_url": "https://m.land.naver.com/complex/info/157684"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강북구 미아동 195-0",
+      "gu": "강북구",
+      "dong": "미아동",
+      "name": "엘리프 미아역 2단지",
+      "move_in": "2026-08",
+      "households": 182,
+      "id": 9,
+      "bunyang_price": null,
+      "naver_complex_no": "157683",
+      "naver_url": "https://m.land.naver.com/complex/info/157683"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강서구 마곡동 747-1",
+      "gu": "강서구",
+      "dong": "마곡동",
+      "name": "마곡엠밸리17단지",
+      "move_in": "2026-08",
+      "households": 577,
+      "id": 10,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EA%B3%A1%EC%97%A0%EB%B0%B8%EB%A6%AC17%EB%8B%A8%EC%A7%80"
+    },
+    {
+      "region": "서울",
       "supply_type": "임대",
       "address": "서울특별시 광진구 구의동 587-6",
       "gu": "광진구",
@@ -349,10 +391,38 @@
       "name": "광진구구의동587-6(청년안심주택)",
       "move_in": "2026-08",
       "households": 174,
-      "id": 8,
+      "id": 11,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B4%91%EC%A7%84%EA%B5%AC%EA%B5%AC%EC%9D%98%EB%8F%99587-6%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 동작구 신대방동 377-1",
+      "gu": "동작구",
+      "dong": "신대방동",
+      "name": "동작 보라매역 프리센트",
+      "move_in": "2026-08",
+      "households": 124,
+      "id": 12,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EC%9E%91%20%EB%B3%B4%EB%9D%BC%EB%A7%A4%EC%97%AD%20%ED%94%84%EB%A6%AC%EC%84%BC%ED%8A%B8"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 마포구 신수동 91-90",
+      "gu": "마포구",
+      "dong": "신수동",
+      "name": "힐스테이트마포더퍼스트",
+      "move_in": "2026-08",
+      "households": 488,
+      "id": 13,
+      "bunyang_price": null,
+      "naver_complex_no": "195757",
+      "naver_url": "https://m.land.naver.com/complex/info/195757"
     },
     {
       "region": "서울",
@@ -363,7 +433,7 @@
       "name": "반포 래미안 트리니원",
       "move_in": "2026-08",
       "households": 2091,
-      "id": 9,
+      "id": 14,
       "bunyang_price": 200600,
       "pblanc": {
         "pblanc_no": "2025000527",
@@ -431,10 +501,24 @@
       "name": "성동구홍익동150(청년안심주택)",
       "move_in": "2026-08",
       "households": 266,
-      "id": 10,
+      "id": 15,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%8F%99%EA%B5%AC%ED%99%8D%EC%9D%B5%EB%8F%99150%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 은평구 신사동 19-100",
+      "gu": "은평구",
+      "dong": "신사동",
+      "name": "은평자이더스타",
+      "move_in": "2026-08",
+      "households": 262,
+      "id": 16,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%9D%80%ED%8F%89%EC%9E%90%EC%9D%B4%EB%8D%94%EC%8A%A4%ED%83%80"
     },
     {
       "region": "경기",
@@ -445,7 +529,7 @@
       "name": "한화포레나 안산고잔2차",
       "move_in": "2026-09",
       "households": 472,
-      "id": 11,
+      "id": 17,
       "bunyang_price": 49970,
       "pblanc": {
         "pblanc_no": "2024000083",
@@ -507,7 +591,7 @@
       "name": "안성영무예다음(민간임대)2BL",
       "move_in": "2026-09",
       "households": 997,
-      "id": 12,
+      "id": 18,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%95%88%EC%84%B1%EC%98%81%EB%AC%B4%EC%98%88%EB%8B%A4%EC%9D%8C%28%EB%AF%BC%EA%B0%84%EC%9E%84%EB%8C%80%292BL"
@@ -521,7 +605,7 @@
       "name": "양주회천 A25 국민임대주택",
       "move_in": "2026-09",
       "households": 1002,
-      "id": 13,
+      "id": 19,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%EC%A3%BC%ED%9A%8C%EC%B2%9C%20A25%20%EA%B5%AD%EB%AF%BC%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D"
@@ -535,7 +619,7 @@
       "name": "양주회천 A25 영구임대주택",
       "move_in": "2026-09",
       "households": 472,
-      "id": 14,
+      "id": 20,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%96%91%EC%A3%BC%ED%9A%8C%EC%B2%9C%20A25%20%EC%98%81%EA%B5%AC%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D"
@@ -549,7 +633,7 @@
       "name": "회천중앙역 대광로제비앙",
       "move_in": "2026-09",
       "households": 621,
-      "id": 15,
+      "id": 21,
       "bunyang_price": 44500,
       "pblanc": {
         "pblanc_no": "2023000565",
@@ -593,7 +677,7 @@
       "name": "e편한세상 신곡 시그니처뷰 1단지 & 2단지",
       "move_in": "2026-09",
       "households": 815,
-      "id": 16,
+      "id": 22,
       "bunyang_price": 44480,
       "pblanc": {
         "pblanc_no": "2023000700",
@@ -667,7 +751,7 @@
       "name": "파주 운정3 이지더원(A44BL)",
       "move_in": "2026-09",
       "households": 379,
-      "id": 17,
+      "id": 23,
       "bunyang_price": 58180,
       "pblanc": {
         "pblanc_no": "2024000214",
@@ -704,6 +788,34 @@
     },
     {
       "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 광진구 구의동 592-39",
+      "gu": "광진구",
+      "dong": "구의동",
+      "name": "강변역 센트럴 아이파크",
+      "move_in": "2026-09",
+      "households": 215,
+      "id": 24,
+      "bunyang_price": null,
+      "naver_complex_no": "171298",
+      "naver_url": "https://m.land.naver.com/complex/info/171298"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 서초구 방배동 946-8",
+      "gu": "서초구",
+      "dong": "방배동",
+      "name": "디에이치 방배",
+      "move_in": "2026-09",
+      "households": 3064,
+      "id": 25,
+      "bunyang_price": null,
+      "naver_complex_no": "186598",
+      "naver_url": "https://m.land.naver.com/complex/info/186598"
+    },
+    {
+      "region": "서울",
       "supply_type": "임대",
       "address": "서울특별시 서초구 서초동 1673-1",
       "gu": "서초구",
@@ -711,7 +823,7 @@
       "name": "서초구서초동1673-3(청년안심주택)",
       "move_in": "2026-09",
       "households": 76,
-      "id": 18,
+      "id": 26,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EC%84%9C%EC%B4%88%EB%8F%991673-3%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -725,7 +837,7 @@
       "name": "보문 센트럴 아이파크",
       "move_in": "2026-09",
       "households": 199,
-      "id": 19,
+      "id": 27,
       "bunyang_price": 99400,
       "pblanc": {
         "pblanc_no": "2023000457",
@@ -763,7 +875,7 @@
       "name": "로얄빌라외가로주택정비사업",
       "move_in": "2026-10",
       "households": 72,
-      "id": 20,
+      "id": 28,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%A1%9C%EC%96%84%EB%B9%8C%EB%9D%BC%EC%99%B8%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -777,7 +889,7 @@
       "name": "범안동130가로주택사업",
       "move_in": "2026-10",
       "households": 59,
-      "id": 21,
+      "id": 29,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%B2%94%EC%95%88%EB%8F%99130%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%82%AC%EC%97%85"
@@ -791,7 +903,7 @@
       "name": "부촌3차아파트외가로주택정비사업",
       "move_in": "2026-10",
       "households": 231,
-      "id": 22,
+      "id": 30,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%B6%80%EC%B4%8C3%EC%B0%A8%EC%95%84%ED%8C%8C%ED%8A%B8%EC%99%B8%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -805,7 +917,7 @@
       "name": "송내역 푸르지오 센트비엔",
       "move_in": "2026-10",
       "households": 1045,
-      "id": 23,
+      "id": 31,
       "bunyang_price": 52640,
       "pblanc": {
         "pblanc_no": "2024000007",
@@ -855,7 +967,7 @@
       "name": "여월 중앙하이츠 아르비채",
       "move_in": "2026-10",
       "households": 102,
-      "id": 24,
+      "id": 32,
       "bunyang_price": 51000,
       "pblanc": {
         "pblanc_no": "2025000567",
@@ -905,7 +1017,7 @@
       "name": "영동주택가로주택정비사업",
       "move_in": "2026-10",
       "households": 164,
-      "id": 25,
+      "id": 33,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%98%81%EB%8F%99%EC%A3%BC%ED%83%9D%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -919,7 +1031,7 @@
       "name": "성남신촌 A1블록 통합공공임대주택",
       "move_in": "2026-10",
       "households": 227,
-      "id": 26,
+      "id": 34,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%A8%EC%8B%A0%EC%B4%8C%20A1%EB%B8%94%EB%A1%9D%20%ED%86%B5%ED%95%A9%EA%B3%B5%EA%B3%B5%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D"
@@ -933,7 +1045,7 @@
       "name": "시흥 은계 에피트",
       "move_in": "2026-10",
       "households": 218,
-      "id": 27,
+      "id": 35,
       "bunyang_price": 30760,
       "pblanc": {
         "pblanc_no": "2026000393",
@@ -1007,7 +1119,7 @@
       "name": "e편한세상 평촌 어반밸리",
       "move_in": "2026-10",
       "households": 458,
-      "id": 28,
+      "id": 36,
       "bunyang_price": 73000,
       "pblanc": {
         "pblanc_no": "2024000081",
@@ -1081,7 +1193,7 @@
       "name": "오산역 금강펜테리움 센트럴파크(A8블록)",
       "move_in": "2026-10",
       "households": 730,
-      "id": 29,
+      "id": 37,
       "bunyang_price": 46410,
       "pblanc": {
         "pblanc_no": "2024000176",
@@ -1131,7 +1243,7 @@
       "name": "의왕 센트라인 데시앙",
       "move_in": "2026-10",
       "households": 733,
-      "id": 30,
+      "id": 38,
       "bunyang_price": 39100,
       "pblanc": {
         "pblanc_no": "2023000530",
@@ -1199,7 +1311,7 @@
       "name": "의정부역 진흥해링턴플레이스",
       "move_in": "2026-10",
       "households": 150,
-      "id": 31,
+      "id": 39,
       "bunyang_price": 37913,
       "pblanc": {
         "pblanc_no": "2020000446",
@@ -1249,7 +1361,7 @@
       "name": "운정3 제일풍경채(A46BL)",
       "move_in": "2026-10",
       "households": 383,
-      "id": 32,
+      "id": 40,
       "bunyang_price": 55640,
       "pblanc": {
         "pblanc_no": "2023000583",
@@ -1286,6 +1398,34 @@
     },
     {
       "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강남구 도곡동 540-0",
+      "gu": "강남구",
+      "dong": "도곡동",
+      "name": "래미안 레벤투스",
+      "move_in": "2026-10",
+      "households": 308,
+      "id": 41,
+      "bunyang_price": null,
+      "naver_complex_no": "192157",
+      "naver_url": "https://m.land.naver.com/complex/info/192157"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강서구 등촌동 366-24",
+      "gu": "강서구",
+      "dong": "등촌동",
+      "name": "힐스테이트 등촌역",
+      "move_in": "2026-10",
+      "households": 543,
+      "id": 42,
+      "bunyang_price": null,
+      "naver_complex_no": "178097",
+      "naver_url": "https://m.land.naver.com/complex/info/178097"
+    },
+    {
+      "region": "서울",
       "supply_type": "임대",
       "address": "서울특별시 동작구 노량진동 39-20",
       "gu": "동작구",
@@ -1293,7 +1433,7 @@
       "name": "동작구노량진동39-20(청년안심주택)",
       "move_in": "2026-10",
       "households": 260,
-      "id": 33,
+      "id": 43,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EC%9E%91%EA%B5%AC%EB%85%B8%EB%9F%89%EC%A7%84%EB%8F%9939-20%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -1307,7 +1447,7 @@
       "name": "마포구염리동172-10(청년안심주택)",
       "move_in": "2026-10",
       "households": 299,
-      "id": 34,
+      "id": 44,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%ED%8F%AC%EA%B5%AC%EC%97%BC%EB%A6%AC%EB%8F%99172-10%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -1321,10 +1461,24 @@
       "name": "성북구석관동173-1(청년안심주택)",
       "move_in": "2026-10",
       "households": 242,
-      "id": 35,
+      "id": 45,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%B6%81%EA%B5%AC%EC%84%9D%EA%B4%80%EB%8F%99173-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 은평구 대조동 88-0",
+      "gu": "은평구",
+      "dong": "대조동",
+      "name": "힐스테이트 메디알레",
+      "move_in": "2026-10",
+      "households": 2451,
+      "id": 46,
+      "bunyang_price": null,
+      "naver_complex_no": "186117",
+      "naver_url": "https://m.land.naver.com/complex/info/186117"
     },
     {
       "region": "서울",
@@ -1335,7 +1489,7 @@
       "name": "중랑구묵동165(청년안심주택)",
       "move_in": "2026-10",
       "households": 927,
-      "id": 36,
+      "id": 47,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%9E%91%EA%B5%AC%EB%AC%B5%EB%8F%99165%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -1349,7 +1503,7 @@
       "name": "광주역세권청년혁신타운",
       "move_in": "2026-11",
       "households": 316,
-      "id": 37,
+      "id": 48,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B4%91%EC%A3%BC%EC%97%AD%EC%84%B8%EA%B6%8C%EC%B2%AD%EB%85%84%ED%98%81%EC%8B%A0%ED%83%80%EC%9A%B4"
@@ -1363,7 +1517,7 @@
       "name": "진양아파트소규모재건축사업",
       "move_in": "2026-11",
       "households": 104,
-      "id": 38,
+      "id": 49,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%A7%84%EC%96%91%EC%95%84%ED%8C%8C%ED%8A%B8%EC%86%8C%EA%B7%9C%EB%AA%A8%EC%9E%AC%EA%B1%B4%EC%B6%95%EC%82%AC%EC%97%85"
@@ -1377,7 +1531,7 @@
       "name": "죽전동 도시형생활주택[LH매입임대]",
       "move_in": "2026-11",
       "households": 72,
-      "id": 39,
+      "id": 50,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%A3%BD%EC%A0%84%EB%8F%99%20%EB%8F%84%EC%8B%9C%ED%98%95%EC%83%9D%ED%99%9C%EC%A3%BC%ED%83%9D%5BLH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%5D"
@@ -1391,7 +1545,7 @@
       "name": "신안실크밸리 2BL",
       "move_in": "2026-11",
       "households": 981,
-      "id": 40,
+      "id": 51,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%95%88%EC%8B%A4%ED%81%AC%EB%B0%B8%EB%A6%AC%202BL"
@@ -1405,7 +1559,7 @@
       "name": "이천 중리지구 A-2 신안인스빌 퍼스티지",
       "move_in": "2026-11",
       "households": 523,
-      "id": 41,
+      "id": 52,
       "bunyang_price": 39120,
       "pblanc": {
         "pblanc_no": "2024000609",
@@ -1443,7 +1597,7 @@
       "name": "이천 중리지구 B3블록 금성백조 예미지",
       "move_in": "2026-11",
       "households": 1009,
-      "id": 42,
+      "id": 53,
       "bunyang_price": 39800,
       "pblanc": {
         "pblanc_no": "2025000581",
@@ -1499,7 +1653,7 @@
       "name": "이천장호원B2(통합공공임대)",
       "move_in": "2026-11",
       "households": 620,
-      "id": 43,
+      "id": 54,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9D%B4%EC%B2%9C%EC%9E%A5%ED%98%B8%EC%9B%90B2%28%ED%86%B5%ED%95%A9%EA%B3%B5%EA%B3%B5%EC%9E%84%EB%8C%80%29"
@@ -1513,7 +1667,7 @@
       "name": "평택 푸르지오 센터파인",
       "move_in": "2026-11",
       "households": 851,
-      "id": 44,
+      "id": 55,
       "bunyang_price": 42360,
       "pblanc": {
         "pblanc_no": "2024000045",
@@ -1581,7 +1735,7 @@
       "name": "평택 화양 동문 디 이스트",
       "move_in": "2026-11",
       "households": 753,
-      "id": 45,
+      "id": 56,
       "bunyang_price": 45200,
       "pblanc": {
         "pblanc_no": "2024000177",
@@ -1625,7 +1779,7 @@
       "name": "개봉 루브루",
       "move_in": "2026-11",
       "households": 295,
-      "id": 46,
+      "id": 57,
       "bunyang_price": 44600,
       "pblanc": {
         "pblanc_no": "2024000107",
@@ -1675,10 +1829,24 @@
       "name": "에스앤디(청년안심주택)",
       "move_in": "2026-11",
       "households": 99,
-      "id": 47,
+      "id": 58,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EC%8A%A4%EC%95%A4%EB%94%94%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 동작구 상도동 23-42",
+      "gu": "동작구",
+      "dong": "상도동",
+      "name": "힐스테이트동작시그니처",
+      "move_in": "2026-11",
+      "households": 608,
+      "id": 59,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EB%8F%99%EC%9E%91%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98"
     },
     {
       "region": "서울",
@@ -1689,7 +1857,7 @@
       "name": "홍대입구역 센트럴 아르떼 해모로",
       "move_in": "2026-11",
       "households": 123,
-      "id": 48,
+      "id": 60,
       "bunyang_price": 62260,
       "pblanc": {
         "pblanc_no": "2025000388",
@@ -1751,7 +1919,7 @@
       "name": "고양장항 제일풍경채",
       "move_in": "2026-12",
       "households": 1184,
-      "id": 49,
+      "id": 61,
       "bunyang_price": 72000,
       "pblanc": {
         "pblanc_no": "2023000623",
@@ -1795,7 +1963,7 @@
       "name": "은성빌라가로주택정비사업",
       "move_in": "2026-12",
       "households": 82,
-      "id": 50,
+      "id": 62,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9D%80%EC%84%B1%EB%B9%8C%EB%9D%BC%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -1809,7 +1977,7 @@
       "name": "위례 A2-7블록 신혼희망타운 행복주택",
       "move_in": "2026-12",
       "households": 219,
-      "id": 51,
+      "id": 63,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9C%84%EB%A1%80%20A2-7%EB%B8%94%EB%A1%9D%20%EC%8B%A0%ED%98%BC%ED%9D%AC%EB%A7%9D%ED%83%80%EC%9A%B4%20%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D"
@@ -1823,7 +1991,7 @@
       "name": "위례지구 A2-7블록 신혼희망타운",
       "move_in": "2026-12",
       "households": 440,
-      "id": 52,
+      "id": 64,
       "bunyang_price": 61987,
       "pblanc": {
         "pblanc_no": "2024820017",
@@ -1855,7 +2023,7 @@
       "name": "회천중앙역 로제비앙 그랜드센텀",
       "move_in": "2026-12",
       "households": 642,
-      "id": 53,
+      "id": 65,
       "bunyang_price": 48600,
       "pblanc": {
         "pblanc_no": "2025000116",
@@ -1899,7 +2067,7 @@
       "name": "영통역자이 프라시엘",
       "move_in": "2026-12",
       "households": 472,
-      "id": 54,
+      "id": 66,
       "bunyang_price": 86300,
       "pblanc": {
         "pblanc_no": "2023000710",
@@ -1955,7 +2123,7 @@
       "name": "용인 에버랜드역 칸타빌",
       "move_in": "2026-12",
       "households": 348,
-      "id": 55,
+      "id": 67,
       "bunyang_price": 43440,
       "pblanc": {
         "pblanc_no": "2023000570",
@@ -2017,7 +2185,7 @@
       "name": "강서구공항동50-5(청년안심주택)",
       "move_in": "2026-12",
       "households": 157,
-      "id": 56,
+      "id": 68,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%84%9C%EA%B5%AC%EA%B3%B5%ED%95%AD%EB%8F%9950-5%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -2031,7 +2199,7 @@
       "name": "마곡공공R&D센터도전숙",
       "move_in": "2026-12",
       "households": 201,
-      "id": 57,
+      "id": 69,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EA%B3%A1%EA%B3%B5%EA%B3%B5R%26D%EC%84%BC%ED%84%B0%EB%8F%84%EC%A0%84%EC%88%99"
@@ -2045,7 +2213,7 @@
       "name": "금천구시흥동103-3(청년안심주택)",
       "move_in": "2026-12",
       "households": 180,
-      "id": 58,
+      "id": 70,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B8%88%EC%B2%9C%EA%B5%AC%EC%8B%9C%ED%9D%A5%EB%8F%99103-3%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -2059,7 +2227,7 @@
       "name": "한누리주차장(행복주택)",
       "move_in": "2026-12",
       "households": 46,
-      "id": 59,
+      "id": 71,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%ED%95%9C%EB%88%84%EB%A6%AC%EC%A3%BC%EC%B0%A8%EC%9E%A5%28%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D%29"
@@ -2073,10 +2241,24 @@
       "name": "서대문구창천동502-11(청년안심주택)",
       "move_in": "2026-12",
       "households": 288,
-      "id": 60,
+      "id": 72,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%EC%B0%BD%EC%B2%9C%EB%8F%99502-11%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 성동구 용답동 108-1",
+      "gu": "성동구",
+      "dong": "용답동",
+      "name": "성동자이리버뷰",
+      "move_in": "2026-12",
+      "households": 1670,
+      "id": 73,
+      "bunyang_price": null,
+      "naver_complex_no": "174098",
+      "naver_url": "https://m.land.naver.com/complex/info/174098"
     },
     {
       "region": "서울",
@@ -2087,7 +2269,7 @@
       "name": "송파구장지동842-1(청년안심주택)",
       "move_in": "2026-12",
       "households": 484,
-      "id": 61,
+      "id": 74,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%86%A1%ED%8C%8C%EA%B5%AC%EC%9E%A5%EC%A7%80%EB%8F%99842-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -2101,7 +2283,7 @@
       "name": "부천아테라자이(부천괴안지구 B-2)",
       "move_in": "2027-01",
       "households": 200,
-      "id": 62,
+      "id": 75,
       "bunyang_price": 57900,
       "pblanc": {
         "pblanc_no": "2024000566",
@@ -2145,7 +2327,7 @@
       "name": "성산주택가로주택사업",
       "move_in": "2027-01",
       "households": 33,
-      "id": 63,
+      "id": 76,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EC%82%B0%EC%A3%BC%ED%83%9D%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%82%AC%EC%97%85"
@@ -2159,7 +2341,7 @@
       "name": "소사본동 아파트(LH매입임대)",
       "move_in": "2027-01",
       "households": 109,
-      "id": 64,
+      "id": 77,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%86%8C%EC%82%AC%EB%B3%B8%EB%8F%99%20%EC%95%84%ED%8C%8C%ED%8A%B8%28LH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%29"
@@ -2173,7 +2355,7 @@
       "name": "성남금토A2(국민임대)",
       "move_in": "2027-01",
       "households": 438,
-      "id": 65,
+      "id": 78,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%A8%EA%B8%88%ED%86%A0A2%28%EA%B5%AD%EB%AF%BC%EC%9E%84%EB%8C%80%29"
@@ -2187,7 +2369,7 @@
       "name": "성남금토A2(영구임대)",
       "move_in": "2027-01",
       "households": 195,
-      "id": 66,
+      "id": 79,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%A8%EA%B8%88%ED%86%A0A2%28%EC%98%81%EA%B5%AC%EC%9E%84%EB%8C%80%29"
@@ -2201,7 +2383,7 @@
       "name": "오산세교2A5(우미린)",
       "move_in": "2027-01",
       "households": 1050,
-      "id": 67,
+      "id": 80,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%EC%82%B0%EC%84%B8%EA%B5%902A5%28%EC%9A%B0%EB%AF%B8%EB%A6%B0%29"
@@ -2215,7 +2397,7 @@
       "name": "지제역 반도체밸리 쌍용 더 플래티넘",
       "move_in": "2027-01",
       "households": 1340,
-      "id": 68,
+      "id": 81,
       "bunyang_price": 49900,
       "pblanc": {
         "pblanc_no": "2023000674",
@@ -2259,7 +2441,7 @@
       "name": "평택 브레인시티 5BL 대광로제비앙 그랜드센텀",
       "move_in": "2027-01",
       "households": 1182,
-      "id": 69,
+      "id": 82,
       "bunyang_price": 39700,
       "pblanc": {
         "pblanc_no": "2023000721",
@@ -2315,7 +2497,7 @@
       "name": "하우스토리 센트럴포레",
       "move_in": "2027-01",
       "households": 161,
-      "id": 70,
+      "id": 83,
       "bunyang_price": 72933,
       "pblanc": {
         "pblanc_no": "2024000333",
@@ -2358,6 +2540,20 @@
     },
     {
       "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 서초구 방배동 1955-0",
+      "gu": "서초구",
+      "dong": "방배동",
+      "name": "서초구방배동1955(청년안심주택)",
+      "move_in": "2027-01",
+      "households": 144,
+      "id": 84,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EB%B0%A9%EB%B0%B0%EB%8F%991955%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
       "supply_type": "임대",
       "address": "서울특별시 서초구 서초동 1676-4",
       "gu": "서초구",
@@ -2365,7 +2561,7 @@
       "name": "서초구서초동1676-4(청년안심주택)",
       "move_in": "2027-01",
       "households": 252,
-      "id": 71,
+      "id": 85,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EC%84%9C%EC%B4%88%EB%8F%991676-4%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -2379,7 +2575,7 @@
       "name": "상봉라온프라이빗",
       "move_in": "2027-01",
       "households": 219,
-      "id": 72,
+      "id": 86,
       "bunyang_price": null,
       "naver_complex_no": "186557",
       "naver_url": "https://m.land.naver.com/complex/info/186557"
@@ -2393,7 +2589,7 @@
       "name": "J팰리스(LH매입임대)",
       "move_in": "2027-02",
       "households": 43,
-      "id": 73,
+      "id": 87,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/J%ED%8C%B0%EB%A6%AC%EC%8A%A4%28LH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%29"
@@ -2407,7 +2603,7 @@
       "name": "판교테크노밸리 중흥S-클래스",
       "move_in": "2027-02",
       "households": 317,
-      "id": 74,
+      "id": 88,
       "bunyang_price": 83800,
       "pblanc": {
         "pblanc_no": "2024000282",
@@ -2457,7 +2653,7 @@
       "name": "서광교 한라비발디 레이크포레",
       "move_in": "2027-02",
       "households": 285,
-      "id": 75,
+      "id": 89,
       "bunyang_price": 70920,
       "pblanc": {
         "pblanc_no": "2023000720",
@@ -2513,7 +2709,7 @@
       "name": "오산세교 힐데스하임(A20블록)",
       "move_in": "2027-02",
       "households": 715,
-      "id": 76,
+      "id": 90,
       "bunyang_price": 38500,
       "pblanc": {
         "pblanc_no": "2024000591",
@@ -2593,7 +2789,7 @@
       "name": "지제역 반도체밸리 해링턴 플레이스",
       "move_in": "2027-02",
       "households": 1209,
-      "id": 77,
+      "id": 91,
       "bunyang_price": 49900,
       "pblanc": {
         "pblanc_no": "2024000094",
@@ -2637,7 +2833,7 @@
       "name": "진위역 서희스타힐스 더 파크뷰",
       "move_in": "2027-02",
       "households": 1659,
-      "id": 78,
+      "id": 92,
       "bunyang_price": 38800,
       "pblanc": {
         "pblanc_no": "2025000199",
@@ -2699,7 +2895,7 @@
       "name": "평택 브레인시티 중흥S-클래스",
       "move_in": "2027-02",
       "households": 1980,
-      "id": 79,
+      "id": 93,
       "bunyang_price": 37700,
       "pblanc": {
         "pblanc_no": "2023000660",
@@ -2755,7 +2951,7 @@
       "name": "동탄 파라곤 3차 (동탄2 A58BL)",
       "move_in": "2027-02",
       "households": 1247,
-      "id": 80,
+      "id": 94,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%ED%83%84%20%ED%8C%8C%EB%9D%BC%EA%B3%A4%203%EC%B0%A8%20%28%EB%8F%99%ED%83%842%20A58BL%29"
@@ -2769,7 +2965,7 @@
       "name": "서대문구북가좌동333-1(청년안심주택)",
       "move_in": "2027-02",
       "households": 382,
-      "id": 81,
+      "id": 95,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%EB%B6%81%EA%B0%80%EC%A2%8C%EB%8F%99333-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -2783,7 +2979,7 @@
       "name": "e편한세상 일산 메이포레 1단지",
       "move_in": "2027-03",
       "households": 321,
-      "id": 82,
+      "id": 96,
       "bunyang_price": 79560,
       "pblanc": {
         "pblanc_no": "2024000603",
@@ -2815,7 +3011,7 @@
       "name": "e편한세상 일산 메이포레 2단지",
       "move_in": "2027-03",
       "households": 564,
-      "id": 83,
+      "id": 97,
       "bunyang_price": 56170,
       "pblanc": {
         "pblanc_no": "2024000604",
@@ -2859,7 +3055,7 @@
       "name": "e편한세상 일산 메이포레 3단지",
       "move_in": "2027-03",
       "households": 457,
-      "id": 84,
+      "id": 98,
       "bunyang_price": 56170,
       "pblanc": {
         "pblanc_no": "2024000604",
@@ -2903,7 +3099,7 @@
       "name": "수원 PEER",
       "move_in": "2027-03",
       "households": 216,
-      "id": 85,
+      "id": 99,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%88%98%EC%9B%90%20PEER"
@@ -2917,7 +3113,7 @@
       "name": "영통자이 센트럴파크",
       "move_in": "2027-03",
       "households": 580,
-      "id": 86,
+      "id": 100,
       "bunyang_price": 101540,
       "pblanc": {
         "pblanc_no": "2024000012",
@@ -2967,7 +3163,7 @@
       "name": "안성당왕(B-1) 경남아너스빌 하이스트",
       "move_in": "2027-03",
       "households": 976,
-      "id": 87,
+      "id": 101,
       "bunyang_price": 45450,
       "pblanc": {
         "pblanc_no": "2023000658",
@@ -3005,7 +3201,7 @@
       "name": "안양동 695-18 외 3필지 공동주택(LH신축매입약정)",
       "move_in": "2027-03",
       "households": 104,
-      "id": 88,
+      "id": 102,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%95%88%EC%96%91%EB%8F%99%20695-18%20%EC%99%B8%203%ED%95%84%EC%A7%80%20%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%28LH%EC%8B%A0%EC%B6%95%EB%A7%A4%EC%9E%85%EC%95%BD%EC%A0%95%29"
@@ -3019,7 +3215,7 @@
       "name": "더 플래티넘 센트럴포레",
       "move_in": "2027-03",
       "households": 600,
-      "id": 89,
+      "id": 103,
       "bunyang_price": 39100,
       "pblanc": {
         "pblanc_no": "2026000034",
@@ -3081,7 +3277,7 @@
       "name": "양평 하늘채 센트로힐스",
       "move_in": "2027-03",
       "households": 539,
-      "id": 90,
+      "id": 104,
       "bunyang_price": 37988,
       "pblanc": {
         "pblanc_no": "2024000207",
@@ -3131,7 +3327,7 @@
       "name": "두산위브더제니스 센트럴 용인",
       "move_in": "2027-03",
       "households": 568,
-      "id": 91,
+      "id": 105,
       "bunyang_price": 48340,
       "pblanc": {
         "pblanc_no": "2024000080",
@@ -3181,7 +3377,7 @@
       "name": "역북 서희스타힐스 프라임시티",
       "move_in": "2027-03",
       "households": 912,
-      "id": 92,
+      "id": 106,
       "bunyang_price": 45700,
       "pblanc": {
         "pblanc_no": "2026000327",
@@ -3231,7 +3427,7 @@
       "name": "논현세광연립",
       "move_in": "2027-03",
       "households": 41,
-      "id": 93,
+      "id": 107,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%85%BC%ED%98%84%EC%84%B8%EA%B4%91%EC%97%B0%EB%A6%BD"
@@ -3245,10 +3441,24 @@
       "name": "마포구염리동85-2(청년안심주택)",
       "move_in": "2027-03",
       "households": 499,
-      "id": 94,
+      "id": 108,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%ED%8F%AC%EA%B5%AC%EC%97%BC%EB%A6%AC%EB%8F%9985-2%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 마포구 공덕동 105-84",
+      "gu": "마포구",
+      "dong": "공덕동",
+      "name": "마포자이힐스테이트 라첼스",
+      "move_in": "2027-03",
+      "households": 1101,
+      "id": 109,
+      "bunyang_price": null,
+      "naver_complex_no": "171284",
+      "naver_url": "https://m.land.naver.com/complex/info/171284"
     },
     {
       "region": "서울",
@@ -3259,7 +3469,7 @@
       "name": "서초구서초동1448-1(청년안심주택)",
       "move_in": "2027-03",
       "households": 835,
-      "id": 95,
+      "id": 110,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%EC%84%9C%EC%B4%88%EB%8F%991448-1%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -3273,10 +3483,38 @@
       "name": "성북구하월곡동80-55(청년안심주택)",
       "move_in": "2027-03",
       "households": 254,
-      "id": 96,
+      "id": 111,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%B6%81%EA%B5%AC%ED%95%98%EC%9B%94%EA%B3%A1%EB%8F%9980-55%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 성북구 장위동 25-55",
+      "gu": "성북구",
+      "dong": "장위동",
+      "name": "푸르지오 라디우스 파크",
+      "move_in": "2027-03",
+      "households": 1637,
+      "id": 112,
+      "bunyang_price": null,
+      "naver_complex_no": "175162",
+      "naver_url": "https://m.land.naver.com/complex/info/175162"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 양천구 목동 557-0",
+      "gu": "양천구",
+      "dong": "목동",
+      "name": "목동가로주택정비(LH참여)",
+      "move_in": "2027-03",
+      "households": 85,
+      "id": 113,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%AA%A9%EB%8F%99%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%28LH%EC%B0%B8%EC%97%AC%29"
     },
     {
       "region": "서울",
@@ -3287,7 +3525,7 @@
       "name": "이촌 르엘",
       "move_in": "2027-03",
       "households": 750,
-      "id": 97,
+      "id": 114,
       "bunyang_price": 272900,
       "pblanc": {
         "pblanc_no": "2026000048",
@@ -3343,7 +3581,7 @@
       "name": "휴먼빌 일산 클래스원",
       "move_in": "2027-04",
       "households": 529,
-      "id": 98,
+      "id": 115,
       "bunyang_price": 72700,
       "pblanc": {
         "pblanc_no": "2024000060",
@@ -3381,7 +3619,7 @@
       "name": "인창센트레빌인더포레",
       "move_in": "2027-04",
       "households": 244,
-      "id": 99,
+      "id": 116,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9D%B8%EC%B0%BD%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C%EC%9D%B8%EB%8D%94%ED%8F%AC%EB%A0%88"
@@ -3395,7 +3633,7 @@
       "name": "더샵 분당센트로",
       "move_in": "2027-04",
       "households": 647,
-      "id": 100,
+      "id": 117,
       "bunyang_price": 149000,
       "pblanc": {
         "pblanc_no": "2025000595",
@@ -3469,7 +3707,7 @@
       "name": "호원동 57-3 LH신혼부부아파트(LH매입약정 임대주택)",
       "move_in": "2027-04",
       "households": 81,
-      "id": 101,
+      "id": 118,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%ED%98%B8%EC%9B%90%EB%8F%99%2057-3%20LH%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80%EC%95%84%ED%8C%8C%ED%8A%B8%28LH%EB%A7%A4%EC%9E%85%EC%95%BD%EC%A0%95%20%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D%29"
@@ -3483,7 +3721,7 @@
       "name": "이천자이 더 레브",
       "move_in": "2027-04",
       "households": 635,
-      "id": 102,
+      "id": 119,
       "bunyang_price": 54100,
       "pblanc": {
         "pblanc_no": "2024000152",
@@ -3539,7 +3777,7 @@
       "name": "제일풍경채 운정 A45BL",
       "move_in": "2027-04",
       "households": 520,
-      "id": 103,
+      "id": 120,
       "bunyang_price": 43200,
       "pblanc": {
         "pblanc_no": "2024000278",
@@ -3625,7 +3863,7 @@
       "name": "신영지웰 평택화양",
       "move_in": "2027-04",
       "households": 999,
-      "id": 104,
+      "id": 121,
       "bunyang_price": 46990,
       "pblanc": {
         "pblanc_no": "2024000216",
@@ -3675,7 +3913,7 @@
       "name": "대명아파트가로주택정비사업",
       "move_in": "2027-04",
       "households": 94,
-      "id": 105,
+      "id": 122,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8C%80%EB%AA%85%EC%95%84%ED%8C%8C%ED%8A%B8%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -3689,7 +3927,7 @@
       "name": "마포 푸르지오 어반피스",
       "move_in": "2027-04",
       "households": 239,
-      "id": 106,
+      "id": 123,
       "bunyang_price": 89290,
       "pblanc": {
         "pblanc_no": "2023000608",
@@ -3745,10 +3983,24 @@
       "name": "힐스테이트 DMC",
       "move_in": "2027-04",
       "households": 299,
-      "id": 107,
+      "id": 124,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%20DMC"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 중구 순화동 6-10",
+      "gu": "중구",
+      "dong": "순화동",
+      "name": "정동 롯데캐슬 136(도시형 생활주택)",
+      "move_in": "2027-04",
+      "households": 102,
+      "id": 125,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%A0%95%EB%8F%99%20%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%20136%28%EB%8F%84%EC%8B%9C%ED%98%95%20%EC%83%9D%ED%99%9C%EC%A3%BC%ED%83%9D%29"
     },
     {
       "region": "경기",
@@ -3759,7 +4011,7 @@
       "name": "고양 장항 아테라(장항지구 B-3)",
       "move_in": "2027-05",
       "households": 760,
-      "id": 108,
+      "id": 126,
       "bunyang_price": 66691,
       "pblanc": {
         "pblanc_no": "2024000351",
@@ -3803,7 +4055,7 @@
       "name": "과천 디에트르 퍼스티지(S2BL)",
       "move_in": "2027-05",
       "households": 740,
-      "id": 109,
+      "id": 127,
       "bunyang_price": 87035,
       "pblanc": {
         "pblanc_no": "2024000249",
@@ -3835,7 +4087,7 @@
       "name": "곤지암역 센트럴 아이파크",
       "move_in": "2027-05",
       "households": 347,
-      "id": 110,
+      "id": 128,
       "bunyang_price": 61200,
       "pblanc": {
         "pblanc_no": "2024000701",
@@ -3879,7 +4131,7 @@
       "name": "힐스테이트 광주곤지암역",
       "move_in": "2027-05",
       "households": 635,
-      "id": 111,
+      "id": 129,
       "bunyang_price": 60500,
       "pblanc": {
         "pblanc_no": "2024000365",
@@ -3929,7 +4181,7 @@
       "name": "다산지금A3(통합공공임대)",
       "move_in": "2027-05",
       "households": 518,
-      "id": 112,
+      "id": 130,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8B%A4%EC%82%B0%EC%A7%80%EA%B8%88A3%28%ED%86%B5%ED%95%A9%EA%B3%B5%EA%B3%B5%EC%9E%84%EB%8C%80%29"
@@ -3943,7 +4195,7 @@
       "name": "퇴계원경남아너스빌",
       "move_in": "2027-05",
       "households": 227,
-      "id": 113,
+      "id": 131,
       "bunyang_price": null,
       "naver_complex_no": "176157",
       "naver_url": "https://m.land.naver.com/complex/info/176157"
@@ -3957,7 +4209,7 @@
       "name": "우진아파트가로주택정비사업",
       "move_in": "2027-05",
       "households": 48,
-      "id": 114,
+      "id": 132,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9A%B0%EC%A7%84%EC%95%84%ED%8C%8C%ED%8A%B8%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -3971,7 +4223,7 @@
       "name": "원종 휴먼빌 클라츠",
       "move_in": "2027-05",
       "households": 255,
-      "id": 115,
+      "id": 133,
       "bunyang_price": 48090,
       "pblanc": {
         "pblanc_no": "2025000094",
@@ -4027,7 +4279,7 @@
       "name": "안양동 837-8 외 1필지 공동주택(LH신축매입약정)",
       "move_in": "2027-05",
       "households": 42,
-      "id": 116,
+      "id": 134,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%95%88%EC%96%91%EB%8F%99%20837-8%20%EC%99%B8%201%ED%95%84%EC%A7%80%20%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%28LH%EC%8B%A0%EC%B6%95%EB%A7%A4%EC%9E%85%EC%95%BD%EC%A0%95%29"
@@ -4041,7 +4293,7 @@
       "name": "고덕국제신도시 서한이다음 그레이튼",
       "move_in": "2027-05",
       "households": 1138,
-      "id": 117,
+      "id": 135,
       "bunyang_price": 54829,
       "pblanc": {
         "pblanc_no": "2024000217",
@@ -4085,7 +4337,7 @@
       "name": "동탄2신도시 동탄역 대방 엘리움 더 시그니처(C18BL)",
       "move_in": "2027-05",
       "households": 464,
-      "id": 118,
+      "id": 136,
       "bunyang_price": 47893,
       "pblanc": {
         "pblanc_no": "2024000254",
@@ -4135,7 +4387,7 @@
       "name": "강남구논현동221-16(청년안심주택)",
       "move_in": "2027-05",
       "households": 94,
-      "id": 119,
+      "id": 137,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EB%82%A8%EA%B5%AC%EB%85%BC%ED%98%84%EB%8F%99221-16%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -4149,7 +4401,7 @@
       "name": "고덕강일3단지",
       "move_in": "2027-05",
       "households": 1305,
-      "id": 120,
+      "id": 138,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B3%A0%EB%8D%95%EA%B0%95%EC%9D%BC3%EB%8B%A8%EC%A7%80"
@@ -4163,7 +4415,7 @@
       "name": "더플러스광명(행복주택)",
       "move_in": "2027-06",
       "households": 152,
-      "id": 121,
+      "id": 139,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8D%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EA%B4%91%EB%AA%85%28%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D%29"
@@ -4177,7 +4429,7 @@
       "name": "신혼희망타운 행복주택",
       "move_in": "2027-06",
       "households": 242,
-      "id": 122,
+      "id": 140,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%ED%98%BC%ED%9D%AC%EB%A7%9D%ED%83%80%EC%9A%B4%20%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D"
@@ -4191,7 +4443,7 @@
       "name": "신혼희망타운(공공분양)",
       "move_in": "2027-06",
       "households": 484,
-      "id": 123,
+      "id": 141,
       "bunyang_price": 34760,
       "pblanc": {
         "pblanc_no": "2026820007",
@@ -4229,7 +4481,7 @@
       "name": "힐스테이트 더웨이브시티",
       "move_in": "2027-06",
       "households": 851,
-      "id": 124,
+      "id": 142,
       "bunyang_price": 42064,
       "pblanc": {
         "pblanc_no": "2023000527",
@@ -4273,7 +4525,7 @@
       "name": "양주덕정역에피트",
       "move_in": "2027-06",
       "households": 427,
-      "id": 125,
+      "id": 143,
       "bunyang_price": null,
       "naver_complex_no": "153440",
       "naver_url": "https://m.land.naver.com/complex/info/153440"
@@ -4287,7 +4539,7 @@
       "name": "여주역자이 헤리티지",
       "move_in": "2027-06",
       "households": 769,
-      "id": 126,
+      "id": 144,
       "bunyang_price": 37200,
       "pblanc": {
         "pblanc_no": "2024000189",
@@ -4355,7 +4607,7 @@
       "name": "의왕초평 A-4BL",
       "move_in": "2027-06",
       "households": 381,
-      "id": 127,
+      "id": 145,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9D%98%EC%99%95%EC%B4%88%ED%8F%89%20A-4BL"
@@ -4369,7 +4621,7 @@
       "name": "카사펠리스 이천 (5년 공공건설임대주택)",
       "move_in": "2027-06",
       "households": 930,
-      "id": 128,
+      "id": 146,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%B9%B4%EC%82%AC%ED%8E%A0%EB%A6%AC%EC%8A%A4%20%EC%9D%B4%EC%B2%9C%20%285%EB%85%84%20%EA%B3%B5%EA%B3%B5%EA%B1%B4%EC%84%A4%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D%29"
@@ -4383,7 +4635,7 @@
       "name": "상신2지구",
       "move_in": "2027-06",
       "households": 75,
-      "id": 129,
+      "id": 147,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EC%8B%A02%EC%A7%80%EA%B5%AC"
@@ -4397,7 +4649,7 @@
       "name": "화성 향남2지구 B-16블록",
       "move_in": "2027-06",
       "households": 772,
-      "id": 130,
+      "id": 148,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%ED%99%94%EC%84%B1%20%ED%96%A5%EB%82%A82%EC%A7%80%EA%B5%AC%20B-16%EB%B8%94%EB%A1%9D"
@@ -4411,7 +4663,7 @@
       "name": "강서구공항동11-21(청년안심주택)",
       "move_in": "2027-06",
       "households": 176,
-      "id": 131,
+      "id": 149,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B0%95%EC%84%9C%EA%B5%AC%EA%B3%B5%ED%95%AD%EB%8F%9911-21%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -4425,10 +4677,24 @@
       "name": "해링턴플레이스서초",
       "move_in": "2027-06",
       "households": 69,
-      "id": 132,
+      "id": 150,
       "bunyang_price": null,
       "naver_complex_no": "202937",
       "naver_url": "https://m.land.naver.com/complex/info/202937"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 영등포구 신길동 1280-0",
+      "gu": "영등포구",
+      "dong": "신길동",
+      "name": "서울대방 신혼희망타운",
+      "move_in": "2027-06",
+      "households": 183,
+      "id": 151,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%9A%B8%EB%8C%80%EB%B0%A9%20%EC%8B%A0%ED%98%BC%ED%9D%AC%EB%A7%9D%ED%83%80%EC%9A%B4"
     },
     {
       "region": "서울",
@@ -4439,7 +4705,7 @@
       "name": "빌리브 에이센트",
       "move_in": "2027-06",
       "households": 77,
-      "id": 133,
+      "id": 152,
       "bunyang_price": null,
       "naver_complex_no": "157968",
       "naver_url": "https://m.land.naver.com/complex/info/157968"
@@ -4453,7 +4719,7 @@
       "name": "광명자이힐스테이트SKVIEW",
       "move_in": "2027-07",
       "households": 2878,
-      "id": 134,
+      "id": 153,
       "bunyang_price": 44300,
       "pblanc": {
         "pblanc_no": "2023000688",
@@ -4551,7 +4817,7 @@
       "name": "LH매입임대주택",
       "move_in": "2027-07",
       "households": 39,
-      "id": 135,
+      "id": 154,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/LH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D"
@@ -4565,7 +4831,7 @@
       "name": "상동팰리스(LH매입임대)",
       "move_in": "2027-07",
       "households": 30,
-      "id": 136,
+      "id": 155,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%83%81%EB%8F%99%ED%8C%B0%EB%A6%AC%EC%8A%A4%28LH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%29"
@@ -4579,7 +4845,7 @@
       "name": "오정 해모로 스마트시티",
       "move_in": "2027-07",
       "households": 200,
-      "id": 137,
+      "id": 156,
       "bunyang_price": 39100,
       "pblanc": {
         "pblanc_no": "2026000122",
@@ -4635,7 +4901,7 @@
       "name": "시흥 롯데캐슬 시그니처(1블럭)",
       "move_in": "2027-07",
       "households": 1230,
-      "id": 138,
+      "id": 157,
       "bunyang_price": 70600,
       "pblanc": {
         "pblanc_no": "2023000289",
@@ -4679,7 +4945,7 @@
       "name": "시흥 롯데캐슬 시그니처(2블럭)",
       "move_in": "2027-07",
       "households": 903,
-      "id": 139,
+      "id": 158,
       "bunyang_price": 70600,
       "pblanc": {
         "pblanc_no": "2023000289",
@@ -4723,7 +4989,7 @@
       "name": "용인 둔전역 에피트",
       "move_in": "2027-07",
       "households": 1275,
-      "id": 140,
+      "id": 159,
       "bunyang_price": 42400,
       "pblanc": {
         "pblanc_no": "2024000389",
@@ -4779,7 +5045,7 @@
       "name": "도곡아테라",
       "move_in": "2027-07",
       "households": 82,
-      "id": 141,
+      "id": 160,
       "bunyang_price": null,
       "naver_complex_no": "194577",
       "naver_url": "https://m.land.naver.com/complex/info/194577"
@@ -4793,7 +5059,7 @@
       "name": "한신더휴 하이엔에듀포레",
       "move_in": "2027-07",
       "households": 219,
-      "id": 142,
+      "id": 161,
       "bunyang_price": 54190,
       "pblanc": {
         "pblanc_no": "2024000546",
@@ -4836,6 +5102,20 @@
     },
     {
       "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 성동구 성수동1가 656-421",
+      "gu": "성동구",
+      "dong": "",
+      "name": "오티에르 포레",
+      "move_in": "2027-07",
+      "households": 287,
+      "id": 162,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%ED%8B%B0%EC%97%90%EB%A5%B4%20%ED%8F%AC%EB%A0%88"
+    },
+    {
+      "region": "서울",
       "supply_type": "임대",
       "address": "서울특별시 용산구 원효로3가 1-159",
       "gu": "용산구",
@@ -4843,7 +5123,7 @@
       "name": "원효로3가(청년안심주택)",
       "move_in": "2027-07",
       "households": 988,
-      "id": 143,
+      "id": 163,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9B%90%ED%9A%A8%EB%A1%9C3%EA%B0%80%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -4857,7 +5137,7 @@
       "name": "곤지암역 제일풍경채",
       "move_in": "2027-08",
       "households": 565,
-      "id": 144,
+      "id": 164,
       "bunyang_price": 44900,
       "pblanc": {
         "pblanc_no": "2024000637",
@@ -4907,7 +5187,7 @@
       "name": "광주태전 경남아너스빌 리미티드",
       "move_in": "2027-08",
       "households": 404,
-      "id": 145,
+      "id": 165,
       "bunyang_price": 63480,
       "pblanc": {
         "pblanc_no": "2024000468",
@@ -4945,7 +5225,7 @@
       "name": "소사역 롯데캐슬 더 뉴엘",
       "move_in": "2027-08",
       "households": 983,
-      "id": 146,
+      "id": 166,
       "bunyang_price": 66400,
       "pblanc": {
         "pblanc_no": "2023000589",
@@ -5013,7 +5293,7 @@
       "name": "엘리프 역곡",
       "move_in": "2027-08",
       "households": 252,
-      "id": 147,
+      "id": 167,
       "bunyang_price": 51700,
       "pblanc": {
         "pblanc_no": "2026000187",
@@ -5063,7 +5343,7 @@
       "name": "롯데캐슬 위너스포레",
       "move_in": "2027-08",
       "households": 1672,
-      "id": 148,
+      "id": 168,
       "bunyang_price": 37400,
       "pblanc": {
         "pblanc_no": "2024000260",
@@ -5149,7 +5429,7 @@
       "name": "힐스테이트 오산더클래스",
       "move_in": "2027-08",
       "households": 970,
-      "id": 149,
+      "id": 169,
       "bunyang_price": 69100,
       "pblanc": {
         "pblanc_no": "2024000361",
@@ -5193,7 +5473,7 @@
       "name": "마평동 734-1번지 일원 공동주택{LH매입임대]",
       "move_in": "2027-08",
       "households": 68,
-      "id": 150,
+      "id": 170,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%ED%8F%89%EB%8F%99%20734-1%EB%B2%88%EC%A7%80%20%EC%9D%BC%EC%9B%90%20%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%7BLH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%5D"
@@ -5207,7 +5487,7 @@
       "name": "용인 푸르지오 원클러스터 1단지",
       "move_in": "2027-08",
       "households": 1681,
-      "id": 151,
+      "id": 171,
       "bunyang_price": 48150,
       "pblanc": {
         "pblanc_no": "2024000372",
@@ -5269,7 +5549,7 @@
       "name": "파주운정3지구 A20블록 공공분양주택",
       "move_in": "2027-08",
       "households": 612,
-      "id": 152,
+      "id": 172,
       "bunyang_price": 42756,
       "pblanc": {
         "pblanc_no": "2024000582",
@@ -5307,7 +5587,7 @@
       "name": "성내동(청년안심주택)",
       "move_in": "2027-08",
       "households": 281,
-      "id": 153,
+      "id": 173,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%B4%EB%8F%99%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -5321,7 +5601,7 @@
       "name": "우장범진가로주택정비사업",
       "move_in": "2027-08",
       "households": 70,
-      "id": 154,
+      "id": 174,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9A%B0%EC%9E%A5%EB%B2%94%EC%A7%84%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -5335,7 +5615,7 @@
       "name": "자라섬 수자인 리버페스타",
       "move_in": "2027-09",
       "households": 381,
-      "id": 155,
+      "id": 175,
       "bunyang_price": 42350,
       "pblanc": {
         "pblanc_no": "2024000580",
@@ -5433,7 +5713,7 @@
       "name": "청평 수자인 더퍼스트",
       "move_in": "2027-09",
       "households": 551,
-      "id": 156,
+      "id": 176,
       "bunyang_price": 31360,
       "pblanc": {
         "pblanc_no": "2024000557",
@@ -5489,7 +5769,7 @@
       "name": "고강동한일빌라외가로주택정비사업",
       "move_in": "2027-09",
       "households": 92,
-      "id": 157,
+      "id": 177,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B3%A0%EA%B0%95%EB%8F%99%ED%95%9C%EC%9D%BC%EB%B9%8C%EB%9D%BC%EC%99%B8%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
@@ -5503,7 +5783,7 @@
       "name": "엘리프 남위례역 에듀포레",
       "move_in": "2027-09",
       "households": 510,
-      "id": 158,
+      "id": 178,
       "bunyang_price": 108390,
       "pblanc": {
         "pblanc_no": "2024000154",
@@ -5541,7 +5821,7 @@
       "name": "북수원이목지구 대방 디에트르 더 리체Ⅰ(A4BL)",
       "move_in": "2027-09",
       "households": 768,
-      "id": 159,
+      "id": 179,
       "bunyang_price": 143276,
       "pblanc": {
         "pblanc_no": "2024000516",
@@ -5579,7 +5859,7 @@
       "name": "이천 롯데캐슬 센트럴 페라즈 스카이",
       "move_in": "2027-09",
       "households": 801,
-      "id": 160,
+      "id": 180,
       "bunyang_price": 68980,
       "pblanc": {
         "pblanc_no": "2023000673",
@@ -5629,7 +5909,7 @@
       "name": "금성백조 예미지2차M(B-1BL)",
       "move_in": "2027-09",
       "households": 530,
-      "id": 161,
+      "id": 181,
       "bunyang_price": 39332,
       "pblanc": {
         "pblanc_no": "2024000649",
@@ -5679,7 +5959,7 @@
       "name": "동화리더리브",
       "move_in": "2027-09",
       "households": 258,
-      "id": 162,
+      "id": 182,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%ED%99%94%EB%A6%AC%EB%8D%94%EB%A6%AC%EB%B8%8C"
@@ -5693,10 +5973,24 @@
       "name": "에드가수유(청년안심주택)",
       "move_in": "2027-09",
       "households": 426,
-      "id": 163,
+      "id": 183,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EB%93%9C%EA%B0%80%EC%88%98%EC%9C%A0%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강서구 방화동 584-1",
+      "gu": "강서구",
+      "dong": "방화동",
+      "name": "서울빌라가로주택정비사업",
+      "move_in": "2027-09",
+      "households": 52,
+      "id": 184,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%9A%B8%EB%B9%8C%EB%9D%BC%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
     },
     {
       "region": "서울",
@@ -5707,10 +6001,24 @@
       "name": "연희공동주택복합시설조성사업(빗물펌프장)",
       "move_in": "2027-09",
       "households": 96,
-      "id": 164,
+      "id": 185,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%97%B0%ED%9D%AC%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%EB%B3%B5%ED%95%A9%EC%8B%9C%EC%84%A4%EC%A1%B0%EC%84%B1%EC%82%AC%EC%97%85%28%EB%B9%97%EB%AC%BC%ED%8E%8C%ED%94%84%EC%9E%A5%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 성동구 홍익동 119-1",
+      "gu": "성동구",
+      "dong": "홍익동",
+      "name": "한신아파트가로주택정비사업",
+      "move_in": "2027-09",
+      "households": 105,
+      "id": 186,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
     },
     {
       "region": "서울",
@@ -5721,7 +6029,7 @@
       "name": "에드가미아(청년안심주택)",
       "move_in": "2027-09",
       "households": 415,
-      "id": 165,
+      "id": 187,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%97%90%EB%93%9C%EA%B0%80%EB%AF%B8%EC%95%84%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
@@ -5735,7 +6043,7 @@
       "name": "프레스티어자이",
       "move_in": "2027-10",
       "households": 1445,
-      "id": 166,
+      "id": 188,
       "bunyang_price": 136290,
       "pblanc": {
         "pblanc_no": "2024000502",
@@ -5887,7 +6195,7 @@
       "name": "광명 롯데캐슬 시그니처",
       "move_in": "2027-10",
       "households": 1509,
-      "id": 167,
+      "id": 189,
       "bunyang_price": 51800,
       "pblanc": {
         "pblanc_no": "2024000164",
@@ -5943,7 +6251,7 @@
       "name": "더샵 분당티에르원",
       "move_in": "2027-10",
       "households": 873,
-      "id": 168,
+      "id": 190,
       "bunyang_price": 197400,
       "pblanc": {
         "pblanc_no": "2025000501",
@@ -6017,7 +6325,7 @@
       "name": "더샵 분당하이스트",
       "move_in": "2027-10",
       "households": 1149,
-      "id": 169,
+      "id": 191,
       "bunyang_price": 197400,
       "pblanc": {
         "pblanc_no": "2025000501",
@@ -6091,7 +6399,7 @@
       "name": "효성해링턴 플레이스 동수원",
       "move_in": "2027-10",
       "households": 162,
-      "id": 170,
+      "id": 192,
       "bunyang_price": 66900,
       "pblanc": {
         "pblanc_no": "2024000222",
@@ -6141,7 +6449,7 @@
       "name": "양주 백석 모아엘가 그랑데",
       "move_in": "2027-10",
       "households": 929,
-      "id": 171,
+      "id": 193,
       "bunyang_price": 42100,
       "pblanc": {
         "pblanc_no": "2024000537",
@@ -6185,7 +6493,7 @@
       "name": "더샵 의정부역 링크시티",
       "move_in": "2027-10",
       "households": 1401,
-      "id": 172,
+      "id": 194,
       "bunyang_price": 71980,
       "pblanc": {
         "pblanc_no": "2023000478",
@@ -6259,7 +6567,7 @@
       "name": "고덕강일 대성베르힐",
       "move_in": "2027-10",
       "households": 613,
-      "id": 173,
+      "id": 195,
       "bunyang_price": 97500,
       "pblanc": {
         "pblanc_no": "2025000194",
@@ -6309,10 +6617,24 @@
       "name": "서울시노동자복지관복합화사업",
       "move_in": "2027-10",
       "households": 132,
-      "id": 174,
+      "id": 196,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%9A%B8%EC%8B%9C%EB%85%B8%EB%8F%99%EC%9E%90%EB%B3%B5%EC%A7%80%EA%B4%80%EB%B3%B5%ED%95%A9%ED%99%94%EC%82%AC%EC%97%85"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 노원구 공릉동 240-1",
+      "gu": "노원구",
+      "dong": "공릉동",
+      "name": "공릉군관사신혼희망타운",
+      "move_in": "2027-10",
+      "households": 214,
+      "id": 197,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EA%B3%B5%EB%A6%89%EA%B5%B0%EA%B4%80%EC%82%AC%EC%8B%A0%ED%98%BC%ED%9D%AC%EB%A7%9D%ED%83%80%EC%9A%B4"
     },
     {
       "region": "경기",
@@ -6323,7 +6645,7 @@
       "name": "광명 유승한내들 라포레",
       "move_in": "2027-11",
       "households": 444,
-      "id": 175,
+      "id": 198,
       "bunyang_price": 93800,
       "pblanc": {
         "pblanc_no": "2024000602",
@@ -6373,7 +6695,7 @@
       "name": "구리 한양립스",
       "move_in": "2027-11",
       "households": 268,
-      "id": 176,
+      "id": 199,
       "bunyang_price": 84100,
       "pblanc": {
         "pblanc_no": "2025000099",
@@ -6417,7 +6739,7 @@
       "name": "e편한세상 대장 퍼스티움(부천대장지구 A-5BL) 신혼희망타운 공공분양",
       "move_in": "2027-11",
       "households": 638,
-      "id": 177,
+      "id": 200,
       "bunyang_price": 42643,
       "pblanc": {
         "pblanc_no": "2025820003",
@@ -6455,7 +6777,7 @@
       "name": "e편한세상 대장 퍼스티움(부천대장지구 A-5BL) 행복주택",
       "move_in": "2027-11",
       "households": 314,
-      "id": 178,
+      "id": 201,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%20%EB%8C%80%EC%9E%A5%20%ED%8D%BC%EC%8A%A4%ED%8B%B0%EC%9B%80%28%EB%B6%80%EC%B2%9C%EB%8C%80%EC%9E%A5%EC%A7%80%EA%B5%AC%20A-5BL%29%20%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D"
@@ -6469,7 +6791,7 @@
       "name": "e편한세상 대장 퍼스티움(부천대장지구 A-6BL) 행복주택",
       "move_in": "2027-11",
       "households": 227,
-      "id": 179,
+      "id": 202,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%20%EB%8C%80%EC%9E%A5%20%ED%8D%BC%EC%8A%A4%ED%8B%B0%EC%9B%80%28%EB%B6%80%EC%B2%9C%EB%8C%80%EC%9E%A5%EC%A7%80%EA%B5%AC%20A-6BL%29%20%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D"
@@ -6483,7 +6805,7 @@
       "name": "e편한세상 대장 퍼스티움(부천대장지구 A-6BL)신혼희망타운 공공분양",
       "move_in": "2027-11",
       "households": 461,
-      "id": 180,
+      "id": 203,
       "bunyang_price": 42643,
       "pblanc": {
         "pblanc_no": "2025820003",
@@ -6521,7 +6843,7 @@
       "name": "성남금토 A-4블록 신혼희망타운(공공분양)",
       "move_in": "2027-11",
       "households": 766,
-      "id": 181,
+      "id": 204,
       "bunyang_price": 62674,
       "pblanc": {
         "pblanc_no": "2024820019",
@@ -6553,7 +6875,7 @@
       "name": "성남금토A4(행복주택)",
       "move_in": "2027-11",
       "households": 384,
-      "id": 182,
+      "id": 205,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%82%A8%EA%B8%88%ED%86%A0A4%28%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D%29"
@@ -6567,7 +6889,7 @@
       "name": "롯데캐슬 시그니처 중앙",
       "move_in": "2027-11",
       "households": 1051,
-      "id": 183,
+      "id": 206,
       "bunyang_price": 62880,
       "pblanc": {
         "pblanc_no": "2023000652",
@@ -6611,7 +6933,7 @@
       "name": "양주 한양 아이클래스",
       "move_in": "2027-11",
       "households": 644,
-      "id": 184,
+      "id": 207,
       "bunyang_price": 84100,
       "pblanc": {
         "pblanc_no": "2025000099",
@@ -6655,7 +6977,7 @@
       "name": "오산 세교 아테라(오산 세교2지구 A12)",
       "move_in": "2027-11",
       "households": 433,
-      "id": 185,
+      "id": 208,
       "bunyang_price": 34156,
       "pblanc": {
         "pblanc_no": "2025000196",
@@ -6705,7 +7027,7 @@
       "name": "의왕월암A1(행복주택)",
       "move_in": "2027-11",
       "households": 228,
-      "id": 186,
+      "id": 209,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9D%98%EC%99%95%EC%9B%94%EC%95%94A1%28%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D%29"
@@ -6719,7 +7041,7 @@
       "name": "의왕월암A1신혼희망타운(공공분양)",
       "move_in": "2027-11",
       "households": 446,
-      "id": 187,
+      "id": 210,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%9D%98%EC%99%95%EC%9B%94%EC%95%94A1%EC%8B%A0%ED%98%BC%ED%9D%AC%EB%A7%9D%ED%83%80%EC%9A%B4%28%EA%B3%B5%EA%B3%B5%EB%B6%84%EC%96%91%29"
@@ -6733,7 +7055,7 @@
       "name": "의정부 롯데캐슬 나리벡시티",
       "move_in": "2027-11",
       "households": 671,
-      "id": 188,
+      "id": 211,
       "bunyang_price": 68090,
       "pblanc": {
         "pblanc_no": "2024000307",
@@ -6813,7 +7135,7 @@
       "name": "문산역3차 동문 디 이스트 센트럴",
       "move_in": "2027-11",
       "households": 951,
-      "id": 189,
+      "id": 212,
       "bunyang_price": 31240,
       "pblanc": {
         "pblanc_no": "2024000646",
@@ -6863,7 +7185,7 @@
       "name": "파주운정3지구A3BL",
       "move_in": "2027-11",
       "households": 1222,
-      "id": 190,
+      "id": 213,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%ED%8C%8C%EC%A3%BC%EC%9A%B4%EC%A0%953%EC%A7%80%EA%B5%ACA3BL"
@@ -6877,7 +7199,7 @@
       "name": "제기동역파밀리에더센트럴(공성아파트)",
       "move_in": "2027-11",
       "households": 76,
-      "id": 191,
+      "id": 214,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%A0%9C%EA%B8%B0%EB%8F%99%EC%97%AD%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%97%90%EB%8D%94%EC%84%BC%ED%8A%B8%EB%9F%B4%28%EA%B3%B5%EC%84%B1%EC%95%84%ED%8C%8C%ED%8A%B8%29"
@@ -6891,10 +7213,24 @@
       "name": "서초구 양재동 1-26(청년안심주택)",
       "move_in": "2027-11",
       "households": 342,
-      "id": 192,
+      "id": 215,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%9C%EC%B4%88%EA%B5%AC%20%EC%96%91%EC%9E%AC%EB%8F%99%201-26%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 서초구 방배동 1018-1",
+      "gu": "서초구",
+      "dong": "방배동",
+      "name": "아크로 리츠카운티",
+      "move_in": "2027-11",
+      "households": 707,
+      "id": 216,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%95%84%ED%81%AC%EB%A1%9C%20%EB%A6%AC%EC%B8%A0%EC%B9%B4%EC%9A%B4%ED%8B%B0"
     },
     {
       "region": "서울",
@@ -6905,10 +7241,24 @@
       "name": "성동구 도선동 286(청년안심주택)",
       "move_in": "2027-11",
       "households": 381,
-      "id": 193,
+      "id": 217,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%8F%99%EA%B5%AC%20%EB%8F%84%EC%84%A0%EB%8F%99%20286%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 성북구 삼선동2가 296-0",
+      "gu": "성북구",
+      "dong": "",
+      "name": "창경궁 롯데캐슬 시그니처",
+      "move_in": "2027-11",
+      "households": 1223,
+      "id": 218,
+      "bunyang_price": null,
+      "naver_complex_no": "180698",
+      "naver_url": "https://m.land.naver.com/complex/info/180698"
     },
     {
       "region": "경기",
@@ -6919,7 +7269,7 @@
       "name": "고양창릉지구 S-6 공공분양",
       "move_in": "2027-12",
       "households": 430,
-      "id": 194,
+      "id": 219,
       "bunyang_price": 57298,
       "pblanc": {
         "pblanc_no": "2025000013",
@@ -6957,7 +7307,7 @@
       "name": "과천지식정보타운 S-12BL 행복주택",
       "move_in": "2027-12",
       "households": 1424,
-      "id": 195,
+      "id": 220,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EA%B3%BC%EC%B2%9C%EC%A7%80%EC%8B%9D%EC%A0%95%EB%B3%B4%ED%83%80%EC%9A%B4%20S-12BL%20%ED%96%89%EB%B3%B5%EC%A3%BC%ED%83%9D"
@@ -6971,7 +7321,7 @@
       "name": "군포대야미 대방 디에트르 시그니처 B3BL",
       "move_in": "2027-12",
       "households": 640,
-      "id": 196,
+      "id": 221,
       "bunyang_price": 58923,
       "pblanc": {
         "pblanc_no": "2024000601",
@@ -7009,7 +7359,7 @@
       "name": "김포 북변 우미 린 파크리브",
       "move_in": "2027-12",
       "households": 1200,
-      "id": 197,
+      "id": 222,
       "bunyang_price": 47000,
       "pblanc": {
         "pblanc_no": "2024000166",
@@ -7077,7 +7427,7 @@
       "name": "동두천중앙역 대라수어썸브릿지",
       "move_in": "2027-12",
       "households": 236,
-      "id": 198,
+      "id": 223,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EB%91%90%EC%B2%9C%EC%A4%91%EC%95%99%EC%97%AD%20%EB%8C%80%EB%9D%BC%EC%88%98%EC%96%B4%EC%8D%B8%EB%B8%8C%EB%A6%BF%EC%A7%80"
@@ -7091,7 +7441,7 @@
       "name": "중동 공동주택 아파트(LH매입임대)",
       "move_in": "2027-12",
       "households": 77,
-      "id": 199,
+      "id": 224,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%A4%91%EB%8F%99%20%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%20%EC%95%84%ED%8C%8C%ED%8A%B8%28LH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%29"
@@ -7105,7 +7455,7 @@
       "name": "산성역 헤리스톤",
       "move_in": "2027-12",
       "households": 3487,
-      "id": 200,
+      "id": 225,
       "bunyang_price": 64840,
       "pblanc": {
         "pblanc_no": "2024000265",
@@ -7185,7 +7535,7 @@
       "name": "해링턴 스퀘어 신흥역",
       "move_in": "2027-12",
       "households": 1972,
-      "id": 201,
+      "id": 226,
       "bunyang_price": 93800,
       "pblanc": {
         "pblanc_no": "2024000210",
@@ -7271,7 +7621,7 @@
       "name": "엘리프 한신더휴 수원 C3블록",
       "move_in": "2027-12",
       "households": 452,
-      "id": 202,
+      "id": 227,
       "bunyang_price": 70900,
       "pblanc": {
         "pblanc_no": "2025000295",
@@ -7333,7 +7683,7 @@
       "name": "평촌자이 퍼스니티 (1,2단지)",
       "move_in": "2027-12",
       "households": 2737,
-      "id": 203,
+      "id": 228,
       "bunyang_price": 87890,
       "pblanc": {
         "pblanc_no": "2024000668",
@@ -7413,7 +7763,7 @@
       "name": "덕계역 한신더휴 포레스트",
       "move_in": "2027-12",
       "households": 724,
-      "id": 204,
+      "id": 229,
       "bunyang_price": 46170,
       "pblanc": {
         "pblanc_no": "2024000621",
@@ -7457,7 +7807,7 @@
       "name": "동천동 462-4번지 공동주택 신축공사[LH매입임대]",
       "move_in": "2027-12",
       "households": 65,
-      "id": 205,
+      "id": 230,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EB%8F%99%EC%B2%9C%EB%8F%99%20462-4%EB%B2%88%EC%A7%80%20%EA%B3%B5%EB%8F%99%EC%A3%BC%ED%83%9D%20%EC%8B%A0%EC%B6%95%EA%B3%B5%EC%82%AC%5BLH%EB%A7%A4%EC%9E%85%EC%9E%84%EB%8C%80%5D"
@@ -7471,7 +7821,7 @@
       "name": "힐스테이트 용인마크밸리",
       "move_in": "2027-12",
       "households": 660,
-      "id": 206,
+      "id": 231,
       "bunyang_price": 57960,
       "pblanc": {
         "pblanc_no": "2025000091",
@@ -7563,7 +7913,7 @@
       "name": "의왕월암지구 대방 디에트르 레이크파크(B2 BL)",
       "move_in": "2027-12",
       "households": 703,
-      "id": 207,
+      "id": 232,
       "bunyang_price": 59106,
       "pblanc": {
         "pblanc_no": "2024000706",
@@ -7631,7 +7981,7 @@
       "name": "의정부 푸르지오 클라시엘",
       "move_in": "2027-12",
       "households": 656,
-      "id": 208,
+      "id": 233,
       "bunyang_price": 68000,
       "pblanc": {
         "pblanc_no": "2023000528",
@@ -7693,7 +8043,7 @@
       "name": "평택 브레인시티 수자인",
       "move_in": "2027-12",
       "households": 889,
-      "id": 209,
+      "id": 234,
       "bunyang_price": 38440,
       "pblanc": {
         "pblanc_no": "2024000702",
@@ -7731,7 +8081,7 @@
       "name": "평택화양 서희스타힐스 센트럴파크 2차",
       "move_in": "2027-12",
       "households": 815,
-      "id": 210,
+      "id": 235,
       "bunyang_price": 34700,
       "pblanc": {
         "pblanc_no": "2024000120",
@@ -7768,6 +8118,62 @@
     },
     {
       "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강동구 둔촌동 489-0",
+      "gu": "강동구",
+      "dong": "둔촌동",
+      "name": "올림픽파크 서한포레스트",
+      "move_in": "2027-12",
+      "households": 128,
+      "id": 236,
+      "bunyang_price": null,
+      "naver_complex_no": "171999",
+      "naver_url": "https://m.land.naver.com/complex/info/171999"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 강서구 마곡동 753-0",
+      "gu": "강서구",
+      "dong": "마곡동",
+      "name": "마곡지구16단지토지임대부(나눔형)",
+      "move_in": "2027-12",
+      "households": 608,
+      "id": 237,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%A7%88%EA%B3%A1%EC%A7%80%EA%B5%AC16%EB%8B%A8%EC%A7%80%ED%86%A0%EC%A7%80%EC%9E%84%EB%8C%80%EB%B6%80%28%EB%82%98%EB%88%94%ED%98%95%29"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 마포구 망원동 469-5",
+      "gu": "마포구",
+      "dong": "망원동",
+      "name": "성도.서광가로주택정비사업",
+      "move_in": "2027-12",
+      "households": 133,
+      "id": 238,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%8F%84.%EC%84%9C%EA%B4%91%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 마포구 합정동 447-2",
+      "gu": "마포구",
+      "dong": "합정동",
+      "name": "합정동447일원가로주택정비사업",
+      "move_in": "2027-12",
+      "households": 163,
+      "id": 239,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%ED%95%A9%EC%A0%95%EB%8F%99447%EC%9D%BC%EC%9B%90%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
+    },
+    {
+      "region": "서울",
       "supply_type": "분양",
       "address": "서울특별시 서대문구 홍은동 322-1",
       "gu": "서대문구",
@@ -7775,10 +8181,24 @@
       "name": "홍은동322-1일원가로주택정비사업",
       "move_in": "2027-12",
       "households": 152,
-      "id": 211,
+      "id": 240,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EC%9D%80%EB%8F%99322-1%EC%9D%BC%EC%9B%90%EA%B0%80%EB%A1%9C%EC%A3%BC%ED%83%9D%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85"
+    },
+    {
+      "region": "서울",
+      "supply_type": "분양임대",
+      "address": "서울특별시 서초구 반포동 810-0",
+      "gu": "서초구",
+      "dong": "반포동",
+      "name": "반포디에이치클래스트",
+      "move_in": "2027-12",
+      "households": 5007,
+      "id": 241,
+      "bunyang_price": null,
+      "naver_complex_no": null,
+      "naver_url": "https://m.land.naver.com/search/result/%EB%B0%98%ED%8F%AC%EB%94%94%EC%97%90%EC%9D%B4%EC%B9%98%ED%81%B4%EB%9E%98%EC%8A%A4%ED%8A%B8"
     },
     {
       "region": "서울",
@@ -7789,7 +8209,7 @@
       "name": "성동구용답동68-2(청년안심주택)",
       "move_in": "2027-12",
       "households": 228,
-      "id": 212,
+      "id": 242,
       "bunyang_price": null,
       "naver_complex_no": null,
       "naver_url": "https://m.land.naver.com/search/result/%EC%84%B1%EB%8F%99%EA%B5%AC%EC%9A%A9%EB%8B%B5%EB%8F%9968-2%28%EC%B2%AD%EB%85%84%EC%95%88%EC%8B%AC%EC%A3%BC%ED%83%9D%29"

@@ -134,6 +134,21 @@ def fetch_all(
     return out
 
 
+def _type_ok(supply_type: str, include_types: tuple[str, ...]) -> bool:
+    """청약홈 공급유형 매칭.
+
+    사이트는 '분양' / '임대' 외에 혼합형 '분양임대'도 쓴다.
+    include_types 에 분양·임대 중 하나라도 있으면 분양임대를 포함한다.
+    """
+    if not include_types:
+        return True
+    if supply_type in include_types:
+        return True
+    if supply_type == "분양임대":
+        return "분양" in include_types or "임대" in include_types
+    return False
+
+
 def collect_regions(
     months: list[str],
     sidos: tuple[str, ...] = ("서울",),
@@ -144,6 +159,7 @@ def collect_regions(
 
     sidos: 시도명 접두어 매칭(예: ('서울','경기')).
     include_types: 기본 '분양'만, 임대까지 보려면 ('분양','임대').
+                   '분양임대'(혼합)는 분양 또는 임대 포함 시 함께 수집.
     """
     stop_after = max(months) if months else None
     allrows = fetch_all(stop_after=stop_after, **kwargs)
@@ -153,7 +169,7 @@ def collect_regions(
         for c in allrows
         if any(c.region.startswith(s) for s in sidos)
         and c.move_in in wanted
-        and (not include_types or c.supply_type in include_types)
+        and _type_ok(c.supply_type, include_types)
     ]
     result.sort(key=lambda x: (x["move_in"], x["region"], x["gu"], x["name"]))
     return result
