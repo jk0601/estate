@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12 11:23",
+  "generated_at": "2026-10-20 07:18",
   "source": "청약홈(한국부동산원) 입주(예정)정보",
   "sido": [
     "서울",
@@ -1907,8 +1907,8 @@
       ],
       "bunyang_price_min": 62260,
       "bunyang_price_max": 99670,
-      "naver_complex_no": null,
-      "naver_url": "https://m.land.naver.com/search/result/%ED%99%8D%EB%8C%80%EC%9E%85%EA%B5%AC%EC%97%AD%20%EC%84%BC%ED%8A%B8%EB%9F%B4%20%EC%95%84%EB%A5%B4%EB%96%BC%20%ED%95%B4%EB%AA%A8%EB%A1%9C"
+      "naver_complex_no": "206497",
+      "naver_url": "https://m.land.naver.com/complex/info/206497"
     },
     {
       "region": "경기",
@@ -3265,8 +3265,8 @@
       ],
       "bunyang_price_min": 39100,
       "bunyang_price_max": 62900,
-      "naver_complex_no": null,
-      "naver_url": "https://m.land.naver.com/search/result/%EB%8D%94%20%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98%20%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8F%AC%EB%A0%88"
+      "naver_complex_no": "206637",
+      "naver_url": "https://m.land.naver.com/complex/info/206637"
     },
     {
       "region": "경기",
@@ -5111,8 +5111,8 @@
       "households": 287,
       "id": 162,
       "bunyang_price": null,
-      "naver_complex_no": null,
-      "naver_url": "https://m.land.naver.com/search/result/%EC%98%A4%ED%8B%B0%EC%97%90%EB%A5%B4%20%ED%8F%AC%EB%A0%88"
+      "naver_complex_no": "206458",
+      "naver_url": "https://m.land.naver.com/complex/info/206458"
     },
     {
       "region": "서울",
