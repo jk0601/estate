@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18 10:56",
+ "generated_at": "2026-10-19 10:42",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202609",
    "202610"
   ],
-  "scanned_deals": 61025,
+  "scanned_deals": 61022,
   "complexes": [
    {
     "gu": "강동구",
@@ -15777,8 +15777,8 @@
   "available": true,
   "note": "",
   "range": [
-   "20261018",
-   "20270422"
+   "20261019",
+   "20270423"
   ],
   "items": [
    {
@@ -17531,7 +17531,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-10-18",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001324311",
@@ -19667,7 +19667,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-10-18",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132026013001078711",
@@ -20099,7 +20099,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-10-18",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002132025013001378711",
@@ -21755,7 +21755,7 @@
     "views": 0,
     "note": "",
     "first_seen": "2026-10-18",
-    "is_new": true
+    "is_new": false
    },
    {
     "id": "B0002122025013001047711",
@@ -27925,7 +27925,7 @@
     "land_area": 53.372,
     "bid_from": "2026-10-19",
     "bid_to": "2026-10-21",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 6,
     "note": "",
     "first_seen": "2026-10-09",
@@ -28501,7 +28501,7 @@
     "land_area": 165.3,
     "bid_from": "2026-10-19",
     "bid_to": "2026-10-21",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 1,
     "note": "",
     "first_seen": "2026-10-05",
@@ -29005,7 +29005,7 @@
     "land_area": 64.3,
     "bid_from": "2026-10-19",
     "bid_to": "2026-10-19",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-10-09",
@@ -30229,7 +30229,7 @@
     "land_area": 44.419,
     "bid_from": "2026-10-19",
     "bid_to": "2026-10-21",
-    "status": "입찰준비중",
+    "status": "입찰진행중",
     "fail_count": 0,
     "note": "",
     "first_seen": "2026-10-09",
