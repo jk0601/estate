@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29 08:32",
+ "generated_at": "2026-10-30 14:18",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -9,23 +9,8 @@
   "scan_months": 12
  },
  "deals": {
-  "available": true,
-  "note": "",
-  "months": [
-   "202511",
-   "202512",
-   "202601",
-   "202602",
-   "202603",
-   "202604",
-   "202605",
-   "202606",
-   "202607",
-   "202608",
-   "202609",
-   "202610"
-  ],
-  "scanned_deals": 62796,
+  "available": false,
+  "note": "수집 실패: 실거래가 조회 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev?serviceKey=651d0cb963d2fed91b63c714c6342bde2ef58bbf4da7aa2a11a9d674099a935c&LAWD_CD=11110&DEAL_YMD=202511&numOfRows=1000&pageNo=1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001F356B325D0>: Failed to resolve 'apis.data.go.kr' ([Errno 11001] getaddrinfo failed)\"))",
   "complexes": [
    {
     "gu": "강동구",
@@ -16325,15 +16310,27 @@
     "naver_complex_no": null,
     "naver_url": "https://m.land.naver.com/search/result/%EC%8B%A0%EC%A0%95%EB%8F%99%20%EC%A4%91%EC%95%99%ED%95%98%EC%9D%B4%EC%B8%A0%EB%AA%A9%EB%8F%99%ED%8E%A0%EB%A6%AC%EC%8B%9C%ED%8B%B0"
    }
-  ]
+  ],
+  "months": [
+   "202511",
+   "202512",
+   "202601",
+   "202602",
+   "202603",
+   "202604",
+   "202605",
+   "202606",
+   "202607",
+   "202608",
+   "202609",
+   "202610"
+  ],
+  "stale": true,
+  "stale_from": "2026-10-29 08:32"
  },
  "auctions": {
-  "available": true,
-  "note": "",
-  "range": [
-   "20261029",
-   "20270503"
-  ],
+  "available": false,
+  "note": "수집 실패: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Max retries exceeded with url: /pgj/index.on?w2xPath=/pgj/ui/pgj100/PGJ151F00.xml (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001F356B33250>: Failed to resolve 'www.courtauction.go.kr' ([Errno 11001] getaddrinfo failed)\"))",
   "items": [
    {
     "id": "B0002152024013005656511",
@@ -21783,11 +21780,13 @@
     "first_seen": "2026-10-29",
     "is_new": true
    }
-  ]
+  ],
+  "stale": true,
+  "stale_from": "2026-10-29 08:32"
  },
  "onbid": {
-  "available": true,
-  "note": "",
+  "available": false,
+  "note": "온비드 접속 실패: ConnectionError",
   "items": [
    {
     "id": "2026-18194-001-6215131",
@@ -28941,6 +28940,8 @@
     "first_seen": "2026-10-29",
     "is_new": true
    }
-  ]
+  ],
+  "stale": true,
+  "stale_from": "2026-10-29 08:32"
  }
 }
