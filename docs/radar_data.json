@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02 09:32",
+ "generated_at": "2026-11-03 07:16",
  "config": {
   "build_year_min": 2014,
   "build_year_max": 2021,
@@ -25,7 +25,7 @@
    "202610",
    "202611"
   ],
-  "scanned_deals": 59391,
+  "scanned_deals": 59909,
   "complexes": [
    {
     "gu": "강동구",
@@ -587,6 +587,12 @@
     "jibun": "1007-13",
     "deals": [
      {
+      "date": "2026-10-13",
+      "amount": 92000,
+      "area": 59.8245,
+      "floor": 31
+     },
+     {
       "date": "2026-10-03",
       "amount": 83500,
       "area": 59.8637,
@@ -785,13 +791,13 @@
       "floor": 19
      }
     ],
-    "deal_count": 33,
+    "deal_count": 34,
     "hit_count": 26,
     "price_min": 75000,
-    "price_med": 81500,
+    "price_med": 82500,
     "price_max": 99700,
-    "last_date": "2026-10-03",
-    "last_price": 83500,
+    "last_date": "2026-10-13",
+    "last_price": 92000,
     "area_min": 59.6,
     "area_max": 84.9,
     "hit_min": 75000,
@@ -5425,6 +5431,12 @@
       "floor": 7
      },
      {
+      "date": "2026-10-16",
+      "amount": 99000,
+      "area": 84.94,
+      "floor": 11
+     },
+     {
       "date": "2026-09-28",
       "amount": 94500,
       "area": 84.94,
@@ -5659,7 +5671,7 @@
       "floor": 18
      }
     ],
-    "deal_count": 40,
+    "deal_count": 41,
     "hit_count": 14,
     "price_min": 78000,
     "price_med": 91000,
@@ -10949,6 +10961,12 @@
       "floor": 8
      },
      {
+      "date": "2026-10-15",
+      "amount": 137700,
+      "area": 84.87,
+      "floor": 12
+     },
+     {
       "date": "2026-09-13",
       "amount": 130000,
       "area": 84.97,
@@ -11339,10 +11357,10 @@
       "floor": 11
      }
     ],
-    "deal_count": 67,
+    "deal_count": 68,
     "hit_count": 3,
     "price_min": 84000,
-    "price_med": 119000,
+    "price_med": 119450,
     "price_max": 145000,
     "last_date": "2026-10-19",
     "last_price": 129000,
@@ -14964,12 +14982,8 @@
   ]
  },
  "auctions": {
-  "available": true,
-  "note": "",
-  "range": [
-   "20261102",
-   "20270507"
-  ],
+  "available": false,
+  "note": "수집 실패: HTTPSConnectionPool(host='www.courtauction.go.kr', port=443): Read timed out.",
   "items": [
    {
     "id": "B0002152024013005656511",
@@ -21451,11 +21465,13 @@
     "first_seen": "2026-10-29",
     "is_new": false
    }
-  ]
+  ],
+  "stale": true,
+  "stale_from": "2026-11-02 09:32"
  },
  "onbid": {
-  "available": true,
-  "note": "",
+  "available": false,
+  "note": "온비드 접속 실패: ConnectionError",
   "items": [
    {
     "id": "2026-18194-001-6215131",
@@ -27385,6 +27401,8 @@
     "first_seen": "2026-10-29",
     "is_new": false
    }
-  ]
+  ],
+  "stale": true,
+  "stale_from": "2026-11-02 09:32"
  }
 }
